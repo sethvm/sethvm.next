@@ -1,0 +1,20 @@
+.block {
+    display: none;
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .block {
+        display: block;
+        height: 100%;
+        position: fixed;
+        left: 58.5%;
+        right: 0;
+        bottom: 0;
+        background-color: #004080;
+        z-index: -10;
+    }
+    .thin {
+        left: 80% !important;
+    }
+}

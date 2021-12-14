@@ -1,0 +1,43 @@
+.outerContainer,
+.prompt {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.prompt {
+    padding: 16px 11% 32px 11%;
+}
+
+.promptText {
+    font-size: 1.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    min-width: 312px;
+    margin: 0 auto 4em auto;
+    padding-top: 0;
+    color: #004080;
+}
+
+.link {
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+.currentLink {
+    background: #004080 !important;
+    font-family: "Gilroy Bold", sans-serif;
+    color: #FFFFFF;
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .outerContainer,
+    .prompt {
+        width: 80%;
+        padding: 32px 11%;
+    }
+}

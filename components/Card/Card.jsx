@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import styleCard from './Card.module.css'
 
-const RenderCard = ({
+const Card = ({
     heading,
     description,
     url,
@@ -38,4 +38,4 @@ const RenderCard = ({
     );
 }
 
-export default RenderCard
+export default Card
