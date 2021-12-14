@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100vw;
+    margin: 0 0 110px 0;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+}
+
+.text {
+    padding: 40px 12% 0 12%;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .container {
+        margin: 0 0 120px 0;
+    }
+    .image {
+        height: auto;
+    }
+    .text {
+        padding: 40px 20% 0 20%;
+    }
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .container {
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 250px;
+        padding-left: 14vw;
+    }
+    .image, .text {
+        margin: 0;
+    }
+    .image {
+        width: 424px;
+        height: auto;
+        transition: margin 0.15s ease-out;
+        -webkit-transition: margin 0.15s ease-out;
+        -moz-transition: margin 0.15s ease-out;
+        -o-transition: margin 0.15s ease-out;
+    }
+    .image:hover {
+        margin-left: 16px;
+    }
+    .text {
+        width: 42%;
+        padding: 16px 8% 0 0;
+    }
+}
+
+/* xl breakpoint */
+@media (min-width: 1200px) {
+    .container {
+        padding-left: 20vw;
+    }
+}
+
+/* font styling overrides */
+.title {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
