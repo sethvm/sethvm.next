@@ -1,5 +1,9 @@
 // paragraph - use to section text content together
-export default function Paragraph({ children }) {
+interface Props {
+    children: Element
+}
+
+export default function Paragraph({ children }: Props) {
     
     return(
         <p>

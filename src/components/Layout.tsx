@@ -1,4 +1,4 @@
-// scripts
+// todo: analytics and scroll scripts
 
 import NavBar from '../components/NavBar/NavBar'
 import Wrapper from '../components/Wrapper/Wrapper'
@@ -7,7 +7,11 @@ import SideBar from '../components/SideBar/SideBar'
 import Footer from '../components/Footer/Footer'
 import BlueBlock from '../components/BlueBlock/BlueBlock'
 
-const Layout = ({ children }) => {
+interface Props {
+    children: Element
+}
+
+const Layout = ({ children }: Props) => {
 
     return (
         <>

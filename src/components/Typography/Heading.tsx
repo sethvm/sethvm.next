@@ -1,9 +1,15 @@
 // dynamic heading component
+interface Props {
+    type: number,
+    className?: string,
+    children: Element
+}
+
 const Heading = ({
     type,
     className,
     children
-}) => {
+}: Props) => {
 
     const HeadingType = [
         () => { return <h1 className={className}>{children}</h1> },
@@ -16,7 +22,7 @@ const Heading = ({
     const index = (type - 1);
 
     // default render if 'type' not provided
-    if (!HeadingType[index]) {
+    if (!HeadingType[index] || !type) {
         return HeadingType[0]();
     }
 

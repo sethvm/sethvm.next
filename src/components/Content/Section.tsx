@@ -1,7 +1,15 @@
 // container for header-paragraph segments
 import styleSection from './Section.module.css'
 
-const Section = ({ ends, children }) => {
+interface Props {
+    ends?: boolean,
+    children: Element
+}
+
+const Section = ({
+    ends,
+    children
+}: Props) => {
 
     // adjusts bottom margin
     const isSectionEnd = ends

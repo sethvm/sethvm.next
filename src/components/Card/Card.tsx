@@ -2,6 +2,16 @@
 import Link from 'next/link'
 import styleCard from './Card.module.css'
 
+interface Props {
+    heading: string,
+    description: string,
+    url: string,
+    link: string,
+    img: string,
+    alt: string,
+    children: React.ReactNode
+}
+
 const Card = ({
     heading,
     description,
@@ -10,7 +20,7 @@ const Card = ({
     img,
     alt,
     children
-}) => {
+}: Props) => {
     
     return (
         <div className={styleCard.container}>

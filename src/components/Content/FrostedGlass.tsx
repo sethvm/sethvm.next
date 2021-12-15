@@ -2,7 +2,15 @@
 // use to highlight key results and findings
 import styleFrostedGlass from './FrostedGlass.module.css'
 
-const FrostedGlass = ({ ends, children }) => {
+interface Props {
+    ends?: boolean,
+    children: Element
+}
+
+const FrostedGlass = ({
+    ends,
+    children
+}: Props) => {
 
     // adjusts bottom margin based on 'end' prop
     const isSectionEnd = ends

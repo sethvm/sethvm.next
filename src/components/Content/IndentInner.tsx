@@ -2,7 +2,15 @@
 // place within the same tier as paragraphs
 import styleIndentInner from './IndentInner.module.css'
 
-const IndentInner = ({ noBar, children }) => {
+interface Props {
+    noBar?: boolean,
+    children: Element
+}
+
+const IndentInner = ({ 
+    noBar,
+    children
+}: Props) => {
 
     // styles border based on 'nobar' prop
     const borderStyle = noBar

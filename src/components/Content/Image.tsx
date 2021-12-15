@@ -1,13 +1,21 @@
 // image component
 import styleImg from './Image.module.css'
 
+interface Props {
+    end?: boolean,
+    item?: boolean,
+    screen?: boolean,
+    src: string,
+    alt: string
+}
+
 const Image = ({
     end,
     item,
     screen,
     src,
     alt
-}) => {
+}: Props) => {
 
     // adjusts margins
     const marginSpacing = end

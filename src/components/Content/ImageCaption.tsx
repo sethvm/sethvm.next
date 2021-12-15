@@ -2,7 +2,11 @@
 // place directly below Img components
 import styleImgCaption from './ImageCaption.module.css'
 
-const ImgCaption = ({ children }) => {
+interface Props {
+    children: Element
+}
+
+const ImgCaption = ({ children }: Props) => {
     
     return (
         <div className={styleImgCaption.caption}>

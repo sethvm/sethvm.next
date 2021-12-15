@@ -2,7 +2,11 @@
 import { useRouter } from 'next/router';
 import styleWrapper from './Wrapper.module.css'
 
-const Wrapper = ({ children }) => {
+interface Props {
+    children: Element
+}
+
+const Wrapper = ({ children }: Props) => {
 
     // checks if user is on home page
     const onHomePage = (useRouter().pathname === '/');

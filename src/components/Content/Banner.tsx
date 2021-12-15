@@ -1,7 +1,15 @@
 // project banner
 import styleBanner from './Banner.module.css'
 
-const Banner = ({ img, alt }) => {
+interface Props {
+    img: string,
+    alt: string
+}
+
+const Banner = ({
+    img,
+    alt
+}: Props) => {
     
     return (
         <div className={styleBanner.container}>
