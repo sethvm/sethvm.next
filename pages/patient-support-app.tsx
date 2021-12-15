@@ -94,8 +94,7 @@ const Soulfx = () => {
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    How can we design a platform that will enable our client to deliver their
-                    support service to patients remotely?
+                    Our client needed a platform through which they can deliver their support service to patients remotely.
                 </Strong>
             </IndentInner>
         </Section>

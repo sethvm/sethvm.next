@@ -182,7 +182,7 @@ const Loblaw = () => {
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    It became evident that new hires were faced with a steep learning curve upon understanding how to use
+                    New hires were faced with a steep learning curve upon understanding how to use
                     the <abbr>TRX</abbr> module.
                 </Strong>
             </IndentInner>
