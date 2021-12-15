@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    padding: 40px 7.5%;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+    }
+}

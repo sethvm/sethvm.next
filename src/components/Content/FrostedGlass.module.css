@@ -1,0 +1,28 @@
+.container {
+    background-color: rgb(210, 210, 210, 0.4);
+    backdrop-filter: blur(84px);
+    padding: 24px 0;
+}
+
+.defaultMargins {
+    margin: 100px auto;
+}
+
+.endMargins {
+    margin: 40px auto 148px;
+}
+
+/* md breakpoint */
+@media (min-width: 768px) {
+    .defaultMargins {
+        margin: 0 auto;
+    }
+}
+
+/* lg breakpoint */
+@media (min-width: 992px) {
+    .container {
+        width: 75%;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,15 @@
+.defaultMargin {
+    margin-bottom: 20px;
+}
+
+.spacedBottomMargin {
+    margin-bottom: 52px;
+}
+
+.defaultListStyle {
+    list-style: default;
+}
+
+.noBullets {
+    list-style: none;
+}

@@ -1,0 +1,13 @@
+.container {
+    padding-left: 16px;
+    border-width: 5px;
+    margin-bottom: 16px;
+}
+
+.bordered {
+    border-left: #7C6900 solid;
+}
+
+.borderless {
+    border-left: transparent;
+}
