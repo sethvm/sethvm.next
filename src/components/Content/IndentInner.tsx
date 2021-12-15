@@ -4,7 +4,7 @@ import styleIndentInner from './IndentInner.module.css'
 
 interface Props {
     noBar?: boolean,
-    children: Element
+    children: React.ReactNode
 }
 
 const IndentInner = ({ 

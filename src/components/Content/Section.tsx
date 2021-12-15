@@ -3,7 +3,7 @@ import styleSection from './Section.module.css'
 
 interface Props {
     ends?: boolean,
-    children: Element
+    children: React.ReactNode
 }
 
 const Section = ({

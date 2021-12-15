@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import styleWrapper from './Wrapper.module.css'
 
 interface Props {
-    children: Element
+    children: React.ReactNode
 }
 
 const Wrapper = ({ children }: Props) => {

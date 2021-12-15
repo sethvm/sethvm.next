@@ -107,7 +107,15 @@ const About = () => {
     );
 }
 
-const ExternalLink = ({ href, children }) => {
+interface Props {
+    href: string,
+    children: string
+}
+
+const ExternalLink = ({
+    href,
+    children
+}: Props) => {
     return (
         <a
         rel='noopener noreferrer'

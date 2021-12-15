@@ -2,7 +2,7 @@
 import styleSectionInner from './SectionInner.module.css'
 
 interface Props {
-    children: Element
+    children: React.ReactNode
 }
 
 const SectionInner = ({ children }: Props) => {

@@ -1,6 +1,6 @@
 // title subheading
 interface Props {
-    children: Element
+    children: React.ReactNode
 }
 
 export default function SubHeading({ children }: Props) {

@@ -2,7 +2,7 @@
 interface Props {
     type: number,
     className?: string,
-    children: Element
+    children: React.ReactNode
 }
 
 const Heading = ({

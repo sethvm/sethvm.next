@@ -47,7 +47,11 @@ const RenderQuickLinks = () => {
     );
 }
 
-const MemoizedQuickLinks = memo(({ currentURL }) => {
+interface Props {
+    currentURL: string
+}
+
+const MemoizedQuickLinks = memo(({ currentURL }: Props) => {
 
     return (
         <>

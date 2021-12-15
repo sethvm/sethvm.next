@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer'
 import BlueBlock from '../components/BlueBlock/BlueBlock'
 
 interface Props {
-    children: Element
+    children: React.ReactNode
 }
 
 const Layout = ({ children }: Props) => {

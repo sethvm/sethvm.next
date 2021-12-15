@@ -5,7 +5,7 @@ interface Props {
     numbered?: boolean,
     noBullets?: boolean,
     ends?: boolean,
-    children: Element
+    children: React.ReactNode
 }
 
 const List = ({

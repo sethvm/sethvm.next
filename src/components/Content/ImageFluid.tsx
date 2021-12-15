@@ -2,7 +2,7 @@
 import styleImgFluid from './ImageFluid.module.css'
 
 interface Props {
-    children: Element
+    children: React.ReactNode
 }
 
 const ImgFluid = ({ children }: Props) => {

@@ -3,7 +3,7 @@
 import styleImgCaption from './ImageCaption.module.css'
 
 interface Props {
-    children: Element
+    children: React.ReactNode
 }
 
 const ImgCaption = ({ children }: Props) => {
