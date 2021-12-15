@@ -1,5 +1,4 @@
 import { memo } from 'react'
-import Link from 'next/link'
 import { v4 as uuidv4 } from 'uuid'
 import homePageStyle from '../styles/Home.module.css'
 
@@ -44,15 +43,15 @@ const Home = () => {
                     <br />
                 </Paragraph>
                 <div className={`${homePageStyle.jumpContainer} animate__animated animate__fadeInDown animate__delay-1s`}>
-                    <Link
-                    href='/#projects'>
-                        <div className={homePageStyle.jump}>
-                            <img
-                            className={homePageStyle.jumpBtn}
-                            src='/down-arrow.svg'
-                            alt='Scroll down to check out my work!' />
-                        </div>
-                    </Link>
+                    <a
+                    href='/#projects'
+                    className={homePageStyle.jump}
+                    aria-current='page'>
+                        <img
+                        className={homePageStyle.jumpBtn}
+                        src='/down-arrow.svg'
+                        alt='Scroll down to check out my work!' />
+                    </a>
                 </div>
             </div>
         </div>

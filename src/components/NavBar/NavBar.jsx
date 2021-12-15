@@ -10,16 +10,22 @@ const NavBar = () => {
         aria-label='navbar'>
             <Link
             href='/'
-            aria-label='Seth Morenos'>
-                <div className={styleNavBar.brand}>
+            passHref>
+                <a
+                className={styleNavBar.brand}
+                aria-label='Seth Morenos'>
                     <span style={{ color: '#004080' }}>SETH</span>&nbsp;
                     <span style={{ color: '#1A1A1A' }}>MORENOS</span>
-                </div>
+                </a>
             </Link>
             <Link
             href='/about'
-            aria-label='About'>
-                <span className={styleNavBar.route}>ABOUT</span>
+            passHref>
+                <a
+                className={styleNavBar.route}
+                aria-label='About'>
+                    ABOUT
+                </a>
             </Link>
         </nav>
     );

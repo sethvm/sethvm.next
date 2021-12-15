@@ -22,17 +22,23 @@ const Card = ({
                     {description}
                     <br />
                 </p>
-                <Link href={url}>
-                    <span className='activeLink'>
+                <Link
+                href={url}
+                passHref>
+                    <a className='activeLink'>
                         <span className='heavy'>{link}</span>
-                    </span>
+                    </a>
                 </Link>
             </div>
-            <Link href={url}>
-                <img
-                className={styleCard.image}
-                src={img}
-                alt={alt} />
+            <Link
+            href={url}
+            passHref>
+                <a>
+                    <img
+                    className={styleCard.image}
+                    src={img}
+                    alt={alt} />
+                </a>
             </Link>
         </div>
     );

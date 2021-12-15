@@ -62,10 +62,12 @@ const MemoizedQuickLinks = memo(({ currentURL }) => {
             return (
                 <Fragment key={uuidv4()}>
                     {project.quickLinkLabel &&
-                        <Link href={project.url}>
-                            <span className={`${styleQuickLinks.link} ${isCurrentPage}`}>
+                        <Link
+                        href={project.url}
+                        passHref>
+                            <a className={`${styleQuickLinks.link} ${isCurrentPage}`}>
                                 {project.quickLinkLabel}
-                            </span>
+                            </a>
                         </Link>
                     }
                 </Fragment>
