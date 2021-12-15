@@ -15,7 +15,8 @@ const Home = () => {
 
     return (
         <>
-        <Head />
+        <Head
+        url='https://sethvm.com' />
         <div
         id='intro'
         className={homePageStyle.intro}>
