@@ -62,7 +62,7 @@ const About = () => {
                         Say hi on
                         <ExternalLink
                         href='https://www.linkedin.com/in/sethvm'>
-                            LinkedIn →
+                            LinkedIn ↗
                         </ExternalLink>
                         <br />
                         <br />
@@ -73,7 +73,7 @@ const About = () => {
                         Toss over an
                         <ExternalLink
                         href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
-                            email →
+                            email ↗
                         </ExternalLink>
                         <br />
                         <br />
@@ -84,7 +84,7 @@ const About = () => {
                         Check out my
                         <ExternalLink
                         href='/sethvm_resume.pdf'>
-                            résumé →
+                            résumé ↗
                         </ExternalLink>
                     </h3>
                 </li>
