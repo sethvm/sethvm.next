@@ -1,3 +1,4 @@
+import Head from '../src/components/SEO'
 import Link from 'next/link'
 // layout
 import Section from '../src/components/Content/Section'
@@ -8,6 +9,8 @@ const Error = () => {
     
     return (
         <>
+        <Head
+        title='404: Not Found' />
         <Section>
             <Heading type={2}>
                 <span className='heavy' style={{ color: '#A80000' }}>
