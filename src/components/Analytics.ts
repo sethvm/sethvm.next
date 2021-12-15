@@ -10,8 +10,6 @@ const localEnvs = [
 
 const Analytics = () => {
 
-    console.log('runnning analytics')
-
     const trackerID = 'UA-152533938-2';
     const location = useRouter();
     const host = typeof window !== 'undefined' && window.location.hostname ? window.location.hostname : '';
