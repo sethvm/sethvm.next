@@ -1,5 +1,5 @@
-import { Link } from 'next/link'
-import * as styleNavBar from './NavBar.module.css'
+import Link from 'next/link'
+import styleNavBar from './NavBar.module.css'
 
 const NavBar = () => {
 
@@ -9,11 +9,12 @@ const NavBar = () => {
         className={`${styleNavBar.navbar} animate__animated animate__fadeIn`}
         aria-label='navbar'>
             <Link
-            className={styleNavBar.brand}
-            aria-label='Seth Morenos'
-            href='/'>
-                <span style={{ color: '#004080' }}>SETH</span>&nbsp;
-                <span style={{ color: '#1A1A1A' }}>MORENOS</span>
+            href='/'
+            aria-label='Seth Morenos'>
+                <div className={styleNavBar.brand}>
+                    <span style={{ color: '#004080' }}>SETH</span>&nbsp;
+                    <span style={{ color: '#1A1A1A' }}>MORENOS</span>
+                </div>
             </Link>
             <Link
             href='/about'

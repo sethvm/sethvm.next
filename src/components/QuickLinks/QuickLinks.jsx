@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { v4 as uuidv4 } from 'uuid'
 import styleQuickLinks from './QuickLinks.module.css'
-import { projects } from '../../data/projectData'
+import { projects } from '../../projects'
 
 const RenderQuickLinks = () => {
 

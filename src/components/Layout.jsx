@@ -1,6 +1,6 @@
 // scripts
 
-//import NavBar from '../components/NavBar/NavBar'
+import NavBar from '../components/NavBar/NavBar'
 import Wrapper from '../components/Wrapper/Wrapper'
 import QuickLinks from '../components/QuickLinks/QuickLinks'
 import SideBar from '../components/SideBar/SideBar'
@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
 
     return (
         <>
+        <NavBar />
         <Wrapper>
             {children}
         </Wrapper>

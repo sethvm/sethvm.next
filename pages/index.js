@@ -3,17 +3,14 @@ import Link from 'next/link'
 import { v4 as uuidv4 } from 'uuid'
 import homePageStyle from '../styles/Home.module.css'
 
-// components
-import DownArrow from '../components/down-arrow.svg'
-
 // typography
-import Heading from '../components/Typography/Heading'
-import SubHeading from '../components/Typography/SubHeading'
-import Paragraph from '../components/Typography/Paragraph'
+import Heading from '../src/components/Typography/Heading'
+import SubHeading from '../src/components/Typography/SubHeading'
+import Paragraph from '../src/components/Typography/Paragraph'
 
 // project cards
-import Card from '../components/Card/Card'
-import { projects } from '../data/projectData'
+import Card from '../src/components/Card/Card'
+import { projects } from '../src/projects'
 
 // page content component
 const Home = () => {
@@ -52,7 +49,7 @@ const Home = () => {
                         <div className={homePageStyle.jump}>
                             <img
                             className={homePageStyle.jumpBtn}
-                            src={DownArrow}
+                            src='/down-arrow.svg'
                             alt='Scroll down to check out my work!' />
                         </div>
                     </Link>
