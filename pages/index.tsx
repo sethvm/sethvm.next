@@ -1,5 +1,6 @@
 import { memo } from 'react'
 import { v4 as uuidv4 } from 'uuid'
+import Link from 'next/link'
 import Head from '../src/components/SEO'
 import homePageStyle from '../styles/Home.module.css'
 // typography
@@ -44,15 +45,18 @@ const Home = () => {
                     <br />
                 </Paragraph>
                 <div className={`${homePageStyle.jumpContainer} animate__animated animate__fadeInDown animate__delay-1s`}>
-                    <a
+                    <Link
                     href='/#projects'
-                    className={homePageStyle.jump}
-                    aria-current='page'>
-                        <img
-                        className={homePageStyle.jumpBtn}
-                        src='/down-arrow.svg'
-                        alt='Scroll down to check out my work!' />
-                    </a>
+                    passHref>
+                        <a
+                        className={homePageStyle.jump}
+                        aria-current='page'>
+                            <img
+                            className={homePageStyle.jumpBtn}
+                            src='/down-arrow.svg'
+                            alt='Scroll down to check out my work!' />
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>
