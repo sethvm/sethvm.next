@@ -4,7 +4,7 @@ import styleNavBar from './NavBar.module.css'
 const NavBar = () => {
 
     return (
-        <nav
+        <header
         id='navbar'
         className={`${styleNavBar.navbar} animate__animated animate__fadeIn`}
         aria-label='navbar'>
@@ -27,7 +27,7 @@ const NavBar = () => {
                     ABOUT
                 </a>
             </Link>
-        </nav>
+        </header>
     );
 }
 
