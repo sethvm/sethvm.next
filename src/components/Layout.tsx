@@ -1,5 +1,4 @@
-// todo: analytics and scroll scripts
-
+import Analytics from './Analytics'
 import NavBar from '../components/NavBar/NavBar'
 import Wrapper from '../components/Wrapper/Wrapper'
 import QuickLinks from '../components/QuickLinks/QuickLinks'
@@ -15,6 +14,7 @@ const Layout = ({ children }: Props) => {
 
     return (
         <>
+        <Analytics />
         <NavBar />
         <Wrapper>
             {children}
