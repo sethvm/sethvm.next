@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <header
         id='navbar'
-        className={`${styleNavBar.navbar} animate__animated animate__fadeIn`}
+        className={styleNavBar.navbar}
         aria-label='navbar'>
             <Link
             href='/'

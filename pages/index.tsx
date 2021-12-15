@@ -21,7 +21,7 @@ const Home = () => {
         <div
         id='intro'
         className={homePageStyle.intro}>
-            <div className={`${homePageStyle.introText} animate__animated animate__fadeIn`}>
+            <div className={homePageStyle.introText}>
                 <Heading
                 type={1}
                 className={`heavy ${homePageStyle.greeting}`}>
@@ -44,7 +44,7 @@ const Home = () => {
                     <br />
                     <br />
                 </Paragraph>
-                <div className={`${homePageStyle.jumpContainer} animate__animated animate__fadeInDown animate__delay-1s`}>
+                <div className={homePageStyle.jumpContainer}>
                     <Link
                     href='/#projects'
                     passHref>

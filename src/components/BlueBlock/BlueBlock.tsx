@@ -5,11 +5,11 @@ const BlueBlock = () => {
 
     // checks if user is on home page and styles accordingly
     const styleBlock = (useRouter().pathname === '/')
-    ? 'animate__fadeInLeft'
-    : `${styleBlueBlock.thin} animate__fadeInDown`;
+    ? undefined
+    : styleBlueBlock.thin;
 
     return (
-        <div className={`${styleBlueBlock.block} ${styleBlock} animate__animated`} />
+        <div className={`${styleBlueBlock.block} ${styleBlock}`} />
     );
 }
 

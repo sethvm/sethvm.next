@@ -17,7 +17,7 @@ const Section = ({
     : styleSection.defaultMargins;
     
     return (
-        <div className={`${styleSection.container} ${isSectionEnd} animate__animated animate__fadeIn`}>
+        <div className={`${styleSection.container} ${isSectionEnd}`}>
             {children}
         </div>
     );

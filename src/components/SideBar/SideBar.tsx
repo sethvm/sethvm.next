@@ -20,7 +20,7 @@ const SideBar = () => {
     return (
         <address
         id='sideBar'
-        className={`${styleSideBar.container} animate__animated animate__fadeIn`}
+        className={styleSideBar.container}
         aria-label='contact links'>
             {sideBarItems.map(sideBarItem => (
                 <a
