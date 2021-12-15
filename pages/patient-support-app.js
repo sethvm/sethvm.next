@@ -1,3 +1,4 @@
+import Head from '../src/components/SEO'
 // layout
 import Section from '../src/components/Content/Section'
 import SectionInner from '../src/components/Content/SectionInner'
@@ -17,6 +18,10 @@ const Soulfx = () => {
 
     return(
         <>
+        <Head
+        title='Patient Support App'
+        description="A web-based record management platform developed for a multinational healthcare firm."
+        url='https://sethvm.com/patient-support-app' />
         <Section
         ends>
             <Heading type={2}>Patient Support App</Heading>

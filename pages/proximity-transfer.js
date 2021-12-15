@@ -1,3 +1,4 @@
+import Head from '../src/components/SEO'
 // layout
 import Section from '../src/components/Content/Section'
 import IndentInner from '../src/components/Content/IndentInner'
@@ -13,6 +14,10 @@ const Interac = () => {
 
     return (
         <>
+        <Head
+        title='Proximity Transfer'
+        description="Introducing a new contactless transaction channel within Interac, Canada’s leading debit payment platform."
+        url='https://sethvm.com/proximity-transfer' />
         <Section
         ends>
             <Heading type={2}>Proximity Transfer</Heading>

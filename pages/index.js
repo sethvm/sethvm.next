@@ -1,5 +1,6 @@
 import { memo } from 'react'
 import { v4 as uuidv4 } from 'uuid'
+import Head from '../src/components/SEO'
 import homePageStyle from '../styles/Home.module.css'
 // typography
 import Heading from '../src/components/Typography/Heading'
@@ -14,6 +15,7 @@ const Home = () => {
 
     return (
         <>
+        <Head />
         <div
         id='intro'
         className={homePageStyle.intro}>

@@ -1,3 +1,4 @@
+import Head from '../src/components/SEO'
 import aboutPageStyle from '../styles/About.module.css'
 // layout
 import Section from '../src/components/Content/Section'
@@ -8,6 +9,9 @@ const About = () => {
 
     return (
         <>
+        <Head
+        title='About'
+        url='https://sethvm.com/about' />
         <Section>
             <h2 className={aboutPageStyle.heading}>
                 Thanks for dropping by! I am...

@@ -1,3 +1,4 @@
+import Head from '../src/components/SEO'
 // layout
 import Section from '../src/components/Content/Section'
 import SectionInner from '../src/components/Content/SectionInner'
@@ -17,6 +18,10 @@ const Loblaw = () => {
 
     return (
         <>
+        <Head
+        title='Ops Pick History'
+        description="Crafting a streamlined order validation experience for Loblaw, Canada’s largest grocery retailer."
+        url='https://sethvm.com/ops-pick-history' />
         <Section
         ends>
             <Heading type={2}>Ops Pick History</Heading>
