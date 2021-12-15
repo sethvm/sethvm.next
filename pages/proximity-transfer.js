@@ -1,13 +1,11 @@
 // layout
 import Section from '../src/components/Content/Section'
 import IndentInner from '../src/components/Content/IndentInner'
-
 // typography
 import Heading from '../src/components/Typography/Heading'
 import SubHeading from '../src/components/Typography/SubHeading'
 import Paragraph from '../src/components/Typography/Paragraph'
 import Strong from '../src/components/Typography/Strong'
-
 // images
 import Banner from '../src/components/Content/Banner'
 

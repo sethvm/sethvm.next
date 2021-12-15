@@ -1,8 +1,6 @@
 import aboutPageStyle from '../styles/About.module.css'
-
 // layout
 import Section from '../src/components/Content/Section'
-
 // typography
 import Paragraph from '../src/components/Typography/Paragraph'
 

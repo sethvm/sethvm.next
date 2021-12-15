@@ -1,12 +1,10 @@
 import { memo } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import homePageStyle from '../styles/Home.module.css'
-
 // typography
 import Heading from '../src/components/Typography/Heading'
 import SubHeading from '../src/components/Typography/SubHeading'
 import Paragraph from '../src/components/Typography/Paragraph'
-
 // project cards
 import Card from '../src/components/Card/Card'
 import { projects } from '../src/projects'

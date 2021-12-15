@@ -7,7 +7,6 @@ import FrostedGlass from '../src/components/Content/FrostedGlass'
 import ImageFluid from '../src/components/Content/ImageFluid'
 import ImageCaption from '../src/components/Content/ImageCaption'
 import Image from '../src/components/Content/Image'
-
 // typography
 import Heading from '../src/components/Typography/Heading'
 import SubHeading from '../src/components/Typography/SubHeading'
