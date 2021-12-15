@@ -1,5 +1,5 @@
 // flexbox container for displaying an image(s)
-import styleImgFluid from './ImgFluid.module.css'
+import styleImgFluid from './ImageFluid.module.css'
 
 const ImgFluid = ({ children }) => {
     
