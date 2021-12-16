@@ -1,4 +1,5 @@
 // project banner
+import Image from 'next/image'
 import styleBanner from './Banner.module.css'
 
 interface Props {
@@ -13,10 +14,14 @@ const Banner = ({
     
     return (
         <div className={styleBanner.container}>
-            <img
+            <Image
             className={styleBanner.image}
             src={img}
-            alt={alt} />
+            alt={alt}
+            width={1920}
+            height={1080}
+            layout='responsive'
+            priority />
         </div>
     );
 }
