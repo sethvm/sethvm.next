@@ -20,7 +20,7 @@ const SEO = ({
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="author" content="Seth Morenos" />
-            <meta name="theme-color" content="#004080" />
+            <meta name="theme-color" content="#FAFAFA" />
             <link rel="icon" href="/favicon.png" />
             <meta property="og:image" content={image} />
             <meta property="og:image:width" content="1200" />
