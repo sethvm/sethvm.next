@@ -1,5 +1,5 @@
 //list component
-import styleList from './List.module.css'
+import styleList from './List.module.scss'
 
 interface Props {
     numbered?: boolean,

@@ -6,7 +6,6 @@ interface Props {
 }
 
 export default function Strong({ children }: Props) {
-
     return(
         <strong>
             {children}

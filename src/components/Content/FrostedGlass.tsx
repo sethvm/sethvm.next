@@ -1,6 +1,6 @@
 // frosted glass container
 // use to highlight key results and findings
-import styleFrostedGlass from './FrostedGlass.module.css'
+import styleFrostedGlass from './FrostedGlass.module.scss'
 
 interface Props {
     ends?: boolean,

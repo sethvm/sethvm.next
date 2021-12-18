@@ -1,19 +1,15 @@
+/*
+// 992px - lg
+*/
+
 .container {
     display: flex;
     justify-content: space-evenly;
     width: 220px;
     height: auto;
     margin: 0 auto 32px auto;
-}
 
-.itemLogo {
-    width: 36px;
-    height: 36px;
-}
-
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .container {
+    @media (min-width: 992px) {
         flex-direction: column;
         position: fixed;
         width: auto;
@@ -23,16 +19,22 @@
         margin-left: 3%;
         z-index: 9;
     }
-    .itemLogo {
+}
+
+.itemLogo {
+    width: 36px;
+    height: 36px;
+
+    @media (min-width: 992px) {
         width: 32px;
         height: 32px;
         transition: margin 0.15s ease-out;
         -webkit-transition: margin 0.15s ease-out;
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
-    }
-    .itemLogo:hover {
-        cursor: pointer;
-        margin-left: 4px;
+        &:hover {
+            cursor: pointer;
+            margin-left: 4px;
+        }
     }
 }

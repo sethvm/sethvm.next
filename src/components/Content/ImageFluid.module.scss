@@ -1,3 +1,7 @@
+/*
+// 768px - md
+*/
+
 .container {
     display: flex;
     flex-direction: column;
@@ -5,11 +9,8 @@
     width: 100%;
     height: auto;
     padding: 40px 7.5%;
-}
 
-/* md breakpoint */
-@media (min-width: 768px) {
-    .container {
+    @media (min-width: 768px) {
         flex-direction: row;
         align-items: flex-start;
         padding: 0;

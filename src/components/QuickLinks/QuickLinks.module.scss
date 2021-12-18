@@ -1,12 +1,28 @@
-.outerContainer,
+/*
+// 992px - lg
+*/
+
+.outerContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    @media (min-width: 992px) {
+        width: 80%;
+        padding: 32px 11%;
+    }
+}
+
 .prompt {
     display: flex;
     width: 100%;
     justify-content: center;
-}
-
-.prompt {
     padding: 16px 11% 32px 11%;
+
+    @media (min-width: 992px) {
+        width: 80%;
+        padding: 32px 11%;
+    }
 }
 
 .promptText {
@@ -31,13 +47,4 @@
     background: #004080 !important;
     font-family: "Gilroy Bold", sans-serif;
     color: #FFFFFF;
-}
-
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .outerContainer,
-    .prompt {
-        width: 80%;
-        padding: 32px 11%;
-    }
 }

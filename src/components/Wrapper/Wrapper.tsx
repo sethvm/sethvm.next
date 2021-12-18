@@ -1,6 +1,6 @@
-//content wrapper
+// content wrapper
 import { useRouter } from 'next/router';
-import styleWrapper from './Wrapper.module.css'
+import styleWrapper from './Wrapper.module.scss'
 
 interface Props {
     children: React.ReactNode

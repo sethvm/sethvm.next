@@ -1,13 +1,12 @@
 // image description text
 // place directly below Img components
-import styleImgCaption from './ImageCaption.module.css'
+import styleImgCaption from './ImageCaption.module.scss'
 
 interface Props {
     children: React.ReactNode
 }
 
 const ImgCaption = ({ children }: Props) => {
-    
     return (
         <div className={styleImgCaption.caption}>
             <p>

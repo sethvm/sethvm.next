@@ -1,6 +1,6 @@
 // Container for highlighting text inside sections
 // place within the same tier as paragraphs
-import styleIndentInner from './IndentInner.module.css'
+import styleIndentInner from './IndentInner.module.scss'
 
 interface Props {
     noBar?: boolean,

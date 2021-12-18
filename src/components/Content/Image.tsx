@@ -1,5 +1,5 @@
 // image component
-import styleImg from './Image.module.css'
+import styleImg from './Image.module.scss'
 
 interface Props {
     end?: boolean,
