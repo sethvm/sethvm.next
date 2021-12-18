@@ -13,7 +13,6 @@ import { projects } from '../src/projects'
 
 // page content component
 const Home = () => {
-
     return (
         <>
         <Head
@@ -35,11 +34,9 @@ const Home = () => {
                     help <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
-                    Currently exploring the future of digital payments
-                    at <span className='bold'>Interac</span>.
-                </Paragraph>
-                <Paragraph>
-                    Previously designed for online grocery fulfillment
+                    Most recently worked with digital payments
+                    at <span className='bold'>Interac</span> and
+                    online grocery fulfillment
                     at <span className='bold'>Loblaw Digital</span>.
                     <br />
                     <br />
@@ -71,7 +68,6 @@ const Home = () => {
 
 // render projects onto page
 const MemoizedCards = memo(() => {
-
     return (
         <>
         {projects.map(project => (

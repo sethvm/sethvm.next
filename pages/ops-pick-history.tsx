@@ -15,7 +15,6 @@ import Paragraph from '../src/components/Typography/Paragraph'
 import Strong from '../src/components/Typography/Strong'
 
 const Loblaw = () => {
-
     return (
         <>
         <Head

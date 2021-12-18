@@ -6,7 +6,6 @@ import Section from '../src/components/Content/Section'
 import Paragraph from '../src/components/Typography/Paragraph'
 
 const About = () => {
-
     return (
         <>
         <Head
@@ -23,9 +22,9 @@ const About = () => {
             </h3>
             <Paragraph>
                 I’m a Systems Design Engineering (SYDE) undergrad at the University of Waterloo in Ontario, Canada.
-                As a product designer, I strive to improve the quality of life for others — currently exploring
-                the fintech space, I’ve previously led initiatives within e-commerce and healthcare. I love
-                tackling challenges associated with the delivery of large-scale services.
+                As a product designer, I strive to improve the quality of life for others - previous initiatives I’ve
+                led encompass problem spaces within e-commerce, fintech, and healthcare. I love tackling challenges
+                associated with the delivery of large-scale services.
                 <br />
                 <br />
             </Paragraph>
@@ -60,10 +59,10 @@ const About = () => {
                 <li>
                     <h3 className={aboutPageStyle.contactPrompt}>
                         Say hi on
-                        <ExternalLink
+                        <OutboundLink
                         href='https://www.linkedin.com/in/sethvm'>
                             LinkedIn →
-                        </ExternalLink>
+                        </OutboundLink>
                         <br />
                         <br />
                     </h3>
@@ -71,21 +70,21 @@ const About = () => {
                 <li>
                     <h3 className={aboutPageStyle.contactPrompt}>
                         Toss over an
-                        <ExternalLink
+                        <OutboundLink
                         href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
                             email →
-                        </ExternalLink>
+                        </OutboundLink>
                         <br />
                         <br />
                     </h3>
                 </li>
                 <li>
                     <h3 className={aboutPageStyle.contactPrompt}>
-                        Check out my
-                        <ExternalLink
+                        Skim through my
+                        <OutboundLink
                         href='/sethvm_resume.pdf'>
                             résumé →
-                        </ExternalLink>
+                        </OutboundLink>
                     </h3>
                 </li>
             </ul>
@@ -107,15 +106,15 @@ const About = () => {
     );
 }
 
-interface Props {
+interface OutboundLinkProps {
     href: string,
     children: string
 }
 
-const ExternalLink = ({
+const OutboundLink = ({
     href,
     children
-}: Props) => {
+}: OutboundLinkProps) => {
     return (
         <a
         rel='noopener noreferrer'

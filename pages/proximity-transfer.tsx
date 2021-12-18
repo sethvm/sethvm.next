@@ -11,7 +11,6 @@ import Strong from '../src/components/Typography/Strong'
 import Banner from '../src/components/Content/Banner'
 
 const Interac = () => {
-
     return (
         <>
         <Head
@@ -24,18 +23,32 @@ const Interac = () => {
             <SubHeading>Interac Corp</SubHeading>
             <Paragraph>
                 <br />
-                Interac’s Proximity Transfer project aims to provide a new, versatile method for Canadians to send and
-                receive money by leveraging near-field communication (<abbr>NFC</abbr>) technology. It is being designed for
-                integration within Interac’s existing payment infrastructure. For more information, please feel free to reach out!
+                Interac’s Proximity Transfer is an exploratory peer-to-peer transaction channel within Interac Debit,
+                a platform that serves over 15 million Canadians every month. It aims to provide a new, versatile method
+                for sending money by leveraging near-field communication (<abbr>NFC</abbr>) technology.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
                 &nbsp;Sole designer with 2 developers
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Status:</span>
-                &nbsp;Ongoing {'\u{1F6A7}'}
+                <span className='bold'>Timeline:</span>
+                &nbsp;6 weeks
             </Paragraph>
+            <Paragraph>
+                <span className='bold'>Status:</span>
+                &nbsp;Completed {'\u{1F3C1}'}
+                <br />
+                <br />
+            </Paragraph>
+            <IndentInner>
+                <Paragraph>
+                    <span className='italic'>
+                        Due to a non-disclosure agreement, I can’t go in-depth about certain aspects of the project here.
+                        Please feel free to reach out for more information!
+                    </span>
+                </Paragraph>
+            </IndentInner>
         </Section>
 
         <Banner
@@ -47,8 +60,8 @@ const Interac = () => {
             <Heading type={3}>Overview</Heading>
             <Paragraph>
                 An industry leader in electronic transactions, Interac Corp operates Canada’s debit card
-                system and is one of the nation’s most trusted financial service brands. For the fall of 2021,
-                I am interning as a designer within the Innovation Labs & New Ventures (<abbr>ILNV</abbr>) team.
+                system and is one of the nation’s most trusted financial service brands. During the fall
+                of 2021, I interned as a designer within the Innovation Labs & New Ventures (<abbr>ILNV</abbr>) team.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -58,16 +71,15 @@ const Interac = () => {
         </Section>
 
         <Section>
-            <Heading type={3}>Context</Heading>
+            <Heading type={3}>Problem</Heading>
             <Paragraph>
-                Interac is on a constant push to future-proof digital payments within Canadian banking. One of
-                the lab’s ongoing initiatives revolves around exploring how we might provide a new way to facilitate
-                physical transactions without the need for cash.
+                Traditionally easy and quick, cash transactions have grown increasingly hazardous due to their
+                unhygienic nature as well as COVID-19. While digital alternatives eliminate the need for physical
+                contact, they lack the swiftness offered by sending or receiving cash.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    I’m leading research and design exploration for Proximity Transfer,
-                    a contactless peer-to-peer transaction channel within Interac Debit.
+                    Throughout the COVID-19 pandemic, physical payments have undergone a steady decrease in acceptance.
                 </Strong>
             </IndentInner>
         </Section>

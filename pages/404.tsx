@@ -6,7 +6,6 @@ import Section from '../src/components/Content/Section'
 import Heading from '../src/components/Typography/Heading'
 
 const Error = () => {
-    
     return (
         <>
         <Head
