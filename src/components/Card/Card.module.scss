@@ -1,7 +1,7 @@
 /*
-// 768px - md
-// 992px - lg
-// 1200px - xl
+/  768px - md
+/  992px - lg
+/  1200px - xl
 */
 
 .container {
@@ -42,6 +42,7 @@
         -webkit-transition: margin 0.15s ease-out;
         -moz-transition: margin 0.15s ease-out;
         -o-transition: margin 0.15s ease-out;
+        
         &:hover {
             margin-left: 16px;
         }

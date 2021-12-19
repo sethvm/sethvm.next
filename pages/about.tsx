@@ -1,5 +1,5 @@
 import Head from '../src/components/SEO'
-import aboutPageStyle from '../styles/About.module.css'
+import aboutPageStyle from '../styles/About.module.scss'
 // layout
 import Section from '../src/components/Content/Section'
 // typography
