@@ -1,19 +1,48 @@
+/*
+/  768px - md
+/  992px - lg
+/  1200px - xl
+*/
+
 .intro {
     width: 100vw;
     height: 100vh;
     max-height: 1080px;
     margin-top: 64px;
     padding-top: 12%;
+
+    @media (min-width: 992px) {
+        padding-top: 128px;
+    }
 }
 
 .introText {
     margin: 15px 12% 0 12%;
+
+    @media (min-width: 768px) {
+        margin: 40px 24% 0 24%;
+    }
+
+    @media (min-width: 992px) {
+        width: 300px;
+        height: auto;
+        margin: 0 0 0 14vw;
+    }
+
+    @media (min-width: 1200px) {
+        margin: 0 0 0 20vw;
+    }
 }
 
 .jumpContainer {
     display: flex;
     justify-content: center;
     width: 100%;
+
+    @media (min-width: 992px) {
+        width: 300px;
+        height: auto;
+    }
 }
 
 .jump {
@@ -22,10 +51,10 @@
     -webkit-transition: margin 0.15s ease-out;
     -moz-transition: margin 0.15s ease-out;
     -o-transition: margin 0.15s ease-out;
-}
 
-.jump:hover {
-    margin-top: 7px;
+    &:hover {
+        margin-top: 7px;
+    }
 }
 
 .jumpBtn {
@@ -36,36 +65,9 @@
 .projects {
     width: 100%;
     padding-top: 80px;
-}
 
-/* md breakpoint */
-@media (min-width: 768px) {
-    .introText {
-        margin: 40px 24% 0 24%;
-    }
-}
-
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .intro {
-        padding-top: 128px;
-    }
-    .introText, .jumpContainer {
-        width: 300px;
-        height: auto;
-    }
-    .introText {
-        margin: 0 0 0 14vw;
-    }
-    .projects {
+    @media (min-width: 992px) {
         padding-top: 140px;
-    }
-}
-
-/* xl breakpoint */
-@media (min-width: 1200px) {
-    .introText {
-        margin: 0 0 0 20vw;
     }
 }
 

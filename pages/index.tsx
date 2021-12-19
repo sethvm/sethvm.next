@@ -2,7 +2,7 @@ import { memo } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 import Link from 'next/link'
 import Head from '../src/components/SEO'
-import homePageStyle from '../styles/Home.module.css'
+import homePageStyle from '../styles/Home.module.scss'
 // typography
 import Heading from '../src/components/Typography/Heading'
 import SubHeading from '../src/components/Typography/SubHeading'

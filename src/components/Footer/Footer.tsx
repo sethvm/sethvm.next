@@ -1,7 +1,6 @@
-import styleFooter from './Footer.module.css'
+import styleFooter from './Footer.module.scss'
 
 const Footer = () => {
-    
     return (
         <footer
         id='footer'

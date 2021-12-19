@@ -1,3 +1,8 @@
+/*
+/  768px - md
+/  992px - lg
+*/
+
 .heading,
 .subHeading {
     font-family: "Gilroy Bold", sans-serif;
@@ -26,6 +31,11 @@
     background-color: transparent;
     margin: 0 auto;
     padding: 0;
+
+    @media (min-width: 992px) {
+        width: 70%;
+        max-width: 1334px;
+    }
 }
 
 .imgFlexBox {
@@ -35,34 +45,25 @@
     width: 100%;
     height: auto;
     padding: 40px 7.5%;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+    }
 }
 
 .imgItem {
     width: 100%;
     height: auto;
     margin: 4px auto 20px;
-}
 
-/* md breakpoint */
-@media (min-width: 768px) {
-    .imgFlexBox {
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0;
-    }
-    .imgItem {
+    @media (min-width: 768px) {
         width: 42%;
         margin: 28px auto 28px;
     }
-}
 
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .clearFrostedGlass {
-        width: 70%;
-        max-width: 1334px;
-    }
-    .imgItem {
+    @media (min-width: 992px) {
         width: 44%;
         margin: 28px auto 28px;
     }

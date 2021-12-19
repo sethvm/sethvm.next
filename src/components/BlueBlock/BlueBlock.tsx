@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import styleBlueBlock from './BlueBlock.module.css'
+import styleBlueBlock from './BlueBlock.module.scss'
 
 const BlueBlock = () => {
 

@@ -1,10 +1,10 @@
+/*
+/  992px - lg
+*/
+
 .block {
     display: none;
-}
-
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .block {
+    @media (min-width: 992px) {
         display: block;
         height: 100%;
         position: fixed;
@@ -14,7 +14,10 @@
         background-color: #004080;
         z-index: -10;
     }
-    .thin {
+}
+
+.thin {
+    @media (min-width: 992px) {
         left: 80% !important;
     }
 }

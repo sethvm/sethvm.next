@@ -1,11 +1,12 @@
+/*
+// 992px - lg
+*/
+
 .container {
     min-height: 65vh;
     margin: 148px auto 80px auto;
-}
 
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .container {
+    @media (min-width: 992px) {
         margin: 196px auto 80px auto;
     }
 }

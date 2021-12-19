@@ -4,7 +4,6 @@ interface Props {
 }
 
 export default function Paragraph({ children }: Props) {
-    
     return(
         <p>
             {children}

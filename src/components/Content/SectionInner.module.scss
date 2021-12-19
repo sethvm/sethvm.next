@@ -1,18 +1,17 @@
+/*
+/  768px - md
+/  992px - lg
+*/
+
 .container {
     width: 85%;
     margin: 40px auto 0 auto;
-}
 
-/* md breakpoint */
-@media (min-width: 768px) {
-    .container {
+    @media (min-width: 768px) {
         width: 75%;
     }
-}
 
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .container {
+    @media (min-width: 992px) {
         width: 64%;
         margin-left: 10%;
     }

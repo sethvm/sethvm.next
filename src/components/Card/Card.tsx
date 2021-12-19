@@ -1,6 +1,6 @@
 // card component for project previews on homepage
 import Link from 'next/link'
-import styleCard from './Card.module.css'
+import styleCard from './Card.module.scss'
 
 interface Props {
     heading: string,

@@ -1,5 +1,5 @@
 // project banner
-import styleBanner from './Banner.module.css'
+import styleBanner from './Banner.module.scss'
 
 interface Props {
     img: string,

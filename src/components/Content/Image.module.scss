@@ -1,0 +1,43 @@
+/*
+/  768px - md
+/  992px - lg
+*/
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.defaultMargins {
+    margin: 4px auto 20px;
+
+    @media (min-width: 768px) {
+        margin: 28px auto 28px;
+    }
+}
+
+.endMargins {
+    @media (min-width: 768px) {
+        margin: 28px auto 48px;
+    }
+}
+
+.screen {
+    @media (min-width: 768px) {
+        width: 75%;
+    }
+
+    @media (min-width: 992px) {
+        width: 70%;
+    }
+}
+
+.item {
+    @media (min-width: 768px) {
+        width: 42%;
+    }
+
+    @media (min-width: 992px) {
+        width: 44%;
+    }
+}

@@ -1,13 +1,14 @@
+/*
+/  992px - lg
+*/
+
 .caption {
     display: flex;
     justify-content: center;
     margin: 0px auto 30px auto;
-    width: 75%
-}
+    width: 75%;
 
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .caption {
+    @media (min-width: 992px) {
         width: 70%;
     }
 }

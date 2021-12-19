@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid'
-import styleSideBar from './SideBar.module.css'
+import styleSideBar from './SideBar.module.scss'
 
 // items
 const sideBarItems = [

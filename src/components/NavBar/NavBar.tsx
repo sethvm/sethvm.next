@@ -1,11 +1,10 @@
 import Link from 'next/link'
-import styleNavBar from './NavBar.module.css'
+import styleNavBar from './NavBar.module.scss'
 
 const NavBar = () => {
-
     return (
         <header
-        id='navbar'
+        id='header'
         className={styleNavBar.navbar}
         aria-label='navbar'>
             <Link

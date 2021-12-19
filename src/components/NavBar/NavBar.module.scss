@@ -1,3 +1,7 @@
+/*
+// 992px - lg
+*/
+
 .navbar {
     display: inline-flex;
     flex-direction: row;
@@ -11,36 +15,30 @@
     background-color: #FAFAFA;
     color: #004080;
     z-index: 10;
+
+    @media (min-width: 992px) {
+        padding: 38px 3.2% 0 3.2%;
+        background-color: transparent;
+    }
 }
 
 .brand {
     font-family: "Gilroy Bold", sans-serif;
     font-size: 1.4em;
+    
+    @media (min-width: 992px) {
+        margin: 0;
+    }
 }
 
 .route {
     font-family: "TT Commons Regular", sans-serif;
     font-size: 1.2em;
     color: #004080;
-}
 
-.brand,
-.route {
-    text-decoration: none;
-}
-
-/* lg breakpoint */
-@media (min-width: 992px) {
-    .navbar {
-        padding: 38px 3.2% 0 3.2%;
-        background-color: transparent;
-    }
-    .route {
+    @media (min-width: 992px) {
         position: relative;
-        color: #FFFFFF;
-    }
-    .brand,
-    .route {
         margin: 0;
+        color: #FFFFFF;
     }
 }

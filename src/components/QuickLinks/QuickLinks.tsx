@@ -5,7 +5,7 @@ import {
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { v4 as uuidv4 } from 'uuid'
-import styleQuickLinks from './QuickLinks.module.css'
+import styleQuickLinks from './QuickLinks.module.scss'
 import { projects } from '../../projects'
 
 const RenderQuickLinks = () => {
@@ -52,13 +52,11 @@ interface Props {
 }
 
 const MemoizedQuickLinks = memo(({ currentURL }: Props) => {
-
     return (
         <>
         {projects.map(project => {
-
+            
             // checks if link leads to the current page
-            // styles accordingly
             const isCurrentPage = (currentURL === project.url)
             ? styleQuickLinks.currentLink
             : 'heavy activeLink';
