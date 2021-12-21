@@ -4,14 +4,16 @@ interface Props {
     title?: string,
     description?: string,
     image?: string,
-    url?: string
+    url?: string,
+    noCrawl?: boolean
 }
 
 const SEO = ({
     title,
     description,
     image,
-    url
+    url,
+    noCrawl
 }: Props) => {
 
     return (
@@ -33,6 +35,7 @@ const SEO = ({
             <meta name="twitter:image" content={image} />
             <meta name="twitter:title" content={title} />
             {description && <meta name="twitter:description" content={description} />}
+            {noCrawl && <meta name="robots" content="noindex" />}
         </Head>
     );
 }

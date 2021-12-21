@@ -9,7 +9,8 @@ const Error = () => {
     return (
         <>
         <Head
-        title='404: Not Found' />
+        title='404: Not Found'
+        noCrawl />
         <Section>
             <Heading type={2}>
                 <span className='heavy' style={{ color: '#A80000' }}>
