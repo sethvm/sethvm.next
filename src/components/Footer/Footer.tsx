@@ -6,7 +6,7 @@ const Footer = () => {
         id='footer'
         className={styleFooter.container}>
             <div className={styleFooter.text}>
-                © 2021 Seth Morenos
+                © 2022 Seth Morenos
             </div>
         </footer>
     );
