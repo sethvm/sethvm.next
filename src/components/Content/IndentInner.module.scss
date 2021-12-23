@@ -1,3 +1,5 @@
+@use 'styles/styles';
+
 .container {
     padding-left: 16px;
     border-width: 5px;
@@ -5,7 +7,7 @@
 }
 
 .bordered {
-    border-left: #7C6900 solid;
+    border-left: styles.$color-olive solid;
 }
 
 .borderless {

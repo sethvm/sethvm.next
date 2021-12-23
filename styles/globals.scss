@@ -12,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: styles.$regular-font;
+    font-family: styles.$font-regular;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0;
@@ -39,7 +39,7 @@ a:focus {
 }
 
 .activeLink {
-    color: styles.$dark-cerulean;
+    color: styles.$color-dark-cerulean;
     transition: background 0.225s ease-out;
     -webkit-transition: background 0.225s ease-out;
     -moz-transition: background 0.225s ease-out;
@@ -55,7 +55,7 @@ h1,
 h2,
 h3,
 .heavy {
-    font-family: styles.$heavy-font;
+    font-family: styles.$font-heavy;
 }
 
 h4,
@@ -64,7 +64,7 @@ h6,
 a,
 strong,
 .bold {
-    font-family: styles.$bold-font;
+    font-family: styles.$font-bold;
 }
 
 h1,
@@ -154,7 +154,7 @@ ol {
 }
 
 ::-webkit-scrollbar-track {
-    background: styles.$dark-cerulean;
+    background: styles.$color-dark-cerulean;
 }
 
 ::-webkit-scrollbar-thumb {

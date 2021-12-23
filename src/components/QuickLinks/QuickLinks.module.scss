@@ -1,11 +1,20 @@
 /*
 // 992px - lg
 */
+@use 'styles/styles';
 
-.outerContainer {
+@mixin display-flex {
     display: flex;
+}
+
+@mixin flex-container {
     width: 100%;
     justify-content: center;
+}
+
+.outerContainer {
+    @include display-flex;
+    @include flex-container;
 
     @media (min-width: 992px) {
         width: 80%;
@@ -14,9 +23,8 @@
 }
 
 .prompt {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+    @include display-flex;
+    @include flex-container;
     padding: 16px 11% 32px 11%;
 
     @media (min-width: 992px) {
@@ -30,12 +38,12 @@
 }
 
 .container {
-    display: flex;
+    @include display-flex;
     justify-content: space-around;
     min-width: 312px;
     margin: 0 auto 4em auto;
     padding-top: 0;
-    color: #004080;
+    color: styles.$color-dark-cerulean;
 }
 
 .link {
@@ -44,7 +52,7 @@
 }
 
 .currentLink {
-    background: #004080 !important;
-    font-family: "Gilroy Bold", sans-serif;
-    color: #FFFFFF;
+    background: styles.$color-dark-cerulean !important;
+    font-family: styles.$font-heavy;
+    color: styles.$color-white;
 }

@@ -5,7 +5,7 @@
 @use 'styles/styles';
 
 @mixin heading-font {
-    font-family: styles.$heavy-font;
+    font-family: styles.$font-heavy;
 }
 
 .heading {
@@ -30,7 +30,7 @@
 .contactPrompt {
     @include heading-font;
     @include subheading-font-size;
-    font-family: styles.$regular-font;
+    font-family: styles.$font-regular;
 }
 
 .clearFrostedGlass {

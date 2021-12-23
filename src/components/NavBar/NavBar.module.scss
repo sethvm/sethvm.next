@@ -1,6 +1,11 @@
 /*
 // 992px - lg
 */
+@use 'styles/styles';
+
+@mixin no-margin {
+    margin: 0;
+}
 
 .navbar {
     display: inline-flex;
@@ -10,10 +15,10 @@
     top: 0;
     width: 100vw;
     height: 64px;
-    margin: 0;
+    @include no-margin;
     padding: 22px 9% 0 9%;
-    background-color: #FAFAFA;
-    color: #004080;
+    background-color: styles.$background-color;
+    color: styles.$color-dark-cerulean;
     z-index: 10;
 
     @media (min-width: 992px) {
@@ -23,22 +28,22 @@
 }
 
 .brand {
-    font-family: "Gilroy Bold", sans-serif;
+    font-family: styles.$font-heavy;
     font-size: 1.4em;
     
     @media (min-width: 992px) {
-        margin: 0;
+        @include no-margin;
     }
 }
 
 .route {
-    font-family: "TT Commons Regular", sans-serif;
+    font-family: styles.$font-regular;
     font-size: 1.2em;
-    color: #004080;
+    color: styles.$color-dark-cerulean;
 
     @media (min-width: 992px) {
         position: relative;
-        margin: 0;
-        color: #FFFFFF;
+        @include no-margin;
+        color: styles.$color-white;
     }
 }
