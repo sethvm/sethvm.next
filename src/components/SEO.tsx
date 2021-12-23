@@ -18,23 +18,23 @@ const SEO = ({
 
     return (
         <Head>
-            <title>{title}</title>
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>{title}</title>
+            {description && <meta name="description" content={description} />}
+            {url && <link rel="canonical" href={url} />}
+            <link rel="icon" href="/favicon.png" />
             <meta name="author" content="Seth Morenos" />
             <meta name="theme-color" content="#FAFAFA" />
-            <link rel="icon" href="/favicon.png" />
+            <meta property="og:title" content={title} />
+            {description && <meta property="og:description" content={description} />}
+            {url && <meta property="og:url" content={url} />}
             <meta property="og:image" content={image} />
             <meta property="og:image:width" content="1200" />
             <meta property="og:image:height" content="630" />
-            {description && <meta name="description" content={description} />}
-            {url && <link rel="canonical" href={url} />}
-            {url && <meta property="og:url" content={url} />}
-            <meta property="og:title" content={title} />
-            {description && <meta property="og:description" content={description} />}
-            <meta name="twitter:image" content={image} />
             <meta name="twitter:title" content={title} />
             {description && <meta name="twitter:description" content={description} />}
+            <meta name="twitter:image" content={image} />
             {noCrawl && <meta name="robots" content="noindex" />}
         </Head>
     );
