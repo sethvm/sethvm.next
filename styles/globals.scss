@@ -1,38 +1,4 @@
-// colours
-$dark-cerulean: #004080;
-$background-color: #FAFAFA;
-$default-font-color: #1A1A1A;
-$body-font-color: #404040;
-$hover-color: #CFE7FF;
-
-// fonts
-$heavy-font: "Gilroy Bold", sans-serif;
-$bold-font: "TT Commons Demi", sans-serif;
-$regular-font: "TT Commons Regular", sans-serif;
-
-@mixin font-onload {
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'TT Commons Regular';
-    src: url('../fonts/tt_commons_classic_regular.woff') format('woff');
-    @include font-onload;
-}
-
-@font-face {
-    font-family: 'TT Commons Demi';
-    src: url('../fonts/tt_commons_classic_demibold.woff') format('woff');
-    @include font-onload;
-}
-
-@font-face {
-    font-family: 'Gilroy Bold';
-    src: url('../fonts/gilroy-bold.woff') format('woff');
-    @include font-onload;
-}
+@use 'styles/styles';
 
 // space styling
 *,
@@ -46,12 +12,12 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: $regular-font;
+    font-family: styles.$regular-font;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0;
-    color: $default-font-color;
-    background: $background-color;
+    color: styles.$default-font-color;
+    background: styles.$background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
@@ -73,14 +39,14 @@ a:focus {
 }
 
 .activeLink {
-    color: $dark-cerulean;
+    color: styles.$dark-cerulean;
     transition: background 0.225s ease-out;
     -webkit-transition: background 0.225s ease-out;
     -moz-transition: background 0.225s ease-out;
     -o-transition: background 0.225s ease-out;
 
     &:hover {
-        background: $hover-color;
+        background: styles.$hover-color;
     }
 }
 
@@ -89,7 +55,7 @@ h1,
 h2,
 h3,
 .heavy {
-    font-family: $heavy-font;
+    font-family: styles.$heavy-font;
 }
 
 h4,
@@ -98,7 +64,7 @@ h6,
 a,
 strong,
 .bold {
-    font-family: $bold-font;
+    font-family: styles.$bold-font;
 }
 
 h1,
@@ -156,7 +122,7 @@ p {
     font-size: 1.125em;
     margin-top: 0;
     margin-bottom: 1em;
-    color: $body-font-color;
+    color: styles.$body-font-color;
 }
 
 .italic {
@@ -188,11 +154,11 @@ ol {
 }
 
 ::-webkit-scrollbar-track {
-    background: $dark-cerulean;
+    background: styles.$dark-cerulean;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: $background-color;
+    background: styles.$background-color;
 }
 
 ::-webkit-scrollbar-thumb:hover {

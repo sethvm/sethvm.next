@@ -2,20 +2,24 @@
 /  768px - md
 /  992px - lg
 */
+@use 'styles/styles';
 
-.heading,
-.subHeading {
-    font-family: "Gilroy Bold", sans-serif;
+@mixin heading-font {
+    font-family: styles.$heavy-font;
 }
 
 .heading {
+    @include heading-font;
     font-size: 2em;
     margin-bottom: 0.2em;
 }
 
-.subHeading,
-.contactPrompt {
+@mixin subheading-font-size {
     font-size: 1.3em;
+}
+
+.subHeading {
+    @include subheading-font-size;
 }
 
 .contactPromptList {
@@ -24,7 +28,9 @@
 }
 
 .contactPrompt {
-    font-family: "TT Commons Demi", sans-serif;
+    @include heading-font;
+    @include subheading-font-size;
+    font-family: styles.$regular-font;
 }
 
 .clearFrostedGlass {
@@ -38,12 +44,16 @@
     }
 }
 
-.imgFlexBox {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+@mixin image-dimensions {
     width: 100%;
     height: auto;
+}
+
+.imgFlexBox {
+    display: flex;
+    @include image-dimensions;
+    flex-direction: column;
+    justify-content: space-evenly;
     padding: 40px 7.5%;
 
     @media (min-width: 768px) {
@@ -54,8 +64,7 @@
 }
 
 .imgItem {
-    width: 100%;
-    height: auto;
+    @include image-dimensions;
     margin: 4px auto 20px;
 
     @media (min-width: 768px) {
