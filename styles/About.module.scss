@@ -30,7 +30,7 @@
 .contactPrompt {
     @include heading-font;
     @include subheading-font-size;
-    font-family: styles.$font-regular;
+    font-family: styles.$font-bold;
 }
 
 .clearFrostedGlass {
