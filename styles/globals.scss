@@ -39,14 +39,14 @@ a:focus {
 }
 
 .activeLink {
-    color: styles.$color-dark-cerulean;
+    color: styles.$primary-color;
     transition: background 0.225s ease-out;
     -webkit-transition: background 0.225s ease-out;
     -moz-transition: background 0.225s ease-out;
     -o-transition: background 0.225s ease-out;
 
     &:hover {
-        background: styles.$hover-color;
+        background: styles.$link-hover-color;
     }
 }
 
@@ -154,7 +154,7 @@ ol {
 }
 
 ::-webkit-scrollbar-track {
-    background: styles.$color-dark-cerulean;
+    background: styles.$primary-color;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -162,5 +162,5 @@ ol {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #C4C4C4;
+    background: styles.$scrollbar-hover-color;
 }

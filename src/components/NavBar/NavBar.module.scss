@@ -18,7 +18,7 @@
     @include no-margin;
     padding: 22px 9% 0 9%;
     background-color: styles.$background-color;
-    color: styles.$color-dark-cerulean;
+    color: styles.$primary-color;
     z-index: 10;
 
     @media (min-width: 992px) {
@@ -39,7 +39,7 @@
 .route {
     font-family: styles.$font-regular;
     font-size: 1.2em;
-    color: styles.$color-dark-cerulean;
+    color: styles.$primary-color;
 
     @media (min-width: 992px) {
         position: relative;

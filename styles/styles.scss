@@ -1,3 +1,22 @@
+// fonts
+$font-heavy: "Gilroy Bold", sans-serif;
+$font-bold: "TT Commons Demi", sans-serif;
+$font-regular: "TT Commons Regular", sans-serif;
+
+// main palette
+$primary-color: #004080;
+$secondary-color: #7C6900;
+$background-color: #FAFAFA;
+
+// font palette
+$default-font-color: #1A1A1A;
+$body-font-color: #404040;
+$color-white: #FFFFFF;
+
+// hover palette
+$link-hover-color: #CFE7FF;
+$scrollbar-hover-color: #C4C4C4;
+
 @mixin font-onload {
     font-weight: normal;
     font-style: normal;
@@ -21,17 +40,3 @@
     src: url('../fonts/gilroy-bold.woff') format('woff');
     @include font-onload;
 }
-
-// font vars
-$font-heavy: "Gilroy Bold", sans-serif;
-$font-bold: "TT Commons Demi", sans-serif;
-$font-regular: "TT Commons Regular", sans-serif;
-
-// colours
-$color-dark-cerulean: #004080;
-$color-olive: #7C6900;
-$color-white: #FFFFFF;
-$background-color: #FAFAFA;
-$default-font-color: #1A1A1A;
-$body-font-color: #404040;
-$hover-color: #CFE7FF;

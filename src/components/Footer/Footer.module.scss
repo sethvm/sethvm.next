@@ -2,13 +2,14 @@
 /  768px - md
 /  992px - lg
 */
+@use 'styles/styles';
 
 .container {
     max-width: 1920px;
     height: 200px;
     text-align: center;
     padding-top: 32px;
-    color: #004080;
+    color: styles.$primary-color;
 
     @media (min-width: 768px) {
         height: 112px;

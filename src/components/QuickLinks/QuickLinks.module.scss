@@ -43,7 +43,7 @@
     min-width: 312px;
     margin: 0 auto 4em auto;
     padding-top: 0;
-    color: styles.$color-dark-cerulean;
+    color: styles.$primary-color;
 }
 
 .link {
@@ -52,7 +52,7 @@
 }
 
 .currentLink {
-    background: styles.$color-dark-cerulean !important;
+    background: styles.$primary-color !important;
     font-family: styles.$font-heavy;
     color: styles.$color-white;
 }
