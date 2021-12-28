@@ -12,7 +12,7 @@ const About = () => (
     url='https://sethvm.com/about' />
     <Section>
         <h2 className={aboutPageStyle.heading}>
-            I push pixels and barbells — sometimes changes to git.
+            I push pixels, barbells, and boundaries — sometimes changes to git.
         </h2>
         <br />
         <Paragraph>
@@ -22,9 +22,10 @@ const About = () => (
             (<abbr>SYDE</abbr>) undergrad at the University of Waterloo in Ontario, Canada.
         </Paragraph>
         <Paragraph>
-            Outside of design, there's a good chance I'll be amping up to hit deadlifts in the weight room, working
-            on dynos at the bouldering gym, or hiking up a mountain somewhere. I occasionally enjoy jumping out of
-            aircraft — with a parachute strapped to my back, of course.
+            My pursuit of outdoing myself is never-ending. Besides designing and studying, there's a good chance I'll
+            be amping up to hit deadlifts in the weight room, working on dynos at the bouldering gym, or hiking up
+            a mountain somewhere. I occasionally enjoy jumping out of aircraft — with a parachute strapped to my
+            back, of course.
         </Paragraph>
     </Section>
 
