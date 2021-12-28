@@ -1,6 +1,7 @@
 {
   "name": "sethvm.next",
   "author": "Seth Morenos",
+  "email": "sethvm64@gmail.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
