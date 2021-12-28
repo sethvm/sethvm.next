@@ -43,7 +43,7 @@ const SEO = ({
 SEO.defaultProps = {
     title: "Seth Morenos",
     description: 
-        "Product designer pursuing a BASc in Systems Design Engineering at the University of Waterloo.",
+        "Product designer pursuing a bachelor's degree in Systems Design Engineering at the University of Waterloo.",
     image: "/preview.png",
     url: null,
 }
