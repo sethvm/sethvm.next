@@ -16,7 +16,7 @@ export const projects = [
         title: 'Proximity Transfer',
         company: 'Interac Corp',
         description:
-            "Introducing a new contactless transaction channel within Canada’s leading debit payment platform",
+            "Introducing a new contactless transaction channel within Canada's leading debit payment platform",
         img: '/interac/interac-card.svg',
         alt: 'Interac Proximity Transfer',
         cardLink: 'View case study →',

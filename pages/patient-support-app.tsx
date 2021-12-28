@@ -19,7 +19,7 @@ const Soulfx = () => {
         <>
         <Head
         title='Patient Support App'
-        description="A web-based record management platform developed for a multinational healthcare firm."
+        description="Establishing the information architecture of a record management platform used by a multinational healthcare firm."
         url='https://sethvm.com/patient-support-app' />
         <Section
         ends>
@@ -27,7 +27,7 @@ const Soulfx = () => {
             <SubHeading>Soulfx Technologies Inc</SubHeading>
             <Paragraph>
                 <br />
-                Soulfx’s Patient Support Application is a web-based platform developed for
+                Soulfx's Patient Support Application is a web-based platform developed for
                 a healthcare firm. It facilitates the remote management and operation of a
                 service that provides financial assistance to Canadian patients for medical
                 payments such as prescriptions and therapy.
@@ -114,7 +114,7 @@ const Soulfx = () => {
         ends>
             <Heading type={3}>Our Client's Assistance Service</Heading>
             <Paragraph>
-                Manufacturers registered under our client’s service platform offer their
+                Manufacturers registered under our client's service platform offer their
                 own collection of financial assistance and/or therapy program plans, which
                 provide prescription certificates. These certificates in turn can be redeemed
                 by patients for reimbursements upon purchasing select drugs. Program plans
@@ -131,7 +131,7 @@ const Soulfx = () => {
         <Section>
             <Heading type={3}>Jobs to Be Done</Heading>
             <Paragraph>
-                We designed our client’s application from the ground up – however, we worked
+                We designed our client's application from the ground up – however, we worked
                 with a service that was already in operation. Thus, we conducted generative research
                 with the intention of identifying our user groups and what outcomes each group wants
                 to achieve by interacting with our platform.
@@ -165,7 +165,7 @@ const Soulfx = () => {
                 We sought to get an in-depth look at how the support platform itself works and how
                 our users interact with it. To visualize our user journeys, I created a lifecycle
                 diagram to document the steps taken from onboarding a new manufacturer to distributing
-                the manufacturer’s program cards to patients.
+                the manufacturer's program cards to patients.
             </Paragraph>
         </Section>
 
@@ -190,7 +190,7 @@ const Soulfx = () => {
             </IndentInner>
             <Paragraph>
                 National-level certificates enable reimbursement access to patients regardless of province, while
-                provincial-level certificates restrict a program’s availability to specified provinces. Furthermore,
+                provincial-level certificates restrict a program's availability to specified provinces. Furthermore,
                 the availability of cards offered by programs continuously fluctuate based on demand.
                 <br />
                 <br />
@@ -229,12 +229,12 @@ const Soulfx = () => {
         ends>
             <Paragraph>
                 Due to the limited amount of time we had to develop a comprehensive understanding of our
-                client’s support program, these flows would play a critical role later in the project
+                client's support program, these flows would play a critical role later in the project
                 with ensuring alignment with our developers.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Clarity was established regarding how our client’s service operates. How can we ensure
+                    Clarity was established regarding how our client's service operates. How can we ensure
                     that our to-be design encompasses the tasks we have outlined?
                 </Strong>
             </IndentInner>
@@ -333,7 +333,7 @@ const Soulfx = () => {
             <IndentInner>
                 <Strong>
                     We incorporated navigation patterns that aimed to expedite the completion of everyday duties
-                    for our client’s caseworkers.
+                    for our client's caseworkers.
                 </Strong>
             </IndentInner>
         </Section>
@@ -345,7 +345,7 @@ const Soulfx = () => {
                 <Paragraph>
                     Breadcrumbs simplify the dashboard navigation experience by reducing the number of clicks
                     required to access higher-order screens from lower tiers of information. Our caseworkers
-                    often have to make changes to a company’s details editing a program or certificate — breadcrumbs
+                    often have to make changes to a company's details editing a program or certificate — breadcrumbs
                     mitigate the need to repeatedly click the “Back” button.
                 </Paragraph>
             </SectionInner>
@@ -371,7 +371,7 @@ const Soulfx = () => {
             <SectionInner>
                 <Paragraph>
                     We also placed activation switches at the list level for certificates to avoid the need for caseworkers
-                    to navigate to each individual certificate’s property screen to activate or deactivate it. Activating a
+                    to navigate to each individual certificate's property screen to activate or deactivate it. Activating a
                     national-level certificate will automatically disable any active provincial-level certificates, and vice
                     versa.
                 </Paragraph>

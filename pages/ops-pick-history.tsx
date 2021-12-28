@@ -19,7 +19,7 @@ const Loblaw = () => {
         <>
         <Head
         title='Ops Pick History'
-        description="Crafting a streamlined order validation experience for Loblaw, Canada’s largest grocery retailer."
+        description="Leading the end-to-end transformation of an order validation module used by Loblaw, Canada's largest grocery retailer."
         url='https://sethvm.com/ops-pick-history' />
         <Section
         ends>
@@ -27,7 +27,7 @@ const Loblaw = () => {
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
                 <br />
-                Loblaw’s Ops Pick History is a tool used to validate customer order statuses and fulfillment completion
+                Loblaw's Ops Pick History is a tool used to validate customer order statuses and fulfillment completion
                 times. It is used in the day-to-day operations of PC Express (<abbr>PCX</abbr>), a grocery click-and-collect
                 and delivery service that spans over 700 locations across Canada.
             </Paragraph>
@@ -53,14 +53,14 @@ const Loblaw = () => {
         ends>
             <Heading type={3}>Overview</Heading>
             <Paragraph>
-                Loblaw Digital is an innovation-oriented subsidiary of Loblaw Companies Limited, Canada’s largest grocery
+                Loblaw Digital is an innovation-oriented subsidiary of Loblaw Companies Limited, Canada's largest grocery
                 retailer. The Digital division focuses on the delivery of future-facing experiences for banners operating
                 across grocery, pharmacy, and fashion. I had the privilege of interning as a product designer on
                 the <abbr>PCX</abbr> Fulfillment team during the winter of 2021.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Loblaw’s mission is succinctly signified by their slogan — to help Canadians “Live Life Well”.
+                    Loblaw's mission is succinctly signified by their slogan — to help Canadians “Live Life Well”.
                 </Strong>
             </IndentInner>
         </Section>
@@ -71,11 +71,11 @@ const Loblaw = () => {
             <Paragraph>
                 With COVID-19 driving demand for online grocery services through the roof, Loblaw looked to enhance the
                 extensibility of their internal operation tools — an Ops Portal initiative served a critical role in
-                fulfilling this objective by driving a complete in-house rebuild of its grocery platform’s components.
+                fulfilling this objective by driving a complete in-house rebuild of its grocery platform's components.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History module is an evolution of Loblaw’s previous operation tool’s transaction log module.
+                    The Pick History module is an evolution of Loblaw's previous operation tool's transaction log module.
                 </Strong>
             </IndentInner>
         </Section>
@@ -93,7 +93,7 @@ const Loblaw = () => {
                 </Strong>
             </IndentInner>
             <Paragraph>
-                Each log contained “transaction” entries that presented critical information describing an item’s status. This included:
+                Each log contained “transaction” entries that presented critical information describing an item's status. This included:
             </Paragraph>
             <List>
                 <li>
@@ -160,7 +160,7 @@ const Loblaw = () => {
             <SectionInner>
                 <Heading type={4} className='heavy'>Entry Point</Heading>
                 <Paragraph>
-                    Logs were attached to every order within the previous platform’s “All Orders Summary” Page.
+                    Logs were attached to every order within the previous platform's “All Orders Summary” Page.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -284,7 +284,7 @@ const Loblaw = () => {
                 </li>
                 <li>
                     <Paragraph>
-                        Information we could display was limited to what was being provided by the previous tool’s data model
+                        Information we could display was limited to what was being provided by the previous tool's data model
                     </Paragraph>
                 </li>
                 <li>
@@ -310,7 +310,7 @@ const Loblaw = () => {
             <ImageFluid>
                 <Image
                 src='/loblaw/ph_initial_redesign.png'
-                alt='Medium-fidelity prototype of the Pick History’s layout' />
+                alt="Medium-fidelity prototype of the Pick History's layout" />
             </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>Unified Item Journey</Heading>
@@ -328,7 +328,7 @@ const Loblaw = () => {
                 <Heading type={4} className='heavy'>Surfaced Item Status</Heading>
                 <Paragraph>
                     A navigation column facilitates one-click access to any transaction regardless of how many items are
-                    present within an order log. Additionally, cards provide insight into an item’s latest status without
+                    present within an order log. Additionally, cards provide insight into an item's latest status without
                     the need to select it.
                 </Paragraph>
             </SectionInner>
@@ -433,8 +433,8 @@ const Loblaw = () => {
             </List>
             <IndentInner>
                 <Strong>
-                    I focused on addressing aspects of our new layout that did not align with our users’ mental model
-                    — store colleagues cared not only about a given item’s current status, but also how it got there.
+                    I focused on addressing aspects of our new layout that did not align with our users' mental model
+                    — store colleagues cared not only about a given item's current status, but also how it got there.
                 </Strong>
             </IndentInner>
         </Section>
@@ -463,7 +463,7 @@ const Loblaw = () => {
             <Heading type={3}>New Visual Elements</Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and colour
-                — domains untouched by <abbr>TRX</abbr> nor the Pick History module’s design prior to testing.
+                — domains untouched by <abbr>TRX</abbr> nor the Pick History module's design prior to testing.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -521,7 +521,7 @@ const Loblaw = () => {
         <FrostedGlass
         ends>
             <SectionInner>
-                <Heading type={4} className='heavy'>If it Fitts’s, it Ships</Heading>
+                <Heading type={4} className='heavy'>If it Fitts's, it Ships</Heading>
                 <Paragraph>
                     The search bar was made wider and relocated into our navigation column —
                     closer to where other user interactions would take place.
@@ -536,7 +536,7 @@ const Loblaw = () => {
             <SectionInner>
                 <Heading type={4} className='heavy'>Microcopy that Teaches</Heading>
                 <Paragraph>
-                    The final searchbar’s states incorporate helper text that informs new colleagues about what
+                    The final searchbar's states incorporate helper text that informs new colleagues about what
                     they can use the search function for.
                 </Paragraph>
             </SectionInner>
@@ -552,7 +552,7 @@ const Loblaw = () => {
             <Heading type={3}>Preparing for Takeoff</Heading>
             <Paragraph>
                 During the closing phases of the transformation project, I constructed a pattern library to serve as
-                the single source of truth during the development of the Pick History’s frontend components.
+                the single source of truth during the development of the Pick History's frontend components.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -610,7 +610,7 @@ const Loblaw = () => {
             <Paragraph>
                 As designers, we all endeavour to bring “perfection” to our users. However, striving to design for the
                 ideal experience often places compromise on the technical feasibility of a product. When working within
-                an ever-evolving roadmap, it is important to identify where a design’s constraints lie and make decisions
+                an ever-evolving roadmap, it is important to identify where a design's constraints lie and make decisions
                 that accommodate them.
             </Paragraph>
             <IndentInner>
@@ -633,7 +633,7 @@ const Loblaw = () => {
                 <Heading type={4}>Capture post-launch user feedback</Heading>
             </IndentInner>
             <Paragraph>
-                Some design opportunities don’t reveal themselves until after a product undergoes extensive unmoderated
+                Some design opportunities don't reveal themselves until after a product undergoes extensive unmoderated
                 usage. Getting the Ops Portal into the hands of stores opens up a wider pool of users to collect feedback
                 from, and in turn a wider pool of unseen insights.
             </Paragraph>

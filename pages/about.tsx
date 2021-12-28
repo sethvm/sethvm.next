@@ -21,8 +21,8 @@ const About = () => {
                 ... a student in Human-centred Design
             </h3>
             <Paragraph>
-                I’m a Systems Design Engineering (SYDE) undergrad at the University of Waterloo in Ontario, Canada.
-                As a product designer, I strive to improve the quality of life for others - previous initiatives I’ve
+                I'm a Systems Design Engineering (SYDE) undergrad at the University of Waterloo in Ontario, Canada.
+                As a product designer, I strive to improve the quality of life for others - previous initiatives I've
                 led encompass problem spaces within e-commerce, fintech, and healthcare. I love tackling challenges
                 associated with the delivery of large-scale services.
                 <br />
@@ -32,7 +32,7 @@ const About = () => {
                 ... an avid adrenaline junkie
             </h3>
             <Paragraph>
-                Outside of moving pixels, there’s a good chance I’ll be moving barbells in the weight room, working
+                Outside of moving pixels, there's a good chance I'll be moving barbells in the weight room, working
                 on dynos at the bouldering gym, or hiking up a mountain somewhere. I occasionally enjoy jumping out of
                 aircraft — with a parachute strapped to my back, of course.
                 <br />
@@ -51,7 +51,7 @@ const About = () => {
         <Section>
             <h2 className={aboutPageStyle.heading}>
                 Keen to collab? Let's chat!
-                I’m looking for a Summer 2022 internship!
+                I'm looking for a Summer 2022 internship!
                 <br />
                 <br />
             </h2>

@@ -15,7 +15,7 @@ const Interac = () => {
         <>
         <Head
         title='Proximity Transfer'
-        description="Introducing a new contactless transaction channel within Interac, Canada’s leading debit payment platform."
+        description="Spearheading the design exploration of a new contactless transaction channel within Interac, Canada's leading debit payment platform."
         url='https://sethvm.com/proximity-transfer' />
         <Section
         ends>
@@ -23,7 +23,7 @@ const Interac = () => {
             <SubHeading>Interac Corp</SubHeading>
             <Paragraph>
                 <br />
-                Interac’s Proximity Transfer is an exploratory peer-to-peer transaction channel within Interac Debit,
+                Interac's Proximity Transfer is an exploratory peer-to-peer transaction channel within Interac Debit,
                 a platform that serves over 15 million Canadians every month. It aims to provide a new, versatile method
                 for sending money by leveraging near-field communication (<abbr>NFC</abbr>) technology.
             </Paragraph>
@@ -44,7 +44,7 @@ const Interac = () => {
             <IndentInner>
                 <Paragraph>
                     <span className='italic'>
-                        Due to a non-disclosure agreement, I can’t go in-depth about certain aspects of the project here.
+                        Due to a non-disclosure agreement, I can't go in-depth about certain aspects of the project here.
                         Please feel free to reach out for more information!
                     </span>
                 </Paragraph>
@@ -59,13 +59,13 @@ const Interac = () => {
         ends>
             <Heading type={3}>Overview</Heading>
             <Paragraph>
-                An industry leader in electronic transactions, Interac Corp operates Canada’s debit card
-                system and is one of the nation’s most trusted financial service brands. During the fall
+                An industry leader in electronic transactions, Interac Corp operates Canada's debit card
+                system and is one of the nation's most trusted financial service brands. During the fall
                 of 2021, I interned as a designer within the Innovation Labs & New Ventures (<abbr>ILNV</abbr>) team.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Interac’s products and services aim to provide Canadians with “The Easy Way To Pay”.
+                    Interac's products and services aim to provide Canadians with “The Easy Way To Pay”.
                 </Strong>
             </IndentInner>
         </Section>
