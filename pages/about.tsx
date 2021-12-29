@@ -22,10 +22,9 @@ const About = () => (
             (<abbr>SYDE</abbr>) undergrad at the University of Waterloo in Ontario, Canada.
         </Paragraph>
         <Paragraph>
-            My pursuit of outdoing myself is never-ending. Besides designing and studying, there's a good chance I'll
-            be amping up to hit deadlifts in the weight room, working on dynos at the bouldering gym, or hiking up
-            a mountain somewhere. I occasionally enjoy jumping out of aircraft — with a parachute strapped to my
-            back, of course.
+            Besides design and studying, there's a good chance I'll be amping up to hit deadlifts in the weight
+            room, working on dynos at the bouldering gym, or hiking up a mountain somewhere. I occasionally enjoy
+            jumping out of aircraft — with a parachute strapped to my back, of course.
         </Paragraph>
     </Section>
 
