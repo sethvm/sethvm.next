@@ -41,7 +41,7 @@ const About = () => (
                     Say hi on
                     <OutboundLink
                     href='https://www.linkedin.com/in/sethvm'>
-                        LinkedIn ↗
+                        LinkedIn ↗&#xFE0E;
                     </OutboundLink>
                     <br />
                     <br />
@@ -52,7 +52,7 @@ const About = () => (
                     Toss over an
                     <OutboundLink
                     href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
-                        email ↗
+                        email ↗&#xFE0E;
                     </OutboundLink>
                     <br />
                     <br />
@@ -63,7 +63,7 @@ const About = () => (
                     Skim through my
                     <OutboundLink
                     href='/sethvm_resume.pdf'>
-                        résumé ↗
+                        résumé ↗&#xFE0E;
                     </OutboundLink>
                 </h4>
             </li>
