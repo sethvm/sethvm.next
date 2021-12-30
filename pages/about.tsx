@@ -18,13 +18,18 @@ const About = () => (
         <Paragraph>
             As a product designer, I strive to improve the quality of life for others — previous initiatives I've
             led encompass problem spaces within e-commerce, fintech, and healthcare. I love tackling challenges
-            associated with the delivery of large-scale services. I'm also a current Systems Design Engineering
-            (<abbr>SYDE</abbr>) undergrad at the University of Waterloo in Ontario, Canada.
+            associated with the delivery of large-scale services.
+        </Paragraph>
+        <Paragraph>
+            I'm also a Systems Design Engineering (<abbr>SYDE</abbr>) undergrad
+            at the University of Waterloo in Ontario, Canada.
         </Paragraph>
         <Paragraph>
             Besides design and studying, there's a good chance I'll be amping up to hit deadlifts in the weight
-            room, working on dynos at the bouldering gym, or hiking up a mountain somewhere. I occasionally enjoy
-            jumping out of aircraft — with a parachute strapped to my back, of course.
+            room, working on dynos at the bouldering gym, or hiking up a mountain somewhere.
+        </Paragraph>
+        <Paragraph>
+            I occasionally enjoy jumping out of aircraft — with a parachute strapped to my back, of course.
         </Paragraph>
     </Section>
 
