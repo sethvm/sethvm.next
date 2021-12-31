@@ -21,8 +21,7 @@ const About = () => (
             associated with the delivery of large-scale services.
         </Paragraph>
         <Paragraph>
-            I'm also a Systems Design Engineering (<abbr>SYDE</abbr>) undergrad
-            at the University of Waterloo in Ontario, Canada.
+            I'm also a Systems Design Engineering undergrad at the University of Waterloo in Ontario, Canada.
         </Paragraph>
         <Paragraph>
             Besides design and studying, there's a good chance I'll be amping up to hit deadlifts in the weight
