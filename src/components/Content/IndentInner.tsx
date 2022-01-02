@@ -1,27 +1,17 @@
 // Container for highlighting text inside sections
 // place within the same tier as paragraphs
-import styleIndentInner from './IndentInner.module.scss'
+import styleIndentInner from './IndentInner.module.scss';
 
 interface Props {
-    noBar?: boolean,
-    children: React.ReactNode
+    noBar?: boolean;
+    children: React.ReactNode;
 }
 
-const IndentInner = ({ 
-    noBar,
-    children
-}: Props) => {
+const IndentInner = ({ noBar, children }: Props) => {
+    // style border based on 'nobar' prop
+    const borderStyle = noBar ? styleIndentInner.borderless : styleIndentInner.bordered;
 
-    // styles border based on 'nobar' prop
-    const borderStyle = noBar
-    ? styleIndentInner.borderless
-    : styleIndentInner.bordered;
-    
-    return (
-        <div className={`${styleIndentInner.container} ${borderStyle}`}>
-            {children}
-        </div>
-    );
-}
+    return <div className={`${styleIndentInner.container} ${borderStyle}`}>{children}</div>;
+};
 
-export default IndentInner
+export default IndentInner;

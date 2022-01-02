@@ -1,66 +1,56 @@
-import { memo } from 'react'
-import { v4 as uuidv4 } from 'uuid'
-import Link from 'next/link'
-import Head from '../src/components/SEO'
-import homePageStyle from '../styles/Home.module.scss'
+import { memo } from 'react';
+import { v4 as uuidv4 } from 'uuid';
+import Link from 'next/link';
+import Head from '../src/components/SEO';
+import homePageStyle from '../styles/Home.module.scss';
 // typography
-import Heading from '../src/components/Typography/Heading'
-import SubHeading from '../src/components/Typography/SubHeading'
-import Paragraph from '../src/components/Typography/Paragraph'
+import Heading from '../src/components/Typography/Heading';
+import SubHeading from '../src/components/Typography/SubHeading';
+import Paragraph from '../src/components/Typography/Paragraph';
 // project cards
-import Card from '../src/components/Card/Card'
-import { projects } from '../src/projects'
+import Card from '../src/components/Card/Card';
+import { projects } from '../src/projects';
 
 // page content component
 const Home = () => (
     <>
-    <Head
-    url='https://sethvm.com' />
-    <div
-    id='intro'
-    className={homePageStyle.intro}>
-        <div className={homePageStyle.introText}>
-            <Heading
-            type={1}
-            className={`heavy ${homePageStyle.greeting}`}>
-                G'day!
-                <br />I'm Seth.
-            </Heading>
-            <Paragraph>
-                A <span className='bold'>product designer</span> pursuing a degree
-                in <span className='bold'>Systems Design Engineering</span> —
-                passionate about building experiences that
-                help <span className='bold'>move the world forward</span>.
-            </Paragraph>
-            <Paragraph>
-                Most recently worked with digital payments
-                at <span className='bold'>Interac</span> and
-                online grocery fulfillment
-                at <span className='bold'>Loblaw Digital</span>.
-                <br />
-                <br />
-            </Paragraph>
-            <div className={homePageStyle.jumpContainer}>
-                <Link
-                href='/#projects'
-                passHref>
-                    <a
-                    className={homePageStyle.jump}
-                    aria-current='page'>
-                        <img
-                        className={homePageStyle.jumpBtn}
-                        src='/down-arrow.svg'
-                        alt='Scroll down to check out my work!' />
-                    </a>
-                </Link>
+        <Head url='https://sethvm.com' />
+        <div id='intro' className={homePageStyle.intro}>
+            <div className={homePageStyle.introText}>
+                <Heading type={1} className={`heavy ${homePageStyle.greeting}`}>
+                    G'day!
+                    <br />
+                    I'm Seth.
+                </Heading>
+                <Paragraph>
+                    A <span className='bold'>product designer</span> pursuing a degree in{' '}
+                    <span className='bold'>Systems Design Engineering</span> — passionate about
+                    building experiences that help{' '}
+                    <span className='bold'>move the world forward</span>.
+                </Paragraph>
+                <Paragraph>
+                    Most recently worked with digital payments at{' '}
+                    <span className='bold'>Interac</span> and online grocery fulfillment at{' '}
+                    <span className='bold'>Loblaw Digital</span>.
+                    <br />
+                    <br />
+                </Paragraph>
+                <div className={homePageStyle.jumpContainer}>
+                    <Link href='/#projects' passHref>
+                        <a className={homePageStyle.jump} aria-current='page'>
+                            <img
+                                className={homePageStyle.jumpBtn}
+                                src='/down-arrow.svg'
+                                alt='Scroll down to check out my work!'
+                            />
+                        </a>
+                    </Link>
+                </div>
             </div>
         </div>
-    </div>
-    <div
-    id='projects'
-    className={homePageStyle.projects}>
-        <MemoizedCards />
-    </div>
+        <div id='projects' className={homePageStyle.projects}>
+            <MemoizedCards />
+        </div>
     </>
 );
 
@@ -68,20 +58,21 @@ const Home = () => (
 const MemoizedCards = memo(() => {
     return (
         <>
-        {projects.map(project => (
-            <Card
-            key={uuidv4()}
-            heading={project.title}
-            description={project.description}
-            img={project.img}
-            alt={project.alt}
-            link={project.cardLink}
-            url={project.url}>
-                <SubHeading>{project.company}</SubHeading>
-            </Card>
-        ))}
+            {projects.map((project) => (
+                <Card
+                    key={uuidv4()}
+                    heading={project.title}
+                    description={project.description}
+                    img={project.img}
+                    alt={project.alt}
+                    link={project.cardLink}
+                    url={project.url}
+                >
+                    <SubHeading>{project.company}</SubHeading>
+                </Card>
+            ))}
         </>
     );
-})
+});
 
-export default Home
+export default Home;

@@ -5,17 +5,17 @@ $font-regular: 'TT Commons Regular', sans-serif;
 
 // main palette
 $primary-color: #004080;
-$secondary-color: #7C6900;
-$background-color: #FAFAFA;
+$secondary-color: #7c6900;
+$background-color: #fafafa;
 
 // font palette
-$default-font-color: #1A1A1A;
+$default-font-color: #1a1a1a;
 $body-font-color: #404040;
-$light-font-color: #FFFFFF;
+$light-font-color: #ffffff;
 
 // hover palette
-$link-hover-color: #CFE7FF;
-$scrollbar-hover-color: #C4C4C4;
+$link-hover-color: #cfe7ff;
+$scrollbar-hover-color: #c4c4c4;
 
 @mixin font-display {
     font-display: swap;
@@ -23,24 +23,21 @@ $scrollbar-hover-color: #C4C4C4;
 
 @font-face {
     font-family: 'TT Commons Regular';
-    src: 
-        url('../fonts/tt_commons_classic_regular.woff2') format('woff2'),
+    src: url('../fonts/tt_commons_classic_regular.woff2') format('woff2'),
         url('../fonts/tt_commons_classic_regular.woff') format('woff');
     @include font-display;
 }
 
 @font-face {
     font-family: 'TT Commons Demi';
-    src:
-        url('../fonts/tt_commons_classic_demibold.woff2') format('woff2'),
+    src: url('../fonts/tt_commons_classic_demibold.woff2') format('woff2'),
         url('../fonts/tt_commons_classic_demibold.woff') format('woff');
     @include font-display;
 }
 
 @font-face {
     font-family: 'Gilroy Bold';
-    src: 
-        url('../fonts/gilroy-bold.woff2') format('woff2'),
+    src: url('../fonts/gilroy-bold.woff2') format('woff2'),
         url('../fonts/gilroy-bold.woff') format('woff');
     @include font-display;
 }

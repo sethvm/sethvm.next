@@ -1,24 +1,15 @@
 // project banner
-import styleBanner from './Banner.module.scss'
+import styleBanner from './Banner.module.scss';
 
 interface Props {
-    img: string,
-    alt: string
+    img: string;
+    alt: string;
 }
 
-const Banner = ({
-    img,
-    alt
-}: Props) => {
-    
-    return (
-        <div className={styleBanner.container}>
-            <img
-            className={styleBanner.image}
-            src={img}
-            alt={alt} />
-        </div>
-    );
-}
+const Banner = ({ img, alt }: Props) => (
+    <div className={styleBanner.container}>
+        <img className={styleBanner.image} src={img} alt={alt} />
+    </div>
+);
 
-export default Banner
+export default Banner;
