@@ -1,12 +1,8 @@
 // paragraph - use to section text content together
 interface Props {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
-export default function Paragraph({ children }: Props) {
-    return(
-        <p>
-            {children}
-        </p>
-    );
-}
+const Paragraph = ({ children }: Props) => <p>{children}</p>;
+
+export default Paragraph;

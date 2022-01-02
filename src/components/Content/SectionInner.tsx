@@ -1,17 +1,12 @@
 // variant of Section.js for nesting inside other containers
-import styleSectionInner from './SectionInner.module.scss'
+import styleSectionInner from './SectionInner.module.scss';
 
 interface Props {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
-const SectionInner = ({ children }: Props) => {
-    
-    return (
-        <div className={styleSectionInner.container}>
-            {children}
-        </div>
-    );
-}
+const SectionInner = ({ children }: Props) => (
+    <div className={styleSectionInner.container}>{children}</div>
+);
 
-export default SectionInner
+export default SectionInner;

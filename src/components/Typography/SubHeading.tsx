@@ -2,13 +2,11 @@
 import styleSubHeading from './SubHeading.module.scss';
 
 interface Props {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
-export default function SubHeading({ children }: Props) {
-    return (
-        <span className={`${styleSubHeading.text} heavy`}>
-            {children}
-        </span>
-    );
-}
+const SubHeading = ({ children }: Props) => (
+    <span className={`${styleSubHeading.text} heavy`}>{children}</span>
+);
+
+export default SubHeading;

@@ -1,16 +1,10 @@
 // flexbox container for displaying an image(s)
-import styleImgFluid from './ImageFluid.module.scss'
+import styleImgFluid from './ImageFluid.module.scss';
 
 interface Props {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
-const ImgFluid = ({ children }: Props) => {
-    return (
-        <div className={styleImgFluid.container}>
-            {children}
-        </div>
-    );
-}
+const ImgFluid = ({ children }: Props) => <div className={styleImgFluid.container}>{children}</div>;
 
-export default ImgFluid
+export default ImgFluid;

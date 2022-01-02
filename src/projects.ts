@@ -10,7 +10,7 @@ export const projects = [
         alt: 'Loblaw OPS Pick History',
         cardLink: 'View case study →',
         quickLinkLabel: 'Loblaw',
-        url: '/ops-pick-history'
+        url: '/ops-pick-history',
     },
     {
         title: 'Proximity Transfer',
@@ -21,17 +21,16 @@ export const projects = [
         alt: 'Interac Proximity Transfer',
         cardLink: 'View case study →',
         quickLinkLabel: 'Interac',
-        url: '/proximity-transfer'
+        url: '/proximity-transfer',
     },
     {
         title: 'Patient Support App',
         company: 'Soulfx Technologies Inc',
-        description:
-            "Facilitating the remote operation of a client's patient support service",
+        description: "Facilitating the remote operation of a client's patient support service",
         img: '/soulfx/soulfx-card.svg',
         alt: 'Soulfx Patient Support App',
         cardLink: 'View case study →',
         quickLinkLabel: 'Soulfx',
-        url: '/patient-support-app'
-    }
-]
+        url: '/patient-support-app',
+    },
+];

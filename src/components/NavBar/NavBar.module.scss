@@ -30,7 +30,7 @@
 .brand {
     font-family: styles.$font-heavy;
     font-size: 1.4em;
-    
+
     @media (min-width: 992px) {
         @include no-margin;
     }

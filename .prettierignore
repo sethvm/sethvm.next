@@ -1,0 +1,15 @@
+# next.js:
+.next
+out
+
+# node:
+node_modules
+
+# macOS:
+.DS_Store
+
+# production:
+build
+
+# readme:
+README.md
