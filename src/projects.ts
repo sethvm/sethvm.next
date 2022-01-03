@@ -1,14 +1,14 @@
 // projects and quicklink labels
 
 interface Project {
-    title: string,
-    company?: string,
-    description: string,
-    img: string,
-    alt: string,
-    cardLink: string,
-    quickLinkLabel?: string,
-    url: string
+    title: string;
+    company?: string;
+    description: string;
+    img: string;
+    alt: string;
+    cardLink: string;
+    quickLinkLabel?: string;
+    url: string;
 }
 
 const projects: Project[] = [
