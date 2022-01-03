@@ -244,7 +244,7 @@ const Loblaw = () => (
                     Laborious Navigation
                 </Heading>
                 <Paragraph>
-                    Transaction logs for larger orders can span over 15 pages in length — navigation
+                    Transaction logs for larger orders could span over 15 pages in length — navigation
                     interactions were limited to two sets of “Next” and “Previous” buttons.
                 </Paragraph>
             </SectionInner>
