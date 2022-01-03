@@ -9,7 +9,7 @@ import SubHeading from '../src/components/Typography/SubHeading';
 import Paragraph from '../src/components/Typography/Paragraph';
 // project cards
 import Card from '../src/components/Card/Card';
-import { projects } from '../src/projects';
+import projects from '../src/projects';
 
 // page content component
 const Home = () => (

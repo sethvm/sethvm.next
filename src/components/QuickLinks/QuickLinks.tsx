@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { v4 as uuidv4 } from 'uuid';
 import styleQuickLinks from './QuickLinks.module.scss';
-import { projects } from '../../projects';
+import projects from '../../projects';
 
 const RenderQuickLinks = () => {
     // check current path

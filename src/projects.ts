@@ -1,6 +1,17 @@
 // projects and quicklink labels
 
-export const projects = [
+interface Project {
+    title: string,
+    company?: string,
+    description: string,
+    img: string,
+    alt: string,
+    cardLink: string,
+    quickLinkLabel?: string,
+    url: string
+}
+
+const projects: Project[] = [
     {
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
@@ -34,3 +45,5 @@ export const projects = [
         url: '/patient-support-app',
     },
 ];
+
+export default projects;
