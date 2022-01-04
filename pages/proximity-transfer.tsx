@@ -76,9 +76,9 @@ const Interac = () => (
             <Heading type={3}>Problem</Heading>
             <Paragraph>
                 Traditionally easy and quick, cash transactions have grown increasingly hazardous
-                due to their unhygienic nature as well as COVID-19. While digital alternatives
-                eliminate the need for physical contact, they lack the swiftness offered by sending
-                or receiving cash.
+                due to their unhygienic nature as well as COVID-19. While existing digital
+                alternatives eliminate the need for physical contact, they lack the swiftness
+                offered by sending or receiving cash.
             </Paragraph>
             <IndentInner>
                 <Strong>
