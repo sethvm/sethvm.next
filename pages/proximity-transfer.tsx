@@ -82,8 +82,8 @@ const Interac = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Throughout the COVID-19 pandemic, physical payments have undergone a steady
-                    decrease in acceptance.
+                    How might we bring the “face-to-face” convenience provided by cash payments over
+                    to the digital space?
                 </Strong>
             </IndentInner>
         </Section>

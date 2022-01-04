@@ -35,9 +35,7 @@ const About = () => (
         </Section>
 
         <Section>
-            <h3 className={aboutPageStyle.subHeading}>
-                Keen to collab? Let's chat!
-            </h3>
+            <h3 className={aboutPageStyle.subHeading}>Keen to collab? Let's chat!</h3>
             <br />
             <ul className={aboutPageStyle.contactPromptList}>
                 <li>
