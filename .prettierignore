@@ -1,15 +1,15 @@
 # next.js:
 .next
-out
+
+# static:
+public
+fonts
 
 # node:
 node_modules
 
 # macOS:
 .DS_Store
-
-# production:
-build
 
 # readme:
 README.md

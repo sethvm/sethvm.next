@@ -23,9 +23,9 @@ module.exports = {
             {
                 loc: '/patient-support-app',
                 priority: 0.7,
-            },
+            }
         );
 
         return result;
-    }
-}
+    },
+};
