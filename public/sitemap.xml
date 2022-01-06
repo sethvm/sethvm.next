@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://sethvm.com/</loc>
-    <lastmod>2021-12-28T04:05:14+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://sethvm.com/about</loc>
-    <lastmod>2021-12-28T04:05:14+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sethvm.com/ops-pick-history</loc>
-    <lastmod>2021-12-28T04:05:14+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sethvm.com/proximity-transfer</loc>
-    <lastmod>2021-12-28T04:05:14+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sethvm.com/patient-support-app</loc>
-    <lastmod>2021-12-28T04:05:14+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://sethvm.com/sethvm_resume.pdf</loc>
-    <lastmod>2021-12-28T04:05:14+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://sethvm.com</loc><changefreq>monthly</changefreq><priority>1</priority><lastmod>2022-01-06T18:59:38.725Z</lastmod></url>
+<url><loc>https://sethvm.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority><lastmod>2022-01-06T18:59:38.725Z</lastmod></url>
+<url><loc>https://sethvm.com/ops-pick-history</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2022-01-06T18:59:38.725Z</lastmod></url>
+<url><loc>https://sethvm.com/patient-support-app</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2022-01-06T18:59:38.725Z</lastmod></url>
+<url><loc>https://sethvm.com/proximity-transfer</loc><changefreq>monthly</changefreq><priority>0.7</priority><lastmod>2022-01-06T18:59:38.725Z</lastmod></url>
 </urlset>
