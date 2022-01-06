@@ -5,8 +5,8 @@ const NavBar = () => (
     <header id='header' className={styleNavBar.navbar} aria-label='navbar'>
         <Link href='/' passHref>
             <a className={styleNavBar.brand} aria-label='Seth Morenos'>
-                <span style={{ color: '#004080' }}>SETH</span>&nbsp;
-                <span style={{ color: '#1A1A1A' }}>MORENOS</span>
+                <span className={styleNavBar.firstName}>SETH</span>&nbsp;
+                <span className={styleNavBar.lastName}>MORENOS</span>
             </a>
         </Link>
         <Link href='/about' passHref>

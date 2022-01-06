@@ -5,9 +5,7 @@ module.exports = {
     lastmod: new Date().toISOString(),
 
     additionalPaths: async () => {
-        const result = [];
-
-        result.push(
+        return [
             {
                 loc: '/about',
                 priority: 0.8,
@@ -23,9 +21,7 @@ module.exports = {
             {
                 loc: '/patient-support-app',
                 priority: 0.7,
-            }
-        );
-
-        return result;
+            },
+        ];
     },
 };

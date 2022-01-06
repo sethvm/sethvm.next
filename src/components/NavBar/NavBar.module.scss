@@ -31,6 +31,14 @@
     font-family: styles.$font-heavy;
     font-size: 1.4em;
 
+    .firstName {
+        color: styles.$primary-color;
+    }
+
+    .lastName {
+        color: styles.$default-font-color;
+    }
+
     @media (min-width: 992px) {
         @include no-margin;
     }
