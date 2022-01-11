@@ -442,8 +442,7 @@ const Loblaw = () => (
                     </li>
                     <li>
                         <Paragraph>
-                            Latest-first transaction sequencing was unintuitive and felt more like a
-                            “backwards flow”
+                            Latest-first transaction sequencing felt like a “backwards flow”
                         </Paragraph>
                     </li>
                 </List>
