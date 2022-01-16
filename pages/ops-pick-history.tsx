@@ -662,17 +662,15 @@ const Loblaw = () => (
                 goal, ensuring that every decision made was informed.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>
-                    The tug-of-war between stakeholder requirements and technical constraints is
-                    endless
-                </Heading>
+                <Heading type={4}>Observe, don't (just) listen</Heading>
             </IndentInner>
             <Paragraph>
-                As designers, we all endeavour to bring “perfection” to our users. However, striving
-                to design for the ideal experience often places compromise on the technical
-                feasibility of a product. When working within an ever-evolving roadmap, it is
-                important to identify where a design's constraints lie and make decisions that
-                accommodate them.
+                Watching users carry out tasks in real-time reveals crucial aspects of the
+                decision-making process behind how they work towards objectives. Not only did design
+                validation confirm the importance of a <abbr>PCX</abbr> specialist's ability to
+                identify item statuses, it also proved pivotal in determining how interactions
+                within the Pick History module can contribute to simplifying the everyday operation
+                of a store.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Ambiguity is to be embraced, not feared</Heading>
