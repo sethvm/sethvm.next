@@ -32,9 +32,7 @@ const About = () => (
                 I occasionally enjoy jumping out of aircraft — with a parachute strapped to my back,
                 of course.
             </Paragraph>
-        </Section>
-
-        <Section>
+            <br />
             <h3 className={aboutPageStyle.subHeading}>Keen to collab? Let's chat!</h3>
             <br />
             <ul className={aboutPageStyle.contactPromptList}>
