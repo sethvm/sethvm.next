@@ -73,7 +73,7 @@ const Interac = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Problem</Heading>
+            <Heading type={3}>Challenge</Heading>
             <Paragraph>
                 Traditionally easy and quick, cash transactions have grown increasingly hazardous
                 due to their unhygienic nature as well as COVID-19. While existing digital
