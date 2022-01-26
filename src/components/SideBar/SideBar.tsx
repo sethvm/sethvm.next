@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid';
+import { nanoid } from 'nanoid';
 import styleSideBar from './SideBar.module.scss';
 
 // items
@@ -19,7 +19,7 @@ const sideBarItems = [
 const SideBar = () => (
     <address id='sideBar' className={styleSideBar.container} aria-label='contact links'>
         {sideBarItems.map((sideBarItem) => (
-            <a key={uuidv4()} href={sideBarItem.href} rel='noopener noreferrer' target='_blank'>
+            <a key={nanoid()} href={sideBarItem.href} rel='noopener noreferrer' target='_blank'>
                 <img
                     className={styleSideBar.itemLogo}
                     src={sideBarItem.img}
