@@ -21,8 +21,7 @@ const RenderQuickLinks = () => {
                             <br />
                             <br />
                             Check out&nbsp;
-                            {!onAboutPage && <>more</>}
-                            {onAboutPage && <>some</>}
+                            {onAboutPage ? <>some</> : <>more</>}
                             &nbsp;of my work ↓
                         </h3>
                     </div>

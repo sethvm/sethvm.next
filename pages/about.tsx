@@ -64,21 +64,6 @@ const About = () => (
                 </li>
             </ul>
         </Section>
-
-        <div className={aboutPageStyle.clearFrostedGlass}>
-            <div className={aboutPageStyle.imgFlexBox}>
-                <img
-                    className={aboutPageStyle.imgItem}
-                    src='/about/skydive.png'
-                    alt='Skydiving at Hamilton'
-                />
-                <img
-                    className={aboutPageStyle.imgItem}
-                    src='/about/gondola.png'
-                    alt='Hiking up Sulphur Mountain in Banff'
-                />
-            </div>
-        </div>
     </>
 );
 
