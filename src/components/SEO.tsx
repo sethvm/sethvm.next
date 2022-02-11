@@ -17,6 +17,7 @@ const SEO = ({ title, description, image, url, noCrawl }: Props) => (
         {description && <meta name='description' content={description} />}
         {url && <link rel='canonical' href={url} />}
         <link rel='icon' href='/favicon.png' />
+        <link rel='shortcut icon' type='image/png' href='/favicon.png' />
         <meta name='author' content='Seth Morenos' />
         <meta name='theme-color' content='#FAFAFA' />
         <meta property='og:title' content={title} />
