@@ -5,9 +5,8 @@
     "private": true,
     "scripts": {
         "dev": "next-sitemap --config sitemap-config.js && next dev",
-        "build": "next build",
-        "postbuild": "next-sitemap --config sitemap-config.js",
-        "start": "next start",
+        "build": "next build && next-sitemap --config sitemap-config.js && next export",
+        "start": "next build && next start",
         "lint": "next lint",
         "format": "npx prettier --write ."
     },
