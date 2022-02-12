@@ -96,38 +96,8 @@ const Loblaw = () => (
                 </Strong>
             </IndentInner>
             <Paragraph>
-                Each log contained “transaction” entries that presented critical information
-                describing an item's status. This included:
-            </Paragraph>
-            <List>
-                <li>
-                    <Paragraph>
-                        <span className='bold'>Who</span>
-                        &nbsp;actioned the task on the item
-                    </Paragraph>
-                </li>
-                <li>
-                    <Paragraph>
-                        <span className='bold'>What</span>
-                        &nbsp;has been done to the item
-                    </Paragraph>
-                </li>
-                <li>
-                    <Paragraph>
-                        <span className='bold'>When</span>
-                        &nbsp;the item's status last changed
-                    </Paragraph>
-                </li>
-                <li>
-                    <Paragraph>
-                        <span className='bold'>Where</span>
-                        &nbsp;the item is
-                    </Paragraph>
-                </li>
-            </List>
-            <Paragraph>
-                Through the details presented by transactions, specialists were able to validate
-                orders by:
+                Through the details presented by “transaction” entries, specialists were able to
+                validate orders by:
             </Paragraph>
             <List numbered>
                 <li>
@@ -181,9 +151,7 @@ const Loblaw = () => (
             <Paragraph>
                 My first few weeks on this project were spent learning about our problem space. I
                 took an in-depth look at the end-to-end journey of an online grocery order and the
-                role served by <abbr>TRX</abbr> within the <abbr>PCX</abbr> ecosystem. Furthermore,
-                I conversed with several colleagues to learn about what a day of operating a store —
-                or multiple stores — is like.
+                role served by <abbr>TRX</abbr> within the <abbr>PCX</abbr> ecosystem.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -292,36 +260,6 @@ const Loblaw = () => (
                 <Strong>
                     As <abbr>PCX</abbr> specialists, we need to be able to quickly find any item
                     within a customer order so that we can identify what has happened to it.
-                </Strong>
-            </IndentInner>
-            <Paragraph>
-                Because <abbr>TRX</abbr> was accessed via desktop workstations, we needed to conform
-                to the following constraints:
-            </Paragraph>
-            <List>
-                <li>
-                    <Paragraph>
-                        The new interface must be designed for display on a single monitor with a
-                        16:9 aspect ratio
-                    </Paragraph>
-                </li>
-                <li>
-                    <Paragraph>
-                        Information we could display was limited to what was being provided by the
-                        previous tool's data model
-                    </Paragraph>
-                </li>
-                <li>
-                    <Paragraph>
-                        There needed to be a limit on the number of transactions that can be queried
-                        and displayed simultaneously
-                    </Paragraph>
-                </li>
-            </List>
-            <IndentInner>
-                <Strong>
-                    Our ideations produced some radical changes to <abbr>TRX</abbr>, now known as
-                    the Pick History.
                 </Strong>
             </IndentInner>
         </Section>
