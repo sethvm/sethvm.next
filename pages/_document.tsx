@@ -1,7 +1,6 @@
 import { Html, Head, Main, NextScript } from 'next/dist/pages/_document';
 
 const Document = () => {
-
     return (
         <Html lang='en-CA'>
             <Head />
@@ -11,6 +10,6 @@ const Document = () => {
             </body>
         </Html>
     );
-}
+};
 
 export default Document;

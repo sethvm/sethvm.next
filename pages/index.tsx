@@ -29,8 +29,8 @@ const Home = () => (
                     <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
-                    Most recently worked with digital payments at{' '}
-                    <span className='bold'>Interac</span> and online grocery fulfillment at{' '}
+                    Incoming at <span className='bold'>Intuit</span>. Previously designed at{' '}
+                    <span className='bold'>Interac Corp</span> and{' '}
                     <span className='bold'>Loblaw Digital</span>.
                     <br />
                     <br />
