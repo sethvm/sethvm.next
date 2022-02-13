@@ -30,7 +30,7 @@ const projects: Project[] = [
             "Introducing a new contactless transaction channel within Canada's leading debit payment platform",
         img: '/interac/interac-card.svg',
         alt: 'Interac Proximity Transfer',
-        cardLink: 'View case study →',
+        cardLink: 'View project →',
         quickLinkLabel: 'Interac',
         url: '/proximity-transfer',
     },
