@@ -9,9 +9,7 @@ const About = () => (
     <>
         <Head title='About' url='https://sethvm.com/about' />
         <Section>
-            <h2 className={aboutPageStyle.heading}>
-                I push pixels, barbells, and boundaries — sometimes changes to git.
-            </h2>
+            <h2 className={aboutPageStyle.heading}>I push pixels, barbells, and boundaries.</h2>
             <br />
             <Paragraph>
                 As a product designer, I strive to improve the quality of life for others — previous
