@@ -22,7 +22,7 @@ const Interac = () => (
             <SubHeading>Interac Corp</SubHeading>
             <Paragraph>
                 <br />
-                Interac's Proximity Transfer is an exploratory peer-to-peer transaction channel
+                Interac's Proximity Transfer is an exploratory peer-to-peer transaction experience
                 within Interac Debit, a platform that serves over 15 million Canadians every month.
                 It aims to provide a new, versatile method for sending money by leveraging
                 near-field communication (<abbr>NFC</abbr>) technology present in today's mobile
