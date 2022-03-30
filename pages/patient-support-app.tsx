@@ -122,7 +122,7 @@ const Soulfx = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Jobs to Be Done</Heading>
+            <Heading type={3}>Jobs-to-Be-Done</Heading>
             <Paragraph>
                 We designed our client's application from the ground up – however, we worked with a
                 service that was already in operation. Thus, we conducted generative research with
