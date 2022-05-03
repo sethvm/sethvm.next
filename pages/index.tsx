@@ -29,7 +29,7 @@ const Home = () => (
                     <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
-                    Incoming at <span className='bold'>Intuit</span>. Most recently at{' '}
+                    Currently at <span className='bold'>Intuit</span>. Previously at{' '}
                     <span className='bold'>Interac Corp</span> and{' '}
                     <span className='bold'>Loblaw Digital</span>.
                     <br />
