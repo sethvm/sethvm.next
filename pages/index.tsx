@@ -23,10 +23,8 @@ const Home = () => (
                     I'm Seth.
                 </Heading>
                 <Paragraph>
-                    A <span className='bold'>product designer</span> pursuing a degree in{' '}
-                    <span className='bold'>Systems Design Engineering</span> — passionate about
-                    building experiences that help{' '}
-                    <span className='bold'>move the world forward</span>.
+                    A <span className='bold'>product designer</span> passionate about building
+                    experiences that help <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
                     Currently at <span className='bold'>Intuit</span>. Previously at{' '}

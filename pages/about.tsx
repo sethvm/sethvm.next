@@ -12,22 +12,21 @@ const About = () => (
             <h2 className={aboutPageStyle.heading}>I push pixels, barbells, and boundaries.</h2>
             <br />
             <Paragraph>
-                As a product designer, I strive to improve the quality of life for others — previous
-                initiatives I've led encompass problem spaces within e-commerce, fintech, and
-                healthcare. I love tackling challenges associated with the delivery of large-scale
-                services.
+                As a product designer, I love enabling people to live their best lives and put forth
+                their best work. Previous initiatives I've led encompass problem spaces within
+                fintech, e-commerce, and healthcare.
             </Paragraph>
             <Paragraph>
-                I'm also a Systems Design Engineering undergrad at the University of Waterloo in
-                Ontario, Canada.
+                I'm also entering the final year of my Systems Design Engineering undergrad at the
+                University of Waterloo in Ontario, Canada.
             </Paragraph>
             <Paragraph>
-                Besides design and studying, there's a good chance I'll be amping up to hit
-                deadlifts in the weight room, working on dynos at the bouldering gym, or hiking up a
-                mountain somewhere.
+                Outside of design and studying, there's a good chance I'll be amping up for a
+                powerlifting session in the weight room, swinging between holds in a climbing gym,
+                or hiking up a mountain somewhere.
             </Paragraph>
             <Paragraph>
-                I occasionally enjoy jumping out of aircraft — with a parachute strapped to my back,
+                Occasionally, I jump out of flying aircraft — with a parachute strapped to my back,
                 of course.
             </Paragraph>
             <br />
