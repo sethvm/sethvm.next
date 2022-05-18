@@ -1,2 +1,2 @@
 # :rocket: sethvm.next
-**Portfolio website containing design case studies**
+**Design portfolio website**
