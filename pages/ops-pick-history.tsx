@@ -33,7 +33,7 @@ const Loblaw = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
-                &nbsp;Leading designer with 1 product designer, 5 developers, 1 technical product
+                &nbsp;Lead designer with 1 product designer, 5 developers, 1 technical product
                 manager, and 1 product owner
             </Paragraph>
             <Paragraph>

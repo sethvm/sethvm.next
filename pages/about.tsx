@@ -23,7 +23,7 @@ const About = () => (
             <Paragraph>
                 Outside of design and studying, there's a good chance I'll be amping up for a
                 powerlifting session in the weight room, swinging between holds in a climbing gym,
-                or hiking up a mountain somewhere.
+                or whipping up a batch of soufflé.
             </Paragraph>
             <Paragraph>
                 Occasionally, I jump out of flying aircraft — with a parachute strapped to my back,
