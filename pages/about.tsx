@@ -12,25 +12,25 @@ const About = () => (
             <h2 className={aboutPageStyle.heading}>I push pixels, barbells, and boundaries.</h2>
             <br />
             <Paragraph>
-                As a product designer, I love enabling people to live their best lives and put forth
-                their best work. Previous initiatives I've led encompass problem spaces within
+                My interest lies in exploring how technology can be leveraged to help people live
+                their best lives and put forth their best work. Throughout my time as a designer,
+                I've had the privilege of leading initiatives that encompass problem spaces within
                 fintech, e-commerce, and healthcare.
             </Paragraph>
             <Paragraph>
-                I'm also entering the final year of my Systems Design Engineering undergrad at the
-                University of Waterloo in Ontario, Canada.
+                I'm also a rising senior at the University of Waterloo, majoring in Systems Design
+                Engineering.
             </Paragraph>
             <Paragraph>
-                Outside of design and studying, there's a good chance I'll be amping up for a
-                powerlifting session in the weight room, swinging between holds in a climbing gym,
-                or whipping up a batch of soufflé.
+                Outside of work and school, you'll probably find me amping up for a powerlifting
+                session, shooting photos of cool architecture, or whipping up a batch of soufflé.
             </Paragraph>
             <Paragraph>
                 Occasionally, I jump out of flying aircraft — with a parachute strapped to my back,
                 of course.
             </Paragraph>
             <br />
-            <h3 className={aboutPageStyle.subHeading}>Keen to collab? Let's chat!</h3>
+            <h3 className={aboutPageStyle.subHeading}>Keen to collab? Let's connect!</h3>
             <br />
             <ul className={aboutPageStyle.contactPromptList}>
                 <li>
@@ -45,7 +45,7 @@ const About = () => (
                 </li>
                 <li>
                     <h4 className={aboutPageStyle.contactPrompt}>
-                        Toss over an
+                        Send an
                         <OutboundLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
                             email ↗&#xFE0E;
                         </OutboundLink>
