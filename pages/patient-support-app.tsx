@@ -37,8 +37,12 @@ const Soulfx = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
-                &nbsp;Software designer with 1 <abbr>UX</abbr> designer, 4 developers, 1 product
-                owner, and 1 project manager
+                &nbsp;Software designer
+            </Paragraph>
+            <Paragraph>
+                <span className='bold'>Teammates:</span>
+                &nbsp; 1 <abbr>UX</abbr> designer, 4 developers, 1 product owner, and 1 project
+                manager
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Timeline:</span>

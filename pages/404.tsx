@@ -16,9 +16,7 @@ const Error = () => (
             </Heading>
             <Heading type={3}>
                 <br />
-                <span className='bold'>
-                    No sweat - hop over to the landing page&nbsp;
-                </span>
+                <span className='bold'>No sweat - hop over to the landing page&nbsp;</span>
                 <Link href='/' passHref>
                     <a className='activeLink bold'>here →</a>
                 </Link>

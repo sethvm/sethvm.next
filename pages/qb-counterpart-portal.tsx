@@ -29,8 +29,12 @@ const Intuit = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
-                &nbsp;Lead designer with 2 product designers, 1 content designer, 2 product
-                managers, 2 developers, and 1 business analyst
+                &nbsp;Lead product designer
+            </Paragraph>
+            <Paragraph>
+                <span className='bold'>Teammates:</span>
+                &nbsp;2 product designers, 1 content designer, 3 developers, 2 product managers, and
+                1 business analyst
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Status:</span>
