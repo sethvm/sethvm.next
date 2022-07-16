@@ -14,7 +14,7 @@ const About = () => (
             <Paragraph>
                 My interest lies in exploring how technology can be leveraged to help people live
                 their best lives and put forth their best work. Throughout my time as a designer,
-                I've had the privilege of leading initiatives that encompass problem spaces within
+                I've had the privilege of leading initiatives encompassing problem spaces within
                 fintech, e-commerce, and healthcare.
             </Paragraph>
             <Paragraph>

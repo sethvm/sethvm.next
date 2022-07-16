@@ -12,19 +12,16 @@ interface Project {
 }
 
 const projects: Project[] = [
-    /*
-        {
-            title: 'QuickBooks CP Portal',
-            company: 'Intuit',
-            description:
-                "Delivering a frictionless payment experience for invoice payors",
-            img: '/intuit/intuit-card.svg',
-            alt: 'Intuit CP Portal',
-            cardLink: 'View project →',
-            quickLinkLabel: 'Intuit',
-            url: '/qb-counterpart-portal'
-        },
-    */
+    {
+        title: 'QuickBooks CP Portal',
+        company: 'Intuit',
+        description: 'Delivering frictionless invoice payments for consumers and accountants',
+        img: '/intuit/intuit-card.svg',
+        alt: 'Intuit CP Portal',
+        cardLink: 'View project →',
+        quickLinkLabel: 'Intuit',
+        url: '/qb-counterpart-portal',
+    },
     {
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
@@ -36,17 +33,19 @@ const projects: Project[] = [
         quickLinkLabel: 'Loblaw',
         url: '/ops-pick-history',
     },
-    {
-        title: 'Proximity Transfer',
-        company: 'Interac Corp',
-        description:
-            "Introducing a new peer-to-peer transaction channel within Canada's leading debit payment platform",
-        img: '/interac/interac-card.svg',
-        alt: 'Interac Proximity Transfer',
-        cardLink: 'View project →',
-        quickLinkLabel: 'Interac',
-        url: '/proximity-transfer',
-    },
+    /*
+        {
+            title: 'Proximity Transfer',
+            company: 'Interac Corp',
+            description:
+                "Introducing a new peer-to-peer transaction channel within Canada's leading debit payment platform",
+            img: '/interac/interac-card.svg',
+            alt: 'Interac Proximity Transfer',
+            cardLink: 'View project →',
+            quickLinkLabel: 'Interac',
+            url: '/proximity-transfer',
+        },
+    */
     {
         title: 'Patient Support App',
         company: 'Soulfx Technologies Inc',
