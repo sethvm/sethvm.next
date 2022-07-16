@@ -17,7 +17,7 @@ const RenderQuickLinks = () => {
                 <>
                     <div className={styleQuickLinks.prompt}>
                         <h3 className={styleQuickLinks.promptText}>
-                            Cheers for reading — or scrolling — this far!
+                            Thanks for reading!
                             <br />
                             <br />
                             Check out&nbsp;
