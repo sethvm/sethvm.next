@@ -18,7 +18,7 @@ const Home = () => (
         <div id='intro' className={homePageStyle.intro}>
             <div className={homePageStyle.introText}>
                 <Heading type={1} className={`heavy ${homePageStyle.greeting}`}>
-                    G'day!
+                    G'day,
                     <br />
                     I'm Seth.
                 </Heading>
