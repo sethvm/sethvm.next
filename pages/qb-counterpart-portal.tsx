@@ -63,8 +63,8 @@ const Intuit = () => (
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
                 Payors access the <abbr>CP</abbr> Portal via email invoices sent by merchants.
-                Analytics measured a conversion rate below 80%, implying that users are facing
-                difficulties with completing payments.
+                Analytics measured a conversion rate below 80%, indicating that users might be
+                facing difficulties with completing payments.
             </Paragraph>
             <IndentInner>
                 <Strong>
