@@ -15,7 +15,7 @@ const projects: Project[] = [
     {
         title: 'QuickBooks CP Portal',
         company: 'Intuit',
-        description: 'Making invoice payments easier for consumers and accountants',
+        description: 'Frictionless invoice checkouts for payors',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit CP Portal',
         cardLink: 'View project →',

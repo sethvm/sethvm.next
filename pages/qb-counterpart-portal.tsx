@@ -14,7 +14,7 @@ const Intuit = () => (
     <>
         <Head
             title='CP Portal'
-            description='Making invoice payments easier for consumers and accountants.'
+            description='Frictionless invoice checkouts for payors.'
             url='https://sethvm.com/qb-counterpart-portal'
         />
         <Section ends>
@@ -45,16 +45,19 @@ const Intuit = () => (
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
 
         <Section ends>
-            <Heading type={3}>Context</Heading>
+            <Heading type={3}>Overview</Heading>
             <Paragraph>
-                The <abbr>CP</abbr> Portal supports transactions by providing a plethora of payment
-                channels for users to choose from. Working cross-functionally within a team
-                distributed across three time zones, I'm leading an end-to-end redesign of its
-                front-facing experience.
+                I joined Intuit's Small Business and Self-Employed Group (<abbr>SBSEG</abbr>) during
+                the summer of 2022, working on initiatives under the Money Design Team. Towards the
+                final month of my 4-month internship, I took on a project centered around the
+                reconstruction of the <abbr>CP</abbr> Portal. My responsibilities cover the entire
+                design process — defining problems, outlining scope, executing interaction design,
+                validating concepts, and facilitating workshops.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The core function of the <abbr>CP</abbr> Portal is to make money move.
+                    Working cross-functionally within a team distributed across three time zones, I
+                    am leading an end-to-end redesign of the CP Portal's front-facing experience.
                 </Strong>
             </IndentInner>
         </Section>
@@ -62,14 +65,15 @@ const Intuit = () => (
         <Section ends>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Payors access the <abbr>CP</abbr> Portal via email invoices sent by merchants.
-                Analytics measured a conversion rate below 80%, indicating that users might be
-                facing difficulties with completing payments.
+                Our product roadmap saw the introduction of a plethora of payment options
+                within the <abbr>CP</abbr> Portal — we wanted to avoid overwhelming users yet ensure
+                that they are made aware of these new ways to conduct transactions with their
+                merchants.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    How might we ensure payors are better able to complete invoice payments using
-                    the CP Portal?
+                    How can we surface new payment services without disrupting the CP Portal's
+                    existing checkout journey?
                 </Strong>
             </IndentInner>
         </Section>
