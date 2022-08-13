@@ -66,7 +66,7 @@ const Intuit = () => (
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
                 Our product roadmap saw the introduction of a plethora of payment options
-                within the <abbr>CP</abbr> Portal — we wanted to avoid overwhelming users yet ensure
+                within the <abbr>CP</abbr> Portal — we want to avoid overwhelming users yet ensure
                 that they are made aware of these new ways to conduct transactions with their
                 merchants.
             </Paragraph>
