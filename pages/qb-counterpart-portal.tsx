@@ -22,10 +22,10 @@ const Intuit = () => (
             <SubHeading>Intuit</SubHeading>
             <Paragraph>
                 <br />
-                The Counterpart (<abbr>CP</abbr>) Portal is a subsystem of QuickBooks that
-                facilitates online transactions between merchants and their payors. Processing over
-                $300 million <abbr>USD</abbr> in payments every day, it is a crucial component of
-                Intuit's technology platform.
+                The Counterpart (<abbr>CP</abbr>) Portal is QuickBooks' online payment portal,
+                facilitating transactions between customers and merchants. Moving over $300 million{' '}
+                <abbr>USD</abbr> every day, it is a crucial component of Intuit's technology
+                platform.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -34,7 +34,7 @@ const Intuit = () => (
             <Paragraph>
                 <span className='bold'>Teammates:</span>
                 &nbsp;2 product designers, 1 content designer, 2 developers, 2 product managers, and
-                1 business analyst
+                1 data analyst
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Status:</span>
@@ -52,7 +52,7 @@ const Intuit = () => (
                 final month of my 4-month internship, I took on a project centered around the
                 reconstruction of the <abbr>CP</abbr> Portal. My responsibilities cover the entire
                 design process — defining problems, outlining scope, executing interaction design,
-                validating concepts, and facilitating workshops.
+                validating solutions, and facilitating workshops.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -65,10 +65,9 @@ const Intuit = () => (
         <Section ends>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Our product roadmap saw the introduction of a plethora of payment options
-                within the <abbr>CP</abbr> Portal — we want to avoid overwhelming users yet ensure
-                that they are made aware of these new ways to conduct transactions with their
-                merchants.
+                Our product roadmap saw the introduction of a plethora of payment options within the{' '}
+                <abbr>CP</abbr> Portal — we want to avoid overwhelming users yet ensure that they
+                are made aware of these new ways to conduct transactions with their merchants.
             </Paragraph>
             <IndentInner>
                 <Strong>
