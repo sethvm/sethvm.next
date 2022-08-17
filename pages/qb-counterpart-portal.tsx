@@ -14,7 +14,7 @@ const Intuit = () => (
     <>
         <Head
             title='CP Portal'
-            description='Frictionless invoice checkouts for payors.'
+            description='Enhancing the versatility of online invoice checkouts for payors.'
             url='https://sethvm.com/qb-counterpart-portal'
         />
         <Section ends>

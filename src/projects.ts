@@ -15,7 +15,7 @@ const projects: Project[] = [
     {
         title: 'QuickBooks CP Portal',
         company: 'Intuit',
-        description: 'Frictionless invoice checkouts for payors',
+        description: 'Enhancing the versatility of online invoice checkouts for payors',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit CP Portal',
         cardLink: 'View project →',
@@ -33,19 +33,6 @@ const projects: Project[] = [
         quickLinkLabel: 'Loblaw',
         url: '/ops-pick-history',
     },
-    /*
-        {
-            title: 'Proximity Transfer',
-            company: 'Interac Corp',
-            description:
-                "Introducing a new peer-to-peer transaction channel within Canada's leading debit payment platform",
-            img: '/interac/interac-card.svg',
-            alt: 'Interac Proximity Transfer',
-            cardLink: 'View project →',
-            quickLinkLabel: 'Interac',
-            url: '/proximity-transfer',
-        },
-    */
     {
         title: 'Patient Support App',
         company: 'Soulfx Technologies Inc',
