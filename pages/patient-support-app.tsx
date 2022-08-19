@@ -56,9 +56,8 @@ const Soulfx = () => (
             </Paragraph>
             <IndentInner>
                 <Paragraph>
-                    Due to a non-disclosure agreement, mockup components that would
-                    contain manufacturer, program or drug names have been populated with placeholder
-                    text.
+                    Due to a non-disclosure agreement, mockup components that would contain
+                    manufacturer, program or drug names have been populated with placeholder text.
                 </Paragraph>
             </IndentInner>
         </Section>

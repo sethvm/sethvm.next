@@ -47,16 +47,6 @@ const Intuit = () => (
                 <br />
                 <br />
             </Paragraph>
-            <IndentInner>
-                <Paragraph>
-                    Due to a non-disclosure agreement, I can't discuss certain aspects of this
-                    initiative here at the moment. To learn more, don't hesitate to{' '}
-                    <Link href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
-                        <a className='activeLink'>get in touch</a>
-                    </Link>
-                    .
-                </Paragraph>
-            </IndentInner>
         </Section>
 
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
@@ -68,7 +58,7 @@ const Intuit = () => (
                 the summer of 2022, working on initiatives under the Money Design Team. Towards the
                 final month of my 4-month internship, I took on a project centered around the
                 reconstruction of the <abbr>CP</abbr> Portal. My responsibilities covered the entire
-                design process — setting context, defining problems, outlining scope, executing
+                design process — uncovering context, defining problems, outlining scope, executing
                 interaction design, validating solutions, and facilitating workshops.
             </Paragraph>
             <IndentInner>
@@ -77,21 +67,14 @@ const Intuit = () => (
                     led an end-to-end redesign of the CP Portal's front-facing experience.
                 </Strong>
             </IndentInner>
-        </Section>
-
-        <Section ends>
-            <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Our product roadmap saw the introduction of a plethora of payment options within the{' '}
-                <abbr>CP</abbr> Portal — we wanted to avoid overwhelming users yet ensure that they
-                are made aware of these new ways to conduct transactions with their merchants.
+                Due to a non-disclosure agreement, I can't go through an in-depth discussion of this
+                initiative here at the moment. If you'd like to learn more, please don't hesitate to{' '}
+                <Link href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
+                    <a className='activeLink'>get in touch</a>
+                </Link>
+                .
             </Paragraph>
-            <IndentInner>
-                <Strong>
-                    How can we surface new payment services without disrupting the CP Portal's
-                    existing checkout journey?
-                </Strong>
-            </IndentInner>
         </Section>
     </>
 );
