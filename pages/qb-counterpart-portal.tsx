@@ -1,4 +1,5 @@
 import Head from '../src/components/SEO';
+import Link from 'next/link';
 // layout
 import Section from '../src/components/Content/Section';
 import IndentInner from '../src/components/Content/IndentInner';
@@ -37,9 +38,25 @@ const Intuit = () => (
                 1 data analyst
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Status:</span>
-                &nbsp;Ongoing {'\u{1F6A7}'}
+                <span className='bold'>Timeline:</span>
+                &nbsp;6 weeks
             </Paragraph>
+            <Paragraph>
+                <span className='bold'>Status:</span>
+                &nbsp;Shipped {'\u{1F6A2}'}
+                <br />
+                <br />
+            </Paragraph>
+            <IndentInner>
+                <Paragraph>
+                    Due to a non-disclosure agreement, I can't discuss certain aspects of this
+                    initiative here at the moment. To learn more, don't hesitate to{' '}
+                    <Link href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
+                        <a className='activeLink'>get in touch</a>
+                    </Link>
+                    .
+                </Paragraph>
+            </IndentInner>
         </Section>
 
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
@@ -50,14 +67,14 @@ const Intuit = () => (
                 I joined Intuit's Small Business and Self-Employed Group (<abbr>SBSEG</abbr>) during
                 the summer of 2022, working on initiatives under the Money Design Team. Towards the
                 final month of my 4-month internship, I took on a project centered around the
-                reconstruction of the <abbr>CP</abbr> Portal. My responsibilities cover the entire
-                design process — defining problems, outlining scope, executing interaction design,
-                validating solutions, and facilitating workshops.
+                reconstruction of the <abbr>CP</abbr> Portal. My responsibilities covered the entire
+                design process — setting context, defining problems, outlining scope, executing
+                interaction design, validating solutions, and facilitating workshops.
             </Paragraph>
             <IndentInner>
                 <Strong>
                     Working cross-functionally within a team distributed across three time zones, I
-                    am leading an end-to-end redesign of the CP Portal's front-facing experience.
+                    led an end-to-end redesign of the CP Portal's front-facing experience.
                 </Strong>
             </IndentInner>
         </Section>
@@ -66,7 +83,7 @@ const Intuit = () => (
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
                 Our product roadmap saw the introduction of a plethora of payment options within the{' '}
-                <abbr>CP</abbr> Portal — we want to avoid overwhelming users yet ensure that they
+                <abbr>CP</abbr> Portal — we wanted to avoid overwhelming users yet ensure that they
                 are made aware of these new ways to conduct transactions with their merchants.
             </Paragraph>
             <IndentInner>

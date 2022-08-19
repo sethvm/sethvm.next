@@ -591,6 +591,30 @@ const Loblaw = () => (
         </FrostedGlass>
 
         <Section ends>
+            <Heading type={3}>Next Steps</Heading>
+            <br />
+            <IndentInner>
+                <Heading type={4}>Capture post-launch user feedback</Heading>
+            </IndentInner>
+            <Paragraph>
+                Some design opportunities don't reveal themselves until after a product undergoes
+                extensive unmoderated usage. Getting the Ops Portal into the hands of stores opens
+                up a wider pool of users to collect feedback from, and in turn a wider pool of
+                unseen insights.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>
+                    Explore a potential merger with another Ops Portal component
+                </Heading>
+            </IndentInner>
+            <Paragraph>
+                Colleagues refer to an Order Details page to check ordered item quantities — a key
+                piece of information missing from the Pick History module. I would study the
+                feasibility of consolidating the data provided across both components to create a
+                unified investigation tool.
+            </Paragraph>
+        </Section>
+        <Section ends>
             <Heading type={3}>Reflection</Heading>
             <br />
             <IndentInner>
@@ -624,30 +648,6 @@ const Loblaw = () => (
                 that belied a complex layer of information — an understanding of <abbr>PCX</abbr> as
                 a business was fundamental to identifying challenges and opportunities associated
                 with its role in fulfillment operations.
-            </Paragraph>
-        </Section>
-        <Section ends>
-            <Heading type={3}>Next Steps</Heading>
-            <br />
-            <IndentInner>
-                <Heading type={4}>Capture post-launch user feedback</Heading>
-            </IndentInner>
-            <Paragraph>
-                Some design opportunities don't reveal themselves until after a product undergoes
-                extensive unmoderated usage. Getting the Ops Portal into the hands of stores opens
-                up a wider pool of users to collect feedback from, and in turn a wider pool of
-                unseen insights.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>
-                    Explore a potential merger with another Ops Portal component
-                </Heading>
-            </IndentInner>
-            <Paragraph>
-                Colleagues refer to an Order Details page to check ordered item quantities — a key
-                piece of information missing from the Pick History module. I would study the
-                feasibility of consolidating the data provided across both components to create a
-                unified investigation tool.
             </Paragraph>
         </Section>
     </>

@@ -56,11 +56,9 @@ const Soulfx = () => (
             </Paragraph>
             <IndentInner>
                 <Paragraph>
-                    <span className='italic'>
-                        Due to a non-disclosure agreement with our client, mockup components that
-                        would contain manufacturer, program or drug names have been populated with
-                        placeholder text
-                    </span>
+                    Due to a non-disclosure agreement with our client, mockup components that would
+                    contain manufacturer, program or drug names have been populated with placeholder
+                    text.
                 </Paragraph>
             </IndentInner>
         </Section>
@@ -361,8 +359,21 @@ const Soulfx = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Takeaways and Opportunities</Heading>
+            <Heading type={3}>Next Steps and Takeaways</Heading>
             <br />
+            <IndentInner>
+                <Heading type={4}>
+                    There are still opportunities to streamline the navigation experience for our
+                    dashboard solution.
+                </Heading>
+            </IndentInner>
+            <Paragraph>
+                Features I would explore next include search and filter functions. As the number of
+                registered records within the platform grows, scrolling to find items within lists
+                may become more laborious. The ability to search for and filter items would address
+                such issues by providing our caseworkers direct access to the records they need to
+                work with.
+            </Paragraph>
             <IndentInner>
                 <Heading type={4}>Designs are products of curiosity and collaboration.</Heading>
             </IndentInner>
@@ -384,19 +395,6 @@ const Soulfx = () => (
                 expenses, but a critical element of my role as a designer was to learn about the
                 people who do. The project provided an opportunity to leverage this understanding
                 and contribute to improving accessibility to healthcare services through design.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>
-                    There are still opportunities to streamline the navigation experience for our
-                    dashboard solution.
-                </Heading>
-            </IndentInner>
-            <Paragraph>
-                Features I would explore next include search and filter functions. As the number of
-                registered records within the platform grows, scrolling to find items within lists
-                may become more laborious. The ability to search for and filter items would address
-                such issues by providing our caseworkers direct access to the records they need to
-                work with.
             </Paragraph>
         </Section>
     </>
