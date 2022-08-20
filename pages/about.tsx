@@ -14,8 +14,8 @@ const About = () => (
             <Paragraph>
                 My interest lies in exploring how technology can be leveraged to help people live
                 their best lives and put forth their best work. Throughout my time as a designer,
-                I've had the privilege of leading initiatives encompassing problem spaces within
-                fintech, e-commerce, and healthcare.
+                I've had the privilege of leading initiatives within the fintech, e-commerce, and
+                healthcare spaces.
             </Paragraph>
             <Paragraph>
                 I'm also a rising senior at the University of Waterloo, majoring in Systems Design
