@@ -2,7 +2,7 @@ import Head from '../src/components/SEO';
 import aboutPageStyle from '../styles/About.module.scss';
 // layout
 import Section from '../src/components/Content/Section';
-import Photo from '../src/components/Content/Photo';
+//import Photo from '../src/components/Content/Photo';
 // typography
 import Paragraph from '../src/components/Typography/Paragraph';
 
@@ -11,7 +11,7 @@ const About = () => (
         <Head title='About' url='https://sethvm.com/about' />
         <Section>
             <h2 className={aboutPageStyle.heading}>I push pixels, barbells, and boundaries.</h2>
-            <Photo src='/portrait.jpg' alt='Portrait in front of a graffitti wall' />
+            <br />
             <Paragraph>
                 My interest lies in exploring how technology can be leveraged to help people live
                 their best lives and put forth their best work. Throughout my time as a designer,
