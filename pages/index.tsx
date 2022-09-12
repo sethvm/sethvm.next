@@ -18,7 +18,7 @@ const Home = () => (
         <div id='intro' className={homePageStyle.intro}>
             <div className={homePageStyle.introText}>
                 <Heading type={1} className={`heavy ${homePageStyle.greeting}`}>
-                    G'day!
+                    G'day,
                     <br />
                     I'm Seth.
                 </Heading>
@@ -27,8 +27,8 @@ const Home = () => (
                     experiences that help <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
-                    Currently at <span className='bold'>Intuit</span>. Previously at{' '}
-                    <span className='bold'>Interac Corp</span> and{' '}
+                    Most recently worked on <span className='bold'>Intuit QuickBooks</span>.
+                    Previously at <span className='bold'>Interac Corp</span> and{' '}
                     <span className='bold'>Loblaw Digital</span>.
                     <br />
                     <br />

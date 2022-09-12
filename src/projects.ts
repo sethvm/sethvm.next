@@ -13,6 +13,16 @@ interface Project {
 
 const projects: Project[] = [
     {
+        title: 'QuickBooks Payment Portal',
+        company: 'Intuit',
+        description: 'Enhancing the versatility of online invoice checkouts for payors',
+        img: '/intuit/intuit-card.svg',
+        alt: 'Intuit QuickBooks Payment Portal',
+        cardLink: 'View project →',
+        quickLinkLabel: 'Intuit',
+        url: '/qb-payment-portal',
+    },
+    {
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
         description:
@@ -22,17 +32,6 @@ const projects: Project[] = [
         cardLink: 'View case study →',
         quickLinkLabel: 'Loblaw',
         url: '/ops-pick-history',
-    },
-    {
-        title: 'Proximity Transfer',
-        company: 'Interac Corp',
-        description:
-            "Introducing a new peer-to-peer transaction channel within Canada's leading debit payment platform",
-        img: '/interac/interac-card.svg',
-        alt: 'Interac Proximity Transfer',
-        cardLink: 'View project →',
-        quickLinkLabel: 'Interac',
-        url: '/proximity-transfer',
     },
     {
         title: 'Patient Support App',
