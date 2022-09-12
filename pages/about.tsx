@@ -14,17 +14,20 @@ const About = () => (
             <br />
             <Paragraph>
                 My interest lies in exploring how technology can be leveraged to help people live
-                their best lives and put forth their best work. Throughout my time as a designer,
-                I've had the privilege of leading initiatives within the fintech, e-commerce, and
-                healthcare spaces.
+                their best lives and put forth their best work. I'm drawn to design by its
+                interdisciplinary nature — it's a field that demands constant triangulation between
+                engineering, art, and business. Throughout my career, I've had the privilege of
+                leading initiatives within the fintech, e-commerce, and healthcare spaces.
             </Paragraph>
             <Paragraph>
-                I'm also a rising senior at the University of Waterloo, majoring in Systems Design
-                Engineering.
+                I'm also a senior at the University of Waterloo, majoring in Systems Design
+                Engineering. The final year of my undergrad studies focuses primarily on learning
+                about how humans communicate, interact, and connect with one another.
             </Paragraph>
             <Paragraph>
                 Outside of work and school, you'll probably find me amping up for a powerlifting
-                session, shooting photos of cool architecture, or whipping up a batch of soufflé.
+                session, running around with a camera, or flipping through an issue of National
+                Geographic.
             </Paragraph>
             <Paragraph>
                 Occasionally, I jump out of flying aircraft — with a parachute strapped to my back,

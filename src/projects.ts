@@ -13,14 +13,14 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'QuickBooks CP Portal',
+        title: 'QuickBooks Payment Portal',
         company: 'Intuit',
         description: 'Enhancing the versatility of online invoice checkouts for payors',
         img: '/intuit/intuit-card.svg',
-        alt: 'Intuit CP Portal',
+        alt: 'Intuit QuickBooks Payment Portal',
         cardLink: 'View project →',
         quickLinkLabel: 'Intuit',
-        url: '/qb-counterpart-portal',
+        url: '/qb-payment-portal',
     },
     {
         title: 'Ops Pick History',

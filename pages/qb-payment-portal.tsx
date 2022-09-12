@@ -14,19 +14,18 @@ import Banner from '../src/components/Content/Banner';
 const Intuit = () => (
     <>
         <Head
-            title='CP Portal'
+            title='QuickBooks Payment Portal'
             description='Enhancing the versatility of online invoice checkouts for payors.'
-            url='https://sethvm.com/qb-counterpart-portal'
+            url='https://sethvm.com/qb-payment-portal'
         />
         <Section ends>
-            <Heading type={2}>QuickBooks CP Portal</Heading>
+            <Heading type={2}>QuickBooks Payment Portal</Heading>
             <SubHeading>Intuit</SubHeading>
             <Paragraph>
                 <br />
-                The Counterpart (<abbr>CP</abbr>) Portal is QuickBooks' online payment portal,
-                facilitating transactions between customers and merchants. Moving over $300 million{' '}
-                <abbr>USD</abbr> every day, it is a crucial component of Intuit's technology
-                platform.
+                QuickBooks' (<abbr>QB</abbr>) online payment portal facilitates transactions between
+                customers and merchants. Moving over $300 million USD every day, it is a crucial
+                component of Intuit's technology platform.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -57,14 +56,15 @@ const Intuit = () => (
                 I joined Intuit's Small Business and Self-Employed Group (<abbr>SBSEG</abbr>) during
                 the summer of 2022, working on initiatives under the Money Design Team. Towards the
                 final month of my 4-month internship, I took on a project centered around the
-                reconstruction of the <abbr>CP</abbr> Portal. My responsibilities covered the entire
-                design process — uncovering context, defining problems, outlining scope, executing
-                interaction design, validating solutions, and facilitating workshops.
+                reconstruction of the QuickBooks Payment Portal. My responsibilities covered the
+                entire design process — uncovering context, defining problems, outlining scope,
+                executing interaction design, validating solutions, and facilitating workshops.
             </Paragraph>
             <IndentInner>
                 <Strong>
                     Working cross-functionally within a team distributed across three time zones, I
-                    led an end-to-end redesign of the CP Portal's front-facing experience.
+                    led an end-to-end redesign of the <abbr>QB</abbr> Payment Portal's front-facing
+                    experience.
                 </Strong>
             </IndentInner>
             <Paragraph>

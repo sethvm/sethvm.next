@@ -7,8 +7,6 @@ interface Props {
     alt: string;
 }
 
-const Photo = ({ src, alt }: Props) => (
-    <img className={stylePhoto.photo} src={src} alt={alt} />
-);
+const Photo = ({ src, alt }: Props) => <img className={stylePhoto.photo} src={src} alt={alt} />;
 
 export default Photo;
