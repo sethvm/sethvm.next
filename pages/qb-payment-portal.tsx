@@ -23,9 +23,9 @@ const Intuit = () => (
             <SubHeading>Intuit</SubHeading>
             <Paragraph>
                 <br />
-                QuickBooks' (<abbr>QB</abbr>) online payment portal facilitates transactions between
-                customers and merchants. Moving over $300 million USD every day, it is a crucial
-                component of Intuit's technology platform.
+                QuickBooks' online payment portal facilitates transactions between customers and
+                merchants. Moving over $300 million USD every day, it is a crucial component of
+                Intuit's technology platform.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -63,8 +63,24 @@ const Intuit = () => (
             <IndentInner>
                 <Strong>
                     Working cross-functionally within a team distributed across three time zones, I
-                    led an end-to-end redesign of the <abbr>QB</abbr> Payment Portal's front-facing
+                    led an end-to-end redesign of the QuickBooks Payment Portal's front-facing
                     experience.
+                </Strong>
+            </IndentInner>
+        </Section>
+
+        <Section>
+            <Heading type={3}>The Challenge</Heading>
+            <Paragraph>
+                The QuickBooks product roadmap saw the introduction of automation functions and new
+                transaction channels within the payment portal – analytics displayed low adoption
+                rates for payment automation, which might indicate poor discoverability or low
+                receptiveness from users.
+            </Paragraph>
+            <IndentInner>
+                <Strong>
+                    How can we better surface the QuickBooks Payment Portal's new transaction
+                    options and automation services?
                 </Strong>
             </IndentInner>
             <Paragraph>
