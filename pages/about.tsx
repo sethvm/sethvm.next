@@ -26,8 +26,7 @@ const About = () => (
             </Paragraph>
             <Paragraph>
                 Outside of work and school, you'll probably find me amping up for a powerlifting
-                session, running around with a camera, or flipping through an issue of National
-                Geographic.
+                session, running around with a camera, or falling off a climbing wall.
             </Paragraph>
             <Paragraph>
                 Occasionally, I jump out of flying aircraft — with a parachute strapped to my back,
