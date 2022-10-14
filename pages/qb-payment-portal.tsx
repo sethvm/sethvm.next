@@ -15,7 +15,7 @@ const Intuit = () => (
     <>
         <Head
             title='QuickBooks Payment Portal'
-            description='Enhancing the versatility of online invoice checkouts for payors.'
+            description='Reconstructing online invoice checkouts for payors.'
             url='https://sethvm.com/qb-payment-portal'
         />
         <Section ends>
