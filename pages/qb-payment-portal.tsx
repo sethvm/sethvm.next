@@ -38,7 +38,7 @@ const Intuit = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Timeline:</span>
-                &nbsp;6 weeks
+                &nbsp;4 weeks
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Status:</span>
@@ -63,7 +63,7 @@ const Intuit = () => (
             <IndentInner>
                 <Strong>
                     Working cross-functionally within a team distributed across three time zones, I
-                    led an end-to-end redesign of the QuickBooks Payment Portal's front-facing
+                    led an end-to-end redesign of the QuickBooks Payment Portal's customer-facing
                     experience.
                 </Strong>
             </IndentInner>
