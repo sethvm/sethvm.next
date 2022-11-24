@@ -72,10 +72,10 @@ const Intuit = () => (
         <Section>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                The QuickBooks product roadmap saw the introduction of automation functions and new
-                transaction channels within the payment portal – analytics displayed low adoption
-                rates for payment automation, which might indicate poor discoverability or low
-                receptiveness from users.
+                The QuickBooks product roadmap saw the introduction of automation functionality and
+                new transaction channels within the payment portal — analytics displayed low
+                adoption rates for payment automation, which might indicate poor discoverability or
+                low receptiveness from users.
             </Paragraph>
             <IndentInner>
                 <Strong>
