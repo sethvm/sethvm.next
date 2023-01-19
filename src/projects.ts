@@ -13,16 +13,6 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'QuickBooks Payment Portal',
-        company: 'Intuit',
-        description: 'Reconstructing online invoice checkouts for payors',
-        img: '/intuit/intuit-card.svg',
-        alt: 'Intuit QuickBooks Payment Portal',
-        cardLink: 'View project →',
-        quickLinkLabel: 'Intuit',
-        url: '/qb-payment-portal',
-    },
-    {
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
         description:
@@ -32,6 +22,16 @@ const projects: Project[] = [
         cardLink: 'View case study →',
         quickLinkLabel: 'Loblaw',
         url: '/ops-pick-history',
+    },
+    {
+        title: 'QuickBooks Payment Portal',
+        company: 'Intuit',
+        description: 'Reconstructing online invoice checkouts for payors',
+        img: '/intuit/intuit-card.svg',
+        alt: 'Intuit QuickBooks Payment Portal',
+        cardLink: 'View project →',
+        quickLinkLabel: 'Intuit',
+        url: '/qb-payment-portal',
     },
     {
         title: 'Patient Support App',
