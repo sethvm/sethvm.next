@@ -53,12 +53,11 @@ const Intuit = () => (
         <Section ends>
             <Heading type={3}>Overview</Heading>
             <Paragraph>
-                I joined Intuit's Small Business and Self-Employed Group (<abbr>SBSEG</abbr>) during
-                the summer of 2022, working on initiatives under the Money Design Team. Towards the
-                final month of my 4-month internship, I took on a project centered around the
-                reconstruction of the QuickBooks Payment Portal. My responsibilities covered the
-                entire design process — uncovering context, defining problems, outlining scope,
-                executing interaction design, validating solutions, and facilitating workshops.
+                Under Intuit's Small Business and Self-Employed Group (<abbr>SBSEG)</abbr>, I took
+                on a project centered around the reconstruction of the QuickBooks Payment Portal. My
+                responsibilities covered the entire design process — uncovering context, defining
+                problems, outlining scope, executing interaction design, validating solutions, and
+                facilitating workshops.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -72,15 +71,15 @@ const Intuit = () => (
         <Section>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                The QuickBooks product roadmap saw the introduction of automation functionality and
-                new transaction channels within the payment portal — analytics displayed low
-                adoption rates for payment automation, which might indicate poor discoverability or
-                low receptiveness from users.
+                The QuickBooks product roadmap saw the introduction of payment automation and new
+                transaction channels for invoice checkouts. Analytics displayed subpar conversion
+                rates for automation setup, which might indicate poor discoverability or low
+                receptiveness from users.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    How can we better surface the QuickBooks Payment Portal's new transaction
-                    options and automation services?
+                    How can we better surface the QuickBooks Payment Portal's new automation
+                    services and transaction options?
                 </Strong>
             </IndentInner>
             <Paragraph>
