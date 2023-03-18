@@ -34,7 +34,7 @@ const Home = () => (
                     <br />
                 </Paragraph>
                 <div className={homePageStyle.jumpContainer}>
-                    <Link href='/#projects' passHref>
+                    <Link href='/#projects' passHref legacyBehavior>
                         <a className={homePageStyle.jump} aria-current='page'>
                             <img
                                 className={homePageStyle.jumpBtn}
