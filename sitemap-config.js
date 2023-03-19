@@ -1,5 +1,4 @@
 module.exports = {
-
     // sitemap config parameters
     siteUrl: 'https://sethvm.com',
     generateIndexSitemap: false,
@@ -9,7 +8,6 @@ module.exports = {
 
     // custom transform function
     transform: async (config, path) => {
-
         if (path === '/') {
             priority = 1;
         } else if (path === '/about') {
@@ -23,6 +21,6 @@ module.exports = {
             priority: priority,
             changefreq: config.changefreq,
             lastmod: config.lastmod,
-        }
-    }
+        };
+    },
 };
