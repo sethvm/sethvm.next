@@ -1,27 +1,28 @@
 module.exports = {
+
+    // sitemap config parameters
     siteUrl: 'https://sethvm.com',
+    generateIndexSitemap: false,
+    autoLastmod: false,
     changefreq: 'monthly',
-    priority: 1,
     lastmod: new Date().toISOString(),
 
-    additionalPaths: async () => {
-        return [
-            {
-                loc: '/about',
-                priority: 0.8,
-            },
-            {
-                loc: '/ops-pick-history',
-                priority: 0.7,
-            },
-            {
-                loc: '/proximity-transfer',
-                priority: 0.7,
-            },
-            {
-                loc: '/patient-support-app',
-                priority: 0.7,
-            },
-        ];
-    },
+    // custom transform function
+    transform: async (config, path) => {
+
+        if (path === '/') {
+            priority = 1;
+        } else if (path === '/about') {
+            priority = 0.8;
+        } else {
+            priority = 0.7;
+        }
+
+        return {
+            loc: path,
+            priority: priority,
+            changefreq: config.changefreq,
+            lastmod: config.lastmod,
+        }
+    }
 };

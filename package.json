@@ -23,7 +23,7 @@
         "@types/react": "^17.0.39",
         "eslint": "^8.36.0",
         "eslint-config-next": "^13.2.4",
-        "next-sitemap": "^1.6.203",
+        "next-sitemap": "^4.0.6",
         "prettier": "^2.8.4",
         "sass": "^1.59.3",
         "typescript": "^5.0.2"
