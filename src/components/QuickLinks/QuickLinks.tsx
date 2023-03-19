@@ -55,7 +55,7 @@ const MemoizedQuickLinks = memo(({ currentURL }: Props) => {
                 return (
                     <Fragment key={nanoid()}>
                         {project.quickLinkLabel && (
-                            <Link href={project.url} passHref>
+                            <Link href={project.url} passHref legacyBehavior>
                                 <a className={`${styleQuickLinks.link} ${isCurrentPage}`}>
                                     {project.quickLinkLabel}
                                 </a>
