@@ -19,7 +19,7 @@ const projects: Project[] = [
             'Enhancing the discoverability of automation features for online invoice checkouts',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Payment Portal',
-        cardLink: 'View case study →',
+        cardLink: 'View project →',
         quickLinkLabel: 'Intuit',
         url: '/qb-payment-portal',
     },
