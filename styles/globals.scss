@@ -50,6 +50,15 @@ a:focus {
     }
 }
 
+.inBodyLink {
+    font-family: styles.$font-regular;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 // typography
 h1,
 h2,

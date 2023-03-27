@@ -60,7 +60,7 @@ interface OutboundLinkProps {
 
 const OutboundLink = ({ href, children }: OutboundLinkProps) => (
     <a rel='noopener noreferrer' href={href} target='_blank'>
-        <span className='activeLink'>{children}</span>
+        <span className='activeLink inBodyLink'>{children}</span>
     </a>
 );
 

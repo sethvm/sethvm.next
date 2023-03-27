@@ -86,7 +86,7 @@ const Intuit = () => (
                 Due to an <abbr>NDA</abbr>, I can't go through an in-depth discussion of this
                 initiative at the moment. If you'd like to learn more, please don't hesitate to{' '}
                 <Link href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' legacyBehavior>
-                    <a className='activeLink'>get in touch</a>
+                    <a className='activeLink inBodyLink'>get in touch</a>
                 </Link>
                 .
             </Paragraph>
