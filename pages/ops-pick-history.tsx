@@ -622,10 +622,9 @@ const Loblaw = () => (
             </IndentInner>
             <Paragraph>
                 The “form follows function” principle is easily extended into any form of design.
-                Leading the rebuild of <abbr>TRX</abbr> reinforced my understanding of what it means
-                to design with purpose. Every creation or change throughout the project - from
-                palette changes to reformed interactions - was driven by an intended function or
-                goal, ensuring that every decision made was informed.
+                Every creation or change throughout the project - from palette changes to reformed
+                interactions - was driven by an intended function or goal, ensuring that every
+                decision made was informed.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Observe, don't (just) listen</Heading>
