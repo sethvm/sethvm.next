@@ -15,7 +15,8 @@ const projects: Project[] = [
     {
         title: 'QuickBooks Payment Portal',
         company: 'Intuit',
-        description: 'Reconstructing online invoice checkouts for payors',
+        description:
+            'Enhancing the discoverability of automation features for online invoice checkouts',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Payment Portal',
         cardLink: 'View case study →',

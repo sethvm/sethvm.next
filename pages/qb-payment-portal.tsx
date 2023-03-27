@@ -15,7 +15,7 @@ const Intuit = () => (
     <>
         <Head
             title='QuickBooks Payment Portal'
-            description='Reconstructing online invoice checkouts for payors.'
+            description='Enhancing the discoverability of automation features for online invoice checkouts.'
             url='https://sethvm.com/qb-payment-portal'
         />
         <Section ends>
@@ -37,33 +37,28 @@ const Intuit = () => (
                 managers, and 1 data analyst
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Timeline:</span>
+                <span className='bold'>Duration:</span>
                 &nbsp;4 weeks
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Status:</span>
                 &nbsp;Shipped {'\u{1F6A2}'}
-                <br />
-                <br />
             </Paragraph>
         </Section>
 
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
 
         <Section ends>
-            <Heading type={3}>Overview</Heading>
+            <Heading type={3}>Context</Heading>
             <Paragraph>
-                Under Intuit's Small Business and Self-Employed Group (<abbr>SBSEG</abbr>), I took
-                on a project centered around refining the QuickBooks invoice checkout experience. My
-                responsibilities covered the entire design process — uncovering context, outlining
-                scope, executing interaction design, validating solutions, and facilitating
-                workshops.
+                On top of serving as an all-in-one bookkeeping package, QuickBooks streamlines
+                invoicing for small and medium businesses (<abbr>SMB</abbr>s) through monitoring
+                cash flow and offering a wide range of payment solutions to customers.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Working cross-functionally within a team distributed across three time zones, I
-                    led an end-to-end redesign of the QuickBooks Payment Portal's customer-facing
-                    experience.
+                    The QuickBooks Payment Portal empowers small and medium business owners by
+                    providing an easy way to get paid.
                 </Strong>
             </IndentInner>
         </Section>
@@ -71,15 +66,15 @@ const Intuit = () => (
         <Section>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                The QuickBooks product roadmap saw the introduction of payment automation and new
-                transaction channels for invoice checkouts. Analytics displayed subpar conversion
-                rates for automation setup, which might indicate poor discoverability or low
-                receptiveness from users.
+                Analytics displayed subpar conversion rates for payment automation, which might
+                indicate poor discoverability or low receptiveness from users. The payment portal's
+                interface will also need to facilitate the introduction of two new transaction
+                channels for invoice checkouts.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    How can we better surface the QuickBooks Payment Portal's new automation
-                    services and transaction options?
+                    How can we better surface QuickBooks' payment automation function while
+                    incorporating new transaction channels?
                 </Strong>
             </IndentInner>
             <Paragraph>
@@ -92,6 +87,7 @@ const Intuit = () => (
             </Paragraph>
         </Section>
 
+        {/*
         <Section ends>
             <Heading type={3}>Next Steps</Heading>
             <br />
@@ -116,6 +112,7 @@ const Intuit = () => (
                 channel hierarchy would affect the usage levels of their in-house counterparts.
             </Paragraph>
         </Section>
+*/}
 
         <Section ends>
             <Heading type={3}>Reflection</Heading>
@@ -136,7 +133,7 @@ const Intuit = () => (
                 Another implication of continuous refinement is the unfamiliarity of new features to
                 even the most seasoned users. In the context of the QuickBooks payment journey,
                 there was a compromise to be made between preserving the simplicity of the checkout
-                workflow and surfacing important information about what AutoPay entails.
+                workflow and surfacing important information about what payment automation entails.
             </Paragraph>
         </Section>
     </>
