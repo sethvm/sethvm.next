@@ -66,15 +66,15 @@ const Intuit = () => (
         <Section>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Analytics displayed subpar conversion rates for payment automation (Autopay), which might
-                indicate poor discoverability or low receptiveness from users. The payment portal's
-                interface will also need to facilitate the introduction of two new transaction
-                channels for invoice checkouts.
+                Analytics displayed subpar conversion rates for payment automation (Autopay), which
+                might indicate poor discoverability or low receptiveness from users. The payment
+                portal's interface will also need to facilitate the introduction of two new
+                transaction channels for invoice checkouts.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    How can we better surface QuickBooks' payment automation function while
-                    incorporating new transaction channels?
+                    How can we better surface QuickBooks Autopay while incorporating new transaction
+                    channels?
                 </Strong>
             </IndentInner>
             <Paragraph>
@@ -127,7 +127,9 @@ const Intuit = () => (
                 most critical tasks.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Balance maximizing education and minimizing interaction cost</Heading>
+                <Heading type={4}>
+                    Balance maximizing education and minimizing interaction cost
+                </Heading>
             </IndentInner>
             <Paragraph>
                 Another implication of continuous refinement is the unfamiliarity of new features to
