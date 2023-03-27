@@ -58,8 +58,7 @@ const Loblaw = () => (
                 Loblaw Digital is an innovation-oriented subsidiary of Loblaw Companies Limited,
                 Canada's largest grocery retailer. The Digital division focuses on the delivery of
                 future-facing experiences for banners operating across grocery, pharmacy, and
-                fashion. I had the privilege of interning as a product designer on the{' '}
-                <abbr>PCX</abbr> Fulfillment team during the winter of 2021.
+                fashion.
             </Paragraph>
             <IndentInner>
                 <Strong>
