@@ -34,7 +34,7 @@ const Intuit = () => (
             <Paragraph>
                 <span className='bold'>Teammates:</span>
                 &nbsp;1 product designer, 1 content designer, 3 software engineers, 2 product
-                managers, and 1 data analyst
+                managers, and 1 business analyst
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Duration:</span>
@@ -66,7 +66,7 @@ const Intuit = () => (
         <Section>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Analytics displayed subpar conversion rates for payment automation, which might
+                Analytics displayed subpar conversion rates for payment automation (Autopay), which might
                 indicate poor discoverability or low receptiveness from users. The payment portal's
                 interface will also need to facilitate the introduction of two new transaction
                 channels for invoice checkouts.
@@ -92,10 +92,10 @@ const Intuit = () => (
             <Heading type={3}>Next Steps</Heading>
             <br />
             <IndentInner>
-                <Heading type={4}>Refine the AutoPay modal copy</Heading>
+                <Heading type={4}>Refine the Autopay modal copy</Heading>
             </IndentInner>
             <Paragraph>
-                While the post-confirmation modal dialogue enables us to introduce AutoPay with a
+                While the post-confirmation modal dialogue enables us to introduce Autopay with a
                 larger amount of content, minimizing the amount of text to read through remains a
                 crucial objective. I would work in tandem with our content designer and the
                 QuickBooks marketing team to iterate and validate these changes.
@@ -106,7 +106,7 @@ const Intuit = () => (
                 </Heading>
             </IndentInner>
             <Paragraph>
-                With AutoPay discoverability now being driven by the post-confirmation modal
+                With Autopay's discoverability now being driven by the post-confirmation modal
                 dialogue, I would look into further improving learnability for new payors. It would
                 be interesting to see how moving third-party payment options to the top of the
                 channel hierarchy would affect the usage levels of their in-house counterparts.
