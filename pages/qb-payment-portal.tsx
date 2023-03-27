@@ -127,7 +127,7 @@ const Intuit = () => (
                 most critical tasks.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Balance education and interaction cost</Heading>
+                <Heading type={4}>Balance maximizing education and minimizing interaction cost</Heading>
             </IndentInner>
             <Paragraph>
                 Another implication of continuous refinement is the unfamiliarity of new features to
