@@ -47,7 +47,7 @@ const About = () => (
                     email
                 </OutboundLink>
                 , skim through my <OutboundLink href='/sethvm_resume.pdf'>résumé</OutboundLink>, or
-                do any combination of the three.
+                do any combination of the three :)
             </Paragraph>
         </Section>
     </>
