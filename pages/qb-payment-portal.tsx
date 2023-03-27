@@ -86,9 +86,31 @@ const Intuit = () => (
                 Due to a non-disclosure agreement, I can't go through an in-depth discussion of this
                 initiative here at the moment. If you'd like to learn more, please don't hesitate to{' '}
                 <Link href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' legacyBehavior>
-                    <a className='activeLink'>get in touch</a>
+                    <a className='activeLink'>get in touch ↗&#xFE0E;</a>
                 </Link>
-                .
+            </Paragraph>
+        </Section>
+
+        <Section ends>
+            <Heading type={3}>Reflection</Heading>
+            <br />
+            <IndentInner>
+                <Heading type={4}>Introduce without interfering</Heading>
+            </IndentInner>
+            <Paragraph>
+                Customer-facing platforms such as QuickBooks are in a constant state of evolution,
+                resulting in frequent design changes that must be approached with care. New features
+                should be incorporated into an experience without interrupting its most critical
+                tasks.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Onboarding is a by-feature necessity</Heading>
+            </IndentInner>
+            <Paragraph>
+                Another implication of continuous refinement is the unfamiliarity of new features to
+                even the most seasoned users. In the context of the QuickBooks payment journey, it
+                was important for learning about what AutoPay entails to be a frictionless process
+                for payors.
             </Paragraph>
         </Section>
     </>
