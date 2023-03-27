@@ -25,44 +25,30 @@ const About = () => (
                 about how humans communicate, interact, and connect with one another.
             </Paragraph>
             <Paragraph>
-                Outside of work and school, you'll probably find me amping up for a powerlifting
-                session, running around with a camera, or falling off a climbing wall.
+                Outside of work and school, you'll probably find me{' '}
+                <OutboundLink href='https://vsco.co/sthvm/gallery'>
+                    running around with a camera
+                </OutboundLink>
+                , amping up for a powerlifting session, or falling off a climbing wall.
             </Paragraph>
             <Paragraph>
                 Occasionally, I jump out of flying aircraft — with a parachute strapped to my back,
                 of course.
             </Paragraph>
             <br />
+            <br />
             <h3 className={aboutPageStyle.subHeading}>Keen to collab? Let's connect!</h3>
             <br />
-            <ul className={aboutPageStyle.contactPromptList}>
-                <li>
-                    <h4 className={aboutPageStyle.contactPrompt}>
-                        Say hi on
-                        <OutboundLink href='https://www.linkedin.com/in/sethvm'>
-                            LinkedIn ↗&#xFE0E;
-                        </OutboundLink>
-                        <br />
-                        <br />
-                    </h4>
-                </li>
-                <li>
-                    <h4 className={aboutPageStyle.contactPrompt}>
-                        Send an
-                        <OutboundLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
-                            email ↗&#xFE0E;
-                        </OutboundLink>
-                        <br />
-                        <br />
-                    </h4>
-                </li>
-                <li>
-                    <h4 className={aboutPageStyle.contactPrompt}>
-                        Skim through my
-                        <OutboundLink href='/sethvm_resume.pdf'>résumé ↗&#xFE0E;</OutboundLink>
-                    </h4>
-                </li>
-            </ul>
+            <Paragraph>
+                Say hi on{' '}
+                <OutboundLink href='https://www.linkedin.com/in/sethvm'>LinkedIn</OutboundLink>,
+                toss over an{' '}
+                <OutboundLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
+                    email
+                </OutboundLink>
+                , skim through my <OutboundLink href='/sethvm_resume.pdf'>résumé</OutboundLink>, or
+                do any combination of the three.
+            </Paragraph>
         </Section>
     </>
 );
@@ -74,7 +60,7 @@ interface OutboundLinkProps {
 
 const OutboundLink = ({ href, children }: OutboundLinkProps) => (
     <a rel='noopener noreferrer' href={href} target='_blank'>
-        &nbsp;<span className='activeLink bold'>{children}</span>
+        <span className='activeLink'>{children}</span>
     </a>
 );
 
