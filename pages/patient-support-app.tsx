@@ -45,7 +45,7 @@ const Soulfx = () => (
                 manager
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Timeline:</span>
+                <span className='bold'>Duration:</span>
                 &nbsp;8 weeks
             </Paragraph>
             <Paragraph>
