@@ -93,6 +93,31 @@ const Intuit = () => (
         </Section>
 
         <Section ends>
+            <Heading type={3}>Next Steps</Heading>
+            <br />
+            <IndentInner>
+                <Heading type={4}>Refine the AutoPay modal copy</Heading>
+            </IndentInner>
+            <Paragraph>
+                While the post-confirmation modal dialogue enables us to introduce AutoPay with a
+                larger amount of content, minimizing the amount of text to read through remains a
+                crucial objective. I would work in tandem with our content designer and the
+                QuickBooks marketing team to iterate and validate these changes.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>
+                    Study the effects of rearranging the transaction channel hierarchy
+                </Heading>
+            </IndentInner>
+            <Paragraph>
+                With AutoPay discoverability now being driven by the post-confirmation modal
+                dialogue, I would look into further improving learnability for new payors. It would
+                be interesting to see how moving third-party payment options to the top of the
+                channel hierarchy would affect the usage levels of their in-house counterparts.
+            </Paragraph>
+        </Section>
+
+        <Section ends>
             <Heading type={3}>Reflection</Heading>
             <br />
             <IndentInner>
