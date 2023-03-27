@@ -53,11 +53,11 @@ const Intuit = () => (
         <Section ends>
             <Heading type={3}>Overview</Heading>
             <Paragraph>
-                Under Intuit's Small Business and Self-Employed Group (<abbr>SBSEG)</abbr>, I took
-                on a project centered around the reconstruction of the QuickBooks Payment Portal. My
-                responsibilities covered the entire design process — uncovering context, defining
-                problems, outlining scope, executing interaction design, validating solutions, and
-                facilitating workshops.
+                Under Intuit's Small Business and Self-Employed Group (<abbr>SBSEG</abbr>), I took
+                on a project centered around refining the QuickBooks invoice checkout experience. My
+                responsibilities covered the entire design process — uncovering context, outlining
+                scope, executing interaction design, validating solutions, and facilitating
+                workshops.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -83,11 +83,12 @@ const Intuit = () => (
                 </Strong>
             </IndentInner>
             <Paragraph>
-                Due to a non-disclosure agreement, I can't go through an in-depth discussion of this
-                initiative here at the moment. If you'd like to learn more, please don't hesitate to{' '}
+                Due to an <abbr>NDA</abbr>, I can't go through an in-depth discussion of this
+                initiative at the moment. If you'd like to learn more, please don't hesitate to{' '}
                 <Link href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' legacyBehavior>
-                    <a className='activeLink'>get in touch ↗&#xFE0E;</a>
+                    <a className='activeLink'>get in touch</a>
                 </Link>
+                .
             </Paragraph>
         </Section>
 
@@ -100,17 +101,17 @@ const Intuit = () => (
             <Paragraph>
                 Customer-facing platforms such as QuickBooks are in a constant state of evolution,
                 resulting in frequent design changes that must be approached with care. New features
-                should be incorporated into an experience without interrupting its most critical
-                tasks.
+                should be incorporated into an experience without interrupting the completion of its
+                most critical tasks.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Onboarding is a by-feature necessity</Heading>
+                <Heading type={4}>Balance education and interaction cost</Heading>
             </IndentInner>
             <Paragraph>
                 Another implication of continuous refinement is the unfamiliarity of new features to
-                even the most seasoned users. In the context of the QuickBooks payment journey, it
-                was important for learning about what AutoPay entails to be a frictionless process
-                for payors.
+                even the most seasoned users. In the context of the QuickBooks payment journey,
+                there was a compromise to be made between preserving the simplicity of the checkout
+                workflow and surfacing important information about what AutoPay entails.
             </Paragraph>
         </Section>
     </>
