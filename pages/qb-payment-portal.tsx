@@ -57,8 +57,8 @@ const Intuit = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The QuickBooks Payment Portal empowers small and medium business owners by
-                    providing an easy way to get paid.
+                    The QuickBooks Payment Portal empowers small and medium-sized business owners by
+                    providing easy ways to get paid.
                 </Strong>
             </IndentInner>
         </Section>
