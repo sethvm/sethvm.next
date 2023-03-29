@@ -102,7 +102,7 @@ const Intuit = () => (
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>
-                    Study the effects of rearranging the transaction channel hierarchy
+                    Study the effects of reordering the transaction channel hierarchy
                 </Heading>
             </IndentInner>
             <Paragraph>
