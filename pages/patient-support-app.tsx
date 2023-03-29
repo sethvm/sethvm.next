@@ -238,7 +238,7 @@ const Soulfx = () => (
                 </Heading>
                 <Paragraph>
                     We employed a single-column layout to allow caseworkers to quickly scan top-down
-                    through lists and record details — this pattern is kept consistent across all
+                    through lists and record details—this pattern is kept consistent across all
                     tiers of information.
                 </Paragraph>
             </SectionInner>
@@ -313,7 +313,7 @@ const Soulfx = () => (
                     Breadcrumbs simplify the dashboard navigation experience by reducing the number
                     of clicks required to access higher-order screens from lower tiers of
                     information. Our caseworkers often have to make changes to a company's details
-                    editing a program or certificate — breadcrumbs mitigate the need to repeatedly
+                    editing a program or certificate—breadcrumbs mitigate the need to repeatedly
                     click the “Back” button.
                 </Paragraph>
             </SectionInner>
