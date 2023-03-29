@@ -18,9 +18,10 @@ const About = () => (
                 engineering, art, and business.
             </Paragraph>
             <Paragraph>
-                At the moment, my pursuits as a designer revolve around empowering small and
-                medium-sized businesses in their day-to-day operations. Previous spaces I've
-                explored include grocery fulfillment and healthcare record administration.
+                At the moment, my pursuits as a designer revolve around supporting small and
+                medium-sized businesses in overcoming their day-to-day challenges. Previous spaces
+                I've explored include open banking, grocery fulfillment, and healthcare record
+                administration.
             </Paragraph>
             <Paragraph>
                 I'm also a senior at the University of Waterloo, majoring in Systems Design
