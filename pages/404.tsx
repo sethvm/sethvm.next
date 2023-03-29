@@ -11,7 +11,7 @@ const Error = () => (
         <Section>
             <Heading type={2}>
                 <span className='heavy' style={{ color: '#A80000' }}>
-                    404, mate - probably an old link!
+                    404, mate—probably an old link!
                 </span>
             </Heading>
             <Heading type={3}>

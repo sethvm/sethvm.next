@@ -621,8 +621,8 @@ const Loblaw = () => (
             </IndentInner>
             <Paragraph>
                 The “form follows function” principle is easily extended into any form of design.
-                Every creation or change throughout the project - from palette changes to reformed
-                interactions - was driven by an intended function or goal, ensuring that every
+                Every creation or change throughout the project—from palette changes to reformed
+                interactions—was driven by an intended function or goal, ensuring that every
                 decision made was informed.
             </Paragraph>
             <IndentInner>

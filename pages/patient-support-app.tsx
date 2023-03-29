@@ -68,8 +68,7 @@ const Soulfx = () => (
             <Heading type={3}>Overview</Heading>
             <Paragraph>
                 Soulfx Technologies Inc is a Mississauga-based software consulting firm that focuses
-                on creating applications for clients within the healthcare industry. I worked as a
-                Software Designer within the product team during the summer of 2020, where we worked
+                on creating applications for clients within the healthcare industry. We worked
                 closely with a multinational healthcare client in executing an end-to-end design
                 project.
             </Paragraph>
@@ -86,7 +85,7 @@ const Soulfx = () => (
             <Paragraph>
                 COVID-19 has brought with it a global-scale challenge that has pushed the capacity
                 of our healthcare industries to their limits. Our client approached us with the
-                objective of moving their financial aid service online – a shift towards web-based
+                objective of moving their financial aid service online—a shift towards web-based
                 operations aimed at mitigating the risks imposed by the pandemic on
                 immunocompromised individuals.
             </Paragraph>
@@ -111,8 +110,7 @@ const Soulfx = () => (
                 Manufacturers registered under our client's service platform offer their own
                 collection of financial assistance and/or therapy program plans, which provide
                 prescription certificates. These certificates in turn can be redeemed by patients
-                for reimbursements upon purchasing select drugs. Program plans can be restricted to
-                certain provinces or offered Canada-wide.
+                for reimbursements upon purchasing select drugs.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -125,7 +123,7 @@ const Soulfx = () => (
         <Section>
             <Heading type={3}>Jobs-to-Be-Done</Heading>
             <Paragraph>
-                We designed our client's application from the ground up – however, we worked with a
+                We designed our client's application from the ground up—however, we worked with a
                 service that was already in operation. Thus, we conducted generative research with
                 the intention of identifying our user groups and what outcomes each group wants to
                 achieve by interacting with our platform.
@@ -152,9 +150,9 @@ const Soulfx = () => (
             <Heading type={3}>The Reimbursement Lifecycle</Heading>
             <Paragraph>
                 We sought to get an in-depth look at how the support platform itself works and how
-                our users interact with it. To visualize our user journeys, I created a lifecycle
-                diagram to document the steps taken from onboarding a new manufacturer to
-                distributing the manufacturer's program cards to patients.
+                our users interact with it. I created a lifecycle diagram to document the steps
+                taken from onboarding a new manufacturer to distributing the manufacturer's program
+                cards to patients.
             </Paragraph>
         </Section>
 
@@ -225,9 +223,7 @@ const Soulfx = () => (
             <Paragraph>
                 Our designed solution is an application consisting of two components: a record
                 management dashboard for our caseworkers and a small public-facing portal for our
-                patients to retrieve program cards through. We ensured during prototyping that all
-                tasks defined by the end-to-end reimbursement journey were facilitated by each
-                component for its respective user group.
+                patients to retrieve program cards through.
             </Paragraph>
         </Section>
 
@@ -289,9 +285,7 @@ const Soulfx = () => (
         <Section>
             <Heading type={3}>Key Interactions</Heading>
             <Paragraph>
-                We validated our record dashboard design by placing caseworkers in scenarios that
-                mirror tasks they might encounter during their day-to-day work. Through the design,
-                we wanted caseworkers to be able to efficiently add, delete, and edit records
+                We wanted caseworkers to be able to efficiently add, delete, and edit records
                 pertaining to any manufacturer, program, certificate, and drug. Additionally, they
                 must be able to make changes to the provincial or national availability of any given
                 program.
@@ -328,8 +322,7 @@ const Soulfx = () => (
                     Manufacturers frequently make changes to the programs and certificates they
                     offer, and will occasionally switch between servicing at the provincial and
                     national levels. Activation switches serve as visual indicators that display the
-                    status of company, program, and certificate records. They are placed at the top
-                    of each record detail screen.
+                    status of company, program, and certificate records.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
