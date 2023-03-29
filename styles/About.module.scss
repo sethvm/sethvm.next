@@ -14,21 +14,6 @@
     margin-bottom: 0.2em;
 }
 
-@mixin subheading-font-size {
-    font-size: 1.5em;
-}
-
 .subHeading {
-    @include subheading-font-size;
-}
-
-.contactPromptList {
-    list-style: none;
-    padding-left: 1.5em;
-}
-
-.contactPrompt {
-    @include heading-font;
-    @include subheading-font-size;
-    font-family: styles.$font-bold;
+    font-size: 1.75em;
 }
