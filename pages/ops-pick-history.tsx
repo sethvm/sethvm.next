@@ -62,8 +62,8 @@ const Loblaw = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Loblaw's mission is succinctly signified by their slogan — to help Canadians
-                    “Live Life Well”.
+                    Loblaw's mission is succinctly signified by their slogan—to help Canadians “Live
+                    Life Well”.
                 </Strong>
             </IndentInner>
         </Section>
@@ -72,9 +72,9 @@ const Loblaw = () => (
             <Heading type={3}>Context</Heading>
             <Paragraph>
                 With COVID-19 driving demand for online grocery services through the roof, Loblaw
-                looked to enhance the extensibility of their internal operation tools — an Ops
-                Portal initiative served a critical role in fulfilling this objective by driving a
-                complete in-house rebuild of its grocery platform's components.
+                looked to enhance the extensibility of their internal operation tools—an Ops Portal
+                initiative served a critical role in fulfilling this objective by driving a complete
+                in-house rebuild of its grocery platform's components.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -87,8 +87,8 @@ const Loblaw = () => (
         <Section>
             <Heading type={3}>The Previous Module</Heading>
             <Paragraph>
-                Transaction logs — collectively referred to as <abbr>TRX</abbr> — were key elements
-                of the previous operations platform. They recorded every task performed by store
+                Transaction logs—collectively referred to as <abbr>TRX</abbr>—were key elements of
+                the previous operations platform. They recorded every task performed by store
                 colleagues (also known as <abbr>PCX</abbr> specialists) throughout the preparation
                 process of a customer order.
             </Paragraph>
@@ -409,8 +409,8 @@ const Loblaw = () => (
             <IndentInner>
                 <Strong>
                     I focused on addressing aspects of our new layout that did not align with our
-                    users' mental model — store colleagues cared not only about a given item's
-                    current status, but also how it got there.
+                    users' mental model—store colleagues cared not only about a given item's current
+                    status, but also how it got there.
                 </Strong>
             </IndentInner>
         </Section>
@@ -444,7 +444,7 @@ const Loblaw = () => (
             <Heading type={3}>New Visual Elements</Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and
-                colour — domains untouched by <abbr>TRX</abbr> nor the Pick History module's design
+                colour—domains untouched by <abbr>TRX</abbr> nor the Pick History module's design
                 prior to testing.
             </Paragraph>
             <IndentInner>
@@ -514,8 +514,8 @@ const Loblaw = () => (
                     If it Fitts's, it Ships
                 </Heading>
                 <Paragraph>
-                    The search bar was made wider and relocated into our navigation column — closer
-                    to where other user interactions would take place.
+                    The search bar was made wider and relocated into our navigation column—closer to
+                    where other user interactions would take place.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -607,7 +607,7 @@ const Loblaw = () => (
                 </Heading>
             </IndentInner>
             <Paragraph>
-                Colleagues refer to an Order Details page to check ordered item quantities — a key
+                Colleagues refer to an Order Details page to check ordered item quantities—a key
                 piece of information missing from the Pick History module. I would study the
                 feasibility of consolidating the data provided across both components to create a
                 unified investigation tool.
@@ -643,9 +643,9 @@ const Loblaw = () => (
                 Taking ownership of the Pick History design process instilled me with confidence in
                 my ability to navigate ambiguity and taught me about the importance of seeking
                 context to solving a problem. <abbr>TRX</abbr> presented a simple-looking interface
-                that belied a complex layer of information — an understanding of <abbr>PCX</abbr> as
-                a business was fundamental to identifying challenges and opportunities associated
-                with its role in fulfillment operations.
+                that belied a complex layer of information—an understanding of <abbr>PCX</abbr> as a
+                business was fundamental to identifying challenges and opportunities associated with
+                its role in fulfillment operations.
             </Paragraph>
         </Section>
     </>
