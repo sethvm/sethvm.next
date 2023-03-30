@@ -31,7 +31,7 @@ const About = () => (
             <Paragraph>
                 Outside of work and school, you'll probably find me{' '}
                 <OutboundLink href='https://vsco.co/sthvm/gallery'>
-                    running around with a camera
+                    running around with a camera↗&#xFE0E;
                 </OutboundLink>
                 , amping up for a powerlifting session, or falling off a climbing wall.
             </Paragraph>
@@ -45,13 +45,16 @@ const About = () => (
             <br />
             <Paragraph>
                 Say hi on{' '}
-                <OutboundLink href='https://www.linkedin.com/in/sethvm'>LinkedIn</OutboundLink>,
-                toss over an{' '}
-                <OutboundLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
-                    email
+                <OutboundLink href='https://www.linkedin.com/in/sethvm'>
+                    LinkedIn↗&#xFE0E;
                 </OutboundLink>
-                , skim through my <OutboundLink href='/sethvm_resume.pdf'>résumé</OutboundLink>, or
-                do any combination of the three :)
+                , toss over an{' '}
+                <OutboundLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
+                    email↗&#xFE0E;
+                </OutboundLink>
+                , skim through my{' '}
+                <OutboundLink href='/sethvm_resume.pdf'>résumé↗&#xFE0E;</OutboundLink>, or do any
+                combination of the three :)
             </Paragraph>
         </Section>
     </>
