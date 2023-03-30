@@ -20,8 +20,8 @@ const About = () => (
             <Paragraph>
                 At the moment, my pursuits as a designer revolve around supporting small and
                 medium-sized businesses in overcoming their day-to-day challenges. Previous spaces
-                I've explored include open banking, grocery fulfillment, and healthcare record
-                administration.
+                I've explored include open banking, online grocery fulfillment, and healthcare
+                record administration.
             </Paragraph>
             <Paragraph>
                 I'm also a senior at the University of Waterloo, majoring in Systems Design
@@ -29,11 +29,11 @@ const About = () => (
                 communicate, interact, and connect with one another.
             </Paragraph>
             <Paragraph>
-                On the side, you'll probably find me{' '}
+                On the side, you'll probably find me amping up for a powerlifting session,{' '}
                 <OutboundLink href='https://vsco.co/sthvm/gallery'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
-                , amping up for a powerlifting session, or falling off a climbing wall.
+                , or falling off a climbing wall.
             </Paragraph>
             <Paragraph>
                 Occasionally, I jump out of flying aircraft—with a parachute strapped to my back, of
