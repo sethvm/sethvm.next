@@ -52,8 +52,8 @@ const Intuit = () => (
             <Heading type={3}>Context</Heading>
             <Paragraph>
                 On top of serving as an all-in-one bookkeeping package, QuickBooks streamlines
-                invoicing for small and medium businesses (<abbr>SMB</abbr>s) through monitoring
-                cash flow and offering a wide range of payment solutions to customers.
+                invoicing for small and medium-sized businesses (<abbr>SMB</abbr>s) through
+                monitoring cash flow and offering a wide range of payment solutions to customers.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -63,7 +63,7 @@ const Intuit = () => (
             </IndentInner>
         </Section>
 
-        <Section>
+        <Section ends>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
                 Analytics displayed subpar conversion rates for payment automation (Autopay), which
