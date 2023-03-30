@@ -29,7 +29,7 @@ const About = () => (
                 communicate, interact, and connect with one another.
             </Paragraph>
             <Paragraph>
-                Outside of work and school, you'll probably find me{' '}
+                On the side, you'll probably find me{' '}
                 <OutboundLink href='https://vsco.co/sthvm/gallery'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
