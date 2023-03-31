@@ -14,7 +14,7 @@ const About = () => (
             <Paragraph>
                 My interest lies in exploring how technology can be leveraged to help people live
                 their best lives and put forth their best work. I'm drawn to design by its
-                interdisciplinary nature—it's a field that demands constant triangulation between
+                interdisciplinary nature—it's a field that demands careful triangulation between
                 engineering, art, and business.
             </Paragraph>
             <Paragraph>
