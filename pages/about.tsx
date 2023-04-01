@@ -18,7 +18,7 @@ const About = () => (
                 engineering, art, and business.
             </Paragraph>
             <Paragraph>
-                At the moment, my pursuits as a designer revolve around supporting small and
+                At the moment, my endeavours as a designer revolve around supporting small and
                 medium-sized businesses in overcoming their day-to-day challenges. Previous spaces
                 I've explored include open banking, online grocery fulfillment, and healthcare
                 record administration.
