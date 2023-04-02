@@ -1,5 +1,7 @@
 import Head from '../src/components/SEO';
 import aboutPageStyle from '../styles/About.module.scss';
+// analytics
+import ReactGA4 from 'react-ga4';
 // layout
 import Section from '../src/components/Content/Section';
 // typography
@@ -30,7 +32,7 @@ const About = () => (
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session,{' '}
-                <OutboundLink href='https://vsco.co/sthvm/gallery'>
+                <OutboundLink href='https://vsco.co/sthvm/gallery' label='vsco'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
                 , or falling off a climbing wall.
@@ -45,16 +47,21 @@ const About = () => (
             <br />
             <Paragraph>
                 Say hi on{' '}
-                <OutboundLink href='https://www.linkedin.com/in/sethvm'>
+                <OutboundLink href='https://www.linkedin.com/in/sethvm' label='linkedin'>
                     LinkedIn↗&#xFE0E;
                 </OutboundLink>
                 , toss over an{' '}
-                <OutboundLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
+                <OutboundLink
+                    href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'
+                    label='email'
+                >
                     email↗&#xFE0E;
                 </OutboundLink>
                 , skim through my{' '}
-                <OutboundLink href='/sethvm_resume.pdf'>résumé↗&#xFE0E;</OutboundLink>, or do any
-                combination of the three :)
+                <OutboundLink href='/sethvm_resume.pdf' label='résumé'>
+                    résumé↗&#xFE0E;
+                </OutboundLink>
+                , or do any combination of the three :)
             </Paragraph>
         </Section>
     </>
@@ -62,11 +69,23 @@ const About = () => (
 
 interface OutboundLinkProps {
     href: string;
+    label?: string;
     children: string;
 }
 
-const OutboundLink = ({ href, children }: OutboundLinkProps) => (
-    <a rel='noopener noreferrer' href={href} target='_blank'>
+const OutboundLink = ({ href, label, children }: OutboundLinkProps) => (
+    <a
+        rel='noopener noreferrer'
+        href={href}
+        target='_blank'
+        onClick={() => {
+            ReactGA4.event({
+                category: 'about page link',
+                action: 'click',
+                label: label,
+            });
+        }}
+    >
         <span className='activeLink inBodyLink'>{children}</span>
     </a>
 );
