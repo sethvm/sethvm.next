@@ -5,7 +5,7 @@
 @use 'styles/styles';
 
 @mixin heading-font {
-    font-family: styles.$font-heavy;
+    font-family: styles.$font-bold;
 }
 
 .heading {
