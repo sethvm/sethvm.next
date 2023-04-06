@@ -16,7 +16,7 @@ const Error = () => (
             </Heading>
             <Heading type={3}>
                 <br />
-                <span>No sweat -&nbsp;</span>
+                <span>No sweat—</span>
                 <Link href='/' passHref legacyBehavior>
                     <a className='activeLink bold'>head over to the home page →&#xFE0E;</a>
                 </Link>
