@@ -637,7 +637,7 @@ const Loblaw = () => (
                 of a store.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Ambiguity is to be embraced, not feared</Heading>
+                <Heading type={4}>Ambiguity is to be embraced</Heading>
             </IndentInner>
             <Paragraph>
                 Taking ownership of the Pick History design process instilled me with confidence in
