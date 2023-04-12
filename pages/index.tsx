@@ -27,9 +27,17 @@ const Home = () => (
                     experiences that help <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
-                    Most recently worked on <span className='bold'>Intuit QuickBooks</span>.
-                    Previously at <span className='bold'>Interac Corp</span> and{' '}
-                    <span className='bold'>Loblaw Digital</span>.
+                    Currently designing for small businesses at{' '}
+                    <Link href='https://www.evercommerce.com/' legacyBehavior>
+                        <a
+                            className='activeLink inBodyLink'
+                            rel='noopener noreferrer'
+                            target='_blank'
+                        >
+                            EverCommerce↗&#xFE0E;
+                        </a>
+                    </Link>
+                    .
                     <br />
                     <br />
                 </Paragraph>
