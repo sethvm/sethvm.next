@@ -20,26 +20,23 @@ const About = () => (
                 engineering, art, and business.
             </Paragraph>
             <Paragraph>
-                At the moment, my endeavours as a designer revolve around supporting small and
-                medium-sized businesses in overcoming their day-to-day challenges. Previous spaces
-                I've explored include open banking, online grocery fulfillment, and healthcare
-                record administration.
+                At the moment, my endeavours revolve around supporting small businesses in
+                overcoming their day-to-day challenges. Previous spaces I've explored include open
+                banking, online grocery fulfillment, and healthcare record administration.
             </Paragraph>
             <Paragraph>
-                I'm also a senior at the University of Waterloo, majoring in Systems Design
-                Engineering. The final year of my undergrad focuses on learning about how humans
-                communicate, interact, and connect with one another.
+                I'm also finishing up my bachelor's degree in Systems Design Engineering at the
+                University of Waterloo. My studies focused on the application of human-centred
+                design on the interconnections between computer, socio-economic, and physical
+                systems.
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session,{' '}
                 <OutboundLink href='https://vsco.co/sthvm/gallery' label='vsco'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
-                , or falling off a climbing wall.
-            </Paragraph>
-            <Paragraph>
-                Occasionally, I jump out of flying aircraft—with a parachute strapped to my back, of
-                course.
+                , or falling off a climbing wall. Occasionally, I jump out of flying aircraft—with a
+                parachute strapped to my back, of course.
             </Paragraph>
             <br />
             <br />
