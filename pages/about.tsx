@@ -27,8 +27,8 @@ const About = () => (
             <Paragraph>
                 I'm also finishing up my bachelor's degree in Systems Design Engineering at the
                 University of Waterloo. My studies focused on the application of human-centred
-                design on the interconnections between computer, socio-economic, and physical
-                systems.
+                design on the interactions between computer, socio-economic, and physical systems
+                that connect us to one another.
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session,{' '}
