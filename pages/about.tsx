@@ -20,9 +20,9 @@ const About = () => (
                 engineering, art, and business.
             </Paragraph>
             <Paragraph>
-                At the moment, my endeavours revolve around supporting small businesses in
-                overcoming their day-to-day challenges. Previous spaces I've explored include open
-                banking, online grocery fulfillment, and healthcare record administration.
+                At the moment, my endeavours revolve around supporting business owners in overcoming
+                their day-to-day challenges. Previous spaces I've explored include open banking,
+                online grocery fulfillment, and healthcare record administration.
             </Paragraph>
             <Paragraph>
                 I'm also finishing up my bachelor's degree in Systems Design Engineering at the
