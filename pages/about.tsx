@@ -23,17 +23,17 @@ const About = () => (
                 online grocery fulfillment, and healthcare record administration.
             </Paragraph>
             <Paragraph>
-                I'm also finishing up my bachelor's degree in Systems Design Engineering at the
-                University of Waterloo. My studies focused on the application of human-centred
-                design on the interactions between computer, socio-economic, and physical systems
-                that connect us to one another.
+                I also hold a bachelor's degree in Systems Design Engineering from the University of
+                Waterloo. My studies focused on the application of human-centred design on the
+                interactions between computer, socio-economic, and physical systems that connect us
+                to one another.
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session,{' '}
                 <OutboundLink href='https://vsco.co/sthvm/gallery'>
-                    running around with a camera↗&#xFE0E;
+                    walking around with a camera↗&#xFE0E;
                 </OutboundLink>
-                , or falling off a climbing wall. Occasionally, I jump out of flying aircraft—with a
+                , or falling off a boulder. Occasionally, I jump out of flying aircraft—with a
                 parachute strapped to my back, of course.
             </Paragraph>
             <br />
