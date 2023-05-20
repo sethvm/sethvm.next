@@ -34,7 +34,7 @@ const SEO = ({ title, description, image, url, noCrawl }: Props) => (
 SEO.defaultProps = {
     title: 'Seth Morenos',
     description:
-        "I'm Seth, a product designer with a passion for building experiences that help move the world forward. Currently pursuing a bachelor's degree in Systems Design Engineering at the University of Waterloo.",
+        "I'm Seth, a product designer with a passion for building experiences that help move the world forward. Currently working to empower independent business owners.",
     image: '/preview.png',
     url: null,
 };

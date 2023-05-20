@@ -4,8 +4,7 @@ import { useRouter } from 'next/router';
 import ReactGA4 from 'react-ga4';
 
 const Analytics = () => {
-    //tracker ids and router path
-    const uaTrackerID = 'UA-152533938-2';
+    // initialize tracker id and router path
     const ga4TrackerID = 'G-L5EQBK0RT0';
     const location = useRouter();
 
