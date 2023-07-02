@@ -23,12 +23,6 @@ const About = () => (
                 online grocery fulfillment, and healthcare record administration.
             </Paragraph>
             <Paragraph>
-                I also hold a bachelor's degree in Systems Design Engineering from the University of
-                Waterloo. My studies focused on the application of human-centred design on the
-                interactions between computer, socio-economic, and physical systems that connect us
-                to one another.
-            </Paragraph>
-            <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session,{' '}
                 <OutboundLink href='https://vsco.co/sthvm/gallery'>
                     walking around with a camera↗&#xFE0E;
