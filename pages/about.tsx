@@ -24,7 +24,7 @@ const About = () => (
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session,{' '}
-                <OutboundLink href='https://vsco.co/sthvm/gallery'>
+                <OutboundLink href='https://sethvm.studio/'>
                     walking around with a camera↗&#xFE0E;
                 </OutboundLink>
                 , or falling off a boulder. Occasionally, I jump out of flying aircraft—with a
