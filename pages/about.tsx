@@ -27,8 +27,8 @@ const About = () => (
                 <OutboundLink href='https://sethvm.studio/'>
                     walking around with a camera↗&#xFE0E;
                 </OutboundLink>
-                Occasionally, I jump out of flying aircraft—with a parachute strapped to my back, of
-                course.
+                . Occasionally, I jump out of flying aircraft—with a parachute strapped to my back,
+                of course.
             </Paragraph>
             <br />
             <br />
