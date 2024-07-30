@@ -18,17 +18,17 @@ const About = () => (
                 engineering, art, and business.
             </Paragraph>
             <Paragraph>
-                At the moment, my endeavours revolve around supporting business owners in overcoming
-                their day-to-day challenges. Previous spaces I've explored include open banking,
-                online grocery fulfillment, and healthcare record administration.
+                At the moment, my endeavours revolve around helping business owners conquer their
+                day-to-day challenges. Previous spaces I've explored include open banking, online
+                grocery fulfillment, and healthcare record administration.
             </Paragraph>
             <Paragraph>
-                On the side, you'll probably find me amping up for a powerlifting session,{' '}
+                On the side, you'll probably find me amping up for a powerlifting session or{' '}
                 <OutboundLink href='https://sethvm.studio/'>
                     walking around with a camera↗&#xFE0E;
                 </OutboundLink>
-                , or falling off a boulder. Occasionally, I jump out of flying aircraft—with a
-                parachute strapped to my back, of course.
+                Occasionally, I jump out of flying aircraft—with a parachute strapped to my back, of
+                course.
             </Paragraph>
             <br />
             <br />
