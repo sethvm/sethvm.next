@@ -14,16 +14,16 @@ import Banner from '../src/components/Content/Banner';
 const Intuit = () => (
     <>
         <Head
-            title='QuickBooks Payment Portal'
-            description='Enhancing the discoverability of automation features for online invoice checkouts.'
-            url='https://sethvm.com/qb-payment-portal'
+            title='Checkout Portal'
+            description='Enhancing the discoverability of automation features for online invoice payments.'
+            url='https://sethvm.com/qb-checkout-portal'
         />
         <Section ends>
-            <Heading type={2}>QuickBooks Payment Portal</Heading>
-            <SubHeading>Intuit</SubHeading>
+            <Heading type={2}>Checkout Portal</Heading>
+            <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
                 <br />
-                QuickBooks' online payment portal facilitates transactions between customers and
+                QuickBooks' online checkout portal facilitates transactions between customers and
                 merchants. Moving over $300 million USD every day, it is a crucial component of
                 Intuit's technology platform.
             </Paragraph>
@@ -39,10 +39,6 @@ const Intuit = () => (
             <Paragraph>
                 <span className='bold'>Duration:</span>
                 &nbsp;4 weeks
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Status:</span>
-                &nbsp;Shipped {'\u{1F6A2}'}
             </Paragraph>
         </Section>
 
@@ -67,7 +63,7 @@ const Intuit = () => (
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
                 Analytics displayed subpar conversion rates for payment automation (Autopay), which
-                might indicate poor discoverability or low receptiveness from users. The payment
+                might indicate poor discoverability or low receptiveness from users. The checkout
                 portal's interface will also need to facilitate the introduction of two new
                 transaction channels for invoice checkouts.
             </Paragraph>
@@ -80,40 +76,14 @@ const Intuit = () => (
             <Paragraph>
                 Due to an <abbr>NDA</abbr>, I can't go through an in-depth discussion of this
                 initiative at the moment. If you'd like to learn more, please don't hesitate to{' '}
-                <Link href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca' legacyBehavior>
+                <Link href='mailto:sethvm64@gmail.com' legacyBehavior>
                     <a className='activeLink inBodyLink'>get in touch↗&#xFE0E;</a>
                 </Link>
                 .
             </Paragraph>
         </Section>
 
-        {/*
-        <Section ends>
-            <Heading type={3}>Next Steps</Heading>
-            <br />
-            <IndentInner>
-                <Heading type={4}>Refine the Autopay modal copy</Heading>
-            </IndentInner>
-            <Paragraph>
-                While the post-confirmation modal dialogue enables us to introduce Autopay with a
-                larger amount of content, minimizing the amount of text to read through remains a
-                crucial objective. I would work in tandem with our content designer and the
-                QuickBooks marketing team to iterate and validate these changes.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>
-                    Study the effects of reordering the transaction channel hierarchy
-                </Heading>
-            </IndentInner>
-            <Paragraph>
-                With Autopay's discoverability now being driven by the post-confirmation modal
-                dialogue, I would look into further improving learnability for new payors. It would
-                be interesting to see how moving third-party payment options to the top of the
-                channel hierarchy would affect the usage levels of their in-house counterparts.
-            </Paragraph>
-        </Section>
-*/}
-
+       
         <Section ends>
             <Heading type={3}>Reflection</Heading>
             <br />

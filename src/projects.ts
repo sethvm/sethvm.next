@@ -13,15 +13,26 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'QuickBooks Payment Portal',
-        company: 'Intuit',
+        title: 'Paywall Redesign',
+        company: 'Invoice Simple',
         description:
-            'Enhancing the discoverability of automation features for online invoice checkouts',
+            'Generated 18% lift in free-to-paid conversions',
         img: '/intuit/intuit-card.svg',
-        alt: 'Intuit QuickBooks Payment Portal',
+        alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View project →',
-        quickLinkLabel: 'Intuit',
-        url: '/qb-payment-portal',
+        quickLinkLabel: 'Paywall',
+        url: '/is-paywall-redesign',
+    },
+    {
+        title: 'Checkout Portal',
+        company: 'Intuit QuickBooks',
+        description:
+            'Enhancing the discoverability of automation features for online invoice payments',
+        img: '/intuit/intuit-card.svg',
+        alt: 'Intuit QuickBooks Checkout Portal',
+        cardLink: 'View project →',
+        quickLinkLabel: 'Checkout',
+        url: '/qb-checkout-portal',
     },
     {
         title: 'Ops Pick History',
@@ -31,10 +42,10 @@ const projects: Project[] = [
         img: '/loblaw/loblaw-card.svg',
         alt: 'Loblaw OPS Pick History',
         cardLink: 'View case study →',
-        quickLinkLabel: 'Loblaw',
+        quickLinkLabel: 'History',
         url: '/ops-pick-history',
     },
-    {
+    /*{
         title: 'Patient Support App',
         company: 'Soulfx Technologies Inc',
         description: "Facilitating the remote operation of a client's patient support service",
@@ -43,7 +54,7 @@ const projects: Project[] = [
         cardLink: 'View case study →',
         quickLinkLabel: 'Soulfx',
         url: '/patient-support-app',
-    },
+    },*/
 ];
 
 export default projects;
