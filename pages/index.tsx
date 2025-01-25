@@ -27,7 +27,7 @@ const Home = () => (
                     experiences that help <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
-                    Currently designing for small businesses at{' '}
+                    Currently working on invoicing experiences for small businesses at{' '}
                     <Link href='https://www.evercommerce.com/' legacyBehavior>
                         <a
                             className='activeLink inBodyLink'
