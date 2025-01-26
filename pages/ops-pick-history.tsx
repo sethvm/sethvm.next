@@ -14,7 +14,7 @@ import SubHeading from '../src/components/Typography/SubHeading';
 import Paragraph from '../src/components/Typography/Paragraph';
 import Strong from '../src/components/Typography/Strong';
 
-const Loblaw = () => (
+const History = () => (
     <>
         <Head
             title='Ops Pick History'
@@ -36,17 +36,16 @@ const Loblaw = () => (
                 &nbsp;Lead product designer
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Teammates:</span>
-                &nbsp;1 product designer, 5 developers, 1 technical product manager, and 1 product
-                owner
+                <span className='bold'>Platform:</span>
+                &nbsp;Desktop Web
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Duration:</span>
-                &nbsp;10 weeks
+                <span className='bold'>Launched:</span>
+                &nbsp;May 2021
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Status:</span>
-                &nbsp;Launched {'\u{1F680}'}
+                <span className='bold'>Result:</span>
+                &nbsp;Validation of over 10K orders per week across 13 grocery store chains
             </Paragraph>
         </Section>
 
@@ -54,22 +53,6 @@ const Loblaw = () => (
 
         <Section ends>
             <Heading type={3}>Overview</Heading>
-            <Paragraph>
-                Loblaw Digital is an innovation-oriented subsidiary of Loblaw Companies Limited,
-                Canada's largest grocery retailer. The Digital division focuses on the delivery of
-                future-facing experiences for banners operating across grocery, pharmacy, and
-                fashion.
-            </Paragraph>
-            <IndentInner>
-                <Strong>
-                    Loblaw's mission is succinctly signified by their slogan—to help Canadians “Live
-                    Life Well”.
-                </Strong>
-            </IndentInner>
-        </Section>
-
-        <Section ends>
-            <Heading type={3}>Context</Heading>
             <Paragraph>
                 With COVID-19 driving demand for online grocery services through the roof, Loblaw
                 looked to enhance the extensibility of their internal operation tools—an Ops Portal
@@ -82,6 +65,11 @@ const Loblaw = () => (
                     transaction log module.
                 </Strong>
             </IndentInner>
+            <Paragraph>
+                Working with 1 product designer, 2 product managers and 5 engineers, I led the
+                zero-to-one design of the Pick History module, from discovery, to validation to
+                iteration.
+            </Paragraph>
         </Section>
 
         <Section>
@@ -651,4 +639,4 @@ const Loblaw = () => (
     </>
 );
 
-export default Loblaw;
+export default History;

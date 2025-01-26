@@ -15,8 +15,7 @@ const projects: Project[] = [
     {
         title: 'Paywall Redesign',
         company: 'Invoice Simple',
-        description:
-            'Generated 18% lift in free-to-paid conversions',
+        description: 'Generated 18% lift in subscription conversions',
         img: '/intuit/intuit-card.svg',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View project →',
@@ -45,16 +44,6 @@ const projects: Project[] = [
         quickLinkLabel: 'History',
         url: '/ops-pick-history',
     },
-    /*{
-        title: 'Patient Support App',
-        company: 'Soulfx Technologies Inc',
-        description: "Facilitating the remote operation of a client's patient support service",
-        img: '/soulfx/soulfx-card.svg',
-        alt: 'Soulfx Patient Support App',
-        cardLink: 'View case study →',
-        quickLinkLabel: 'Soulfx',
-        url: '/patient-support-app',
-    },*/
 ];
 
 export default projects;
