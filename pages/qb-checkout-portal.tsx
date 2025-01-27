@@ -15,7 +15,7 @@ const Checkout = () => (
     <>
         <Head
             title='Checkout Portal'
-            description='Enhancing the discoverability of automation features for online invoice payments.'
+            description="Enhancing scalability and discoverability of Intuit QuickBooks' checkout transaction channels and features."
             url='https://sethvm.com/qb-checkout-portal'
         />
         <Section ends>
@@ -70,10 +70,10 @@ const Checkout = () => (
         <Section ends>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Analytics displayed subpar conversion rates for payment automation (Autopay), which
-                might indicate poor discoverability or low receptiveness from users. The checkout
-                portal's interface will also need to facilitate the introduction of two new
-                transaction channels for invoice checkouts.
+                Intuit's 2022 business objectives included introducing new payment options and
+                increasing engagement of existing automation features. This entailed revisiting how
+                interface components within the checkout portal were organized as well as leveraging
+                analytics to uncover challenges with discoverability.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -82,8 +82,8 @@ const Checkout = () => (
                 </Strong>
             </IndentInner>
             <Paragraph>
-                Due to an <abbr>NDA</abbr>, I can't go through an in-depth discussion of this
-                initiative at the moment. If you'd like to learn more, please don't hesitate to{' '}
+                Due to a non-disclosure agreement (<abbr>NDA</abbr>), I can't go through an in-depth
+                discussion of this initiative here. If you'd like to learn more, don't hesitate to{' '}
                 <Link href='mailto:sethvm64@gmail.com' legacyBehavior>
                     <a className='activeLink inBodyLink'>get in touch↗&#xFE0E;</a>
                 </Link>
@@ -111,8 +111,8 @@ const Checkout = () => (
             <Paragraph>
                 Another implication of continuous refinement is the unfamiliarity of new features to
                 even the most seasoned users. In the context of the QuickBooks checkout journey,
-                there was a compromise to be made between preserving the simplicity of the checkout
-                workflow and surfacing important information about what payment automation entails.
+                there was a compromise to be made between preserving workflow simplicity and
+                surfacing important information about what payment automation entails.
             </Paragraph>
         </Section>
     </>

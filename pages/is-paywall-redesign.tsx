@@ -12,7 +12,7 @@ const Paywall = () => (
     <>
         <Head
             title='Paywall Redesign'
-            description='Generated 18% lift in subscription conversions'
+            description='Generated 18% lift in subscription conversion rate'
             url='https://sethvm.com/is-paywall-redesign'
         />
         <Section ends>

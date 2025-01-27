@@ -15,7 +15,7 @@ const projects: Project[] = [
     {
         title: 'Paywall Redesign',
         company: 'Invoice Simple',
-        description: 'Generated 18% lift in subscription conversions',
+        description: 'Generated 18% lift in subscription conversion rate',
         img: '/intuit/intuit-card.svg',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View project →',
@@ -25,8 +25,7 @@ const projects: Project[] = [
     {
         title: 'Checkout Portal',
         company: 'Intuit QuickBooks',
-        description:
-            'Enhancing the discoverability of automation features for online invoice payments',
+        description: 'Enhanced scalability and discoverability for online invoice checkouts',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Checkout Portal',
         cardLink: 'View project →',
@@ -36,8 +35,7 @@ const projects: Project[] = [
     {
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
-        description:
-            "Crafting a streamlined order validation experience for Canada's largest grocery retailer",
+        description: 'Streamlined an order validation experience for 13 grocery store chains',
         img: '/loblaw/loblaw-card.svg',
         alt: 'Loblaw OPS Pick History',
         cardLink: 'View case study →',
