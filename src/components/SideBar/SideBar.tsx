@@ -12,7 +12,7 @@ const sideBarItems = [
         label: 'linkedin',
     },
     {
-        href: 'mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca',
+        href: 'mailto:sethvm64@gmail.com',
         img: '/contact-logo.svg',
         alt: 'sethvm64@gmail.com',
         label: 'email',
