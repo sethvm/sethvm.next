@@ -15,7 +15,7 @@ const projects: Project[] = [
     {
         title: 'Paywall Redesign',
         company: 'Invoice Simple',
-        description: 'Generated 18% lift in subscription conversion rate',
+        description: 'Generated 18% lift in purchase conversion rate',
         img: '/intuit/intuit-card.svg',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View project →',
