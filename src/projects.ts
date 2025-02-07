@@ -35,7 +35,7 @@ const projects: Project[] = [
     {
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
-        description: 'Streamlined an order validation experience for 13 grocery store chains',
+        description: 'Streamlined order validation experience for 13 grocery store chains',
         img: '/loblaw/loblaw-card.svg',
         alt: 'Loblaw OPS Pick History',
         cardLink: 'View case study →',

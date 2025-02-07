@@ -67,14 +67,14 @@ const Paywall = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    We hypothesized that reorganizing and reducing content within the paywall would
-                    make free users more likely to purchase a subscription.
+                    We hypothesized that reorganizing content and reducing noise in the paywall
+                    would better encourage free tier users to purchase a subscription.
                 </Strong>
             </IndentInner>
         </Section>
 
         <Section ends>
-            <Heading type={3}>Designed Solution</Heading>
+            <Heading type={3}>Design Solution</Heading>
             <Paragraph>
                 Most users encounter the paywall after becoming acquainted with using Invoice
                 Simple. For each of the three subscription plans we offer, we emphasized
