@@ -27,12 +27,12 @@ const About = () => (
                 <OutboundLink href='https://sethvm.studio/'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
-                . Occasionally, I jump out of flying aircraft—with a parachute strapped to my back,
-                of course.
+                . My photography work explores visual imagery incorporating themes of geometry,
+                motion and scale.
             </Paragraph>
             <br />
             <br />
-            <h3 className={aboutPageStyle.subHeading}>Keen to collab? Let's connect!</h3>
+            <h3 className={aboutPageStyle.subHeading}>Keen to chat or collab? Let's connect!</h3>
             <br />
             <Paragraph>
                 Say hi on{' '}

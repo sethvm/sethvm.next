@@ -47,28 +47,30 @@ const Paywall = () => (
             <Heading type={3}>Overview</Heading>
             <IndentInner>
                 <Strong>
-                    Invoice Simple aims to provide small business owners a simple way to invoice
-                    customers from anywhere.
+                    Invoice Simple aims to be the most convenient invoicing solution for small
+                    business owners.
                 </Strong>
             </IndentInner>
             <Paragraph>
-                In collaboration with a product manager and an engineer, I redesigned the paywall to
-                streamline our buyer experience and in turn increase subscription revenue.
+                In collaboration with a product manager, a product designer, five engineers and a
+                marketing manager, I redesigned the Invoice Simple paywall to streamline our buyer
+                experience.
             </Paragraph>
         </Section>
 
         <Section ends>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Invoice Simple's 2024 business objectives included an optimization of our new user
-                journey. A funnel study identified a “paywall to purchase” drop-off as a key area of
-                opportunity, in which a low percentage of users who land on the paywall onboard onto
-                a subscription plan.
+                Invoice Simple's 2024 business objectives included optimizing the new user journey
+                and increasing subscription revenue. A funnel study identified a “paywall to
+                purchase” drop-off as a key area of opportunity, in which a low percentage of users
+                who land on the paywall onboard onto a subscription plan.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    We hypothesized that reorganizing content and reducing noise in the paywall
-                    would better encourage free tier users to purchase a subscription.
+                    We hypothesized that reimagining content hierarchy, reducing noise and making
+                    packaging information more easily consumable are key to driving paywall
+                    conversion.
                 </Strong>
             </IndentInner>
         </Section>
