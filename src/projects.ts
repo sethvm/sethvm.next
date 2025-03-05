@@ -45,11 +45,10 @@ const projects: Project[] = [
     {
         title: 'Patient Support App',
         company: 'Soulfx Technologies Inc',
-        description: "Facilitated the remote operation of patient support service",
+        description: "Facilitated remote operation of patient support service during COVID-19 pandemic",
         img: '/soulfx/soulfx-card.svg',
         alt: 'Soulfx Patient Support App',
         cardLink: 'View case study →',
-        quickLinkLabel: 'Soulfx',
         url: '/patient-support-app',
     },
 ];
