@@ -3,6 +3,7 @@ import Head from '../src/components/SEO';
 import Section from '../src/components/Content/Section';
 import IndentInner from '../src/components/Content/IndentInner';
 import List from '../src/components/Content/List';
+import Banner from '../src/components/Content/Banner';
 // typography
 import Heading from '../src/components/Typography/Heading';
 import SubHeading from '../src/components/Typography/SubHeading';
@@ -42,6 +43,8 @@ const Paywall = () => (
                 &nbsp;18% lift in signup-to-paid conversion
             </Paragraph>
         </Section>
+
+        <Banner img='/is/is_banner.svg' alt='Screenshots of the final mobile subscription paywall' />
 
         <Section ends>
             <Heading type={3}>Overview</Heading>

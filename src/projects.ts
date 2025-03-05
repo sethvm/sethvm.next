@@ -16,7 +16,7 @@ const projects: Project[] = [
         title: 'Paywall Redesign',
         company: 'Invoice Simple',
         description: 'Generated 18% lift in purchase conversion rate',
-        img: '/intuit/intuit-card.svg',
+        img: '/is/is_card.svg',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View project →',
         quickLinkLabel: 'Paywall',
@@ -41,6 +41,16 @@ const projects: Project[] = [
         cardLink: 'View case study →',
         quickLinkLabel: 'History',
         url: '/ops-pick-history',
+    },
+    {
+        title: 'Patient Support App',
+        company: 'Soulfx Technologies Inc',
+        description: "Facilitated the remote operation of patient support service",
+        img: '/soulfx/soulfx-card.svg',
+        alt: 'Soulfx Patient Support App',
+        cardLink: 'View case study →',
+        quickLinkLabel: 'Soulfx',
+        url: '/patient-support-app',
     },
 ];
 
