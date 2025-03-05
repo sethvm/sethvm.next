@@ -42,6 +42,7 @@ const projects: Project[] = [
         quickLinkLabel: 'History',
         url: '/ops-pick-history',
     },
+    /*
     {
         title: 'Patient Support App',
         company: 'Soulfx Technologies Inc',
@@ -50,7 +51,7 @@ const projects: Project[] = [
         alt: 'Soulfx Patient Support App',
         cardLink: 'View case study →',
         url: '/patient-support-app',
-    },
+    },*/
 ];
 
 export default projects;

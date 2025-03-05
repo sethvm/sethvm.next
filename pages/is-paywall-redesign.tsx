@@ -1,9 +1,11 @@
 import Head from '../src/components/SEO';
 // layout
 import Section from '../src/components/Content/Section';
+import SectionInner from '../src/components/Content/SectionInner';
 import IndentInner from '../src/components/Content/IndentInner';
 import List from '../src/components/Content/List';
 import Banner from '../src/components/Content/Banner';
+import FrostedGlass from '../src/components/Content/FrostedGlass';
 // typography
 import Heading from '../src/components/Typography/Heading';
 import SubHeading from '../src/components/Typography/SubHeading';
@@ -22,8 +24,8 @@ const Paywall = () => (
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 <br />
-                Subscription paywalls serve a key role in building trust with software as a service
-                (<abbr>SaaS</abbr>) buyers by outlining crucial information such as feature
+                Subscription paywalls serve a key role in establishing trust with software as a
+                service (<abbr>SaaS</abbr>) buyers by outlining crucial information such as feature
                 packages, pricing and promotions.
             </Paragraph>
             <Paragraph>
@@ -44,7 +46,10 @@ const Paywall = () => (
             </Paragraph>
         </Section>
 
-        <Banner img='/is/is_banner.svg' alt='Screenshots of the final mobile subscription paywall' />
+        <Banner
+            img='/is/is_banner.svg'
+            alt='Screenshots of the final mobile subscription paywall'
+        />
 
         <Section ends>
             <Heading type={3}>Overview</Heading>
@@ -66,8 +71,8 @@ const Paywall = () => (
             <Paragraph>
                 Invoice Simple's 2024 business objectives included optimizing the new user journey
                 and increasing subscription revenue. A funnel study identified a “paywall to
-                purchase” drop-off as a key area of opportunity, in which a low percentage of users
-                who land on the paywall onboard onto a subscription plan.
+                purchase” drop-off as a key area of opportunity, in which most users who land on the
+                paywall leave without onboarding onto a subscription plan.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -78,25 +83,67 @@ const Paywall = () => (
             </IndentInner>
         </Section>
 
-        <Section ends>
+        <Section>
             <Heading type={3}>Design Solution</Heading>
             <Paragraph>
-                Most users encounter the paywall after becoming acquainted with using Invoice
-                Simple. For each of the three subscription plans we offer, we emphasized
-                transparency around:
+                Most users land on the paywall after becoming acquainted with using Invoice Simple.
+                We emphasized the following elements in our approach:
             </Paragraph>
             <List numbered>
                 <li>
-                    <Paragraph>Monthly and yearly pricing</Paragraph>
+                    <span className='bold'>Progressive disclosure</span>
+                    <br />
+                    <Paragraph>
+                        Avoid overwhelming users while facilitating access to in-depth subscription
+                        overviews
+                    </Paragraph>
                 </li>
                 <li>
-                    <Paragraph>Included features</Paragraph>
+                    <span className='bold'>Intentional transparency</span>
+                    <br />
+                    <Paragraph>
+                        Ensure that users know exactly what they would be paying for and how much
+                    </Paragraph>
                 </li>
                 <li>
-                    <Paragraph>Applicable savings</Paragraph>
+                    <span className='bold'>Discount laddering</span>
+                    <br />
+                    <Paragraph>
+                        Highlight the monthly difference saved by purchasing annual plans over their
+                        monthly counterparts
+                    </Paragraph>
                 </li>
             </List>
         </Section>
+
+        <FrostedGlass ends>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Final Mobile Paywall
+                </Heading>
+                <Paragraph>Transactions were paginated and sorted earliest-first.</Paragraph>
+            </SectionInner>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Collapsible Cards
+                </Heading>
+                <Paragraph>
+                    Surfacing critical information while minimizing bloat proved to be a challenge.
+                    Collapsible cards display a short blurb of each plan and provides the option for
+                    users to see additional features.
+                </Paragraph>
+            </SectionInner>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Sticky Call-to-Action Button
+                </Heading>
+                <Paragraph>
+                    Fixing the location of “Buy now” onto the viewport enables users to freely
+                    scroll through the paywall without losing track of their selected subscription
+                    plan.
+                </Paragraph>
+            </SectionInner>
+        </FrostedGlass>
     </>
 );
 
