@@ -13,14 +13,14 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'Paywall Redesign',
+        title: 'Mobile Paywall',
         company: 'Invoice Simple',
         description: 'Generated 18% lift in purchase conversion rate',
         img: '/is/is_card.svg',
-        alt: 'Invoice Simple Paywall Redesign',
+        alt: 'Invoice Simple Mobile Paywall',
         cardLink: 'View project →',
         quickLinkLabel: 'Paywall',
-        url: '/is-paywall-redesign',
+        url: '/is-mobile-paywall',
     },
     {
         title: 'Checkout Portal',
