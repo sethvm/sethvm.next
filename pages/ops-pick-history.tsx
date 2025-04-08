@@ -407,6 +407,10 @@ const History = () => (
                 <Heading type={4} className='heavy'>
                     Transaction Card Iterations
                 </Heading>
+                <Paragraph>
+                    Refining the transaction cards presented the challenge of illustrating complex
+                    item journeys without adding too much clutter to the interface.
+                </Paragraph>
             </SectionInner>
             <ImageFluid>
                 <Image
@@ -418,6 +422,10 @@ const History = () => (
                 <Heading type={4} className='heavy'>
                     Navigation Column Iterations
                 </Heading>
+                <Paragraph>
+                    Maximizing the number of viewport-visible items while surfacing important status
+                    information were key in delivering the navigation design.
+                </Paragraph>
             </SectionInner>
             <ImageFluid>
                 <Image
