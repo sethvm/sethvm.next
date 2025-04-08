@@ -63,7 +63,7 @@ const Paywall = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    80% of new users who land on the paywall leave without onboarding onto a
+                    80% of new users who landed on the paywall left without onboarding onto a
                     subscription plan.
                 </Strong>
             </IndentInner>
