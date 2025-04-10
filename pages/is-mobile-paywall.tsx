@@ -7,6 +7,7 @@ import List from '../src/components/Content/List';
 import Banner from '../src/components/Content/Banner';
 import FrostedGlass from '../src/components/Content/FrostedGlass';
 import ImageFluid from '../src/components/Content/ImageFluid';
+import ImageCaption from '../src/components/Content/ImageCaption';
 import Image from '../src/components/Content/Image';
 // typography
 import Heading from '../src/components/Typography/Heading';
@@ -72,43 +73,42 @@ const Paywall = () => (
         <Section>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Prior to the redesign, the Invoice Simple paywall was designed primarily to
-                introduce users to the app rather than present subscription plan details. 85% of
-                visits come from a feature gate, implying that space was being put to waste by
-                “reselling” to users who are already familiar with the product.
+                Prior to the redesign, the paywall was designed primarily to introduce users to
+                Invoice Simple rather than present subscription plan details. 85% of visits come
+                from a feature gate, implying that space was being put to waste by “reselling” to
+                users who are already familiar with the product.
             </Paragraph>
             <IndentInner>
-                <Strong>
-                    The previous paywall was designed to sell rather than inform.
-                </Strong>
+                <Strong>The previous paywall was designed to sell rather than inform.</Strong>
             </IndentInner>
         </Section>
+
+        <FrostedGlass ends>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Unintentionally Obscured
+                </Heading>
+            </SectionInner>
+        </FrostedGlass>
 
         <Section>
             <Heading type={3}>Design Solution</Heading>
             <Paragraph>The new paywall design is grounded upon the following principles:</Paragraph>
             <List numbered>
                 <li>
-                    <span className='bold'>Progressive disclosure</span>
+                    <span className='bold'>Simplicity</span>
                     <br />
-                    <Paragraph>
-                        Avoid overwhelming users while facilitating access to in-depth information
-                    </Paragraph>
+                    <Paragraph>Avoid using large bodies of text</Paragraph>
                 </li>
                 <li>
-                    <span className='bold'>Intentional transparency</span>
+                    <span className='bold'>Progressive Disclosure</span>
                     <br />
-                    <Paragraph>
-                        Ensure that users know exactly what they would be paying for and how much
-                    </Paragraph>
+                    <Paragraph>Introduce details incrementally</Paragraph>
                 </li>
                 <li>
-                    <span className='bold'>Laddered discounts</span>
+                    <span className='bold'>Transparency</span>
                     <br />
-                    <Paragraph>
-                        Highlight the monthly difference saved by purchasing annual plans over their
-                        monthly counterparts
-                    </Paragraph>
+                    <Paragraph>Arrange information for easy consumption</Paragraph>
                 </li>
             </List>
         </Section>
@@ -118,11 +118,6 @@ const Paywall = () => (
                 <Heading type={4} className='heavy'>
                     Layout Iterations
                 </Heading>
-                <Paragraph>
-                    Refinements to the layout was driven primarily by two variables: plan type, and
-                    plan duration. Organizing by duration enables users to compare all subscription
-                    types side-by-side.
-                </Paragraph>
             </SectionInner>
             <ImageFluid>
                 <Image
@@ -130,26 +125,30 @@ const Paywall = () => (
                     alt='Diagram showing and explaining paywall design iterations'
                 />
             </ImageFluid>
+            <ImageCaption>
+                Refinements were driven primarily by two variables: plan type, and plan duration.
+                Organizing by duration enables users to compare all subscription types side-by-side.
+            </ImageCaption>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Collapsible Cards
+                    Collapsible Plan Cards
                 </Heading>
-                <Paragraph>
-                    Surfacing critical information while minimizing bloat proved to be a challenge.
-                    Collapsible cards display a short blurb of each plan and provides the option for
-                    users to see additional features.
-                </Paragraph>
             </SectionInner>
+            <ImageCaption>
+                Surfacing critical information while minimizing bloat proved to be a delicate
+                balance to attain. Collapsible cards display a short summary of each plan and
+                provide the option for users to see its associated features.
+            </ImageCaption>
             <SectionInner>
                 <Heading type={4} className='heavy'>
                     Sticky Call-to-Action Button
                 </Heading>
-                <Paragraph>
-                    Fixing the location of “Buy now” onto the viewport enables users to freely
-                    scroll through the paywall without losing track of their selected subscription
-                    plan.
-                </Paragraph>
             </SectionInner>
+            <ImageCaption>
+                Fixing the call-to-action (CTA) button to the bottom of the viewport enables users
+                to scroll through the paywall without losing track of their selected subscription
+                plan.
+            </ImageCaption>
         </FrostedGlass>
     </>
 );
