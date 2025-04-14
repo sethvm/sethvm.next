@@ -56,11 +56,11 @@ const Paywall = () => (
         />
 
         <Section ends>
-            <Heading type={3}>Overview</Heading>
+            <Heading type={3}>Context</Heading>
             <Paragraph>
-                Invoice Simple's 2024 business objectives included optimizing the new user journey
-                and increasing subscription revenue. An onboarding funnel study identified a
-                “paywall to purchase” drop-off as a key area of opportunity.
+                Invoice Simple's 2024 business objectives included optimizations to the new user
+                journey. An onboarding funnel study identified a “paywall to purchase” drop-off as a
+                key area of opportunity.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -71,7 +71,7 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>The Challenge</Heading>
+            <Heading type={3}>Bottleneck to Address</Heading>
             <Paragraph>
                 Prior to the redesign, the paywall was designed primarily to introduce users to
                 Invoice Simple rather than present subscription plan details. 85% of visits come
@@ -86,7 +86,12 @@ const Paywall = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Unintentionally Obscured
+                    Poor Usage of Space
+                </Heading>
+            </SectionInner>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Cumbersome Interactions
                 </Heading>
             </SectionInner>
         </FrostedGlass>
@@ -150,6 +155,21 @@ const Paywall = () => (
                 plan.
             </ImageCaption>
         </FrostedGlass>
+
+        <Section ends>
+            <Heading type={3}>Results</Heading>
+            <Paragraph>
+                By improving messaging clarity and restructuring the paywall's layout, we aimed to
+                deliver an experience that helps users decide which subscription plan best suits
+                their needs.
+            </Paragraph>
+            <IndentInner>
+                <Strong>
+                    The launch of the new design resulted in an 18% lift in purchase conversion and
+                    grew annual recurring revenue by over $300K
+                </Strong>
+            </IndentInner>
+        </Section>
     </>
 );
 
