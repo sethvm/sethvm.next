@@ -89,11 +89,19 @@ const Paywall = () => (
                     Poor Usage of Space
                 </Heading>
             </SectionInner>
+            <ImageCaption>
+                Users needed to scroll past a value proposition section followed by testimonials
+                before seeing any information about paid plans.
+            </ImageCaption>
             <SectionInner>
                 <Heading type={4} className='heavy'>
                     Cumbersome Interactions
                 </Heading>
             </SectionInner>
+            <ImageCaption>
+                Vertical space taken up by each plan's payment options and feature lists made it
+                difficult to compare different subscription tiers.
+            </ImageCaption>
         </FrostedGlass>
 
         <Section>
