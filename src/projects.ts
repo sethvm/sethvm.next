@@ -15,7 +15,7 @@ const projects: Project[] = [
     {
         title: 'Mobile Paywall',
         company: 'Invoice Simple',
-        description: 'Generated 18% lift in purchase conversion rate',
+        description: 'Generated 18% lift in purchase conversion by improving messaging clarity',
         img: '/is/is_card.svg',
         alt: 'Invoice Simple Mobile Paywall',
         cardLink: 'View project →',
@@ -25,7 +25,8 @@ const projects: Project[] = [
     {
         title: 'Checkout Portal',
         company: 'Intuit QuickBooks',
-        description: 'Enhanced scalability and discoverability for online invoice checkouts',
+        description:
+            'Enhanced scalability of an online checkout that processes over $300 million daily',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Checkout Portal',
         cardLink: 'View project →',
@@ -42,16 +43,15 @@ const projects: Project[] = [
         quickLinkLabel: 'History',
         url: '/ops-pick-history',
     },
-    /*
     {
         title: 'Patient Support App',
-        company: 'Soulfx Technologies Inc',
-        description: "Facilitated remote operation of patient support service during COVID-19 pandemic",
+        company: 'Soulfx Technologies',
+        description: 'Enabled virtual-first healthcare delivery during COVID-19',
         img: '/soulfx/soulfx-card.svg',
         alt: 'Soulfx Patient Support App',
         cardLink: 'View case study →',
         url: '/patient-support-app',
-    },*/
+    },
 ];
 
 export default projects;

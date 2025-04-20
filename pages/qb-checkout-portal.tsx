@@ -48,12 +48,7 @@ const Checkout = () => (
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
 
         <Section ends>
-            <Heading type={3}>Context</Heading>
-            <Paragraph>
-                On top of serving as an all-in-one bookkeeping package, QuickBooks streamlines
-                invoicing for small and medium-sized businesses (<abbr>SMB</abbr>s) through
-                monitoring cash flow and offering a wide range of payment solutions to customers.
-            </Paragraph>
+            <Heading type={3}>Overview</Heading>
             <IndentInner>
                 <Strong>
                     The QuickBooks checkout portal empowers small and medium-sized business owners
@@ -61,8 +56,8 @@ const Checkout = () => (
                 </Strong>
             </IndentInner>
             <Paragraph>
-                Collaborating with 2 designers, 2 product managers, 3 engineers and 1 business
-                analyst, I led a design iteration of the checkout experience to improve
+                Collaborating with two designers, two product managers, three engineers and a
+                business analyst, I led a design iteration of the checkout experience to improve
                 discoverability of existing features and scalability for novel payment options.
             </Paragraph>
         </Section>

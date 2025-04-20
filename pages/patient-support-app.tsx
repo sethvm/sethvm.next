@@ -23,7 +23,7 @@ const Soulfx = () => (
         />
         <Section ends>
             <Heading type={2}>Patient Support App</Heading>
-            <SubHeading>Soulfx Technologies Inc</SubHeading>
+            <SubHeading>Soulfx Technologies</SubHeading>
             <Paragraph>
                 <br />
                 Soulfx's Patient Support Application is a web-based platform developed for a
@@ -40,17 +40,17 @@ const Soulfx = () => (
                 &nbsp;Software designer
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Teammates:</span>
-                &nbsp; 1 <abbr>UX</abbr> designer, 4 developers, 1 product owner, and 1 project
-                manager
+                <span className='bold'>Platform:</span>
+                &nbsp;Desktop Web
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Duration:</span>
-                &nbsp;8 weeks
+                <span className='bold'>Launched:</span>
+                &nbsp;August 2019
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Status:</span>
-                &nbsp;Launched {'\u{1F680}'}
+                <span className='bold'>Result:</span>
+                &nbsp;Enabled virtual-first healthcare delivery during COVID-19 by facilitating
+                administration of over 2.5K medical records
                 <br />
                 <br />
             </Paragraph>
@@ -68,9 +68,7 @@ const Soulfx = () => (
             <Heading type={3}>Overview</Heading>
             <Paragraph>
                 Soulfx Technologies Inc is a Mississauga-based software consulting firm that focuses
-                on creating applications for clients within the healthcare industry. We worked
-                closely with a multinational healthcare client in executing an end-to-end design
-                project.
+                on creating applications for clients within the healthcare industry.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -78,6 +76,10 @@ const Soulfx = () => (
                     within the healthcare sector.
                 </Strong>
             </IndentInner>
+            <Paragraph>
+                Alongside another designer, four developers, a product owner and a project manager,
+                I worked closely with a multinational client in executing an end-to-end project.
+            </Paragraph>
         </Section>
 
         <Section ends>

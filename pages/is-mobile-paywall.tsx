@@ -7,7 +7,6 @@ import List from '../src/components/Content/List';
 import Banner from '../src/components/Content/Banner';
 import FrostedGlass from '../src/components/Content/FrostedGlass';
 import ImageFluid from '../src/components/Content/ImageFluid';
-import ImageCaption from '../src/components/Content/ImageCaption';
 import Image from '../src/components/Content/Image';
 // typography
 import Heading from '../src/components/Typography/Heading';
@@ -29,8 +28,7 @@ const Paywall = () => (
                 <br />
                 Subscription paywalls serve a key role in establishing trust with software as a
                 service (<abbr>SaaS</abbr>) buyers by outlining crucial information such as feature
-                packages, pricing and promotions. Working with a product manager and five engineers,
-                I led a redesign of the Invoice Simple paywall to streamline our buyer experience.
+                packages, pricing and promotions.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -68,6 +66,10 @@ const Paywall = () => (
                     subscription plan.
                 </Strong>
             </IndentInner>
+            <Paragraph>
+                Working with a product manager and five engineers, I led a redesign of the Invoice
+                Simple paywall to streamline our buyer experience.
+            </Paragraph>
         </Section>
 
         <Section>
@@ -88,20 +90,32 @@ const Paywall = () => (
                 <Heading type={4} className='heavy'>
                     Poor Usage of Space
                 </Heading>
+                <Paragraph>
+                    Users needed to scroll past a value proposition section followed by testimonials
+                    before seeing any information about paid plans.
+                </Paragraph>
             </SectionInner>
-            <ImageCaption>
-                Users needed to scroll past a value proposition section followed by testimonials
-                before seeing any information about paid plans.
-            </ImageCaption>
+            <ImageFluid>
+                <Image
+                    src='/is/is_paywall_prev-design.svg'
+                    alt='Scroll-through of old Invoice Simple paywall'
+                />
+            </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Cumbersome Interactions
+                    Clunky Comparison Cards
                 </Heading>
+                <Paragraph>
+                    Vertical space taken up by each plan's payment options and feature lists made it
+                    difficult to compare different subscription tiers.
+                </Paragraph>
             </SectionInner>
-            <ImageCaption>
-                Vertical space taken up by each plan's payment options and feature lists made it
-                difficult to compare different subscription tiers.
-            </ImageCaption>
+            <ImageFluid>
+                <Image
+                    src='/is/is_paywall_plan-comparison.svg'
+                    alt='Image showing plan card locations on paywall'
+                />
+            </ImageFluid>
         </FrostedGlass>
 
         <Section>
@@ -131,6 +145,11 @@ const Paywall = () => (
                 <Heading type={4} className='heavy'>
                     Layout Iterations
                 </Heading>
+                <Paragraph>
+                    Refinements were driven primarily by two variables: plan type, and plan
+                    duration. Organizing by duration enables users to compare all subscription types
+                    side-by-side.
+                </Paragraph>
             </SectionInner>
             <ImageFluid>
                 <Image
@@ -138,45 +157,68 @@ const Paywall = () => (
                     alt='Diagram showing and explaining paywall design iterations'
                 />
             </ImageFluid>
-            <ImageCaption>
-                Refinements were driven primarily by two variables: plan type, and plan duration.
-                Organizing by duration enables users to compare all subscription types side-by-side.
-            </ImageCaption>
             <SectionInner>
                 <Heading type={4} className='heavy'>
                     Collapsible Plan Cards
                 </Heading>
+                <Paragraph>
+                    Surfacing critical information while minimizing bloat proved to be a delicate
+                    balance to attain. Collapsible cards display a short summary of each plan and
+                    provide the option for users to see its associated features.
+                </Paragraph>
             </SectionInner>
-            <ImageCaption>
-                Surfacing critical information while minimizing bloat proved to be a delicate
-                balance to attain. Collapsible cards display a short summary of each plan and
-                provide the option for users to see its associated features.
-            </ImageCaption>
+            <ImageFluid>
+                <Image
+                    src='/is/is_paywall_collapsible-cards.svg'
+                    alt="Image showcasing the new paywall's card states"
+                />
+            </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
                     Sticky Call-to-Action Button
                 </Heading>
+                <Paragraph>
+                    Fixing the call-to-action (CTA) button to the bottom of the viewport enables
+                    users to scroll through the paywall without losing track of their selected
+                    subscription plan.
+                </Paragraph>
             </SectionInner>
-            <ImageCaption>
-                Fixing the call-to-action (CTA) button to the bottom of the viewport enables users
-                to scroll through the paywall without losing track of their selected subscription
-                plan.
-            </ImageCaption>
         </FrostedGlass>
 
         <Section ends>
             <Heading type={3}>Results</Heading>
             <Paragraph>
-                By improving messaging clarity and restructuring the paywall's layout, we aimed to
-                deliver an experience that helps users decide which subscription plan best suits
-                their needs.
+                The launch of the new paywall design grew several business metrics.
             </Paragraph>
             <IndentInner>
-                <Strong>
-                    The launch of the new design resulted in an 18% lift in purchase conversion and
-                    grew annual recurring revenue by over $300K
-                </Strong>
+                <Strong>Generated 18% lift in free-to-paid conversion</Strong>
             </IndentInner>
+            <IndentInner>
+                <Strong>Increased annual recurring revenue by over $300K</Strong>
+            </IndentInner>
+        </Section>
+
+        <Section ends>
+            <Heading type={3}>Next Steps</Heading>
+            <br />
+            <IndentInner>
+                <Heading type={4}>Enhance "Compare All Features" grid</Heading>
+            </IndentInner>
+            <Paragraph>
+                The feature grid was out of scope for this paywall redesign simply because we
+                prioritized the viewport segment immediately visible to the user. There is an
+                opportunity to better showcase the capabilities of individual features right within
+                the paywall and in turn supplement the refined messaging incorporated into the new
+                designs.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Introduce variants that cater to existing subscribers</Heading>
+            </IndentInner>
+            <Paragraph>
+                Another constraint of this redesign was the sole focus on non-subscribers. By
+                providing non-Premium subscribers the same improvements in messaging clarity, we can
+                resolve the same set of pain points for a new pool of Invoice Simple users.
+            </Paragraph>
         </Section>
     </>
 );
