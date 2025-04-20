@@ -73,12 +73,12 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Bottleneck to Address</Heading>
+            <Heading type={3}>Business Bottleneck</Heading>
             <Paragraph>
-                Prior to the redesign, the paywall was designed primarily to introduce users to
-                Invoice Simple rather than present subscription plan details. 85% of visits come
-                from a feature gate, implying that space was being put to waste by “reselling” to
-                users who are already familiar with the product.
+                Prior to the redesign, the paywall emphasized introducing new users to Invoice
+                Simple rather than presenting subscription plan details. 85% of visits come from a
+                feature gate, implying that space was being put to waste by “reselling” to users who
+                are already familiar with the product.
             </Paragraph>
             <IndentInner>
                 <Strong>The previous paywall was designed to sell rather than inform.</Strong>
@@ -88,7 +88,7 @@ const Paywall = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Poor Usage of Space
+                    Scrolling, not Seeing
                 </Heading>
                 <Paragraph>
                     Users needed to scroll past a value proposition section followed by testimonials
@@ -103,7 +103,7 @@ const Paywall = () => (
             </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Clunky Comparison Cards
+                    Inefficient Information Flow
                 </Heading>
                 <Paragraph>
                     Vertical space taken up by each plan's payment options and feature lists made it
@@ -120,7 +120,14 @@ const Paywall = () => (
 
         <Section>
             <Heading type={3}>Design Solution</Heading>
-            <Paragraph>The new paywall design is grounded upon the following principles:</Paragraph>
+            <Paragraph>
+                By reworking visual design restructuring information hierarchy, we aimed to deliver
+                an experience that helps users decide which Invoice Simple plan best suits their
+                needs.
+            </Paragraph>
+            <Paragraph>
+                The new paywall design is grounded upon three following principles:
+            </Paragraph>
             <List numbered>
                 <li>
                     <span className='bold'>Simplicity</span>
@@ -178,11 +185,16 @@ const Paywall = () => (
                     Sticky Call-to-Action Button
                 </Heading>
                 <Paragraph>
-                    Fixing the call-to-action (CTA) button to the bottom of the viewport enables
-                    users to scroll through the paywall without losing track of their selected
-                    subscription plan.
+                    A bottom-fixed call-to-action (<abbr>CTA</abbr>) enables users to scroll through
+                    the paywall without losing track of their selected subscription plan.
                 </Paragraph>
             </SectionInner>
+            <ImageFluid>
+                <Image
+                    src='/is/is_paywall_sticky-cta.svg'
+                    alt="Image showing the new paywall's call-to-action"
+                />
+            </ImageFluid>
         </FrostedGlass>
 
         <Section ends>
@@ -196,29 +208,6 @@ const Paywall = () => (
             <IndentInner>
                 <Strong>Increased annual recurring revenue by over $300K</Strong>
             </IndentInner>
-        </Section>
-
-        <Section ends>
-            <Heading type={3}>Next Steps</Heading>
-            <br />
-            <IndentInner>
-                <Heading type={4}>Enhance "Compare All Features" grid</Heading>
-            </IndentInner>
-            <Paragraph>
-                The feature grid was out of scope for this paywall redesign simply because we
-                prioritized the viewport segment immediately visible to the user. There is an
-                opportunity to better showcase the capabilities of individual features right within
-                the paywall and in turn supplement the refined messaging incorporated into the new
-                designs.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>Introduce variants that cater to existing subscribers</Heading>
-            </IndentInner>
-            <Paragraph>
-                Another constraint of this redesign was the sole focus on non-subscribers. By
-                providing non-Premium subscribers the same improvements in messaging clarity, we can
-                resolve the same set of pain points for a new pool of Invoice Simple users.
-            </Paragraph>
         </Section>
     </>
 );
