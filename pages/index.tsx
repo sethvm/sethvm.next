@@ -29,7 +29,6 @@ const Home = () => (
                 <Paragraph>
                     Currently working on invoicing for small businesses.
                     <br />
-                    <br />
                 </Paragraph>
                 <div className={homePageStyle.jumpContainer}>
                     <Link href='/#projects' passHref legacyBehavior>

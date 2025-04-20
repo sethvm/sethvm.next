@@ -18,7 +18,7 @@ const Paywall = () => (
     <>
         <Head
             title='Mobile Paywall'
-            description='Generated 18% lift in subscription conversion rate'
+            description='Generated 18% lift in purchase conversion rate'
             url='https://sethvm.com/is-paywall-redesign'
         />
         <Section ends>
@@ -121,9 +121,9 @@ const Paywall = () => (
         <Section>
             <Heading type={3}>Design Solution</Heading>
             <Paragraph>
-                By reworking visual design restructuring information hierarchy, we aimed to deliver
-                an experience that helps users decide which Invoice Simple plan best suits their
-                needs.
+                By reworking visual design and restructuring information hierarchy, we aimed to
+                deliver an experience that helps users decide which Invoice Simple plan best suits
+                their needs.
             </Paragraph>
             <Paragraph>
                 The new paywall design is grounded upon three following principles:
@@ -135,7 +135,7 @@ const Paywall = () => (
                     <Paragraph>Avoid using large bodies of text</Paragraph>
                 </li>
                 <li>
-                    <span className='bold'>Progressive Disclosure</span>
+                    <span className='bold'>Progressive disclosure</span>
                     <br />
                     <Paragraph>Introduce details incrementally</Paragraph>
                 </li>
@@ -200,7 +200,8 @@ const Paywall = () => (
         <Section ends>
             <Heading type={3}>Results</Heading>
             <Paragraph>
-                The launch of the new paywall design grew several business metrics.
+                The launch of the new paywall design addressed the onboarding funnel drop-off by
+                growing several business metrics.
             </Paragraph>
             <IndentInner>
                 <Strong>Generated 18% lift in free-to-paid conversion</Strong>
