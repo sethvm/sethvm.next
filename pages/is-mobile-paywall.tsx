@@ -28,7 +28,8 @@ const Paywall = () => (
                 <br />
                 Subscription paywalls serve a key role in establishing trust with software as a
                 service (<abbr>SaaS</abbr>) buyers by outlining crucial information such as feature
-                packages, pricing and promotions.
+                packages, pricing and promotions. Every new Invoice Simple subscriber begins their
+                journey here.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -121,7 +122,7 @@ const Paywall = () => (
         <Section>
             <Heading type={3}>Design Solution</Heading>
             <Paragraph>
-                By reworking visual design and restructuring information hierarchy, we aimed to
+                By reworking visual design and restructuring information hierarchy, we sought to
                 deliver an experience that helps users decide which Invoice Simple plan best suits
                 their needs.
             </Paragraph>
@@ -201,13 +202,16 @@ const Paywall = () => (
             <Heading type={3}>Results</Heading>
             <Paragraph>
                 The launch of the new paywall design addressed the onboarding funnel drop-off by
-                growing several business metrics.
+                growing key business metrics and uncovered new opportunities.
             </Paragraph>
             <IndentInner>
                 <Strong>Generated 18% lift in free-to-paid conversion</Strong>
             </IndentInner>
             <IndentInner>
                 <Strong>Increased annual recurring revenue by over $300K</Strong>
+            </IndentInner>
+            <IndentInner>
+                <Strong>Subscription tier-based optimizations added to product roadmap</Strong>
             </IndentInner>
         </Section>
     </>
