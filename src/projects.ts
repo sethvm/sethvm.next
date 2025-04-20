@@ -13,35 +13,43 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'QuickBooks Payment Portal',
-        company: 'Intuit',
-        description:
-            'Enhancing the discoverability of automation features for online invoice checkouts',
-        img: '/intuit/intuit-card.svg',
-        alt: 'Intuit QuickBooks Payment Portal',
+        title: 'Mobile Paywall',
+        company: 'Invoice Simple',
+        description: 'Generated 18% lift in purchase conversion by improving messaging clarity',
+        img: '/is/is_card.svg',
+        alt: 'Invoice Simple Mobile Paywall',
         cardLink: 'View project →',
-        quickLinkLabel: 'Intuit',
-        url: '/qb-payment-portal',
+        quickLinkLabel: 'Paywall',
+        url: '/is-mobile-paywall',
+    },
+    {
+        title: 'Checkout Portal',
+        company: 'Intuit QuickBooks',
+        description:
+            'Enhanced scalability of an online checkout that processes over $300 million daily',
+        img: '/intuit/intuit-card.svg',
+        alt: 'Intuit QuickBooks Checkout Portal',
+        cardLink: 'View project →',
+        quickLinkLabel: 'Checkout',
+        url: '/qb-checkout-portal',
     },
     {
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
-        description:
-            "Crafting a streamlined order validation experience for Canada's largest grocery retailer",
+        description: 'Streamlined order validation experience for 13 grocery store chains',
         img: '/loblaw/loblaw-card.svg',
         alt: 'Loblaw OPS Pick History',
         cardLink: 'View case study →',
-        quickLinkLabel: 'Loblaw',
+        quickLinkLabel: 'History',
         url: '/ops-pick-history',
     },
     {
         title: 'Patient Support App',
-        company: 'Soulfx Technologies Inc',
-        description: "Facilitating the remote operation of a client's patient support service",
+        company: 'Soulfx Technologies',
+        description: 'Enabled virtual-first healthcare delivery during COVID-19',
         img: '/soulfx/soulfx-card.svg',
         alt: 'Soulfx Patient Support App',
         cardLink: 'View case study →',
-        quickLinkLabel: 'Soulfx',
         url: '/patient-support-app',
     },
 ];

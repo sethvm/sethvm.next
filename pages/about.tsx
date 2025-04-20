@@ -12,27 +12,27 @@ const About = () => (
             <h2 className={aboutPageStyle.heading}>I push pixels, barbells, and boundaries.</h2>
             <br />
             <Paragraph>
-                My interest lies in exploring how technology can be leveraged to help people live
-                their best lives and put forth their best work. I'm drawn to design by its
-                interdisciplinary nature—it's a field that demands careful triangulation between
-                engineering, art, and business.
+                As a designer with a background in human-centred engineering, my interest lies in
+                exploring how we can leverage technology to help people live their best lives and
+                put forth their best work. I'm drawn to design by its interdisciplinary nature—it's
+                a field that demands careful triangulation between engineering, art and business.
             </Paragraph>
             <Paragraph>
-                At the moment, my endeavours revolve around helping business owners conquer their
-                day-to-day challenges. Previous spaces I've explored include open banking, online
-                grocery fulfillment, and healthcare record administration.
+                My current endeavours revolve around empowering small business owners in their
+                day-to-day challenges. Previous spaces I've explored include financial technology,
+                grocery fulfillment and healthcare service operations.
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session or{' '}
                 <OutboundLink href='https://sethvm.studio/'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
-                . Occasionally, I jump out of flying aircraft—with a parachute strapped to my back,
-                of course.
+                . My photography work explores visual imagery incorporating themes of geometry,
+                motion and scale.
             </Paragraph>
             <br />
             <br />
-            <h3 className={aboutPageStyle.subHeading}>Keen to collab? Let's connect!</h3>
+            <h3 className={aboutPageStyle.subHeading}>Keen to chat or collab? Let's connect!</h3>
             <br />
             <Paragraph>
                 Say hi on{' '}

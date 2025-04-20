@@ -9,7 +9,7 @@ interface Props {
 const ImgCaption = ({ children }: Props) => (
     <div className={styleImgCaption.caption}>
         <p>
-            <span className='italic'>{children}</span>
+            <span>{children}</span>
         </p>
     </div>
 );

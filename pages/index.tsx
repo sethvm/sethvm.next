@@ -24,20 +24,10 @@ const Home = () => (
                 </Heading>
                 <Paragraph>
                     A <span className='bold'>product designer</span> passionate about building
-                    experiences that help <span className='bold'>move the world forward</span>.
+                    experiences that <span className='bold'>move the world forward</span>.
                 </Paragraph>
                 <Paragraph>
-                    Currently working on invoicing experiences for small businesses at{' '}
-                    <Link href='https://www.evercommerce.com/' legacyBehavior>
-                        <a
-                            className='activeLink inBodyLink'
-                            rel='noopener noreferrer'
-                            target='_blank'
-                        >
-                            EverCommerce↗&#xFE0E;
-                        </a>
-                    </Link>
-                    .
+                    Currently working on invoicing for small businesses.
                     <br />
                     <br />
                 </Paragraph>
