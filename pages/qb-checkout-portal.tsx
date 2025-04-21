@@ -15,15 +15,15 @@ const Checkout = () => (
     <>
         <Head
             title='Checkout Portal'
-            description="Enhancing scalability and discoverability of Intuit QuickBooks' checkout transaction channels and features."
+            description="Enhancing scalability of Intuit QuickBooks' checkout portal interface."
             url='https://sethvm.com/qb-checkout-portal'
         />
         <Section ends>
             <Heading type={2}>Checkout Portal</Heading>
-            <SubHeading>Intuit QuickBooks</SubHeading>
+            <SubHeading>Intuit</SubHeading>
             <Paragraph>
                 <br />
-                QuickBooks' online checkout portal facilitates transactions between customers and
+                Intuit QuickBooks' online checkout portal facilitates transactions between customers and
                 merchants. Moving over $300 million USD every day, it is a crucial component of
                 Intuit's technology platform.
             </Paragraph>

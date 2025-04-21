@@ -14,7 +14,7 @@ interface Project {
 const projects: Project[] = [
     {
         title: 'Mobile Paywall',
-        company: 'Invoice Simple',
+        company: 'Invoice Simple, 2024',
         description: 'Generated 18% lift in purchase conversion by improving messaging clarity',
         img: '/is/is_card.svg',
         alt: 'Invoice Simple Mobile Paywall',
@@ -24,9 +24,9 @@ const projects: Project[] = [
     },
     {
         title: 'Checkout Portal',
-        company: 'Intuit QuickBooks',
+        company: 'Intuit, 2022',
         description:
-            'Enhanced scalability of an online checkout that processes over $300 million daily',
+            'Enhanced scalability of a QuickBooks checkout that processes over $300 million daily',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Checkout Portal',
         cardLink: 'View project →',
@@ -35,7 +35,7 @@ const projects: Project[] = [
     },
     {
         title: 'Ops Pick History',
-        company: 'Loblaw Digital',
+        company: 'Loblaw Digital, 2021',
         description: 'Streamlined order validation experience for 13 grocery store chains',
         img: '/loblaw/loblaw-card.svg',
         alt: 'Loblaw OPS Pick History',
@@ -45,7 +45,7 @@ const projects: Project[] = [
     },
     {
         title: 'Patient Support App',
-        company: 'Soulfx Technologies',
+        company: 'Soulfx Technologies, 2020',
         description: 'Enabled virtual-first healthcare delivery during COVID-19',
         img: '/soulfx/soulfx-card.svg',
         alt: 'Soulfx Patient Support App',
