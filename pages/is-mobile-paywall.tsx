@@ -58,7 +58,7 @@ const Paywall = () => (
             <Heading type={3}>Context</Heading>
             <Paragraph>
                 Invoice Simple's 2024 business objectives included optimizations to the new user
-                journey. An onboarding funnel study identified a “paywall to purchase” drop-off as a
+                journey. A funnel study identified a “paywall to purchase” drop-off as a
                 key area of opportunity.
             </Paragraph>
             <IndentInner>
@@ -77,9 +77,9 @@ const Paywall = () => (
             <Heading type={3}>Business Bottleneck</Heading>
             <Paragraph>
                 Prior to the redesign, the paywall emphasized introducing new users to Invoice
-                Simple rather than presenting subscription plan details. 85% of visits come from a
-                feature gate, implying that space was being put to waste by “reselling” to users who
-                are already familiar with the product.
+                Simple rather than presenting subscription plan details. Over 85% of visits come
+                from a feature gate, implying that space was being put to waste by “reselling” the
+                product to users already familiar with it.
             </Paragraph>
             <IndentInner>
                 <Strong>The previous paywall was designed to sell rather than inform.</Strong>
@@ -123,8 +123,9 @@ const Paywall = () => (
             <Heading type={3}>Design Solution</Heading>
             <Paragraph>
                 By reworking visual design and restructuring information hierarchy, we sought to
-                deliver an experience that helps users decide which Invoice Simple plan best suits
-                their needs.
+                deliver an experience that helps users decide which Invoice Simple plan best
+                fulfills their business needs. The new paywall design is grounded upon the following
+                principles:
             </Paragraph>
             <Paragraph>
                 The new paywall design is grounded upon three following principles:
@@ -155,7 +156,7 @@ const Paywall = () => (
                 </Heading>
                 <Paragraph>
                     Refinements were driven primarily by two variables: plan type, and plan
-                    duration. Organizing by duration enables users to compare all subscription types
+                    duration. Paginating by duration enables users to compare all subscription types
                     side-by-side.
                 </Paragraph>
             </SectionInner>
@@ -201,7 +202,7 @@ const Paywall = () => (
         <Section ends>
             <Heading type={3}>Results</Heading>
             <Paragraph>
-                The launch of the new paywall design addressed the onboarding funnel drop-off by
+                The launch of the new paywall design addressed the user funnel drop-off by
                 growing key business metrics and uncovered further opportunities.
             </Paragraph>
             <IndentInner>
