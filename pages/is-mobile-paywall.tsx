@@ -129,8 +129,7 @@ const Paywall = () => (
             <Paragraph>
                 By reworking visual design and restructuring information hierarchy, we sought to
                 deliver an experience that helps users decide which Invoice Simple plan best
-                fulfills their business needs. The new paywall design is grounded upon the following
-                principles:
+                fulfills their business needs.
             </Paragraph>
             <Paragraph>
                 The new paywall design is grounded upon three following principles:
