@@ -23,8 +23,8 @@ const Checkout = () => (
             <SubHeading>Intuit</SubHeading>
             <Paragraph>
                 <br />
-                Intuit QuickBooks' online checkout portal facilitates transactions between customers and
-                merchants. Moving over $300 million USD every day, it is a crucial component of
+                Intuit QuickBooks' online checkout portal facilitates transactions between customers
+                and merchants. Moving over $300 million USD every day, it is a crucial component of
                 Intuit's technology platform.
             </Paragraph>
             <Paragraph>
@@ -37,7 +37,7 @@ const Checkout = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Launched:</span>
-                &nbsp;September 2022
+                &nbsp;2022
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>

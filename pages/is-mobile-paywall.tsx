@@ -41,7 +41,7 @@ const Paywall = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Launched:</span>
-                &nbsp;September 2024
+                &nbsp;2024
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
@@ -104,11 +104,11 @@ const Paywall = () => (
             </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Inefficient Information Flow
+                    Inefficient Presentation
                 </Heading>
                 <Paragraph>
-                    Vertical space taken up by each plan's payment options and feature lists made it
-                    difficult to compare different subscription tiers.
+                    The previous organization of subscription plans and their respective feature
+                    lists made it difficult to make comparisons between different tiers.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -151,7 +151,7 @@ const Paywall = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Layout Iterations
+                    Layout Organization
                 </Heading>
                 <Paragraph>
                     Refinements were driven primarily by two variables: plan type, and plan
@@ -167,7 +167,7 @@ const Paywall = () => (
             </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Collapsible Plan Cards
+                    Collapsible Cards
                 </Heading>
                 <Paragraph>
                     Surfacing critical information while minimizing bloat proved to be a delicate
@@ -183,7 +183,7 @@ const Paywall = () => (
             </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Sticky Call-to-Action Button
+                    Tracked Selection
                 </Heading>
                 <Paragraph>
                     A bottom-fixed call-to-action (<abbr>CTA</abbr>) enables users to scroll through
@@ -202,7 +202,7 @@ const Paywall = () => (
             <Heading type={3}>Results</Heading>
             <Paragraph>
                 The launch of the new paywall design addressed the onboarding funnel drop-off by
-                growing key business metrics and uncovered new opportunities.
+                growing key business metrics and uncovered further opportunities.
             </Paragraph>
             <IndentInner>
                 <Strong>Generated 18% lift in free-to-paid conversion</Strong>

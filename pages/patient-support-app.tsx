@@ -45,7 +45,7 @@ const Soulfx = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Launched:</span>
-                &nbsp;August 2019
+                &nbsp;2020
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>

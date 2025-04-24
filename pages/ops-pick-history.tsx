@@ -41,7 +41,7 @@ const History = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Launched:</span>
-                &nbsp;May 2021
+                &nbsp;2021
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
