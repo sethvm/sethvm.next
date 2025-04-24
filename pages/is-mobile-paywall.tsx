@@ -58,8 +58,8 @@ const Paywall = () => (
             <Heading type={3}>Context</Heading>
             <Paragraph>
                 Invoice Simple's 2024 business objectives included optimizations to the new user
-                journey. A funnel study identified a “paywall to purchase” drop-off as a
-                key area of opportunity.
+                journey. A funnel study identified a “paywall to purchase” drop-off as a key area of
+                opportunity.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -74,16 +74,21 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Business Bottleneck</Heading>
+            <Heading type={3}>Business Bottlenecks</Heading>
             <Paragraph>
                 Prior to the redesign, the paywall emphasized introducing new users to Invoice
-                Simple rather than presenting subscription plan details. Over 85% of visits come
-                from a feature gate, implying that space was being put to waste by “reselling” the
-                product to users already familiar with it.
+                Simple rather than presenting subscription plan details.
             </Paragraph>
             <IndentInner>
                 <Strong>The previous paywall was designed to sell rather than inform.</Strong>
             </IndentInner>
+            <IndentInner>
+                <Strong>Moreover, 85% of visits come from a feature gate.</Strong>
+            </IndentInner>
+            <Paragraph>
+                Consequently, we hypothesized that space was being put to waste by “reselling” the
+                product to users already familiar with it.
+            </Paragraph>
         </Section>
 
         <FrostedGlass ends>
@@ -202,8 +207,8 @@ const Paywall = () => (
         <Section ends>
             <Heading type={3}>Results</Heading>
             <Paragraph>
-                The launch of the new paywall design addressed the user funnel drop-off by
-                growing key business metrics and uncovered further opportunities.
+                The launch of the new paywall design addressed the user funnel drop-off by growing
+                key business metrics and uncovered further opportunities.
             </Paragraph>
             <IndentInner>
                 <Strong>Generated 18% lift in free-to-paid conversion</Strong>
