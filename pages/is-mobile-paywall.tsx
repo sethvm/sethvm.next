@@ -192,7 +192,8 @@ const Paywall = () => (
                 </Heading>
                 <Paragraph>
                     A bottom-fixed call-to-action (<abbr>CTA</abbr>) enables users to scroll through
-                    the paywall without losing track of their selected subscription plan.
+                    the paywall without losing track of their selected subscription plan. This is a
+                    strength of the previous paywall we opted to preserve and improve upon.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
