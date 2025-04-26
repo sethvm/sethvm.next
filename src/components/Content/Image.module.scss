@@ -32,6 +32,14 @@
     }
 }
 
+.animation {
+    width: 180px;
+
+    @media (min-width: 768px) {
+        width: 240px;
+    }
+}
+
 .item {
     @media (min-width: 768px) {
         width: 42%;

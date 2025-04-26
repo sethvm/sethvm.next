@@ -186,6 +186,14 @@ const Paywall = () => (
                     alt="Image showcasing the new paywall's card states"
                 />
             </ImageFluid>
+            <ImageFluid>
+                {/* create new GIF component */}
+                <Image
+                    animation
+                    src='/is/is_paywall_collapsible-cards.gif'
+                    alt='Animation showcasing collapsible cards'
+                />
+            </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
                     Tracked Selection
@@ -198,8 +206,9 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/is_paywall_sticky-cta.svg'
-                    alt="Image showing the new paywall's call-to-action"
+                    animation
+                    src='/is/is_paywall_sticky-cta.gif'
+                    alt='Animation showcasing the fixed call-to-action'
                 />
             </ImageFluid>
         </FrostedGlass>
