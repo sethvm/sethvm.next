@@ -167,7 +167,7 @@ const Paywall = () => (
             <ImageFluid>
                 <Image
                     src='/is/is_paywall_iterations.svg'
-                    alt='Diagram showing and explaining paywall design iterations'
+                    alt='Diagram explaining paywall design iterations'
                 />
             </ImageFluid>
             <SectionInner>
@@ -183,14 +183,14 @@ const Paywall = () => (
             <ImageFluid>
                 <Image
                     src='/is/is_paywall_collapsible-cards.svg'
-                    alt="Image showcasing the new paywall's card states"
+                    alt="Image showing new paywall's card states"
                 />
             </ImageFluid>
             <ImageFluid>
                 <Image
                     animation
                     src='/is/is_paywall_collapsible-cards.gif'
-                    alt='Animation showcasing collapsible cards'
+                    alt='Animation demonstrating collapsible card interaction'
                 />
             </ImageFluid>
             <SectionInner>
@@ -207,13 +207,13 @@ const Paywall = () => (
                 <Image
                     animation
                     src='/is/is_paywall_sticky-cta.gif'
-                    alt='Animation showcasing the fixed call-to-action'
+                    alt='Scroll animation demonstrating fixed call-to-action position'
                 />
             </ImageFluid>
             <ImageFluid>
                 <Image
                     src='/is/is_paywall_sticky-cta.svg'
-                    alt="Image showing monthly and annual variants of the sticky call-to-action"
+                    alt='Image showing monthly and annual variants of the sticky call-to-action'
                 />
             </ImageFluid>
         </FrostedGlass>
