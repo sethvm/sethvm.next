@@ -187,7 +187,6 @@ const Paywall = () => (
                 />
             </ImageFluid>
             <ImageFluid>
-                {/* create new GIF component */}
                 <Image
                     animation
                     src='/is/is_paywall_collapsible-cards.gif'
@@ -209,6 +208,12 @@ const Paywall = () => (
                     animation
                     src='/is/is_paywall_sticky-cta.gif'
                     alt='Animation showcasing the fixed call-to-action'
+                />
+            </ImageFluid>
+            <ImageFluid>
+                <Image
+                    src='/is/is_paywall_sticky-cta.svg'
+                    alt="Image showing monthly and annual variants of the sticky call-to-action"
                 />
             </ImageFluid>
         </FrostedGlass>
