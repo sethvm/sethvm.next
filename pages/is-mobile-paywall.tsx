@@ -36,8 +36,8 @@ const Paywall = () => (
                 &nbsp;Lead product designer
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Platform:</span>
-                &nbsp;Mobile
+                <span className='bold'>Platforms:</span>
+                &nbsp;<abbr>iOS</abbr> & Android
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Launched:</span>
