@@ -83,7 +83,7 @@ const Paywall = () => (
                 <Strong>The previous paywall was designed to sell rather than inform.</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>Moreover, 85% of visits come from a feature gate.</Strong>
+                <Strong>85% of visits come from a feature gate.</Strong>
             </IndentInner>
             <Paragraph>
                 Consequently, we hypothesized that space was being put to waste by “reselling” the
