@@ -219,19 +219,20 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Results</Heading>
+            <Heading type={3}>Validation Results</Heading>
             <Paragraph>
-                The launch of the new paywall design addressed the user funnel drop-off by growing
-                key business metrics and uncovered further opportunities.
+                An A/B test was run to quantitatively validate the new paywall design. We were
+                successful in addressing the user funnel drop-off by growing key business metrics
+                and uncovering further opportunities.
             </Paragraph>
             <IndentInner>
-                <Strong>Generated 18% lift in free-to-paid conversion</Strong>
+                <Strong>18% lift in free-to-paid conversion</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>Increased annual recurring revenue by over $300K</Strong>
+                <Strong>Increase in annual recurring revenue by over $300K</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>Subscription tier-based optimizations added to product roadmap</Strong>
+                <Strong>Addition of upgrade-centered optimizations to growth roadmap</Strong>
             </IndentInner>
         </Section>
     </>
