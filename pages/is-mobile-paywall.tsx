@@ -26,10 +26,10 @@ const Paywall = () => (
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 <br />
-                Subscription paywalls serve a key role in establishing trust with software as a
-                service (<abbr>SaaS</abbr>) buyers by outlining crucial information such as feature
-                packages, pricing and promotions. Every new Invoice Simple subscriber begins their
-                journey here.
+                Subscription paywalls serve a key role in establishing trust with users by outlining
+                crucial information such as feature packages, pricing and promotions. Working with a
+                product manager and five engineers, I led a complete redesign of the Invoice Simple
+                paywall to streamline our buyer experience.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -57,9 +57,9 @@ const Paywall = () => (
         <Section ends>
             <Heading type={3}>Context</Heading>
             <Paragraph>
-                Invoice Simple's 2024 business objectives included optimizations to the new user
-                journey. A funnel study identified a “paywall to purchase” drop-off as a key area of
-                opportunity.
+                Invoice Simple's 2024 business objectives included the delivery of enhancements to
+                the new user journey. A funnel study identified a “paywall to purchase” drop-off as
+                a pivotal opportunity.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -67,14 +67,10 @@ const Paywall = () => (
                     subscription plan.
                 </Strong>
             </IndentInner>
-            <Paragraph>
-                Working with a product manager and five engineers, I led a redesign of the Invoice
-                Simple paywall to streamline our buyer experience.
-            </Paragraph>
         </Section>
 
         <Section>
-            <Heading type={3}>Business Bottlenecks</Heading>
+            <Heading type={3}>Buyer Bottleneck</Heading>
             <Paragraph>
                 Prior to the redesign, the paywall emphasized introducing new users to Invoice
                 Simple rather than presenting subscription plan details.
@@ -86,7 +82,7 @@ const Paywall = () => (
                 <Strong>85% of visits come from a feature gate.</Strong>
             </IndentInner>
             <Paragraph>
-                Consequently, we hypothesized that space was being put to waste by “reselling” the
+                Consequently, we hypothesized that space was being put to waste by “reselling” our
                 product to users already familiar with it.
             </Paragraph>
         </Section>
@@ -156,7 +152,7 @@ const Paywall = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Layout Organization
+                    Reorganized Layout
                 </Heading>
                 <Paragraph>
                     Refinements were driven primarily by two variables: plan type, and plan
@@ -219,11 +215,11 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Validation Results</Heading>
+            <Heading type={3}>Validation & Results</Heading>
             <Paragraph>
-                An A/B test was run to quantitatively validate the new paywall design. We were
-                successful in addressing the user funnel drop-off by growing key business metrics
-                and uncovering further opportunities.
+                An A/B test was run to quantitatively validate the new paywall design. We
+                successfully addressed the user funnel drop-off by growing key business metrics and
+                uncovering further opportunities.
             </Paragraph>
             <IndentInner>
                 <Strong>18% lift in free-to-paid conversion</Strong>
@@ -234,6 +230,28 @@ const Paywall = () => (
             <IndentInner>
                 <Strong>Addition of upgrade-centered optimizations to growth roadmap</Strong>
             </IndentInner>
+        </Section>
+
+        <Section ends>
+            <Heading type={3}>Reflection</Heading>
+            <br />
+            <IndentInner>
+                <Heading type={4}>Everything has a user goal</Heading>
+            </IndentInner>
+            <Paragraph>
+                Even though the paywall does not contribute to an Invoice Simple user's primary
+                workflow, its success remains determined by its ability to fulfill their goals.
+                Throughout my design iterations, I stayed grounded on communicating what users come
+                to the paywall for: what features they get and for how much.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Know your audience</Heading>
+            </IndentInner>
+            <Paragraph>
+                Information hierarchy and curation are make-or-breaks in user acquisition. For the
+                new paywall design to be effective, we needed to be cognizant of what users know and
+                don't know by the time they arrive at the paywall.
+            </Paragraph>
         </Section>
     </>
 );
