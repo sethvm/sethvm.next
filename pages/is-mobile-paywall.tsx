@@ -44,7 +44,7 @@ const Paywall = () => (
                 &nbsp;2024
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Result:</span>
+                <span className='bold'>Results:</span>
                 &nbsp;Grew purchase conversion by 18% and annual recurring revenue by over $300K
             </Paragraph>
         </Section>
@@ -230,28 +230,6 @@ const Paywall = () => (
             <IndentInner>
                 <Strong>Addition of upgrade-centered optimizations to growth roadmap</Strong>
             </IndentInner>
-        </Section>
-
-        <Section ends>
-            <Heading type={3}>Reflection</Heading>
-            <br />
-            <IndentInner>
-                <Heading type={4}>Everything has a user goal</Heading>
-            </IndentInner>
-            <Paragraph>
-                Even though the paywall does not contribute to an Invoice Simple user's primary
-                workflow, its success remains determined by its ability to fulfill their goals.
-                Throughout my design iterations, I stayed grounded on communicating what users come
-                to the paywall for: what features they get and for how much.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>Know your audience</Heading>
-            </IndentInner>
-            <Paragraph>
-                Information hierarchy and curation are make-or-breaks in user acquisition. For the
-                new paywall design to be effective, we needed to be cognizant of what users know and
-                don't know by the time they arrive at the paywall.
-            </Paragraph>
         </Section>
     </>
 );
