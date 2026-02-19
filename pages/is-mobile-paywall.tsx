@@ -156,7 +156,7 @@ const Paywall = () => (
                 </Heading>
                 <Paragraph>
                     Refinements were driven primarily by two variables: plan type, and plan
-                    duration. Paginating by duration enables users to compare all subscription types
+                    duration. Paginating by duration enables users to compare subscription tiers
                     side-by-side.
                 </Paragraph>
             </SectionInner>
