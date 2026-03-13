@@ -44,8 +44,8 @@ const Paywall = () => (
                 &nbsp;2024
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Results:</span>
-                &nbsp;Grew purchase conversion by 18% and annual recurring revenue by over $300K
+                <span className='bold'>Result:</span>
+                &nbsp;Grew purchase conversion by 18%
             </Paragraph>
         </Section>
 
@@ -225,10 +225,7 @@ const Paywall = () => (
                 <Strong>18% lift in free-to-paid conversion</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>Increase in annual recurring revenue by over $300K</Strong>
-            </IndentInner>
-            <IndentInner>
-                <Strong>Addition of upgrade-centered optimizations to growth roadmap</Strong>
+                <Strong>Addition of upgrade-centered optimizations to product growth roadmap</Strong>
             </IndentInner>
         </Section>
     </>
