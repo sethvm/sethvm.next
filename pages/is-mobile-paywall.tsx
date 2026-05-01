@@ -46,16 +46,16 @@ const Paywall = () => (
         </Section>
 
         <Banner
-            img='/is/is_banner.svg'
+            img='/is/paywall/is_paywall_banner.svg'
             alt='Screenshots of the final mobile subscription paywall'
         />
 
         <Section ends>
             <Heading type={3}>Context</Heading>
             <Paragraph>
-                Invoice Simple's business objectives included the delivery of enhancements to
-                the new user journey. A funnel study identified a “paywall to purchase” drop-off as
-                a pivotal opportunity.
+                Invoice Simple's business objectives included the delivery of enhancements to the
+                new user journey. A funnel study identified a “paywall to purchase” drop-off as a
+                pivotal opportunity.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -95,7 +95,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/is_paywall_prev-design.svg'
+                    src='/is/paywall/is_paywall_prev-design.svg'
                     alt='Scroll-through of old Invoice Simple paywall'
                 />
             </ImageFluid>
@@ -110,7 +110,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/is_paywall_plan-comparison.svg'
+                    src='/is/paywall/is_paywall_plan-comparison.svg'
                     alt='Image showing plan card locations on paywall'
                 />
             </ImageFluid>
@@ -158,7 +158,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/is_paywall_iterations.svg'
+                    src='/is/paywall/is_paywall_iterations.svg'
                     alt='Diagram explaining paywall design iterations'
                 />
             </ImageFluid>
@@ -174,14 +174,14 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/is_paywall_collapsible-cards.svg'
+                    src='/is/paywall/is_paywall_collapsible-cards.svg'
                     alt="Image showing new paywall's card states"
                 />
             </ImageFluid>
             <ImageFluid>
                 <Image
                     animation
-                    src='/is/is_paywall_collapsible-cards.gif'
+                    src='/is/paywall/is_paywall_collapsible-cards.gif'
                     alt='Animation demonstrating collapsible card interaction'
                 />
             </ImageFluid>
@@ -198,13 +198,13 @@ const Paywall = () => (
             <ImageFluid>
                 <Image
                     animation
-                    src='/is/is_paywall_sticky-cta.gif'
+                    src='/is/paywall/is_paywall_sticky-cta.gif'
                     alt='Scroll animation demonstrating fixed call-to-action position'
                 />
             </ImageFluid>
             <ImageFluid>
                 <Image
-                    src='/is/is_paywall_sticky-cta.svg'
+                    src='/is/paywall/is_paywall_sticky-cta.svg'
                     alt='Image showing monthly and annual variants of the sticky call-to-action'
                 />
             </ImageFluid>
@@ -221,7 +221,9 @@ const Paywall = () => (
                 <Strong>18% lift in free-to-paid conversion</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>Addition of upgrade-centered optimizations to product growth roadmap</Strong>
+                <Strong>
+                    Addition of upgrade-centered optimizations to product growth roadmap
+                </Strong>
             </IndentInner>
         </Section>
     </>

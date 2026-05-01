@@ -15,8 +15,9 @@ const projects: Project[] = [
     {
         title: 'Mobile Paywall',
         company: 'Invoice Simple',
-        description: 'Generated 18% lift in purchase conversion by improving visual layout and messaging clarity',
-        img: '/is/is_card.svg',
+        description:
+            'Generated 18% lift in purchase conversion by improving visual layout and messaging clarity',
+        img: '/is/paywall/is_paywall_card.svg',
         alt: 'Invoice Simple Mobile Paywall',
         cardLink: 'View project →',
         quickLinkLabel: 'Paywall',
