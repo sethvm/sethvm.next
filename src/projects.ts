@@ -23,6 +23,16 @@ const projects: Project[] = [
         url: '/is-mobile-paywall',
     },
     {
+        title: 'Ops Pick History',
+        company: 'Loblaw Digital',
+        description: 'Streamlined order validation experience for 13 grocery store chains',
+        img: '/loblaw/loblaw-card.svg',
+        alt: 'Loblaw OPS Pick History',
+        cardLink: 'View case study →',
+        quickLinkLabel: 'History',
+        url: '/ops-pick-history',
+    },
+    {
         title: 'Checkout Portal',
         company: 'Intuit',
         description:
@@ -32,16 +42,6 @@ const projects: Project[] = [
         cardLink: 'View project →',
         quickLinkLabel: 'Checkout',
         url: '/qb-checkout-portal',
-    },
-    {
-        title: 'Ops Pick History',
-        company: 'Loblaw Digital',
-        description: 'Streamlined order validation experience for 13 grocery store chains',
-        img: '/loblaw/loblaw-card.svg',
-        alt: 'Loblaw OPS Pick History',
-        cardLink: 'View case study →',
-        quickLinkLabel: 'History',
-        url: '/ops-pick-history',
     },
     {
         title: 'Patient Support App',
