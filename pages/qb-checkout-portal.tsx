@@ -36,10 +36,6 @@ const Checkout = () => (
                 &nbsp;Desktop Web
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Launched:</span>
-                &nbsp;2022
-            </Paragraph>
-            <Paragraph>
                 <span className='bold'>Result:</span>
                 &nbsp;Facilitation of 2 new payment channels
             </Paragraph>

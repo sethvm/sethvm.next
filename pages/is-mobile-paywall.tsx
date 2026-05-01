@@ -37,11 +37,7 @@ const Paywall = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Platforms:</span>
-                &nbsp;<abbr>iOS</abbr> & Android
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Launched:</span>
-                &nbsp;2024
+                &nbsp;Mobile (<abbr>iOS</abbr> & Android)
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
@@ -57,7 +53,7 @@ const Paywall = () => (
         <Section ends>
             <Heading type={3}>Context</Heading>
             <Paragraph>
-                Invoice Simple's 2024 business objectives included the delivery of enhancements to
+                Invoice Simple's business objectives included the delivery of enhancements to
                 the new user journey. A funnel study identified a “paywall to purchase” drop-off as
                 a pivotal opportunity.
             </Paragraph>

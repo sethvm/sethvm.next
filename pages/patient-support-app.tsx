@@ -44,10 +44,6 @@ const Soulfx = () => (
                 &nbsp;Desktop Web
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Launched:</span>
-                &nbsp;2020
-            </Paragraph>
-            <Paragraph>
                 <span className='bold'>Result:</span>
                 &nbsp;Enabled virtual-first healthcare delivery during COVID-19 by facilitating
                 administration of over 2.5K medical records

@@ -40,10 +40,6 @@ const History = () => (
                 &nbsp;Desktop Web
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Launched:</span>
-                &nbsp;2021
-            </Paragraph>
-            <Paragraph>
                 <span className='bold'>Result:</span>
                 &nbsp;Enabled validation of online orders across 13 grocery store chains
             </Paragraph>
