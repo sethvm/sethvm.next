@@ -33,7 +33,7 @@ const Paywall = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
-                &nbsp;Lead product designer
+                &nbsp;Sole product designer
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Platforms:</span>

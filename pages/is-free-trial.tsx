@@ -39,11 +39,16 @@ const FreeTrial = () => (
                 &nbsp;Mobile (<abbr>iOS</abbr> & Android)
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Result:</span>
+                <span className='bold'>Results:</span>
                 &nbsp;Increased document creations by 27%, paywall visits by 16% and drove 10% skew
                 towards higher-tier subscription packages
             </Paragraph>
         </Section>
+
+        <Banner
+            img='/is/free-trial/is-free-trial_banner.svg'
+            alt='Screenshots of key free trial interface elements'
+        />
 
         <Section ends>
             <Heading type={3}>Overview</Heading>
@@ -63,13 +68,14 @@ const FreeTrial = () => (
         <Section ends>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
-                Invoice Simple previously operated on a freemium acquisition model that limited how
-                many documents users can create and what features they can use. In this state, we
-                faced challenges with showcasing our value proposition to prospective subscribers.
+                Invoice Simple previously operated on a freemium model that limited how many
+                documents can be created and what features can be used by unpaid users. In this
+                state, we faced challenges with showcasing our product's capabilities to prospective
+                subscribers.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Free-tier were unable to experience the full extent of Invoice Simple's
+                    Unpaid users were unable to experience the full extent of Invoice Simple's
                     functionality and in turn determine whether or not it serves their needs.
                 </Strong>
             </IndentInner>
@@ -83,15 +89,15 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 Delivering an experience aimed at delight for new users yielded an uplift that
-                cascaded throughout the entire product. By allowing Invoice Simple to demonstrate
-                its own value, the free trial brought us results otherwise not possible with the
-                previous freemium model.
+                cascaded throughout Invoice Simple. By enhancing our product's ability to
+                demonstrate its value, the free trial brought us results otherwise not possible with
+                the previous freemium model.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Designing for an evolving mental model</Heading>
             </IndentInner>
             <Paragraph>
-                Leading the free trial initiative pushed me to constantly think about how a user’s
+                Leading the free trial initiative pushed me to constantly think about how a user's
                 objectives change as their free trial progresses. What do they want to do? What
                 should we tell them? When should we leave them be? The final experience needed to be
                 able to address these whether a user just finished signup up or are on their final

@@ -17,7 +17,7 @@ const projects: Project[] = [
         company: 'Invoice Simple',
         description:
             'Novel post-signup experience that brought 27% more document creations and 16% more subscription paywall visits',
-        img: '/is/paywall/is_paywall_card.svg',
+        img: '/is/free-trial/is-free-trial_card.svg',
         alt: 'Invoice Simple Mobile Paywall',
         cardLink: 'View project →',
         quickLinkLabel: 'Trial',
