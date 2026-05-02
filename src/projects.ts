@@ -13,7 +13,18 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'Mobile Paywall',
+        title: 'Free Trial',
+        company: 'Invoice Simple',
+        description:
+            'Novel post-signup experience that brought 27% more document creations and 16% more subscription paywall visits',
+        img: '/is/paywall/is_paywall_card.svg',
+        alt: 'Invoice Simple Mobile Paywall',
+        cardLink: 'View project →',
+        quickLinkLabel: 'Trial',
+        url: '/is-free-trial',
+    },
+    {
+        title: 'Paywall Redesign',
         company: 'Invoice Simple',
         description:
             'Generated 18% lift in purchase conversion by improving visual layout and messaging clarity',
@@ -21,7 +32,7 @@ const projects: Project[] = [
         alt: 'Invoice Simple Mobile Paywall',
         cardLink: 'View project →',
         quickLinkLabel: 'Paywall',
-        url: '/is-mobile-paywall',
+        url: '/is-paywall-redesign',
     },
     {
         title: 'Ops Pick History',
@@ -41,7 +52,6 @@ const projects: Project[] = [
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Checkout Portal',
         cardLink: 'View project →',
-        quickLinkLabel: 'Checkout',
         url: '/qb-checkout-portal',
     },
     {

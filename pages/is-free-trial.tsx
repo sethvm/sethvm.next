@@ -25,9 +25,9 @@ const FreeTrial = () => (
             <Heading type={2}>Free Trial</Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
-                <br />A 14-day free trial enables small business owners to explore the entirety of
-                the Invoice Simple platform without the upfront pressure of committing to a
-                subscription plan. Working with a product manager and five engineers, I led the
+                <br />A limited-time free trial enables small business owners to explore the
+                entirety of the Invoice Simple platform without the upfront pressure of committing
+                to a subscription plan. Working with a product manager and five engineers, I led the
                 design of this new user experience from conception to execution.
             </Paragraph>
             <Paragraph>
@@ -55,8 +55,7 @@ const FreeTrial = () => (
             <IndentInner>
                 <Strong>
                     Serving over half a million freelancers, contractors, and owner-operators,
-                    Invoice Simple provides a simple way for users to run their businesses on the
-                    go.
+                    Invoice Simple provides a simple way for users to run their businesses.
                 </Strong>
             </IndentInner>
         </Section>
@@ -70,7 +69,7 @@ const FreeTrial = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Users were unable to experience the full extent of Invoice Simple's
+                    Free-tier were unable to experience the full extent of Invoice Simple's
                     functionality and in turn determine whether or not it serves their needs.
                 </Strong>
             </IndentInner>
@@ -84,19 +83,19 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 Delivering an experience aimed at delight for new users yielded an uplift that
-                cascaded throughout the entire product. Setting the product up to demonstrate its
-                value, the free trial brought us results otherwise not possible with the previous
-                freemium model.
+                cascaded throughout the entire product. By allowing Invoice Simple to demonstrate
+                its own value, the free trial brought us results otherwise not possible with the
+                previous freemium model.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Designing for an evolving mental model</Heading>
             </IndentInner>
             <Paragraph>
-                Leading the free trial initiative pushed me to constantly think about how a user's
+                Leading the free trial initiative pushed me to constantly think about how a user’s
                 objectives change as their free trial progresses. What do they want to do? What
                 should we tell them? When should we leave them be? The final experience needed to be
-                able to address these whether a user was on their first day or final few days of
-                their trial period.
+                able to address these whether a user just finished signup up or are on their final
+                few days of their trial period.
             </Paragraph>
         </Section>
     </>

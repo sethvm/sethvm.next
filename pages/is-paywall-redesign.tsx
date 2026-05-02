@@ -17,12 +17,12 @@ import Strong from '../src/components/Typography/Strong';
 const Paywall = () => (
     <>
         <Head
-            title='Mobile Paywall'
+            title='Paywall Redesign'
             description='Generated 18% lift in purchase conversion rate'
             url='https://sethvm.com/is-paywall-redesign'
         />
         <Section ends>
-            <Heading type={2}>Mobile Paywall</Heading>
+            <Heading type={2}>Paywall Redesign</Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 <br />
