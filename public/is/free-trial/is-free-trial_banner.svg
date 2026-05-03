@@ -191,7 +191,7 @@
 <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_40000026_60350"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40000026_60350" result="shape"/>
 </filter>
-<linearGradient id="paint0_linear_40000026_60350" x1="960" y1="0" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_40000026_60350" x1="0" y1="540" x2="1920" y2="540" gradientUnits="userSpaceOnUse">
 <stop stop-color="#B0ACEA"/>
 <stop offset="1" stop-color="#363679"/>
 </linearGradient>

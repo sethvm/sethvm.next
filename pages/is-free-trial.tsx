@@ -50,32 +50,15 @@ const FreeTrial = () => (
             alt='Screenshots of key free trial interface elements'
         />
 
-        <Section ends>
-            <Heading type={3}>Overview</Heading>
-            <Paragraph>
-                Invoice Simple is a mobile and web-based platform that allows users to create and
-                send professional-looking invoices within a few clicks. It facilitates document
-                customization, online payments as well as expense tracking.
-            </Paragraph>
-            <IndentInner>
-                <Strong>
-                    Serving over half a million freelancers, contractors, and owner-operators,
-                    Invoice Simple provides a simple way for users to run their businesses.
-                </Strong>
-            </IndentInner>
-        </Section>
-
         <Section>
-            <Heading type={3}>The Challenge</Heading>
+            <Heading type={3}>Free, but Not Free</Heading>
             <Paragraph>
-                Invoice Simple previously operated on a freemium model that limited how many
-                documents can be created and what features can be used by unpaid users. In this
-                state, we faced challenges with showcasing our product's capabilities to prospective
-                subscribers.
+                Invoice Simple operated on a freemium model that limited how many documents can be
+                created and what features can be used by unpaid users.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Unpaid users were unable to experience the full extent of Invoice Simple's
+                    New users were unable to experience the full extent of Invoice Simple's
                     functionality and in turn determine whether or not it serves their needs.
                 </Strong>
             </IndentInner>
@@ -83,11 +66,10 @@ const FreeTrial = () => (
         <FrostedGlass>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Free, but Not Free
+                    Two Documents, One Send, Paywall
                 </Heading>
                 <Paragraph>
-                    A free tier limit of two invoice creations and one send left users with little
-                    more than a test document to work with.
+                    New users were given little beyond a test document to work with.
                 </Paragraph>
             </SectionInner>
             <SectionInner>
@@ -95,11 +77,23 @@ const FreeTrial = () => (
                     Gated Features
                 </Heading>
                 <Paragraph>
-                    An upfront subscription purchase was required for users to even see how any paid
-                    features worked.
+                    An upfront subscription purchase was required to even see how any paid features
+                    worked.
                 </Paragraph>
             </SectionInner>
         </FrostedGlass>
+        <Section ends>
+            <Paragraph>
+                These constraints were challenging to introduce to prospective subscribers and were
+                not representative of any of our subscription packages.
+            </Paragraph>
+            <IndentInner>
+                <Strong>
+                    We took this as an opportunity to rethink and rework how we introduce Invoice
+                    Simple to new users.
+                </Strong>
+            </IndentInner>
+        </Section>
 
         <Section ends>
             <Heading type={3}>Reflection</Heading>
