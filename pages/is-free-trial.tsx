@@ -25,10 +25,10 @@ const FreeTrial = () => (
             <Heading type={2}>Free Trial</Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
-                <br />A limited-time free trial enables small business owners to explore the
-                entirety of the Invoice Simple platform without the upfront pressure of committing
-                to a subscription plan. Working with a product manager and five engineers, I led the
-                design of this new user experience from conception to execution.
+                <br />A limited-time free trial enables small business owners to experience the full
+                capability of Invoice Simple without the upfront pressure of committing to a
+                subscription plan. Working with a product manager and five engineers, I led the
+                design of this new acquisition model from conception to execution.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -65,7 +65,7 @@ const FreeTrial = () => (
             </IndentInner>
         </Section>
 
-        <Section ends>
+        <Section>
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
                 Invoice Simple previously operated on a freemium model that limited how many
@@ -80,6 +80,26 @@ const FreeTrial = () => (
                 </Strong>
             </IndentInner>
         </Section>
+        <FrostedGlass>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Free, but Not Free
+                </Heading>
+                <Paragraph>
+                    A free tier limit of two invoice creations and one send left users with little
+                    more than a test document to work with.
+                </Paragraph>
+            </SectionInner>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Gated Features
+                </Heading>
+                <Paragraph>
+                    An upfront subscription purchase was required for users to even see how any paid
+                    features worked.
+                </Paragraph>
+            </SectionInner>
+        </FrostedGlass>
 
         <Section ends>
             <Heading type={3}>Reflection</Heading>
