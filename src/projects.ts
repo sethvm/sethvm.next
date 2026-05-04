@@ -54,15 +54,6 @@ const projects: Project[] = [
         cardLink: 'View project →',
         url: '/qb-checkout-portal',
     },
-    {
-        title: 'Patient Support App',
-        company: 'Soulfx Technologies',
-        description: 'Enabled virtual-first healthcare delivery during COVID-19',
-        img: '/soulfx/soulfx-card.svg',
-        alt: 'Soulfx Patient Support App',
-        cardLink: 'View case study →',
-        url: '/patient-support-app',
-    },
 ];
 
 export default projects;
