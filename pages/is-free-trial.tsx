@@ -18,7 +18,7 @@ const FreeTrial = () => (
     <>
         <Head
             title='Free Trial'
-            description='Novel post-signup experience that brought 27% more document creations and 16% more subscription paywall visits'
+            description='Novel post-signup experience that grew subscription purchases by 32% and document creations by 27%'
             url='https://sethvm.com/is-free-trial'
         />
         <Section ends>
@@ -39,9 +39,9 @@ const FreeTrial = () => (
                 &nbsp;Mobile (<abbr>iOS</abbr> & Android)
             </Paragraph>
             <Paragraph>
-                <span className='bold'>Results:</span>
-                &nbsp;Increased document creations by 27%, paywall visits by 16% and drove 10% skew
-                towards higher-tier subscription packages
+                <span className='bold'>Impact:</span>
+                &nbsp;Increased subscription purchases by 32% and document creations by 27%
+                alongside downstream results
             </Paragraph>
         </Section>
 
@@ -77,8 +77,8 @@ const FreeTrial = () => (
                     Gated Features
                 </Heading>
                 <Paragraph>
-                    An upfront subscription purchase was required to even see how any paid features
-                    worked.
+                    An upfront subscription purchase was required to use workflow-critical
+                    functionality. This included photo attachments, signatures and reminders.
                 </Paragraph>
             </SectionInner>
         </FrostedGlass>
@@ -94,6 +94,51 @@ const FreeTrial = () => (
                 </Strong>
             </IndentInner>
         </Section>
+
+        <Section>
+            <Heading type={3}>Show, Don't Tell</Heading>
+            <Paragraph>
+                Moving from a freemium to a free trial model provides exposure to Invoice Simple's
+                entire end-to-end experience. Rather than limiting what new users can do, we aimed
+                to provide unrestricted access to our Premium package.
+            </Paragraph>
+            <IndentInner>
+                <Strong>
+                    New users were unable to experience the full extent of Invoice Simple's
+                    functionality and in turn determine whether or not it serves their needs.
+                </Strong>
+            </IndentInner>
+        </Section>
+        <FrostedGlass ends>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Establishing Trust through Transparency
+                </Heading>
+                <Paragraph>
+                    A timeline of the free trial outlines what new users can expect before they
+                    begin using the app.
+                </Paragraph>
+            </SectionInner>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Catering Calls to Action
+                </Heading>
+                <Paragraph>
+                    Users are given a call-to-action tailored to how far they are into their free
+                    trial.
+                </Paragraph>
+            </SectionInner>
+            <SectionInner>
+                <Heading type={4} className='heavy'>
+                    Encouraging Exploration
+                </Heading>
+                <Paragraph>
+                    A feature checklist highlights key elements of our product's core functionality
+                    and encourages users to explore as much as possible. A tracker is provided to
+                    instill a sense of progression.
+                </Paragraph>
+            </SectionInner>
+        </FrostedGlass>
 
         <Section ends>
             <Heading type={3}>Reflection</Heading>
