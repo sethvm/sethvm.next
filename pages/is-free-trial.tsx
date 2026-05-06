@@ -97,10 +97,10 @@ const FreeTrial = () => (
                 Features can be better understood through usage rather than through the paywall
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Expanded observability window</Heading>
+                <Heading type={4}>Superior observability</Heading>
             </IndentInner>
             <Paragraph>
-                Opening our product to new users provides additional insight on user experience and
+                Opening our product to unpaid users provides additional insight on user experience and
                 demand
             </Paragraph>
             <IndentInner>
