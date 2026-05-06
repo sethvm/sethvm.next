@@ -53,8 +53,8 @@ const FreeTrial = () => (
         <Section>
             <Heading type={3}>Free, but Not Free</Heading>
             <Paragraph>
-                Invoice Simple operated on a freemium model that limited how many documents can be
-                created and what features can be used by unpaid users.
+                Invoice Simple previously operated on a freemium model that limited how many
+                documents can be created and which features can be used by unpaid users.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -63,7 +63,7 @@ const FreeTrial = () => (
                 </Strong>
             </IndentInner>
         </Section>
-        <FrostedGlass>
+        <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
                     Two Documents, One Send, Paywall
@@ -82,15 +82,38 @@ const FreeTrial = () => (
                 </Paragraph>
             </SectionInner>
         </FrostedGlass>
+
         <Section ends>
+            <Heading type={3}>Why a Free Trial?</Heading>
             <Paragraph>
-                These constraints were challenging to introduce to prospective subscribers and were
-                not representative of any of our subscription packages.
+                Adopting a free trial model provides exposure to Invoice Simple's entire end-to-end
+                experience. We aimed to provide new users unrestricted access to our Premium package
+                to help get them to their “aha” moment faster.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Less reading, more learning</Heading>
+            </IndentInner>
+            <Paragraph>
+                Features can be better understood through usage rather than through the paywall
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Expanded observability window</Heading>
+            </IndentInner>
+            <Paragraph>
+                Opening our product to new users provides additional insight on user experience and
+                demand
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>A SaaS standard</Heading>
+            </IndentInner>
+            <Paragraph>
+                Secondary research identified free trials as the most common acquisition strategy as
+                of 2025, leveraged by an estimated 40-50% of SaaS platforms
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    We took this as an opportunity to rethink and rework how we introduce Invoice
-                    Simple to new users.
+                    A 14-day free trial allows small business owners to see for themselves how
+                    Invoice Simple can be integrated into their day-to-day work.
                 </Strong>
             </IndentInner>
         </Section>
@@ -98,21 +121,21 @@ const FreeTrial = () => (
         <Section>
             <Heading type={3}>Show, Don't Tell</Heading>
             <Paragraph>
-                Moving from a freemium to a free trial model provides exposure to Invoice Simple's
-                entire end-to-end experience. Rather than limiting what new users can do, we aimed
-                to provide unrestricted access to our Premium package.
+                With the opportunity to expose new users to the entire end-to-end experience of
+                Invoice Simple, we were presented with equally endless opportunities to educate them
+                about our product.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    New users were unable to experience the full extent of Invoice Simple's
-                    functionality and in turn determine whether or not it serves their needs.
+                    A delightful trial experience goes beyond removing the locks and setting a
+                    timer.
                 </Strong>
             </IndentInner>
         </Section>
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Establishing Trust through Transparency
+                    Trust through Transparency
                 </Heading>
                 <Paragraph>
                     A timeline of the free trial outlines what new users can expect before they
@@ -136,6 +159,13 @@ const FreeTrial = () => (
                     A feature checklist highlights key elements of our product's core functionality
                     and encourages users to explore as much as possible. A tracker is provided to
                     instill a sense of progression.
+                </Paragraph>
+            </SectionInner>
+            <SectionInner>
+                <Paragraph>
+                    The document editor is where most new users encounter their “aha!” moment and
+                    discover the value of Invoice Simple. An optional tour serves to get them
+                    started with our product's core workflow as soon as they finish onboarding.
                 </Paragraph>
             </SectionInner>
         </FrostedGlass>
