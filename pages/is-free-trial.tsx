@@ -81,6 +81,12 @@ const FreeTrial = () => (
                     functionality. This included photo attachments, signatures and reminders.
                 </Paragraph>
             </SectionInner>
+            <ImageFluid>
+                <Image
+                    src='/is/free-trial/is-free-trial_feature-gates.svg'
+                    alt='Image showing feature gates within the document editor'
+                />
+            </ImageFluid>
         </FrostedGlass>
 
         <Section ends>
@@ -88,7 +94,7 @@ const FreeTrial = () => (
             <Paragraph>
                 Adopting a free trial model provides exposure to Invoice Simple's entire end-to-end
                 experience. We aimed to provide new users unrestricted access to our Premium package
-                to help get them to their “aha” moment faster.
+                to better guide them towards their “aha” moment.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Less reading, more learning</Heading>
@@ -100,8 +106,8 @@ const FreeTrial = () => (
                 <Heading type={4}>Superior observability</Heading>
             </IndentInner>
             <Paragraph>
-                Opening our product to unpaid users provides additional insight on user experience and
-                demand
+                Opening our product to unpaid users provides additional insight on user experience
+                and demand
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>A SaaS standard</Heading>
@@ -121,9 +127,8 @@ const FreeTrial = () => (
         <Section>
             <Heading type={3}>Show, Don't Tell</Heading>
             <Paragraph>
-                With the opportunity to expose new users to the entire end-to-end experience of
-                Invoice Simple, we were presented with equally endless opportunities to educate them
-                about our product.
+                The opportunity to give new users the entire end-to-end experience of Invoice Simple
+                presented equally endless opportunities to educate them about our product.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -142,13 +147,31 @@ const FreeTrial = () => (
                     begin using the app.
                 </Paragraph>
             </SectionInner>
+            <ImageFluid>
+                <Image
+                    src='/is/free-trial/is-free-trial_intro-page.svg'
+                    alt='Image showing the free trial intro page'
+                />
+            </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Catering Calls to Action
+                    Gentle Guidance
                 </Heading>
                 <Paragraph>
-                    Users are given a call-to-action tailored to how far they are into their free
-                    trial.
+                    The banner has been repurposed to house the trial countdown, educational content
+                    and any active promotions.
+                </Paragraph>
+            </SectionInner>
+            <ImageFluid>
+                <Image
+                    src='/is/free-trial/is-free-trial_timer-banner.svg'
+                    alt='Image showing the free trial banner'
+                />
+            </ImageFluid>
+            <SectionInner>
+                <Paragraph>
+                    Inline visuals inform users at a glance which subscription tier a paid feature
+                    is packaged under.
                 </Paragraph>
             </SectionInner>
             <SectionInner>
@@ -163,9 +186,9 @@ const FreeTrial = () => (
             </SectionInner>
             <SectionInner>
                 <Paragraph>
-                    The document editor is where most new users encounter their “aha!” moment and
+                    The invoice editor is where most new users encounter their “aha!” moment and
                     discover the value of Invoice Simple. An optional tour serves to get them
-                    started with our product's core workflow as soon as they finish onboarding.
+                    started on their first document as soon as they finish onboarding.
                 </Paragraph>
             </SectionInner>
         </FrostedGlass>

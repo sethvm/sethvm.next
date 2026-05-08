@@ -18,7 +18,7 @@ const projects: Project[] = [
         description:
             'Novel post-signup experience that grew subscription purchases by 32% and document creations by 27%',
         img: '/is/free-trial/is-free-trial_card.svg',
-        alt: 'Invoice Simple Mobile Paywall',
+        alt: 'Invoice Simple Free Trial',
         cardLink: 'View case study →',
         quickLinkLabel: 'Trial',
         url: '/is-free-trial',
@@ -29,7 +29,7 @@ const projects: Project[] = [
         description:
             'Generated 18% lift in purchase conversion by improving visual layout and messaging clarity',
         img: '/is/paywall/is_paywall_card.svg',
-        alt: 'Invoice Simple Mobile Paywall',
+        alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View case study →',
         quickLinkLabel: 'Paywall',
         url: '/is-paywall-redesign',
