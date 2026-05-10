@@ -28,7 +28,7 @@ const FreeTrial = () => (
                 <br />A limited-time free trial enables small business owners to experience the full
                 capability of Invoice Simple without the upfront pressure of committing to a
                 subscription plan. Working with a product manager and five engineers, I led the
-                design of this new acquisition model from conception to execution.
+                design of this new acquisition model from conception to validation and execution.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -62,7 +62,14 @@ const FreeTrial = () => (
                     functionality and in turn determine whether or not it serves their needs.
                 </Strong>
             </IndentInner>
+            <IndentInner>
+                <Strong>
+                    The product suffered from a low purchase conversion as users were not
+                    experiencing the “aha moment.”
+                </Strong>
+            </IndentInner>
         </Section>
+
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
@@ -202,9 +209,35 @@ const FreeTrial = () => (
         <Section ends>
             <Heading type={3}>Validation</Heading>
             <Paragraph>
-                The free trial experience foundationally strengthened Invoice Simple's acquisition
-                infrastructure.
+                The new user experience fundamentally changes a growth lever vital to revenue and
+                activations, meaning it needed to perform well in several key areas.
             </Paragraph>
+            <Heading type={4} className='heavy'>
+                Success Metrics
+            </Heading>
+            <List numbered>
+                <li>
+                    <span className='bold'>Subscription purchases</span>
+                    <br />
+                    <Paragraph>
+                        Are free trial users more likely to become paid subscribers?
+                    </Paragraph>
+                </li>
+                <li>
+                    <span className='bold'>Document creations</span>
+                    <br />
+                    <Paragraph>
+                        Are users creating more documents after the end of their trial period?
+                    </Paragraph>
+                </li>
+                <li>
+                    <span className='bold'>Subscription package mix</span>
+                    <br />
+                    <Paragraph>
+                        Do free trial users tend to purchase higher-tier packages?
+                    </Paragraph>
+                </li>
+            </List>
             <IndentInner>
                 <Strong>
                     A 90-day A/B test was run to quantitatively evaluate the free trial designs
@@ -216,14 +249,14 @@ const FreeTrial = () => (
         <Section ends>
             <Heading type={3}>Results</Heading>
             <Paragraph>
-                The free trial experience foundationally strengthened Invoice Simple's acquisition
-                infrastructure.
+                The free trial experience foundationally strengthened Invoice Simple's new user
+                journey.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Grew subscription purchases by 32%</Heading>
+                <Heading type={4}>32% more subscription purchases</Heading>
             </IndentInner>
             <IndentInner>
-                <Heading type={4}>Increased document creations by 27%</Heading>
+                <Heading type={4}>27% more documents created</Heading>
             </IndentInner>
             <IndentInner>
                 <Heading type={4}>10% skew towards higher-tier subscription packages</Heading>
@@ -236,11 +269,11 @@ const FreeTrial = () => (
                 <Heading type={4}>16% more paywall visits</Heading>
             </IndentInner>
             <IndentInner>
-                <Heading type={4}>10% more document sends</Heading>
+                <Heading type={4}>10% more documents sent</Heading>
             </IndentInner>
             <IndentInner>
                 <Heading type={4}>
-                    17% higher payments volume processed through in-house payment integrations
+                    17% higher payments volume processed through in-house integrations
                 </Heading>
             </IndentInner>
         </Section>
