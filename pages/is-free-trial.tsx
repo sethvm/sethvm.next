@@ -174,6 +174,12 @@ const FreeTrial = () => (
                     is packaged under.
                 </Paragraph>
             </SectionInner>
+            <ImageFluid>
+                <Image
+                    src='/is/free-trial/is-free-trial_tier-icons.svg'
+                    alt='Image showing package icons within invoice editor'
+                />
+            </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
                     Encouraging Exploration
