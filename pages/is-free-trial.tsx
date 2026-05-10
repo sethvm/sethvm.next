@@ -132,7 +132,7 @@ const FreeTrial = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Show, Don't Tell</Heading>
+            <Heading type={3}>Show and Tell</Heading>
             <Paragraph>
                 The opportunity to give new users the entire end-to-end experience of Invoice Simple
                 presented equally endless opportunities to educate them about our product.
