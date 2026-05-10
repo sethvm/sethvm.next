@@ -51,7 +51,7 @@ const FreeTrial = () => (
         />
 
         <Section>
-            <Heading type={3}>Free, but Not Free</Heading>
+            <Heading type={3}>Freemium, Not Free</Heading>
             <Paragraph>
                 Invoice Simple previously operated on a freemium model that limited how many
                 documents can be created and which features can be used by unpaid users.
