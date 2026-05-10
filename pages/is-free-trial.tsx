@@ -58,7 +58,7 @@ const FreeTrial = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    New users were unable to experience the full extent of Invoice Simple's
+                    New users were not able to experience the full extent of Invoice Simple's
                     functionality and in turn determine whether or not it serves their needs.
                 </Strong>
             </IndentInner>
@@ -132,8 +132,8 @@ const FreeTrial = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    A delightful trial experience goes beyond removing the locks and setting a
-                    timer.
+                    Delivering a delightful trial experience goes beyond removing the locks and
+                    setting a timer.
                 </Strong>
             </IndentInner>
         </Section>
@@ -198,6 +198,52 @@ const FreeTrial = () => (
                 </Paragraph>
             </SectionInner>
         </FrostedGlass>
+
+        <Section ends>
+            <Heading type={3}>Validation</Heading>
+            <Paragraph>
+                The free trial experience foundationally strengthened Invoice Simple's acquisition
+                infrastructure.
+            </Paragraph>
+            <IndentInner>
+                <Strong>
+                    A 90-day A/B test was run to quantitatively evaluate the free trial designs
+                    against the existing freemium offering.
+                </Strong>
+            </IndentInner>
+        </Section>
+
+        <Section ends>
+            <Heading type={3}>Results</Heading>
+            <Paragraph>
+                The free trial experience foundationally strengthened Invoice Simple's acquisition
+                infrastructure.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Grew subscription purchases by 32%</Heading>
+            </IndentInner>
+            <IndentInner>
+                <Heading type={4}>Increased document creations by 27%</Heading>
+            </IndentInner>
+            <IndentInner>
+                <Heading type={4}>10% skew towards higher-tier subscription packages</Heading>
+            </IndentInner>
+            <Paragraph>
+                Furthermore, engagement from free trial users who become subscribers yielded several
+                downstream results.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>16% more paywall visits</Heading>
+            </IndentInner>
+            <IndentInner>
+                <Heading type={4}>10% more document sends</Heading>
+            </IndentInner>
+            <IndentInner>
+                <Heading type={4}>
+                    17% higher payments volume processed through in-house payment integrations
+                </Heading>
+            </IndentInner>
+        </Section>
 
         <Section ends>
             <Heading type={3}>Reflection</Heading>
