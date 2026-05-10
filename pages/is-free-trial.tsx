@@ -282,7 +282,7 @@ const FreeTrial = () => (
             <Heading type={3}>Reflection</Heading>
             <br />
             <IndentInner>
-                <Heading type={4}>Compounding dividend of UX</Heading>
+                <Heading type={4}>Compounding dividend of <abbr>UX</abbr></Heading>
             </IndentInner>
             <Paragraph>
                 Delivering an experience aimed at delight for new users yielded an uplift that
