@@ -197,6 +197,12 @@ const FreeTrial = () => (
                     instill a sense of progression.
                 </Paragraph>
             </SectionInner>
+            <ImageFluid>
+                <Image
+                    src='/is/free-trial/is-free-trial_feature-checklist.svg'
+                    alt='Image showing feature checklist page and its various elements'
+                />
+            </ImageFluid>
             <SectionInner>
                 <Paragraph>
                     The invoice editor is where most new users encounter their “aha!” moment and
@@ -217,22 +223,16 @@ const FreeTrial = () => (
             </Heading>
             <List numbered>
                 <li>
-                    <span className='bold'>Subscription purchases</span>
-                    <br />
                     <Paragraph>
                         Are free trial users more likely to become paid subscribers?
                     </Paragraph>
                 </li>
                 <li>
-                    <span className='bold'>Document creations</span>
-                    <br />
                     <Paragraph>
-                        Are users creating more documents after the end of their trial period?
+                        Are free trial users creating more invoices?
                     </Paragraph>
                 </li>
                 <li>
-                    <span className='bold'>Subscription package mix</span>
-                    <br />
                     <Paragraph>
                         Do free trial users tend to purchase higher-tier packages?
                     </Paragraph>
@@ -256,7 +256,7 @@ const FreeTrial = () => (
                 <Heading type={4}>32% more subscription purchases</Heading>
             </IndentInner>
             <IndentInner>
-                <Heading type={4}>27% more documents created</Heading>
+                <Heading type={4}>27% more invoices created</Heading>
             </IndentInner>
             <IndentInner>
                 <Heading type={4}>10% skew towards higher-tier subscription packages</Heading>
@@ -269,7 +269,7 @@ const FreeTrial = () => (
                 <Heading type={4}>16% more paywall visits</Heading>
             </IndentInner>
             <IndentInner>
-                <Heading type={4}>10% more documents sent</Heading>
+                <Heading type={4}>10% more invoices sent</Heading>
             </IndentInner>
             <IndentInner>
                 <Heading type={4}>
