@@ -65,7 +65,7 @@ const FreeTrial = () => (
             <IndentInner>
                 <Strong>
                     The product suffered from a low purchase conversion as users were not
-                    experiencing the “aha moment.”
+                    experiencing the “aha!” moment.
                 </Strong>
             </IndentInner>
         </Section>
