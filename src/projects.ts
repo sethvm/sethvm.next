@@ -21,7 +21,7 @@ const projects: Project[] = [
         alt: 'Invoice Simple Free Trial',
         cardLink: 'View case study →',
         quickLinkLabel: 'Trial',
-        url: '/is-free-trial',
+        url: '/free-trial',
     },
     {
         title: 'Paywall Redesign',
@@ -32,7 +32,7 @@ const projects: Project[] = [
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View case study →',
         quickLinkLabel: 'Paywall',
-        url: '/is-paywall-redesign',
+        url: '/paywall-redesign',
     },
     {
         title: 'Ops Pick History',
