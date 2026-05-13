@@ -57,8 +57,8 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History module is an evolution of Loblaw's previous operation tool's
-                    transaction log module.
+                    The Pick History module is an evolution of Loblaw's previous transaction log
+                    module.
                 </Strong>
             </IndentInner>
             <Paragraph>

@@ -68,8 +68,8 @@ const Checkout = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    How can we better surface QuickBooks Autopay while incorporating new transaction
-                    channels?
+                    How can we enable the QuickBooks checkout portal to elegantly facilitate new
+                    elements and surface automation features?
                 </Strong>
             </IndentInner>
             <Paragraph>
