@@ -115,13 +115,13 @@ const FreeTrial = () => (
                 <Heading type={4}>Less reading, more learning</Heading>
             </IndentInner>
             <Paragraph>
-                Features can be better understood through usage rather than through the paywall
+                Features can be better understood through usage rather than through the paywall.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Superior observability</Heading>
             </IndentInner>
             <Paragraph>
-                Opening our product to unpaid users provides additional insight on user experience
+                Opening our product to unpaid users provides additional insight on user experience.
                 and demand
             </Paragraph>
             <IndentInner>
@@ -129,12 +129,12 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 Secondary research identified free trials as the most common acquisition strategy as
-                of 2025, leveraged by an estimated 40-50% of SaaS platforms
+                of 2025, leveraged by an estimated 40-50% of SaaS platforms.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    A 14-day free trial allows small business owners to see for themselves how
-                    Invoice Simple can be integrated into their day-to-day work.
+                    A free trial allows small business owners to see for themselves how Invoice
+                    Simple can integrate into their day-to-day work.
                 </Strong>
             </IndentInner>
         </Section>
