@@ -73,7 +73,7 @@ const FreeTrial = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Two Documents, One Send, Paywall
+                    Two Documents, One Send
                 </Heading>
                 <Paragraph>
                     New users were given little beyond a test document to work with and were sent to
