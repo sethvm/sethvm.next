@@ -37,7 +37,7 @@ const Checkout = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
-                &nbsp;Facilitation of 2 new payment channels
+                &nbsp;Facilitation of 2 new payment channels and streamlined automation workflow
             </Paragraph>
         </Section>
 
@@ -72,14 +72,6 @@ const Checkout = () => (
                     elements and surface automation features?
                 </Strong>
             </IndentInner>
-            <Paragraph>
-                Due to a non-disclosure agreement (<abbr>NDA</abbr>), I can't go through an in-depth
-                discussion of this initiative here. If you'd like to learn more, don't hesitate to{' '}
-                <Link href='mailto:sethvm64@gmail.com' legacyBehavior>
-                    <a className='activeLink inBodyLink'>get in touch↗&#xFE0E;</a>
-                </Link>
-                .
-            </Paragraph>
         </Section>
 
         <Section ends>
@@ -105,6 +97,12 @@ const Checkout = () => (
                 there was a compromise to be made between preserving workflow simplicity and
                 surfacing important information about what payment automation entails.
             </Paragraph>
+            <Strong>
+                Want to learn more? Don't hesistate to{' '}
+                <Link href='mailto:sethvm64@gmail.com' legacyBehavior>
+                    <a className='activeLink inBodyLink bold'>get in touch↗&#xFE0E;</a>
+                </Link>
+            </Strong>
         </Section>
     </>
 );

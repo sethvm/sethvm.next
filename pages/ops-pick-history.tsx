@@ -37,7 +37,7 @@ const History = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Platform:</span>
-                &nbsp;Desktop Web
+                &nbsp;Desktop
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
