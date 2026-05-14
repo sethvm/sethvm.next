@@ -17,7 +17,7 @@ const projects: Project[] = [
         company: 'Invoice Simple',
         description:
             'Novel post-signup experience that grew subscription purchases by 32% and document creations by 27%',
-        img: '/is/free-trial/is-free-trial_card.svg',
+        img: '/is/free-trial/is-free-trial_card.png',
         alt: 'Invoice Simple Free Trial',
         cardLink: 'View case study →',
         quickLinkLabel: 'Trial',
@@ -28,7 +28,7 @@ const projects: Project[] = [
         company: 'Invoice Simple',
         description:
             'Generated 18% lift in purchase conversion by improving visual layout and messaging clarity',
-        img: '/is/paywall/is_paywall_card.svg',
+        img: '/is/paywall/is_paywall_card.png',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View case study →',
         quickLinkLabel: 'Paywall',
@@ -38,7 +38,7 @@ const projects: Project[] = [
         title: 'Ops Pick History',
         company: 'Loblaw Digital',
         description: 'Streamlined order validation experience for 13 grocery store chains',
-        img: '/loblaw/loblaw-card.svg',
+        img: '/loblaw/loblaw-card.png',
         alt: 'Loblaw OPS Pick History',
         cardLink: 'View case study →',
         quickLinkLabel: 'History',

@@ -46,7 +46,7 @@ const FreeTrial = () => (
         </Section>
 
         <Banner
-            img='/is/free-trial/is-free-trial_banner.svg'
+            img='/is/free-trial/is-free-trial_banner.png'
             alt='Screenshots of key free trial interface elements'
         />
 
@@ -98,7 +98,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_feature-gates.svg'
+                    src='/is/free-trial/is-free-trial_feature-gates.png'
                     alt='Image showing feature gates within the document editor'
                 />
             </ImageFluid>
@@ -164,7 +164,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_intro-page.svg'
+                    src='/is/free-trial/is-free-trial_intro-page.png'
                     alt='Image showing the free trial intro page'
                 />
             </ImageFluid>
@@ -179,7 +179,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_timer-banner.svg'
+                    src='/is/free-trial/is-free-trial_timer-banner.png'
                     alt='Image showing the free trial banner'
                 />
             </ImageFluid>
@@ -205,7 +205,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_tier-icons.svg'
+                    src='/is/free-trial/is-free-trial_tier-icons.png'
                     alt='Image showing package icons within invoice editor'
                 />
             </ImageFluid>
