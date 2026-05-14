@@ -92,8 +92,8 @@ const FreeTrial = () => (
                     Gated Features
                 </Heading>
                 <Paragraph>
-                    An upfront subscription purchase was required to use workflow-critical
-                    functionality. This included photo attachments, signatures and reminders.
+                    An upfront subscription purchase was required to essential functionality. This
+                    included photo attachments, signatures and reminders.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
