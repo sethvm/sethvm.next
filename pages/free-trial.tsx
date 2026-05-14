@@ -286,7 +286,7 @@ const FreeTrial = () => (
             </IndentInner>
             <IndentInner>
                 <Heading type={4}>
-                    17% higher payments volume processed through in-house integrations
+                    17% higher payments volume processed through Invoice Simple Payments
                 </Heading>
             </IndentInner>
         </Section>

@@ -14,18 +14,20 @@ import Banner from '../src/components/Content/Banner';
 const Checkout = () => (
     <>
         <Head
-            title='Checkout Portal'
-            description="Enhancing scalability of Intuit QuickBooks' checkout portal interface."
-            url='https://sethvm.com/qb-checkout-portal'
+            title='Payment Portal'
+            description="Enhancing scalability of Intuit QuickBooks' payment portal interface."
+            url='https://sethvm.com/payment-portal'
         />
         <Section ends>
-            <Heading type={2}>Checkout Portal</Heading>
-            <SubHeading>Intuit</SubHeading>
+            <Heading type={2}>Payment Portal</Heading>
+            <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
                 <br />
-                Intuit QuickBooks' online checkout portal facilitates transactions between customers
-                and merchants. Moving over $300 million USD every day, it is a crucial component of
-                Intuit's technology platform.
+                Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
+                portal is a cruical component to Intuit's technology platform. With two designers,
+                two product managers, three engineers and a business analyst, I led an iteration of
+                the checkout experience to improve discoverability of existing features and
+                scalability for novel payment options.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -42,21 +44,6 @@ const Checkout = () => (
         </Section>
 
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
-
-        <Section ends>
-            <Heading type={3}>Overview</Heading>
-            <IndentInner>
-                <Strong>
-                    The QuickBooks checkout portal empowers small and medium-sized business owners
-                    by providing easy ways to get paid.
-                </Strong>
-            </IndentInner>
-            <Paragraph>
-                Collaborating with two designers, two product managers, three engineers and a
-                business analyst, I led a design iteration of the checkout experience to improve
-                discoverability of existing features and scalability for novel payment options.
-            </Paragraph>
-        </Section>
 
         <Section ends>
             <Heading type={3}>The Challenge</Heading>

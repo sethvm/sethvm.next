@@ -45,14 +45,14 @@ const projects: Project[] = [
         url: '/ops-pick-history',
     },
     {
-        title: 'Checkout Portal',
-        company: 'Intuit',
+        title: 'Payment Portal',
+        company: 'Intuit QuickBooks',
         description:
-            'Enhanced scalability of a QuickBooks checkout that processes over $300 million daily',
+            'Enhanced scalability of a payments platform that processes over $300 million daily',
         img: '/intuit/intuit-card.svg',
-        alt: 'Intuit QuickBooks Checkout Portal',
+        alt: 'Intuit QuickBooks Payment Portal',
         cardLink: 'View project →',
-        url: '/qb-checkout-portal',
+        url: '/payment-portal',
     },
     {
         title: 'Patient Support App',
