@@ -23,7 +23,7 @@ const About = () => (
                 My current endeavours revolve around empowering small business owners in their
                 day-to-day operations. Previously, I worked on the QuickBooks payment portal at
                 Intuit, drove the adoption of design thinking at Interac's innovation lab and
-                rebuilt a fulfillment validation tool at Loblaw, Canada's largest grocery retailer.
+                streamlined fulfillment operations at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session or{' '}
