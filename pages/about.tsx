@@ -1,5 +1,4 @@
 import Head from '../src/components/SEO';
-import Link from 'next/link';
 import aboutPageStyle from '../styles/About.module.scss';
 // layout
 import Section from '../src/components/Content/Section';
@@ -21,13 +20,13 @@ const About = () => (
             </Paragraph>
             <Paragraph>
                 My current endeavours revolve around empowering small business owners in their
-                day-to-day operations. Previously, I worked on the QuickBooks payment portal at
-                Intuit, drove the adoption of design thinking at Interac's innovation lab and
-                streamlined fulfillment operations at Loblaw, Canada's largest grocery retailer.
+                day-to-day operations. Previously, I led refinements to the QuickBooks payment
+                portal at Intuit, drove the adoption of design thinking at Interac's innovation lab
+                and streamlined fulfillment operations at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session or{' '}
-                <OutboundLink href='https://sethvm.studio/'>
+                <OutboundLink href='https://sethvm.studio/' className='activeLink inBodyLink'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
                 . My photography work explores visual imagery incorporating themes of geometry,
@@ -38,7 +37,10 @@ const About = () => (
             <br />
             <Strong>
                 Say hi on{' '}
-                <OutboundLink href='https://www.linkedin.com/in/sethvm'>
+                <OutboundLink
+                    href='https://www.linkedin.com/in/sethvm'
+                    className='activeLink inBodyLink bold'
+                >
                     LinkedIn↗&#xFE0E;
                 </OutboundLink>
             </Strong>
@@ -46,13 +48,20 @@ const About = () => (
             <br />
             <Strong>
                 Send over an{' '}
-                <OutboundLink href='mailto:sethvm64@gmail.com?'>email↗&#xFE0E;</OutboundLink>
+                <OutboundLink
+                    href='mailto:sethvm64@gmail.com?'
+                    className='activeLink inBodyLink bold'
+                >
+                    email↗&#xFE0E;
+                </OutboundLink>
             </Strong>
             <br />
             <br />
             <Strong>
                 Skim through my{' '}
-                <OutboundLink href='/sethvm_resume.pdf'>résumé↗&#xFE0E;</OutboundLink>
+                <OutboundLink href='/sethvm_resume.pdf' className='activeLink inBodyLink bold'>
+                    résumé↗&#xFE0E;
+                </OutboundLink>
             </Strong>
         </Section>
     </>
@@ -61,11 +70,12 @@ const About = () => (
 interface OutboundLinkProps {
     href: string;
     children: string;
+    className: string;
 }
 
-const OutboundLink = ({ href, children }: OutboundLinkProps) => (
+const OutboundLink = ({ href, children, className }: OutboundLinkProps) => (
     <a rel='noopener noreferrer' href={href} target='_blank'>
-        <span className='activeLink inBodyLink bold'>{children}</span>
+        <span className={className}>{children}</span>
     </a>
 );
 
