@@ -7,18 +7,18 @@ import Heading from '../src/components/Typography/Heading';
 
 const Error = () => (
     <>
-        <Head title='404: Not Found' noCrawl />
+        <Head title='Page Not Found' noCrawl />
         <Section>
             <Heading type={2}>
                 <span className='heavy' style={{ color: '#A80000' }}>
-                    404, mate—probably an old link!
+                    The page you're looking for doesn't exist!
                 </span>
             </Heading>
             <Heading type={3}>
                 <br />
-                <span>No sweat—</span>
+                <span>No sweat—head over to the </span>
                 <Link href='/' passHref legacyBehavior>
-                    <a className='activeLink bold'>head over to the home page →&#xFE0E;</a>
+                    <a className='activeLink bold'>home page →&#xFE0E;</a>
                 </Link>
             </Heading>
         </Section>

@@ -1,9 +1,11 @@
 import Head from '../src/components/SEO';
+import Link from 'next/link';
 import aboutPageStyle from '../styles/About.module.scss';
 // layout
 import Section from '../src/components/Content/Section';
 // typography
 import Paragraph from '../src/components/Typography/Paragraph';
+import Strong from '../src/components/Typography/Strong';
 
 const About = () => (
     <>
@@ -19,8 +21,9 @@ const About = () => (
             </Paragraph>
             <Paragraph>
                 My current endeavours revolve around empowering small business owners in their
-                day-to-day challenges. Previous spaces I've explored include financial technology,
-                grocery fulfillment and healthcare service operations.
+                day-to-day operations. Previously, I worked on the QuickBooks payment portal at
+                Intuit, drove the adoption of design thinking at Interac's innovation lab and
+                rebuilt a fulfillment validation tool at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
                 On the side, you'll probably find me amping up for a powerlifting session or{' '}
@@ -31,22 +34,26 @@ const About = () => (
                 motion and scale.
             </Paragraph>
             <br />
-            <br />
             <h3 className={aboutPageStyle.subHeading}>Keen to chat or collab? Let's connect!</h3>
             <br />
-            <Paragraph>
+            <Strong>
                 Say hi on{' '}
                 <OutboundLink href='https://www.linkedin.com/in/sethvm'>
                     LinkedIn↗&#xFE0E;
                 </OutboundLink>
-                , toss over an{' '}
-                <OutboundLink href='mailto:sethvm64@gmail.com?cc=svmoreno@uwaterloo.ca'>
-                    email↗&#xFE0E;
-                </OutboundLink>
-                , skim through my{' '}
-                <OutboundLink href='/sethvm_resume.pdf'>résumé↗&#xFE0E;</OutboundLink>, or do any
-                combination of the three :)
-            </Paragraph>
+            </Strong>
+            <br />
+            <br />
+            <Strong>
+                Send over an{' '}
+                <OutboundLink href='mailto:sethvm64@gmail.com?'>email↗&#xFE0E;</OutboundLink>
+            </Strong>
+            <br />
+            <br />
+            <Strong>
+                Skim through my{' '}
+                <OutboundLink href='/sethvm_resume.pdf'>résumé↗&#xFE0E;</OutboundLink>
+            </Strong>
         </Section>
     </>
 );
@@ -58,7 +65,7 @@ interface OutboundLinkProps {
 
 const OutboundLink = ({ href, children }: OutboundLinkProps) => (
     <a rel='noopener noreferrer' href={href} target='_blank'>
-        <span className='activeLink inBodyLink'>{children}</span>
+        <span className='activeLink inBodyLink bold'>{children}</span>
     </a>
 );
 

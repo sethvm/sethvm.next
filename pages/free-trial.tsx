@@ -40,8 +40,8 @@ const FreeTrial = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Impact:</span>
-                &nbsp;Increased subscription purchases by 32% and invoice creations by 27%
-                alongside downstream results
+                &nbsp;Increased subscription purchases by 32% and invoice creations by 27% alongside
+                downstream results
             </Paragraph>
         </Section>
 
