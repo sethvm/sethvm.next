@@ -8,6 +8,9 @@ module.exports = {
 
     // custom transform function
     transform: async (config, path) => {
+
+        let priority;
+
         if (path === '/') {
             priority = 1;
         } else if (path === '/about') {
