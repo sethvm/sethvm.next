@@ -1,7 +1,6 @@
 import { memo, Fragment } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { nanoid } from 'nanoid';
 import styleQuickLinks from './QuickLinks.module.scss';
 import projects from '../../projects';
 
@@ -53,7 +52,7 @@ const MemoizedQuickLinks = memo(({ currentURL }: Props) => {
                     currentURL === project.url ? styleQuickLinks.currentLink : 'heavy activeLink';
 
                 return (
-                    <Fragment key={nanoid()}>
+                    <Fragment key={project.url}>
                         {project.quickLinkLabel && (
                             <Link
                                 href={project.url}
