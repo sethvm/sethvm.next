@@ -86,8 +86,8 @@ const Checkout = () => (
             </Paragraph>
             <Strong>
                 Want to learn more? Don't hesistate to{' '}
-                <Link href='mailto:sethvm64@gmail.com' legacyBehavior>
-                    <a className='activeLink inBodyLink bold'>get in touch↗&#xFE0E;</a>
+                <Link href='mailto:sethvm64@gmail.com' className='activeLink inBodyLink bold'>
+                    get in touch↗&#xFE0E;
                 </Link>
             </Strong>
         </Section>

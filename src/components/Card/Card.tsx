@@ -22,16 +22,12 @@ const Card = ({ heading, description, url, link, img, alt, children }: Props) =>
                 {description}
                 <br />
             </p>
-            <Link href={url} passHref legacyBehavior>
-                <a className={`${styleCard.link} activeLink`}>
-                    <span className='heavy'>{link}</span>
-                </a>
+            <Link href={url} className={`${styleCard.link} activeLink`}>
+                <span className='heavy'>{link}</span>
             </Link>
         </div>
-        <Link href={url} passHref legacyBehavior>
-            <a>
-                <img className={styleCard.image} src={img} alt={alt} />
-            </a>
+        <Link href={url}>
+            <img className={styleCard.image} src={img} alt={alt} />
         </Link>
     </div>
 );

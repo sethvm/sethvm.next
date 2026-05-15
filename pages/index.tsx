@@ -31,14 +31,12 @@ const Home = () => (
                     <br />
                 </Paragraph>
                 <div className={homePageStyle.jumpContainer}>
-                    <Link href='/#projects' passHref legacyBehavior>
-                        <a className={homePageStyle.jump} aria-current='page'>
-                            <img
-                                className={homePageStyle.jumpBtn}
-                                src='/down-arrow.svg'
-                                alt='Scroll down to check out my work!'
-                            />
-                        </a>
+                    <Link href='/#projects' className={homePageStyle.jump} aria-current='page'>
+                        <img
+                            className={homePageStyle.jumpBtn}
+                            src='/down-arrow.svg'
+                            alt='Scroll down to check out my work!'
+                        />
                     </Link>
                 </div>
             </div>
