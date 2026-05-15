@@ -1,5 +1,4 @@
 import { memo } from 'react';
-import { nanoid } from 'nanoid';
 import Link from 'next/link';
 import Head from '../components/SEO';
 import homePageStyle from '../styles/Home.module.scss';
@@ -53,7 +52,7 @@ const MemoizedCards = memo(() => {
         <>
             {projects.map((project) => (
                 <Card
-                    key={nanoid()}
+                    key={project.url}
                     heading={project.title}
                     description={project.description}
                     img={project.img}
