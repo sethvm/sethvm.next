@@ -1,18 +1,18 @@
-import Head from '../src/components/SEO';
+import Head from '../components/SEO';
 // layout
-import Section from '../src/components/Content/Section';
-import SectionInner from '../src/components/Content/SectionInner';
-import IndentInner from '../src/components/Content/IndentInner';
-import List from '../src/components/Content/List';
-import Banner from '../src/components/Content/Banner';
-import FrostedGlass from '../src/components/Content/FrostedGlass';
-import ImageFluid from '../src/components/Content/ImageFluid';
-import Image from '../src/components/Content/Image';
+import Section from '../components/Content/Section';
+import SectionInner from '../components/Content/SectionInner';
+import IndentInner from '../components/Content/IndentInner';
+import List from '../components/Content/List';
+import Banner from '../components/Content/Banner';
+import FrostedGlass from '../components/Content/FrostedGlass';
+import ImageFluid from '../components/Content/ImageFluid';
+import Image from '../components/Content/Image';
 // typography
-import Heading from '../src/components/Typography/Heading';
-import SubHeading from '../src/components/Typography/SubHeading';
-import Paragraph from '../src/components/Typography/Paragraph';
-import Strong from '../src/components/Typography/Strong';
+import Heading from '../components/Typography/Heading';
+import SubHeading from '../components/Typography/SubHeading';
+import Paragraph from '../components/Typography/Paragraph';
+import Strong from '../components/Typography/Strong';
 
 const Paywall = () => (
     <>

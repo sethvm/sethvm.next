@@ -1,15 +1,15 @@
 import { memo } from 'react';
 import { nanoid } from 'nanoid';
 import Link from 'next/link';
-import Head from '../src/components/SEO';
+import Head from '../components/SEO';
 import homePageStyle from '../styles/Home.module.scss';
 // typography
-import Heading from '../src/components/Typography/Heading';
-import SubHeading from '../src/components/Typography/SubHeading';
-import Paragraph from '../src/components/Typography/Paragraph';
+import Heading from '../components/Typography/Heading';
+import SubHeading from '../components/Typography/SubHeading';
+import Paragraph from '../components/Typography/Paragraph';
 // project cards
-import Card from '../src/components/Card/Card';
-import projects from '../src/projects';
+import Card from '../components/Card/Card';
+import projects from '../projects';
 
 // page content component
 const Home = () => (

@@ -1,15 +1,15 @@
-import Head from '../src/components/SEO';
+import Head from '../components/SEO';
 import Link from 'next/link';
 // layout
-import Section from '../src/components/Content/Section';
-import IndentInner from '../src/components/Content/IndentInner';
+import Section from '../components/Content/Section';
+import IndentInner from '../components/Content/IndentInner';
 // typography
-import Heading from '../src/components/Typography/Heading';
-import SubHeading from '../src/components/Typography/SubHeading';
-import Paragraph from '../src/components/Typography/Paragraph';
-import Strong from '../src/components/Typography/Strong';
+import Heading from '../components/Typography/Heading';
+import SubHeading from '../components/Typography/SubHeading';
+import Paragraph from '../components/Typography/Paragraph';
+import Strong from '../components/Typography/Strong';
 // images
-import Banner from '../src/components/Content/Banner';
+import Banner from '../components/Content/Banner';
 
 const Checkout = () => (
     <>

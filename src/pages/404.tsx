@@ -1,9 +1,9 @@
-import Head from '../src/components/SEO';
+import Head from '../components/SEO';
 import Link from 'next/link';
 // layout
-import Section from '../src/components/Content/Section';
+import Section from '../components/Content/Section';
 // typography
-import Heading from '../src/components/Typography/Heading';
+import Heading from '../components/Typography/Heading';
 
 const Error = () => (
     <>

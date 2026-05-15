@@ -1,10 +1,10 @@
-import Head from '../src/components/SEO';
+import Head from '../components/SEO';
 import aboutPageStyle from '../styles/About.module.scss';
 // layout
-import Section from '../src/components/Content/Section';
+import Section from '../components/Content/Section';
 // typography
-import Paragraph from '../src/components/Typography/Paragraph';
-import Strong from '../src/components/Typography/Strong';
+import Paragraph from '../components/Typography/Paragraph';
+import Strong from '../components/Typography/Strong';
 
 const About = () => (
     <>
