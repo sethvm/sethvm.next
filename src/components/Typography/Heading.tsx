@@ -1,38 +1,14 @@
-// dynamic heading component
+type HeadingRank = 1 | 2 | 3 | 4 | 5;
+
 interface Props {
-    type: number;
+    type: HeadingRank;
     className?: string;
     children: React.ReactNode;
 }
 
 const Heading = ({ type, className, children }: Props) => {
-    const HeadingType = [
-        () => {
-            return <h1 className={className}>{children}</h1>;
-        },
-        () => {
-            return <h2 className={className}>{children}</h2>;
-        },
-        () => {
-            return <h3 className={className}>{children}</h3>;
-        },
-        () => {
-            return <h4 className={className}>{children}</h4>;
-        },
-        () => {
-            return <h5 className={className}>{children}</h5>;
-        },
-    ];
-
-    const index = type - 1;
-
-    // default render if 'type' not provided
-    if (!HeadingType[index] || !type) {
-        return HeadingType[0]();
-    }
-
-    // render header based on provided 'type' value
-    return HeadingType[index]();
+    const Tag = `h${type}` as const;
+    return <Tag className={className}>{children}</Tag>;
 };
 
 export default Heading;
