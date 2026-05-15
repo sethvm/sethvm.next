@@ -16,6 +16,12 @@
 /out/
 next-env.d.ts
 
+#typescript
+*.tsbuildinfo
+
+# eslint
+.eslintcache
+
 # production
 /build
 
