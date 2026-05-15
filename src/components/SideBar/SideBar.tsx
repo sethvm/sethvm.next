@@ -1,4 +1,3 @@
-import { nanoid } from 'nanoid';
 import styleSideBar from './SideBar.module.scss';
 // analytics
 import ReactGA4 from 'react-ga4';
@@ -24,7 +23,7 @@ const SideBar = () => (
     <address id='sideBar' className={styleSideBar.container} aria-label='contact links'>
         {sideBarItems.map((sideBarItem) => (
             <a
-                key={nanoid()}
+                key={sideBarItem.label}
                 href={sideBarItem.href}
                 rel='noopener noreferrer'
                 target='_blank'
