@@ -8,7 +8,13 @@ interface Props {
     noCrawl?: boolean;
 }
 
-const SEO = ({ title, description, image, url, noCrawl }: Props) => (
+const SEO = ({
+    title = 'Seth Morenos',
+    description = "I'm Seth, a Toronto-based product designer passionate about building experiences that help move the world forward. Currently working to empower small business owners.",
+    image = '/preview.png',
+    url,
+    noCrawl,
+}: Props) => (
     <Head>
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
@@ -30,13 +36,5 @@ const SEO = ({ title, description, image, url, noCrawl }: Props) => (
         {noCrawl && <meta name='robots' content='noindex' />}
     </Head>
 );
-
-SEO.defaultProps = {
-    title: 'Seth Morenos',
-    description:
-        "I'm Seth, a product designer passionate about building experiences that help move the world forward. Currently working to empower independent business owners.",
-    image: '/preview.png',
-    url: null,
-};
 
 export default SEO;
