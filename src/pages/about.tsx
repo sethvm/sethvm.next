@@ -11,7 +11,6 @@ const About = () => (
         <Head title='About' url='https://sethvm.com/about' />
         <Section>
             <h2 className={aboutPageStyle.heading}>I push pixels, barbells, and boundaries.</h2>
-            <br />
             <Paragraph>
                 As a designer with a background in human-centred engineering, my interest lies in
                 exploring how we can leverage technology to help people live their best lives and
@@ -32,37 +31,42 @@ const About = () => (
                 . My photography work explores visual imagery incorporating themes of geometry,
                 motion and scale.
             </Paragraph>
-            <br />
             <h3 className={aboutPageStyle.subHeading}>Keen to chat or collab? Let's connect!</h3>
-            <br />
-            <Strong>
-                Say hi on{' '}
-                <OutboundLink
-                    href='https://www.linkedin.com/in/sethvm'
-                    className='activeLink inBodyLink bold'
-                >
-                    LinkedIn↗&#xFE0E;
-                </OutboundLink>
-            </Strong>
-            <br />
-            <br />
-            <Strong>
-                Send over an{' '}
-                <OutboundLink
-                    href='mailto:sethvm64@gmail.com?'
-                    className='activeLink inBodyLink bold'
-                >
-                    email↗&#xFE0E;
-                </OutboundLink>
-            </Strong>
-            <br />
-            <br />
-            <Strong>
-                Skim through my{' '}
-                <OutboundLink href='/sethvm_resume.pdf' className='activeLink inBodyLink bold'>
-                    résumé↗&#xFE0E;
-                </OutboundLink>
-            </Strong>
+            <ul className={aboutPageStyle.contactList}>
+                <li>
+                    <Strong>
+                        Say hi on{' '}
+                        <OutboundLink
+                            href='https://www.linkedin.com/in/sethvm'
+                            className='activeLink inBodyLink bold'
+                        >
+                            LinkedIn↗&#xFE0E;
+                        </OutboundLink>
+                    </Strong>
+                </li>
+                <li>
+                    <Strong>
+                        Send over an{' '}
+                        <OutboundLink
+                            href='mailto:sethvm64@gmail.com?'
+                            className='activeLink inBodyLink bold'
+                        >
+                            email↗&#xFE0E;
+                        </OutboundLink>
+                    </Strong>
+                </li>
+                <li>
+                    <Strong>
+                        Skim through my{' '}
+                        <OutboundLink
+                            href='/sethvm_resume.pdf'
+                            className='activeLink inBodyLink bold'
+                        >
+                            résumé↗&#xFE0E;
+                        </OutboundLink>
+                    </Strong>
+                </li>
+            </ul>
         </Section>
     </>
 );

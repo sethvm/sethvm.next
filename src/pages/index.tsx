@@ -27,7 +27,6 @@ const Home = () => (
                 </Paragraph>
                 <Paragraph>
                     Currently working on invoicing for small businesses.
-                    <br />
                 </Paragraph>
                 <div className={homePageStyle.jumpContainer}>
                     <Link href='/#projects' className={homePageStyle.jump} aria-current='page'>
