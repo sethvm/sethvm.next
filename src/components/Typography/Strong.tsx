@@ -6,6 +6,8 @@ interface Props {
     children: React.ReactNode;
 }
 
-const Strong = ({ className, children }: Props) => <strong className={className}>{children}</strong>;
+const Strong = ({ className, children }: Props) => (
+    <strong className={className}>{children}</strong>
+);
 
 export default Strong;

@@ -16,7 +16,9 @@ const RenderQuickLinks = () => {
                 <>
                     <div className={styleQuickLinks.prompt}>
                         <h3 className={styleQuickLinks.promptText}>Thanks for reading!</h3>
-                        <p className={`${styleQuickLinks.promptText} ${styleQuickLinks.promptSubtext} heavy`}>
+                        <p
+                            className={`${styleQuickLinks.promptText} ${styleQuickLinks.promptSubtext} heavy`}
+                        >
                             Check out&nbsp;
                             {onAboutPage ? <>some</> : <>more</>}
                             &nbsp;of my work ↓
