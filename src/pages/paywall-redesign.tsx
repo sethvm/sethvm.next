@@ -25,7 +25,6 @@ const Paywall = () => (
             <Heading type={2}>Paywall Redesign</Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
-                <br />
                 Subscription paywalls serve a key role in establishing trust with users by outlining
                 crucial information such as feature packages, pricing and promotions. Working with a
                 product manager and an engineer, I led a complete redesign of the Invoice Simple
@@ -128,18 +127,15 @@ const Paywall = () => (
             </Paragraph>
             <List numbered>
                 <li>
-                    <span className='bold'>Simplicity</span>
-                    <br />
+                    <Strong className='block'>Simplicity</Strong>
                     <Paragraph>Avoid using large bodies of text</Paragraph>
                 </li>
                 <li>
-                    <span className='bold'>Progressive disclosure</span>
-                    <br />
+                    <Strong className='block'>Progressive disclosure</Strong>
                     <Paragraph>Introduce details incrementally</Paragraph>
                 </li>
                 <li>
-                    <span className='bold'>Transparency</span>
-                    <br />
+                    <Strong className='block'>Transparency</Strong>
                     <Paragraph>Arrange information for easy consumption</Paragraph>
                 </li>
             </List>

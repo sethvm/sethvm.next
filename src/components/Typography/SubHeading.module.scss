@@ -1,5 +1,7 @@
 @use '../../styles/styles';
 
 .text {
+    display: block;
+    margin-bottom: 1.5em;
     color: styles.$secondary-color;
 }
