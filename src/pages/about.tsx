@@ -14,17 +14,18 @@ const About = () => (
             <Paragraph>
                 As a designer with a background in human-centred engineering, my interest lies in
                 exploring how we can leverage technology to help people live their best lives and
-                put forth their best work. I'm drawn to design by its interdisciplinary nature—it's
-                a field that demands careful triangulation between engineering, art and business.
+                put forth their best work.
             </Paragraph>
             <Paragraph>
-                My current endeavours revolve around empowering small business owners in their
-                day-to-day operations. Previously, I led refinements to the QuickBooks payment
-                portal at Intuit, drove the adoption of design thinking at Interac's innovation lab
-                and streamlined fulfillment operations at Loblaw, Canada's largest grocery retailer.
+                I currently lead design for Invoice Simple Payments at EverCommerce, helping small
+                business owners get paid faster. Previously, I worked on growth initiatives that
+                today help new users discover how Invoice Simple can empower them in their
+                day-to-day operations. Before that, I shaped the QuickBooks checkout experience at
+                Intuit, drove the adoption of design thinking at Interac's innovation lab and
+                streamlined fulfillment operations at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
-                On the side, you'll probably find me amping up for a powerlifting session or{' '}
+                On the side, you'll find me amping up for a powerlifting session or{' '}
                 <OutboundLink href='https://sethvm.studio/' className='activeLink inBodyLink'>
                     running around with a camera↗&#xFE0E;
                 </OutboundLink>
