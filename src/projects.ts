@@ -35,14 +35,15 @@ const projects: Project[] = [
         url: '/paywall-redesign',
     },
     {
-        title: 'Ops Pick History',
+        title: 'Pick History',
         company: 'Loblaw Digital',
-        description: 'Streamlined order validation experience for 13 grocery store chains',
+        description:
+            "Streamlined order validation experience for Canada's largest grocery retailer",
         img: '/loblaw/loblaw-card.png',
-        alt: 'Loblaw OPS Pick History',
+        alt: 'Loblaw Pick History',
         cardLink: 'View case study →',
         quickLinkLabel: 'History',
-        url: '/ops-pick-history',
+        url: '/pick-history',
     },
     {
         title: 'Payment Portal',

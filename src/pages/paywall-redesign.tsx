@@ -40,7 +40,7 @@ const Paywall = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
-                &nbsp;Grew purchase conversion by 18%
+                &nbsp;18% lift in purchase conversion
             </Paragraph>
         </Section>
 

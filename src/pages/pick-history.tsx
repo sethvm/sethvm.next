@@ -17,18 +17,19 @@ import Strong from '../components/Typography/Strong';
 const History = () => (
     <>
         <Head
-            title='Ops Pick History'
+            title='Pick History'
             description="Leading the end-to-end transformation of an order validation module used by Loblaw, Canada's largest grocery retailer."
-            url='https://sethvm.com/ops-pick-history'
+            url='https://sethvm.com/pick-history'
         />
         <Section ends>
-            <Heading type={2}>Ops Pick History</Heading>
+            <Heading type={2}>Pick History</Heading>
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
-                Loblaw's Ops Pick History is a tool used to validate customer order statuses and
-                fulfillment completion times. It is used in the day-to-day operations of PC Express
-                (<abbr>PCX</abbr>), a grocery click-and-collect and delivery service that spans over
-                700 locations across Canada.
+                Loblaw's Pick History tool is used to validate thousands of customer order statuses
+                and fulfillment completion times weekly. It is used in the day-to-day operations of
+                PC Express (<abbr>PCX</abbr>), a grocery click-and-collect and delivery service
+                spanning over 700 locations across Canada. With another designer, six developers and
+                a product owner, I led its complete rebuild from discovery to delivery.
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Role:</span>
@@ -47,24 +48,18 @@ const History = () => (
         <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final Pick History interface' />
 
         <Section ends>
-            <Heading type={3}>Overview</Heading>
+            <Heading type={3}>Context</Heading>
             <Paragraph>
                 With COVID-19 driving demand for online grocery services through the roof, Loblaw
-                looked to enhance the extensibility of their internal operation tools—an Ops Portal
-                initiative served a critical role in fulfilling this objective by driving a complete
-                in-house rebuild of its grocery platform's components.
+                looked to enhance the usability of their internal operations platform, better known
+                as the Ops Portal.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History module is an evolution of Loblaw's previous transaction log
+                    The Pick History tool is an evolution of Loblaw's previous transaction log
                     module.
                 </Strong>
             </IndentInner>
-            <Paragraph>
-                Working with 1 product designer, 2 product managers and 5 engineers, I led the
-                zero-to-one design of the Pick History module, from discovery, to validation to
-                iteration.
-            </Paragraph>
         </Section>
 
         <Section>
@@ -312,7 +307,7 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Validation Results</Heading>
+            <Heading type={3}>Validation</Heading>
             <Paragraph>
                 I ran moderated usability tests and had several <abbr>PCX</abbr> specialists conduct
                 mock order investigations using a prototype of our redesign. My script outlined
@@ -371,7 +366,7 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Design Refinements</Heading>
+            <Heading type={3}>Refinements</Heading>
             <Paragraph>
                 My approach to polishing our solution encompassed two core foundations:
             </Paragraph>
