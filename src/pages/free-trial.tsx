@@ -25,7 +25,7 @@ const FreeTrial = () => (
             <Heading type={2}>Free Trial</Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
-                <br />A limited-time free trial enables small business owners to experience the full
+                A limited-time free trial enables small business owners to experience the full
                 capability of Invoice Simple without the upfront pressure of committing to a
                 subscription plan. Working with a product manager and five engineers, I led the
                 design of this new acquisition model from conception to validation and execution.
@@ -291,9 +291,8 @@ const FreeTrial = () => (
             </IndentInner>
         </Section>
 
-        <Section ends>
+        <Section ends gap>
             <Heading type={3}>Next Steps</Heading>
-            <br />
             <IndentInner>
                 <Heading type={4}>Usability testing of feature checklist</Heading>
             </IndentInner>

@@ -25,10 +25,7 @@ const Home = () => (
                     A <span className='bold'>product designer</span> passionate about building
                     experiences that <span className='bold'>move the world forward</span>.
                 </Paragraph>
-                <Paragraph>
-                    Currently working on invoicing for small businesses.
-                    <br />
-                </Paragraph>
+                <Paragraph>Currently working on invoicing for small businesses.</Paragraph>
                 <div className={homePageStyle.jumpContainer}>
                     <Link href='/#projects' className={homePageStyle.jump} aria-current='page'>
                         <img

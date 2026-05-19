@@ -134,6 +134,16 @@ p {
     color: styles.$body-font-color;
 }
 
+// utility: replaces trailing <br/> tags after a block; ~1 line-height of extra space
+.spacerAfter {
+    margin-bottom: 2.5em;
+}
+
+// utility: forces an inline element to render as a block
+.block {
+    display: block;
+}
+
 // list styling
 li {
     line-height: 1.25em;

@@ -25,7 +25,6 @@ const Soulfx = () => (
             <Heading type={2}>Patient Support App</Heading>
             <SubHeading>Soulfx Technologies</SubHeading>
             <Paragraph>
-                <br />
                 Soulfx's Patient Support Application is a web-based platform developed for a
                 healthcare firm. It facilitates the remote management and operation of a service
                 that provides financial assistance to Canadian patients for medical payments such as
@@ -43,12 +42,10 @@ const Soulfx = () => (
                 <span className='bold'>Platform:</span>
                 &nbsp;Desktop Web
             </Paragraph>
-            <Paragraph>
+            <Paragraph className='spacerAfter'>
                 <span className='bold'>Result:</span>
                 &nbsp;Enabled virtual-first healthcare delivery during COVID-19 by facilitating
                 administration of over 2.5K medical records
-                <br />
-                <br />
             </Paragraph>
             <IndentInner>
                 <Paragraph>
@@ -168,19 +165,16 @@ const Soulfx = () => (
                     only one of two types of certificates.
                 </Strong>
             </IndentInner>
-            <Paragraph>
+            <Paragraph className='spacerAfter'>
                 National-level certificates enable reimbursement access to patients regardless of
                 province, while provincial-level certificates restrict a program's availability to
                 specified provinces. Furthermore, the availability of cards offered by programs
                 continuously fluctuate based on demand.
-                <br />
-                <br />
             </Paragraph>
         </Section>
 
-        <Section>
+        <Section gap>
             <Heading type={3}>Record Information Architecture</Heading>
-            <br />
             <IndentInner>
                 <Strong>
                     It became clear from modelling the caseworker journey that there was a
@@ -348,9 +342,8 @@ const Soulfx = () => (
             </ImageFluid>
         </FrostedGlass>
 
-        <Section ends>
+        <Section ends gap>
             <Heading type={3}>Next Steps and Takeaways</Heading>
-            <br />
             <IndentInner>
                 <Heading type={4}>
                     There are still opportunities to streamline the navigation experience for our

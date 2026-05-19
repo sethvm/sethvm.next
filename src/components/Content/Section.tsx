@@ -3,14 +3,19 @@ import styleSection from './Section.module.scss';
 
 interface Props {
     ends?: boolean;
+    gap?: boolean;
     children: React.ReactNode;
 }
 
-const Section = ({ ends, children }: Props) => {
+const Section = ({ ends, gap, children }: Props) => {
     // adjusts bottom margin
     const isSectionEnd = ends ? styleSection.endMargins : styleSection.defaultMargins;
 
-    return <div className={`${styleSection.container} ${isSectionEnd}`}>{children}</div>;
+    const classes = [styleSection.container, isSectionEnd, gap && styleSection.gap]
+        .filter(Boolean)
+        .join(' ');
+
+    return <div className={classes}>{children}</div>;
 };
 
 export default Section;

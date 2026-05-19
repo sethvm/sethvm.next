@@ -22,7 +22,6 @@ const Checkout = () => (
             <Heading type={2}>Payment Portal</Heading>
             <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
-                <br />
                 Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
                 portal is a cruical component to Intuit's technology platform. With 2 designers, 3
                 engineers, a product manager and a business analyst, I led an iteration of the
@@ -61,9 +60,8 @@ const Checkout = () => (
             </IndentInner>
         </Section>
 
-        <Section ends>
+        <Section ends gap>
             <Heading type={3}>Reflection</Heading>
-            <br />
             <IndentInner>
                 <Heading type={4}>Introduce without interfering</Heading>
             </IndentInner>

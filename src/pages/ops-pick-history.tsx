@@ -25,7 +25,6 @@ const History = () => (
             <Heading type={2}>Ops Pick History</Heading>
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
-                <br />
                 Loblaw's Ops Pick History is a tool used to validate customer order statuses and
                 fulfillment completion times. It is used in the day-to-day operations of PC Express
                 (<abbr>PCX</abbr>), a grocery click-and-collect and delivery service that spans over
@@ -222,23 +221,20 @@ const History = () => (
             </Paragraph>
             <List numbered>
                 <li>
+                    <Strong className='block'>Clarity</Strong>
                     <Paragraph>
-                        <span className='bold'>Clarity</span>
-                        <br />
                         Leverage natural language to make transactions easier to understand
                     </Paragraph>
                 </li>
                 <li>
+                    <Strong className='block'>Cohesiveness</Strong>
                     <Paragraph>
-                        <span className='bold'>Cohesiveness</span>
-                        <br />
                         Simplify item tracking by connecting transactions of the same journey(s)
                     </Paragraph>
                 </li>
                 <li>
+                    <Strong className='block'>Scalability</Strong>
                     <Paragraph>
-                        <span className='bold'>Scalability</span>
-                        <br />
                         Enhance navigation by enabling it to adapt to varying order sizes
                     </Paragraph>
                 </li>
@@ -581,9 +577,8 @@ const History = () => (
             </ImageFluid>
         </FrostedGlass>
 
-        <Section ends>
+        <Section ends gap>
             <Heading type={3}>Next Steps</Heading>
-            <br />
             <IndentInner>
                 <Heading type={4}>Capture post-launch user feedback</Heading>
             </IndentInner>
@@ -605,9 +600,8 @@ const History = () => (
                 unified investigation tool.
             </Paragraph>
         </Section>
-        <Section ends>
+        <Section ends gap>
             <Heading type={3}>Reflection</Heading>
-            <br />
             <IndentInner>
                 <Heading type={4}>Drive form with function</Heading>
             </IndentInner>

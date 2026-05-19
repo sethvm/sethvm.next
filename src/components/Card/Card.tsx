@@ -17,11 +17,7 @@ const Card = ({ heading, description, url, link, img, alt, children }: Props) =>
         <div className={styleCard.text}>
             <h2 className={styleCard.title}>{heading}</h2>
             {children}
-            <p>
-                <br />
-                {description}
-                <br />
-            </p>
+            <p className={styleCard.description}>{description}</p>
             <Link href={url} className={`${styleCard.link} activeLink`}>
                 <span className='heavy'>{link}</span>
             </Link>

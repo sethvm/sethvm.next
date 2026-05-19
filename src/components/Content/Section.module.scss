@@ -38,3 +38,8 @@
         margin: 72px 0 100px 22%;
     }
 }
+
+// replaces a single <br/> between the first and second children
+.gap > :first-child + * {
+    margin-top: 1em;
+}

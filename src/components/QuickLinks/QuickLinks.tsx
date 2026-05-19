@@ -15,14 +15,14 @@ const RenderQuickLinks = () => {
             {!onHomePage && (
                 <>
                     <div className={styleQuickLinks.prompt}>
-                        <h3 className={styleQuickLinks.promptText}>
-                            Thanks for reading!
-                            <br />
-                            <br />
+                        <h3 className={styleQuickLinks.promptText}>Thanks for reading!</h3>
+                        <p
+                            className={`${styleQuickLinks.promptText} ${styleQuickLinks.promptTextSpaced} heavy`}
+                        >
                             Check out&nbsp;
                             {onAboutPage ? <>some</> : <>more</>}
                             &nbsp;of my work ↓
-                        </h3>
+                        </p>
                     </div>
                     <nav
                         id='quickLinks'
