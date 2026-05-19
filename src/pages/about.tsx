@@ -10,19 +10,20 @@ const About = () => (
     <>
         <Head title='About' url='https://sethvm.com/about' />
         <Section>
-            <h2 className={aboutPageStyle.heading}>I push pixels, barbells, and boundaries.</h2>
+            <h2 className={aboutPageStyle.heading}>
+                I'm a designer with a background in human-centered engineering.
+            </h2>
             <Paragraph>
-                As a designer with a background in human-centred engineering, my interest lies in
-                exploring how we can leverage technology to help people live their best lives and
-                put forth their best work.
+                My interest lies in exploring how we can leverage technology to help people live
+                their best lives and do their best work.
             </Paragraph>
             <Paragraph>
                 I currently lead design for Invoice Simple Payments at EverCommerce, helping small
-                business owners get paid faster. Previously, I led growth initiatives that today
-                help new users discover how Invoice Simple can empower them in their day-to-day
-                operations. Before that, I shaped the QuickBooks checkout experience at Intuit,
-                drove the adoption of design thinking at Interac's innovation lab and streamlined
-                fulfillment operations at Loblaw, Canada's largest grocery retailer.
+                business owners get paid faster. Previously, I designed growth-focused experiences
+                that today help users discover how Invoice Simple can empower them in their
+                day-to-day operations. Before that, I shaped the QuickBooks checkout journey at
+                Intuit, drove the adoption of design thinking at Interac's innovation lab and
+                rebuilt fulfillment operation tools at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
                 On the side, you'll find me amping up for a powerlifting session or{' '}
