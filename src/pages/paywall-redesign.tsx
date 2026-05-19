@@ -100,7 +100,7 @@ const Paywall = () => (
             </ImageFluid>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Inefficient Presentation
+                    Overwhelming Presentation
                 </Heading>
                 <Paragraph>
                     The previous organization of subscription plans and their respective feature
@@ -115,12 +115,44 @@ const Paywall = () => (
             </ImageFluid>
         </FrostedGlass>
 
+        <Section ends>
+            <Heading type={3}>What Makes a Great Paywall?</Heading>
+            <Paragraph>
+                To inform the new design, I studied subscription paywalls from leading mobile apps
+                and identified patterns consistently leveraged across the strongest examples.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Straight to the point</Heading>
+            </IndentInner>
+            <Paragraph>
+                Minimalism is leveraged by leading with plan details and omitting lengthy value
+                propositions and testimonials.
+            </Paragraph>
+            <IndentInner>
+                <Heading type={4}>Plans arranged as cards</Heading>
+            </IndentInner>
+            <Paragraph>Cards make it easy to identify and compare tiered subscriptions.</Paragraph>
+            <IndentInner>
+                <Heading type={4}>What you see is what you get</Heading>
+            </IndentInner>
+            <Paragraph>
+                Laying out plan options at a glance minimizes the navigation required to make
+                comparisons between offerings.
+            </Paragraph>
+            <IndentInner>
+                <Strong>
+                    Through competitor research, I outlined elements essential to mobile paywall
+                    designs and adapted them to our user and strategic needs.
+                </Strong>
+            </IndentInner>
+        </Section>
+
         <Section>
             <Heading type={3}>Design Solution</Heading>
             <Paragraph>
-                By reworking visual design and restructuring information hierarchy, we sought to
-                deliver an experience that helps users decide which Invoice Simple plan best
-                fulfills their business needs.
+                By reworking visual design and information hierarchy, I sought to deliver an
+                experience that helps users decide which Invoice Simple plan best fulfills their
+                business needs.
             </Paragraph>
             <Paragraph>
                 The new paywall design is grounded upon three following principles:
@@ -131,12 +163,12 @@ const Paywall = () => (
                     <Paragraph>Avoid using large bodies of text</Paragraph>
                 </li>
                 <li>
-                    <Strong className='block'>Progressive disclosure</Strong>
-                    <Paragraph>Introduce details incrementally</Paragraph>
+                    <Strong className='block'>Scannability</Strong>
+                    <Paragraph>Arrange information for easy consumption</Paragraph>
                 </li>
                 <li>
-                    <Strong className='block'>Transparency</Strong>
-                    <Paragraph>Arrange information for easy consumption</Paragraph>
+                    <Strong className='block'>Progressive disclosure</Strong>
+                    <Paragraph>Introduce details incrementally</Paragraph>
                 </li>
             </List>
         </Section>
