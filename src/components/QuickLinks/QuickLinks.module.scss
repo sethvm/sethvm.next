@@ -3,18 +3,10 @@
 */
 @use '../../styles/styles';
 
-@mixin display-flex {
+.outerContainer {
     display: flex;
-}
-
-@mixin flex-container {
     width: 100%;
     justify-content: center;
-}
-
-.outerContainer {
-    @include display-flex;
-    @include flex-container;
 
     @media (min-width: 992px) {
         width: 80%;
@@ -23,28 +15,31 @@
 }
 
 .prompt {
-    @include display-flex;
-    @include flex-container;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px 11% 32px 11%;
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    justify-items: start;
+
+    padding: 16px 11%;
 
     @media (min-width: 992px) {
         width: 80%;
-        padding: 32px 11%;
+        padding: 32px 11% 16px 11%;
     }
 }
 
 .promptText {
     font-size: 1.5em;
+    // required for the <p> sibling (paragraphs inherit $body-font-color from globals)
+    color: styles.$default-font-color;
 }
 
-.promptSubtext {
-    margin: 1em 0 0;
+.promptTextSpaced {
+    margin-top: 1em;
 }
 
 .container {
-    @include display-flex;
+    display: flex;
     justify-content: space-around;
     min-width: 312px;
     margin: 0 auto 4em auto;
