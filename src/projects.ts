@@ -55,6 +55,7 @@ const projects: Project[] = [
         cardLink: 'View project →',
         url: '/payment-portal',
     },
+    /*
     {
         title: 'Patient Support App',
         company: 'Soulfx Technologies',
@@ -63,7 +64,7 @@ const projects: Project[] = [
         alt: 'Soulfx Patient Support App',
         cardLink: 'View case study →',
         url: '/patient-support-app',
-    },
+    },*/
 ];
 
 export default projects;
