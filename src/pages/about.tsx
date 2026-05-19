@@ -11,7 +11,7 @@ const About = () => (
         <Head title='About' url='https://sethvm.com/about' />
         <Section>
             <h2 className={aboutPageStyle.heading}>
-                I'm a designer with a background in human-centered engineering.
+                I'm a designer with a background in human-centred engineering.
             </h2>
             <Paragraph>
                 My interest lies in exploring how we can leverage technology to help people live

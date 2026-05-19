@@ -23,8 +23,8 @@ const Checkout = () => (
             <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
                 Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
-                portal is a cruical component to Intuit's technology platform. With 2 designers, 3
-                engineers, a product manager and a business analyst, I led an iteration of the
+                portal is a cruical component to Intuit's technology platform. With two designers,
+                three engineers, a product manager and a business analyst, I led an iteration of the
                 checkout experience to improve discoverability of existing features and scalability
                 for novel payment options.
             </Paragraph>
