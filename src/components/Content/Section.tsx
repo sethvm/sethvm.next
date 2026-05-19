@@ -10,13 +10,12 @@ interface Props {
 const Section = ({ ends, gap, children }: Props) => {
     // adjusts bottom margin
     const isSectionEnd = ends ? styleSection.endMargins : styleSection.defaultMargins;
-    const gapClass = gap ? styleSection.gap : '';
 
-    return (
-        <div className={`${styleSection.container} ${isSectionEnd} ${gapClass}`.trimEnd()}>
-            {children}
-        </div>
-    );
+    const classes = [styleSection.container, isSectionEnd, gap && styleSection.gap]
+        .filter(Boolean)
+        .join(' ');
+
+    return <div className={classes}>{children}</div>;
 };
 
 export default Section;

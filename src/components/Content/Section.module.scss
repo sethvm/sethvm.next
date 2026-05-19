@@ -40,6 +40,6 @@
 }
 
 // replaces a single <br/> between the first and second children
-.gap > :nth-child(2) {
-    margin-top: 1.5em;
+.gap > :first-child + * {
+    margin-top: 1em;
 }
