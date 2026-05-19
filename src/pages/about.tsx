@@ -18,11 +18,11 @@ const About = () => (
             </Paragraph>
             <Paragraph>
                 I currently lead design for Invoice Simple Payments at EverCommerce, helping small
-                business owners get paid faster. Previously, I worked on growth initiatives that
-                today help new users discover how Invoice Simple can empower them in their
-                day-to-day operations. Before that, I shaped the QuickBooks checkout experience at
-                Intuit, drove the adoption of design thinking at Interac's innovation lab and
-                streamlined fulfillment operations at Loblaw, Canada's largest grocery retailer.
+                business owners get paid faster. Previously, I led growth initiatives that today
+                help new users discover how Invoice Simple can empower them in their day-to-day
+                operations. Before that, I shaped the QuickBooks checkout experience at Intuit,
+                drove the adoption of design thinking at Interac's innovation lab and streamlined
+                fulfillment operations at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
                 On the side, you'll find me amping up for a powerlifting session or{' '}
