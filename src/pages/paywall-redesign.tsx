@@ -52,9 +52,9 @@ const Paywall = () => (
         <Section ends>
             <Heading type={3}>Context</Heading>
             <Paragraph>
-                Invoice Simple's business objectives included the delivery of enhancements to the
-                new user journey. A funnel study identified a “paywall to purchase” drop-off as a
-                pivotal opportunity.
+                Invoice Simple's 2024-2025 business objectives included the enhancements to the new
+                user journey. A funnel study identified a paywall-to-purchase drop-off as a pivotal
+                opportunity.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -71,10 +71,10 @@ const Paywall = () => (
                 Simple rather than presenting subscription plan details.
             </Paragraph>
             <IndentInner>
-                <Strong>The previous paywall was designed to sell rather than inform.</Strong>
-            </IndentInner>
-            <IndentInner>
-                <Strong>85% of visits came from a feature gate.</Strong>
+                <Strong>
+                    The previous paywall was designed to sell rather than inform, despite 85% of
+                    visits coming from a feature gate.
+                </Strong>
             </IndentInner>
             <Paragraph>
                 Consequently, we hypothesized that space was being put to waste by “reselling” our
