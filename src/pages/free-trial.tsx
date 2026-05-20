@@ -225,6 +225,19 @@ const FreeTrial = () => (
                     alt='Image showing feature checklist page and its various elements'
                 />
             </ImageFluid>
+            <SectionInner>
+                <Paragraph>
+                    Selecting a feature within the checklist takes the user through a tutorial-style
+                    demonstration of how to use it.
+                </Paragraph>
+            </SectionInner>
+            <ImageFluid>
+                <Image
+                    animation
+                    src='/is/free-trial/is-free-trial_feature-demo.gif'
+                    alt='Animation showing the start of a feature demo'
+                />
+            </ImageFluid>
         </FrostedGlass>
 
         <Section ends>
