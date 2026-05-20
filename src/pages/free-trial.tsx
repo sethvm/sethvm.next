@@ -186,8 +186,8 @@ const FreeTrial = () => (
             <SectionInner>
                 <Paragraph>
                     The invoice editor is where new users encounter their “aha!” moment and discover
-                    the value of Invoice Simple. An optional tour serves to get them started on
-                    their first document as soon as they finish onboarding.
+                    the value of Invoice Simple. An optional tour serves to get them started on the
+                    first document they create.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
