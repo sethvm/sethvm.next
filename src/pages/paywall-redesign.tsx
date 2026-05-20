@@ -119,7 +119,7 @@ const Paywall = () => (
             <Heading type={3}>What Makes a Great Paywall?</Heading>
             <Paragraph>
                 To inform the new design, I studied subscription paywalls from leading mobile apps
-                and identified patterns consistently leveraged across the strongest examples.
+                and identified patterns utilized consistently across the strongest examples.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Straight to the point</Heading>
