@@ -23,7 +23,7 @@ const Home = () => (
                 </Heading>
                 <Paragraph>
                     A <span className='bold'>product designer</span> passionate about building
-                    experiences that <span className='bold'>move the world forward</span>.
+                    experiences that <span className='bold'>empower everyone to do more</span>.
                 </Paragraph>
                 <Paragraph>Currently working on invoicing for small businesses.</Paragraph>
                 <div className={homePageStyle.jumpContainer}>
