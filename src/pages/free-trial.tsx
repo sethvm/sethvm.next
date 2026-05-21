@@ -173,8 +173,8 @@ const FreeTrial = () => (
                     Generous Guidance
                 </Heading>
                 <Paragraph>
-                    The banner has been repurposed to house the trial countdown, educational content
-                    and any active promotions.
+                    The limit banner has been repurposed to house the trial countdown, educational
+                    content and any active promotions.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -231,6 +231,12 @@ const FreeTrial = () => (
                     demonstration of how to use it.
                 </Paragraph>
             </SectionInner>
+            <ImageFluid>
+                <Image
+                    src='/is/free-trial/is-free-trial_feature-demo.png'
+                    alt='Image showing the key stages of a feaure demo'
+                />
+            </ImageFluid>
             <ImageFluid>
                 <Image
                     animation

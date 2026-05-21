@@ -49,7 +49,7 @@ const projects: Project[] = [
         title: 'Payment Portal',
         company: 'Intuit QuickBooks',
         description:
-            'Enhanced scalability of a payments platform that processes over $300 million daily',
+            'Enhanced scalability of a customer-facing checkout that processes over $300 million daily',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Payment Portal',
         cardLink: 'View project →',

@@ -238,7 +238,7 @@ const Paywall = () => (
             </ImageFluid>
         </FrostedGlass>
 
-        <Section ends>
+        <Section ends gap>
             <Heading type={3}>Validation & Results</Heading>
             <Paragraph>
                 An A/B test was run to quantitatively validate the new paywall design. We
@@ -249,10 +249,21 @@ const Paywall = () => (
                 <Strong>18% lift in free-to-paid conversion</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>
-                    Addition of upgrade-centered optimizations to product growth roadmap
-                </Strong>
+                <Strong>Addition of growth-centred optimizations to product roadmap</Strong>
             </IndentInner>
+        </Section>
+
+        <Section ends gap>
+            <Heading type={3}>Next Steps</Heading>
+            <IndentInner>
+                <Heading type={4}>Extend redesign to feature list</Heading>
+            </IndentInner>
+            <Paragraph>
+                This initiative prioritized the information presented within the user's immediate
+                viewport—the top of the paywall. Hence, the next opportunity entails revisiting the
+                design of our feature list to serve the user need of comparing between subscription
+                plans.
+            </Paragraph>
         </Section>
     </>
 );
