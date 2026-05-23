@@ -121,8 +121,8 @@ const FreeTrial = () => (
                 <Heading type={4}>Superior observability</Heading>
             </IndentInner>
             <Paragraph>
-                Opening our product to unpaid users provides additional insight on user experience.
-                and demand
+                Opening our product to unpaid users provides additional insight on user experience
+                and demand.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>A SaaS standard</Heading>
