@@ -58,8 +58,8 @@ const Paywall = () => (
                 </Strong>
             </IndentInner>
             <Paragraph>
-                Invoice Simple's 2024-2025 business objectives included enhancements to the new
-                user journey. A funnel study identified a paywall-to-purchase drop-off as a pivotal
+                Invoice Simple's 2024-2025 business objectives included enhancements to the new user
+                journey. A funnel study identified a paywall-to-purchase drop-off as a pivotal
                 opportunity.
             </Paragraph>
         </Section>
