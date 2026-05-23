@@ -22,7 +22,7 @@ const About = () => (
                 business owners get paid faster. Previously, I designed growth-focused experiences
                 that today enable users to discover how Invoice Simple can empower them in their
                 day-to-day operations. Before that, I shaped the QuickBooks checkout journey at
-                Intuit, drove the adoption of design thinking at Interac's innovation lab, and
+                Intuit, drove the adoption of data-driven design at Interac's innovation lab, and
                 rebuilt fulfillment operation tools at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
