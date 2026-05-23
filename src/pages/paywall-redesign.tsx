@@ -51,17 +51,17 @@ const Paywall = () => (
 
         <Section ends>
             <Heading type={3}>Context</Heading>
-            <Paragraph>
-                Invoice Simple's 2024-2025 business objectives included the enhancements to the new
-                user journey. A funnel study identified a paywall-to-purchase drop-off as a pivotal
-                opportunity.
-            </Paragraph>
             <IndentInner>
                 <Strong>
                     80% of new users who landed on the paywall left without onboarding onto a
                     subscription plan.
                 </Strong>
             </IndentInner>
+            <Paragraph>
+                Invoice Simple's 2024-2025 business objectives included enhancements to the new
+                user journey. A funnel study identified a paywall-to-purchase drop-off as a pivotal
+                opportunity.
+            </Paragraph>
         </Section>
 
         <Section>
