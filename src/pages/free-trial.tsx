@@ -296,7 +296,7 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 Engagement from trial-turned-subscriber merchants yielded several downstream
-                results: 16% more paywall visits, 10% more invoices sent, and 17% higher payments
+                results: 16% more paywall visits, 10% more invoices sent and 17% higher payments
                 volume processed through Invoice Simple Payments.
             </Paragraph>
         </Section>
