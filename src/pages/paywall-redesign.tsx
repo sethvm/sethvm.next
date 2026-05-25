@@ -121,24 +121,28 @@ const Paywall = () => (
                 To inform the new design, I studied subscription paywalls from leading mobile apps
                 and identified patterns utilized consistently across the strongest examples.
             </Paragraph>
-            <IndentInner>
-                <Heading type={4}>Straight to the point</Heading>
-            </IndentInner>
-            <Paragraph>
-                Minimalism is leveraged by leading with plan details and omitting lengthy value
-                propositions and testimonials.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>Plans arranged as cards</Heading>
-            </IndentInner>
-            <Paragraph>Cards make it easy to identify and compare tiered subscriptions.</Paragraph>
-            <IndentInner>
-                <Heading type={4}>What you see is what you get</Heading>
-            </IndentInner>
-            <Paragraph>
-                Laying out plan options at a glance minimizes the navigation required to make
-                comparisons between offerings.
-            </Paragraph>
+            <List numbered>
+                <li>
+                    <Strong className='block'>Straight to the point</Strong>
+                    <Paragraph>
+                        Minimalism is leveraged by leading with plan details and omitting lengthy
+                        value propositions and testimonials.
+                    </Paragraph>
+                </li>
+                <li>
+                    <Strong className='block'>Plans arranged as cards</Strong>
+                    <Paragraph>
+                        Cards make it easy to identify and compare tiered subscriptions.
+                    </Paragraph>
+                </li>
+                <li>
+                    <Strong className='block'>What you see is what you get</Strong>
+                    <Paragraph>
+                        Laying out plan options at a glance minimizes the navigation required to
+                        make comparisons between offerings.
+                    </Paragraph>
+                </li>
+            </List>
             <IndentInner>
                 <Strong>
                     Through competitor research, I outlined elements essential to mobile paywall
