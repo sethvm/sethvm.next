@@ -41,7 +41,8 @@ const History = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
-                &nbsp;Enabled validation of online orders across 13 grocery store chains
+                &nbsp;Enabled validation of online orders by fulfillment associates across 13
+                grocery store chains
             </Paragraph>
         </Section>
 
