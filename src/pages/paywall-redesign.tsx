@@ -126,7 +126,7 @@ const Paywall = () => (
                     <Strong className='block'>Straight to the point</Strong>
                     <Paragraph>
                         Minimalism is leveraged by leading with plan details and omitting lengthy
-                        value propositions and testimonials.
+                        hero sections.
                     </Paragraph>
                 </li>
                 <li>
