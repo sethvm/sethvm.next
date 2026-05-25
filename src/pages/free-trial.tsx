@@ -317,8 +317,8 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 The success of the free trial brings opportunities to extend user delight beyond its
-                final day. These include data continuity, customer support engagement and win-back
-                promotions. In short—how can we help users who don't convert?
+                final day. These include data continuity, customer outreach and win-back promotions.
+                In short—how can we help users who don't convert?
             </Paragraph>
         </Section>
     </>
