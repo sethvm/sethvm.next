@@ -76,4 +76,8 @@
 /* font styling overrides */
 .greeting {
     color: styles.$primary-color;
+
+    @media (min-width: 992px) {
+        color: styles.$default-font-color;
+    }
 }
