@@ -23,7 +23,7 @@ const Checkout = () => (
             <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
                 Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
-                portal is a cruical component to Intuit's technology platform. With two designers,
+                portal is a crucial component of Intuit's technology platform. With two designers,
                 three engineers, a product manager and a business analyst, I led an iteration of the
                 checkout experience to improve discoverability of existing features and scalability
                 for novel payment options.
@@ -38,7 +38,7 @@ const Checkout = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
-                &nbsp;Facilitation of 2 new payment channels and streamlined automation workflow
+                &nbsp;Facilitation of two new payment channels and streamlined automation workflow
             </Paragraph>
         </Section>
 
@@ -48,9 +48,9 @@ const Checkout = () => (
             <Heading type={3}>The Challenge</Heading>
             <Paragraph>
                 Intuit's 2022 business objectives included introducing new payment options and
-                increasing engagement of existing automation features. This entailed revisiting how
-                interface components within the checkout portal were organized as well as leveraging
-                analytics to uncover challenges with discoverability.
+                increasing engagement with existing automation features. This entailed revisiting
+                how interface components within the checkout portal were organized as well as
+                leveraging analytics to uncover challenges with discoverability.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -83,7 +83,7 @@ const Checkout = () => (
                 surfacing important information about what payment automation entails.
             </Paragraph>
             <Strong>
-                Want to learn more? Don't hesistate to{' '}
+                Want to learn more? Don't hesitate to{' '}
                 <Link href='mailto:sethvm64@gmail.com' className='activeLink inBodyLink bold'>
                     get in touch↗&#xFE0E;
                 </Link>

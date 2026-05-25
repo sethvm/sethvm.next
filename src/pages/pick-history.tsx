@@ -56,8 +56,7 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History tool is an evolution of Loblaw's previous transaction log
-                    module.
+                    The Pick History tool is an evolution of Loblaw's transaction log module.
                 </Strong>
             </IndentInner>
         </Section>
@@ -65,10 +64,10 @@ const History = () => (
         <Section>
             <Heading type={3}>The Previous Module</Heading>
             <Paragraph>
-                Transaction logs—collectively referred to as <abbr>TRX</abbr>—were key elements of
-                the previous operations platform. They recorded every task performed by store
-                colleagues (also known as <abbr>PCX</abbr> specialists) throughout the preparation
-                process of a customer order.
+                The transaction log—referred to as <abbr>TRX</abbr>—was a key element of the
+                previous operations platform. It recorded every task performed by store colleagues
+                (also known as <abbr>PCX</abbr> specialists) throughout the preparation process of a
+                customer order.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -114,7 +113,7 @@ const History = () => (
                 </Heading>
                 <Paragraph>
                     Logs were attached to every order within the previous platform's “All Orders
-                    Summary” Page.
+                    Summary” page.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -136,8 +135,8 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    New hires were faced with a steep learning curve upon understanding how to use
-                    the <abbr>TRX</abbr> module.
+                    New hires were faced with a steep learning curve in understanding how to use the{' '}
+                    <abbr>TRX</abbr> module.
                 </Strong>
             </IndentInner>
         </Section>
@@ -193,9 +192,8 @@ const History = () => (
                     Laborious Navigation
                 </Heading>
                 <Paragraph>
-                    Transaction logs for larger orders could span over 15 pages in length —
-                    navigation interactions were limited to two sets of “Next” and “Previous”
-                    buttons.
+                    Transaction logs for larger orders could span over 15 pages in length—navigation
+                    interactions were limited to two sets of “Next” and “Previous” buttons.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -385,7 +383,7 @@ const History = () => (
                 <Strong>
                     I focused on addressing aspects of our new layout that did not align with our
                     users' mental model—store colleagues cared not only about a given item's current
-                    status, but also how it got there.
+                    status, but also about how it got there.
                 </Strong>
             </IndentInner>
         </Section>
@@ -411,7 +409,7 @@ const History = () => (
                 </Heading>
                 <Paragraph>
                     Maximizing the number of viewport-visible items while surfacing important status
-                    information were key in delivering the navigation design.
+                    information was key in delivering the navigation design.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -427,8 +425,8 @@ const History = () => (
             <Heading type={3}>New Visual Elements</Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and
-                colour—domains untouched by <abbr>TRX</abbr> nor the Pick History module's design
-                prior to testing.
+                colour—domains untouched by both <abbr>TRX</abbr> and the Pick History module's
+                design prior to testing.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -444,15 +442,14 @@ const History = () => (
                 </Heading>
                 <Paragraph>
                     In adherence to a classic aphorism, timeline icons serve as indicators for
-                    transactions that fall outside of the expected pick actions as well as
-                    preparation completion.
+                    transactions that fall outside of the expected pick actions.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
                 <Image
                     screen
                     src='/loblaw/ph_transaction_icons.png'
-                    alt='Diagram showcasing new transaction  icons'
+                    alt='Diagram showcasing new transaction icons'
                 />
             </ImageFluid>
             <SectionInner>
@@ -477,7 +474,7 @@ const History = () => (
         <Section>
             <Heading type={3}>Contextualized Search</Heading>
             <Paragraph>
-                It was confirmed later down our project roadmap that the search function within our
+                It was confirmed later along our project roadmap that the search function within our
                 new module would be contextualized to each individual order.
             </Paragraph>
             <IndentInner>
@@ -513,8 +510,8 @@ const History = () => (
                     Microcopy that Teaches
                 </Heading>
                 <Paragraph>
-                    The final searchbar's states incorporate helper text that informs new colleagues
-                    about what they can use the search function for.
+                    The final search bar's states incorporate helper text that informs new
+                    colleagues about what they can use the search function for.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -567,7 +564,7 @@ const History = () => (
                     screen
                     end
                     src='/loblaw/ph_final_design.png'
-                    alt='Screenshot the launched design'
+                    alt='Screenshot of the launched design'
                 />
             </ImageFluid>
         </FrostedGlass>
@@ -610,12 +607,10 @@ const History = () => (
                 <Heading type={4}>Observe, don't (just) listen</Heading>
             </IndentInner>
             <Paragraph>
-                Watching users carry out tasks in real-time reveals crucial aspects of the
-                decision-making process behind how they work towards objectives. Not only did design
-                validation confirm the importance of a <abbr>PCX</abbr> specialist's ability to
-                identify item statuses, it also proved pivotal in determining how interactions
-                within the Pick History module can contribute to simplifying the everyday operation
-                of a store.
+                Watching users carry out tasks in real time reveals crucial aspects of the
+                decision-making process behind how they work towards objectives. Validation
+                confirmed the importance of readability in how quickly <abbr>PCX</abbr> specialists
+                can validate orders and in turn streamline fulfillment operations.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Ambiguity is to be embraced</Heading>
@@ -623,10 +618,9 @@ const History = () => (
             <Paragraph>
                 Taking ownership of the Pick History design process instilled me with confidence in
                 my ability to navigate ambiguity and taught me about the importance of seeking
-                context to solving a problem. <abbr>TRX</abbr> presented a simple-looking interface
-                that belied a complex layer of information—an understanding of <abbr>PCX</abbr> as a
-                business was fundamental to identifying challenges and opportunities associated with
-                its role in fulfillment operations.
+                context in solving a problem. <abbr>TRX</abbr> presented a simple-looking interface
+                that belied a complex layer of information—one I came to understand by learning
+                about how <abbr>PCX</abbr> operates.
             </Paragraph>
         </Section>
     </>

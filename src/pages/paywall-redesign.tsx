@@ -53,7 +53,7 @@ const Paywall = () => (
             <Heading type={3}>Context</Heading>
             <IndentInner>
                 <Strong>
-                    80% of new users who landed on the paywall left without onboarding onto a
+                    80% of new users who landed on the paywall left without onboarding to a
                     subscription plan.
                 </Strong>
             </IndentInner>
@@ -142,7 +142,7 @@ const Paywall = () => (
             <IndentInner>
                 <Strong>
                     Through competitor research, I outlined elements essential to mobile paywall
-                    designs and adapted them to our user and strategic needs.
+                    designs and adapted them to our user goals and strategic needs.
                 </Strong>
             </IndentInner>
         </Section>
@@ -154,9 +154,7 @@ const Paywall = () => (
                 experience that helps users decide which Invoice Simple plan best fulfills their
                 business needs.
             </Paragraph>
-            <Paragraph>
-                The new paywall design is grounded upon three following principles:
-            </Paragraph>
+            <Paragraph>The new paywall design is grounded upon three principles:</Paragraph>
             <List numbered>
                 <li>
                     <Strong className='block'>Simplicity</Strong>
@@ -179,9 +177,8 @@ const Paywall = () => (
                     Reorganized Layout
                 </Heading>
                 <Paragraph>
-                    Refinements were driven primarily by two variables: plan type, and plan
-                    duration. Paginating by duration enables users to compare subscription tiers
-                    side-by-side.
+                    Refinements were driven primarily by two variables: plan type and plan duration.
+                    Paginating by duration enables users to compare subscription tiers side by side.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -249,7 +246,9 @@ const Paywall = () => (
                 <Strong>18% lift in free-to-paid conversion</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>Addition of growth-centred optimizations to product roadmap</Strong>
+                <Strong>
+                    Addition of growth-centred <abbr>UX</abbr> optimizations to product roadmap
+                </Strong>
             </IndentInner>
         </Section>
 
@@ -261,8 +260,7 @@ const Paywall = () => (
             <Paragraph>
                 This initiative prioritized the information presented within the user's immediate
                 viewport—the top of the paywall. Hence, the next opportunity entails revisiting the
-                design of our feature list to serve the user need of comparing between subscription
-                plans.
+                design of our feature list to serve the user goal of comparing subscription plans.
             </Paragraph>
         </Section>
     </>

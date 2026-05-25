@@ -53,18 +53,12 @@ const FreeTrial = () => (
             <Heading type={3}>Freemium, Not Free</Heading>
             <Paragraph>
                 Invoice Simple previously operated on a freemium model that limited how many
-                documents can be created and which features can be used by unpaid users.
+                documents could be created and which features could be used by unpaid users.
             </Paragraph>
             <IndentInner>
                 <Strong>
                     New users were not able to experience the full extent of Invoice Simple's
-                    functionality and in turn determine whether or not it serves their needs.
-                </Strong>
-            </IndentInner>
-            <IndentInner>
-                <Strong>
-                    The product suffered from low purchase conversion as users were not experiencing
-                    the “aha!” moment.
+                    functionality and in turn determine whether or not it served their needs.
                 </Strong>
             </IndentInner>
         </Section>
@@ -81,6 +75,12 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
+                    src='/is/free-trial/is-free-trial_freemium-banner.svg'
+                    alt="Image showing Invoice Simple's previous freemium banner"
+                />
+            </ImageFluid>
+            <ImageFluid>
+                <Image
                     animation
                     src='/is/free-trial/is-free-trial_freemium-limits.gif'
                     alt='Animation demonstrating the limitations of the Invoice Simple freemium model'
@@ -91,8 +91,8 @@ const FreeTrial = () => (
                     Gated Features
                 </Heading>
                 <Paragraph>
-                    An upfront subscription purchase was required to essential functionality. This
-                    included photo attachments, signatures and reminders.
+                    An upfront subscription purchase was required to access essential functionality.
+                    This included photo attachments, signatures and reminders.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -108,28 +108,31 @@ const FreeTrial = () => (
             <Paragraph>
                 Adopting a free trial model provides exposure to Invoice Simple's entire end-to-end
                 experience. We aimed to provide new users unrestricted access to our Premium package
-                to better guide them towards their “aha” moment.
+                to better guide them towards their “aha!” moment.
             </Paragraph>
-            <IndentInner>
-                <Heading type={4}>Less reading, more learning</Heading>
-            </IndentInner>
-            <Paragraph>
-                Features can be better understood through usage rather than through the paywall.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>Superior observability</Heading>
-            </IndentInner>
-            <Paragraph>
-                Opening our product to unpaid users provides additional insight on user experience
-                and demand.
-            </Paragraph>
-            <IndentInner>
-                <Heading type={4}>A SaaS standard</Heading>
-            </IndentInner>
-            <Paragraph>
-                Secondary research identified free trials as the most common acquisition strategy as
-                of 2025, leveraged by an estimated 40-50% of SaaS platforms.
-            </Paragraph>
+            <List numbered>
+                <li>
+                    <Strong className='block'>Less reading, more learning</Strong>
+                    <Paragraph>
+                        Features can be better understood through usage rather than through the
+                        paywall.
+                    </Paragraph>
+                </li>
+                <li>
+                    <Strong className='block'>Superior observability</Strong>
+                    <Paragraph>
+                        Opening our product to unpaid users provides additional insight into user
+                        experience.
+                    </Paragraph>
+                </li>
+                <li>
+                    <Strong className='block'>A SaaS standard</Strong>
+                    <Paragraph>
+                        Secondary research identified free trials as the most common acquisition
+                        strategy as of 2025, leveraged by an estimated 40-50% of SaaS platforms.
+                    </Paragraph>
+                </li>
+            </List>
             <IndentInner>
                 <Strong>
                     A free trial allows small business owners to see for themselves how Invoice
@@ -139,10 +142,10 @@ const FreeTrial = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Show and Tell</Heading>
+            <Heading type={3}>Reimagined User Journey</Heading>
             <Paragraph>
-                The opportunity to give new users the entire end-to-end experience of Invoice Simple
-                presented equally endless opportunities to educate them about our product.
+                Eliminating constraints imposed by the freemium model presented endless
+                opportunities to educate new users about our product.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -191,9 +194,8 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    animation
-                    src='/is/free-trial/is-free-trial_editor-tour.gif'
-                    alt='Animation demonstrating the invoice editor tour'
+                    src='/is/free-trial/is-free-trial_editor-tour.png'
+                    alt='Image showing the key stages of the invoice editor tour'
                 />
             </ImageFluid>
             <SectionInner>
@@ -233,7 +235,7 @@ const FreeTrial = () => (
             <ImageFluid>
                 <Image
                     src='/is/free-trial/is-free-trial_feature-demo.png'
-                    alt='Image showing the key stages of a feaure demo'
+                    alt='Image showing the key stages of a feature demo'
                 />
             </ImageFluid>
             <ImageFluid>
@@ -246,13 +248,13 @@ const FreeTrial = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Validation</Heading>
+            <Heading type={3}>Measuring Success</Heading>
             <Paragraph>
-                The new user experience fundamentally changes a growth lever vital to revenue and
+                The new user experience fundamentally changed a growth lever vital to revenue and
                 activations, meaning it needed to perform well in several key areas.
             </Paragraph>
             <Heading type={4} className='heavy'>
-                Success Metrics
+                Core Metrics
             </Heading>
             <List numbered>
                 <li>
@@ -278,10 +280,10 @@ const FreeTrial = () => (
         </Section>
 
         <Section ends>
-            <Heading type={3}>Results</Heading>
+            <Heading type={3}>Impact</Heading>
             <Paragraph>
-                The free trial experience foundationally strengthened Invoice Simple's new user
-                journey.
+                Users onboarded to the free trial are able to discover Invoice Simple's value
+                upfront, significantly strengthening our acquisition funnel.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>32% more subscription purchases</Heading>
@@ -293,20 +295,10 @@ const FreeTrial = () => (
                 <Heading type={4}>10% skew towards higher-tier subscription packages</Heading>
             </IndentInner>
             <Paragraph>
-                Furthermore, engagement from free trial users who became subscribers yielded several
-                downstream results.
+                Engagement from trial-turned-subscriber merchants yielded several downstream
+                results: 16% more paywall visits, 10% more invoices sent, and 17% higher payments
+                volume processed through Invoice Simple Payments.
             </Paragraph>
-            <IndentInner>
-                <Heading type={4}>16% more paywall visits</Heading>
-            </IndentInner>
-            <IndentInner>
-                <Heading type={4}>10% more invoices sent</Heading>
-            </IndentInner>
-            <IndentInner>
-                <Heading type={4}>
-                    17% higher payments volume processed through Invoice Simple Payments
-                </Heading>
-            </IndentInner>
         </Section>
 
         <Section ends gap>
@@ -315,9 +307,9 @@ const FreeTrial = () => (
                 <Heading type={4}>Usability testing of feature checklist</Heading>
             </IndentInner>
             <Paragraph>
-                Only 30% of free trial users are exploring at least one feature on the checklist,
+                Only 30% of free trial users are exploring more than one feature on the checklist,
                 implying poor discoverability or preference towards self-paced exploration.
-                Usability testing will be essential to uncovering context behind how the checklist
+                Usability testing will be crucial to uncovering context around how the checklist
                 contributes to the new experience.
             </Paragraph>
             <IndentInner>
@@ -325,8 +317,8 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 The success of the free trial brings opportunities to extend user delight beyond its
-                final day. These areas include data continuity, customer support engagement and
-                win-back promotions. In short—how can we help users who don't convert?
+                final day. These include data continuity, customer support engagement and win-back
+                promotions. In short—how can we help users who don't convert?
             </Paragraph>
         </Section>
     </>
