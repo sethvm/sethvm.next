@@ -18,12 +18,13 @@ const About = () => (
                 their best lives and do their best work.
             </Paragraph>
             <Paragraph>
-                I currently lead design for Invoice Simple Payments at EverCommerce, helping small
-                business owners get paid faster. Previously, I designed growth-focused experiences
-                that today enable users to discover how Invoice Simple can empower them in their
-                day-to-day operations. Before that, I shaped the QuickBooks checkout journey at
-                Intuit, drove the adoption of data-driven design at Interac's innovation lab, and
-                rebuilt fulfillment operation tools at Loblaw, Canada's largest grocery retailer.
+                I currently lead design efforts for Invoice Simple Payments at EverCommerce, helping
+                small business owners get paid faster. Previously, I designed growth-focused
+                experiences that today enable users to discover how Invoice Simple can empower them
+                in their day-to-day operations. Before that, I shaped the QuickBooks checkout
+                journey at Intuit, drove the adoption of data-driven design at Interac's innovation
+                lab, and rebuilt fulfillment operation tools at Loblaw, Canada's largest grocery
+                retailer.
             </Paragraph>
             <Paragraph>
                 On the side, you'll find me amping up for a powerlifting session or{' '}
