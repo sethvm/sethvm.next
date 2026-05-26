@@ -18,7 +18,7 @@ const History = () => (
     <>
         <Head
             title='Pick History'
-            description="Leading the end-to-end transformation of an order validation module used by Loblaw, Canada's largest grocery retailer."
+            description="Streamlined order validation experience for Canada's largest grocery retailer"
             url='https://sethvm.com/pick-history'
         />
         <Section ends>

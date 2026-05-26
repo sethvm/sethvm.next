@@ -16,7 +16,7 @@ const projects: Project[] = [
         title: 'Free Trial',
         company: 'Invoice Simple',
         description:
-            'Reimagined activation journey that grew subscription purchases by 32% and document creations by 27%',
+            'Reimagined activation journey that grew subscription purchases by 34% and document creations by 27%',
         img: '/is/free-trial/is-free-trial_card.png',
         alt: 'Invoice Simple Free Trial',
         cardLink: 'View case study →',

@@ -18,7 +18,7 @@ const FreeTrial = () => (
     <>
         <Head
             title='Free Trial'
-            description='Novel post-signup experience that grew subscription purchases by 32% and invoice creations by 27%'
+            description='Reimagined activation journey that grew subscription purchases by 34% and document creations by 27%'
             url='https://sethvm.com/free-trial'
         />
         <Section ends>
@@ -40,7 +40,7 @@ const FreeTrial = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Impact:</span>
-                &nbsp;Grew subscription purchases by 32% and invoice creations by 27%
+                &nbsp;Grew subscription purchases by 34% and invoice creations by 27%
             </Paragraph>
         </Section>
 
@@ -287,7 +287,7 @@ const FreeTrial = () => (
                 upfront, significantly strengthening our acquisition funnel.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>32% more subscription purchases</Heading>
+                <Heading type={4}>34% more subscription purchases</Heading>
             </IndentInner>
             <IndentInner>
                 <Heading type={4}>27% more invoices created</Heading>

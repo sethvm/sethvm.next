@@ -15,7 +15,7 @@ const Checkout = () => (
     <>
         <Head
             title='Payment Portal'
-            description="Enhancing scalability of Intuit QuickBooks' payment portal interface."
+            description='Enhanced scalability of a customer-facing checkout that processes over $300 million daily'
             url='https://sethvm.com/payment-portal'
         />
         <Section ends>
