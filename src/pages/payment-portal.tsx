@@ -38,7 +38,8 @@ const Checkout = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
-                &nbsp;Facilitation of two new payment channels and streamlined automation workflow
+                &nbsp;Implementation of two new payment channels and streamlined automation setup
+                for payors
             </Paragraph>
         </Section>
 
