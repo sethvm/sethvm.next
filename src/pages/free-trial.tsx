@@ -18,7 +18,7 @@ const FreeTrial = () => (
     <>
         <Head
             title='Free Trial'
-            description='Novel post-signup experience that grew subscription purchases by 32% and document creations by 27%'
+            description='Novel post-signup experience that grew subscription purchases by 32% and invoice creations by 27%'
             url='https://sethvm.com/free-trial'
         />
         <Section ends>
@@ -26,7 +26,7 @@ const FreeTrial = () => (
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 A limited-time free trial enables small business owners to experience the full
-                capability of Invoice Simple without the upfront pressure of committing to a
+                capabilities of Invoice Simple without the upfront pressure of committing to a
                 subscription plan. Working with a product manager and five engineers, I led the
                 design of this new acquisition model from conception to validation and execution.
             </Paragraph>
@@ -128,8 +128,9 @@ const FreeTrial = () => (
                 <li>
                     <Strong className='block'>A SaaS standard</Strong>
                     <Paragraph>
-                        Secondary research identified free trials as the most common acquisition
-                        strategy as of 2025, leveraged by an estimated 40-50% of SaaS platforms.
+                        Secondary research identified free trials as the most common SaaS
+                        acquisition strategy, leveraged by an estimated 40-50% of platforms as of
+                        2025.
                     </Paragraph>
                 </li>
             </List>
@@ -149,8 +150,8 @@ const FreeTrial = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    Delivering a delightful trial experience goes beyond removing the locks and
-                    setting a timer.
+                    I designed novel components that elevated the trial experience beyond the
+                    removal of limits.
                 </Strong>
             </IndentInner>
         </Section>
@@ -273,8 +274,8 @@ const FreeTrial = () => (
             </List>
             <IndentInner>
                 <Strong>
-                    A 90-day A/B test was run to quantitatively evaluate the free trial designs
-                    against the existing freemium offering.
+                    We ran a 90-day A/B test to quantitatively evaluate the free trial against the
+                    existing freemium model.
                 </Strong>
             </IndentInner>
         </Section>
@@ -296,7 +297,7 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 Engagement from trial-turned-subscriber merchants yielded several downstream
-                results: 16% more paywall visits, 10% more invoices sent and 17% higher payments
+                results: 16% more paywall visits, 10% more invoices sent and 17% higher payment
                 volume processed through Invoice Simple Payments.
             </Paragraph>
         </Section>
@@ -308,9 +309,9 @@ const FreeTrial = () => (
             </IndentInner>
             <Paragraph>
                 Only 30% of free trial users are exploring more than one feature on the checklist,
-                implying poor discoverability or preference towards self-paced exploration.
-                Usability testing will be crucial to uncovering context around how the checklist
-                contributes to the new experience.
+                implying poor discoverability or preference for self-paced exploration. Usability
+                testing will be crucial to uncovering context around how the checklist contributes
+                to the new experience.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Enhancement of post-trial journey</Heading>
