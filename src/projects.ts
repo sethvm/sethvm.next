@@ -27,7 +27,7 @@ const projects: Project[] = [
         title: 'Paywall Redesign',
         company: 'Invoice Simple',
         description:
-            'Generated 18% lift in purchase conversion by improving visual layout and messaging clarity',
+            'Generated 18% lift in purchase conversion by restructuring visual layout and improving messaging clarity',
         img: '/is/paywall/is_paywall_card.png',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'View case study →',
