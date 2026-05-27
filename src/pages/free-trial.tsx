@@ -58,7 +58,7 @@ const FreeTrial = () => (
             <IndentInner>
                 <Strong>
                     New users were not able to experience the full extent of Invoice Simple's
-                    functionality and in turn determine whether or not it served their needs.
+                    functionality and determine whether or not it served their needs.
                 </Strong>
             </IndentInner>
         </Section>
