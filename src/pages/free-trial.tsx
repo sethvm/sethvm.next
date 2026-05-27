@@ -308,7 +308,7 @@ const FreeTrial = () => (
                 <Heading type={4}>Usability testing of feature checklist</Heading>
             </IndentInner>
             <Paragraph>
-                Only 30% of free trial users are exploring more than one feature on the checklist,
+                Only 30% of free trial users are exploring more than one feature via the checklist,
                 implying poor discoverability or preference for self-paced exploration. Usability
                 testing will be crucial to uncovering context around how the checklist contributes
                 to the new experience.
