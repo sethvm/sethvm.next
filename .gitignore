@@ -8,8 +8,8 @@
 # claude code workspace
 /.claude/
 
-# testing
-/coverage
+# extensions
+/.vscode/
 
 # next.js
 /.next/
