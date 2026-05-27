@@ -26,7 +26,7 @@ const History = () => (
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
                 Loblaw's Pick History tool is used to validate thousands of customer order statuses
-                and fulfillment completion times weekly. It is used in the day-to-day operations of
+                and fulfilment completion times weekly. It is used in the day-to-day operations of
                 PC Express (<abbr>PCX</abbr>), a grocery click-and-collect and delivery service
                 spanning over 700 locations across Canada. With another designer, six developers and
                 a product owner, I led its complete rebuild from discovery to delivery.
@@ -41,8 +41,8 @@ const History = () => (
             </Paragraph>
             <Paragraph>
                 <span className='bold'>Result:</span>
-                &nbsp;Enabled validation of online orders by fulfillment associates across 13
-                grocery store chains
+                &nbsp;Enabled validation of online orders by fulfilment associates across 13 grocery
+                store chains
             </Paragraph>
         </Section>
 
@@ -73,7 +73,7 @@ const History = () => (
             <IndentInner>
                 <Strong>
                     <abbr>TRX</abbr> was a tool used by <abbr>PCX</abbr> specialists to ensure
-                    consistent and timely fulfillment of customer orders.
+                    consistent and timely fulfilment of customer orders.
                 </Strong>
             </IndentInner>
             <Paragraph>
@@ -439,7 +439,7 @@ const History = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    "[An icon] is Worth a Thousand Words"
+                    “[An icon] is Worth a Thousand Words”
                 </Heading>
                 <Paragraph>
                     In adherence to a classic aphorism, timeline icons serve as indicators for
@@ -459,7 +459,7 @@ const History = () => (
                 </Heading>
                 <Paragraph>
                     A traffic light colour system classifies transactions based on the levels of
-                    fulfillment they contribute to the customer order.
+                    fulfilment they contribute to the customer order.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -492,7 +492,7 @@ const History = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    If it Fitts's, it Ships
+                    If it Fitts', it Ships
                 </Heading>
                 <Paragraph>
                     The search bar was made wider and relocated into our navigation column—closer to
@@ -611,7 +611,7 @@ const History = () => (
                 Watching users carry out tasks in real time reveals crucial aspects of the
                 decision-making process behind how they work towards objectives. Validation
                 confirmed the importance of readability in how quickly <abbr>PCX</abbr> specialists
-                can validate orders and in turn streamline fulfillment operations.
+                can validate orders and in turn streamline fulfilment operations.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Ambiguity is to be embraced</Heading>

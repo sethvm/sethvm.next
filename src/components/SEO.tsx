@@ -10,7 +10,7 @@ interface Props {
 
 const SEO = ({
     title = 'Seth Morenos',
-    description = "I'm Seth, a Toronto-based product designer passionate about building experiences that empower everyone to do more. Currently working on invoicing for small businesses.",
+    description = "I'm Seth, a Toronto-based product designer passionate about building experiences that empower everyone to do more.",
     image = '/preview.png',
     url,
     noCrawl,

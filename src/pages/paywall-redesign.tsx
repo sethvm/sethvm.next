@@ -155,7 +155,7 @@ const Paywall = () => (
             <Heading type={3}>Design Solution</Heading>
             <Paragraph>
                 By reworking visual design and information hierarchy, I sought to deliver an
-                experience that helps users decide which Invoice Simple plan best fulfills their
+                experience that helps users decide which Invoice Simple plan best fulfils their
                 business needs.
             </Paragraph>
             <Paragraph>The new paywall design is grounded upon three principles:</Paragraph>

@@ -22,10 +22,14 @@ const Home = () => (
                     I'm Seth.
                 </Heading>
                 <Paragraph>
-                    A <span className='bold'>product designer</span> passionate about building
-                    experiences that <span className='bold'>empower everyone to do more</span>.
+                    I design products that <span className='bold'>empower everyone to do more</span>
+                    .
                 </Paragraph>
-                <Paragraph>Currently working on invoicing for small businesses.</Paragraph>
+                <Paragraph>
+                    Currently at EverCommerce,
+                    <br />
+                    previously Intuit, Interac and Loblaw Digital.
+                </Paragraph>
                 <div className={homePageStyle.jumpContainer}>
                     <Link href='/#projects' className={homePageStyle.jump} aria-current='page'>
                         <img

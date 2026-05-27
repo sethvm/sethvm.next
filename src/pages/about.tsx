@@ -14,27 +14,25 @@ const About = () => (
                 I'm a designer with a background in human-centred engineering.
             </h2>
             <Paragraph>
-                My interest lies in exploring how we can leverage technology to help people live
-                their best lives and do their best work.
+                My interest lies in exploring how we can use technology to help people live their
+                best lives and do their best work.
             </Paragraph>
             <Paragraph>
-                I currently lead design efforts for Invoice Simple Payments at EverCommerce, helping
-                small business owners get paid faster. Previously, I designed growth-focused
-                experiences that today enable users to discover how Invoice Simple can empower them
-                in their day-to-day operations. Before that, I shaped the QuickBooks checkout
-                journey at Intuit, drove the adoption of data-driven design at Interac's innovation
-                lab, and rebuilt fulfillment operation tools at Loblaw, Canada's largest grocery
-                retailer.
+                I currently lead design for Invoice Simple Payments at EverCommerce, helping small
+                business owners get paid faster. Previously, I delivered growth-focused experiences
+                that enable users to discover how Invoice Simple can empower them in their
+                day-to-day operations. Before that, I shaped the QuickBooks checkout journey at
+                Intuit, drove the adoption of data-driven design at Interac's innovation lab and
+                rebuilt fulfilment tools at Loblaw, Canada's largest grocery retailer.
             </Paragraph>
             <Paragraph>
-                On the side, you'll find me amping up for a powerlifting session or{' '}
+                Outside design, I enjoy powerlifting, all things motorsports and{' '}
                 <OutboundLink href='https://sethvm.studio/' className='activeLink inBodyLink'>
-                    running around with a camera↗&#xFE0E;
+                    exploring with my camera↗&#xFE0E;
                 </OutboundLink>
-                . My photography work explores visual imagery incorporating themes of geometry,
-                motion and scale.
+                .
             </Paragraph>
-            <h3 className={aboutPageStyle.subHeading}>Keen to chat or collab? Let's connect!</h3>
+            <h3 className={aboutPageStyle.subHeading}>Keen to chat? Let's connect!</h3>
             <ul className={aboutPageStyle.contactList}>
                 <li>
                     <Strong>
