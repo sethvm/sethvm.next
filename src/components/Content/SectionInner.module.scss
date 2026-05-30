@@ -2,6 +2,7 @@
 /  768px - md
 /  992px - lg
 */
+@use '../../styles/styles';
 
 .container {
     width: 85%;
@@ -11,8 +12,10 @@
         width: 75%;
     }
 
-    @media (min-width: 992px) {
-        width: 64%;
-        margin-left: 10%;
+    // Finding #1: cap inner text to the same measure as Section; left edge = card interior-left.
+    @media (min-width: styles.$bp-lg) {
+        width: 100%;
+        max-width: styles.$measure;
+        margin-left: 0;
     }
 }

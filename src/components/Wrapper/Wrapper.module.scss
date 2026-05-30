@@ -1,12 +1,19 @@
 /*
 // 992px - lg
 */
+@use '../../styles/styles';
 
 .container {
     min-height: 65vh;
     margin: 148px auto 80px auto;
 
-    @media (min-width: 992px) {
+    // Finding #1/#2: on desktop, constrain to a centered content container so all blocks
+    // share one left edge and the canvas scales by symmetric margins (not a one-sided gutter).
+    // Mobile/tablet are unaffected.
+    @media (min-width: styles.$bp-lg) {
+        max-width: styles.$page-max;
         margin: 196px auto 80px auto;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
