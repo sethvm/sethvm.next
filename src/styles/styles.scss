@@ -17,6 +17,31 @@ $light-font-color: #ffffff;
 $link-hover-color: #cfe7ff;
 $scrollbar-hover-color: #c4c4c4;
 
+// ---- breakpoints (md/lg already used across modules; xl used by Home) ----
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+
+// ---- spacing scale (8-pt rhythm) ----
+$space-1: 8px;
+$space-2: 16px;
+$space-3: 24px;
+$space-4: 32px;
+$space-5: 48px;
+$space-6: 64px;
+$space-7: 96px;
+
+// semantic vertical rhythm (Finding #5). Section gaps scale down per breakpoint.
+$gap-block: $space-4; // 32px — spacing within a section
+$gap-section-sm: $space-5; // 48px — between sections, mobile
+$gap-section-md: $space-6; // 64px — between sections, tablet
+$gap-section-lg: $space-7; // 96px — between sections, desktop
+
+// ---- layout spine (Finding #1) ----
+$page-max: 1080px; // centered content container; banners/cards/figures fill this
+$measure: 680px; // ~66ch cap for body text at 17px base (Finding #1 measure)
+$card-pad-lg: 48px; // FrostedGlass interior padding at desktop
+
 @mixin font-display {
     font-display: swap;
 }
