@@ -1,0 +1,36 @@
+@use '../../styles/styles';
+
+// Finding #6: compact stat callouts in the hero so the 5-second scan lands on impact.
+.callouts {
+    display: flex;
+    flex-direction: column;
+    gap: styles.$space-2; // 16px
+
+    margin-top: styles.$space-3; // 24px
+
+    @media (min-width: styles.$bp-md) {
+        flex-direction: row;
+        gap: styles.$space-4; // 32px
+    }
+}
+
+.callout {
+    padding-left: 12px;
+    border-left: 3px solid styles.$secondary-color;
+}
+
+.value {
+    display: block;
+    font-family: styles.$font-bold;
+    color: styles.$primary-color;
+    font-size: 1.75em;
+    line-height: 1;
+}
+
+.label {
+    display: block;
+    font-family: styles.$font-medium;
+    color: styles.$body-font-color;
+    font-size: 0.95em;
+    margin-top: 4px;
+}

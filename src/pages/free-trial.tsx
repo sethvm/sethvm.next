@@ -8,6 +8,8 @@ import Banner from '../components/Content/Banner';
 import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
+import Stat from '../components/Content/Stat';
+import styleHero from '../components/Content/Hero.module.scss';
 // typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
@@ -38,10 +40,20 @@ const FreeTrial = () => (
                 <span className='bold'>Platforms:</span>
                 &nbsp;Mobile (<abbr>iOS</abbr> & Android)
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Impact:</span>
-                &nbsp;Grew subscription purchases by 34% and invoice creations by 27%
-            </Paragraph>
+            <div className={styleHero.callouts}>
+                <div className={styleHero.callout}>
+                    <span className={styleHero.value}>34%</span>
+                    <span className={styleHero.label}>more subscription purchases</span>
+                </div>
+                <div className={styleHero.callout}>
+                    <span className={styleHero.value}>27%</span>
+                    <span className={styleHero.label}>more invoices created</span>
+                </div>
+                <div className={styleHero.callout}>
+                    <span className={styleHero.value}>10%</span>
+                    <span className={styleHero.label}>higher-tier skew</span>
+                </div>
+            </div>
         </Section>
 
         <Banner
@@ -286,15 +298,9 @@ const FreeTrial = () => (
                 Users onboarded to the free trial are able to discover Invoice Simple's value
                 upfront, significantly strengthening our acquisition funnel.
             </Paragraph>
-            <IndentInner>
-                <Heading type={4}>34% more subscription purchases</Heading>
-            </IndentInner>
-            <IndentInner>
-                <Heading type={4}>27% more invoices created</Heading>
-            </IndentInner>
-            <IndentInner>
-                <Heading type={4}>10% skew towards higher-tier subscription packages</Heading>
-            </IndentInner>
+            <Stat value='34%'>more subscription purchases</Stat>
+            <Stat value='27%'>more invoices created</Stat>
+            <Stat value='10%'>skew towards higher-tier subscription packages</Stat>
             <Paragraph>
                 Engagement from trial-turned-subscriber merchants yielded several downstream
                 results: 16% more paywall visits, 10% more invoices sent and 17% higher payment
