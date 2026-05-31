@@ -1,8 +1,6 @@
 import styleSideBar from './SideBar.module.scss';
-// analytics
 import ReactGA4 from 'react-ga4';
 
-// items
 const sideBarItems = [
     {
         href: 'https://www.linkedin.com/in/sethvm',
@@ -18,7 +16,6 @@ const sideBarItems = [
     },
 ];
 
-// sidebar component
 const SideBar = () => (
     <address id='sideBar' className={styleSideBar.container} aria-label='contact links'>
         {sideBarItems.map((sideBarItem) => (

@@ -1,4 +1,3 @@
-// content wrapper
 import { useRouter } from 'next/router';
 import ScrollSpy from '../ScrollSpy/ScrollSpy';
 import styleWrapper from './Wrapper.module.scss';
@@ -13,12 +12,12 @@ const NON_CASE_STUDY = ['/', '/about', '/404'];
 const Wrapper = ({ children }: Props) => {
     const { pathname } = useRouter();
 
-    // Home: full-bleed, no container (unchanged).
+    // Home: full-bleed, no container.
     if (pathname === '/') {
         return <main>{children}</main>;
     }
 
-    // About / 404: centered container, no rail (unchanged).
+    // About / 404: centered container, no rail.
     if (NON_CASE_STUDY.includes(pathname)) {
         return <main className={styleWrapper.container}>{children}</main>;
     }

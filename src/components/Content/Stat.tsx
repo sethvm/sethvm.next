@@ -1,6 +1,5 @@
-// Stat — headline impact metric (Finding #3).
-// Renders a large primary-color value with a supporting label.
-// Place where IndentInner metric headings were previously used.
+// Stat — headline impact metric. Renders a large numeral value with a supporting label,
+// set off by a gold accent rule.
 import styleStat from './Stat.module.scss';
 
 interface Props {

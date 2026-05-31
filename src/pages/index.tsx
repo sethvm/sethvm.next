@@ -2,15 +2,12 @@ import { memo } from 'react';
 import Link from 'next/link';
 import Head from '../components/SEO';
 import homePageStyle from '../styles/Home.module.scss';
-// typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
-// project cards
 import Card from '../components/Card/Card';
 import projects from '../projects';
 
-// page content component
 const Home = () => (
     <>
         <Head url='https://sethvm.com' />
@@ -47,7 +44,6 @@ const Home = () => (
     </>
 );
 
-// render projects onto page
 const MemoizedCards = memo(() => {
     return (
         <>

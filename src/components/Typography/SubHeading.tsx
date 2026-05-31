@@ -1,4 +1,3 @@
-// title subheading
 import styleSubHeading from './SubHeading.module.scss';
 
 interface Props {

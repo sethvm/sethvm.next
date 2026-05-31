@@ -31,15 +31,15 @@ $space-5: 48px;
 $space-6: 64px;
 $space-7: 96px;
 
-// semantic vertical rhythm (Finding #5). Section gaps scale down per breakpoint.
+// semantic vertical rhythm — section gaps scale down per breakpoint.
 $gap-block: $space-4; // 32px — spacing within a section
 $gap-section-sm: $space-5; // 48px — between sections, mobile
 $gap-section-md: $space-6; // 64px — between sections, tablet
 $gap-section-lg: $space-7; // 96px — between sections, desktop
 
-// ---- layout spine (Finding #1) ----
+// ---- layout spine ----
 $page-max: 1080px; // centered content container; banners/cards/figures fill this
-$measure: 680px; // ~66ch cap for body text at 17px base (Finding #1 measure)
+$measure: 680px; // ~66ch cap for body text at 17px base
 $card-pad-lg: 48px; // FrostedGlass interior padding at desktop
 
 @mixin font-display {

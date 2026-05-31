@@ -1,6 +1,3 @@
-/*
-/  992px - lg
-*/
 @use '../../styles/styles';
 
 .block {
@@ -17,9 +14,8 @@
     }
 }
 
-// Finding #4: the thin case-study stripe collided with the centered content container
-// and added an asymmetric band. Retired on case studies. (Home keeps the wide `.block`.)
-// Navy can return as a rail accent when the sticky section-nav (#6 follow-up) lands.
+// The thin case-study stripe collided with the centered content container, so it's
+// hidden on case studies. (Home keeps the wide `.block`.)
 .thin {
     @media (min-width: 992px) {
         display: none;

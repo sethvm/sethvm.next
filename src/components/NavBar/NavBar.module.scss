@@ -1,6 +1,3 @@
-/*
-// 992px - lg
-*/
 @use '../../styles/styles';
 
 @mixin no-margin {
@@ -56,7 +53,7 @@
     }
 }
 
-// Finding #4: dark route for pages without the navy BlueBlock backdrop (all but Home).
+// Dark route for pages without the navy BlueBlock backdrop (all but Home).
 .routeDark {
     @media (min-width: 992px) {
         color: styles.$primary-color;

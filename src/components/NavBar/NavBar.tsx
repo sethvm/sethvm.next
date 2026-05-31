@@ -4,7 +4,7 @@ import styleNavBar from './NavBar.module.scss';
 
 const NavBar = () => {
     // On Home the wide BlueBlock sits behind the nav, so the route stays light (white).
-    // Elsewhere there is no navy backdrop, so the route must be dark to stay visible (#4).
+    // Elsewhere there is no navy backdrop, so the route must be dark to stay visible.
     const onHomePage = useRouter().pathname === '/';
     const routeClass = onHomePage
         ? styleNavBar.route

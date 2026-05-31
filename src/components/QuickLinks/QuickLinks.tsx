@@ -5,7 +5,6 @@ import styleQuickLinks from './QuickLinks.module.scss';
 import projects from '../../projects';
 
 const RenderQuickLinks = () => {
-    // check current path
     const currentURL = useRouter().pathname;
     const onHomePage = currentURL === '/';
     const onAboutPage = currentURL === '/about';
@@ -47,7 +46,6 @@ const MemoizedQuickLinks = memo(({ currentURL }: Props) => {
     return (
         <>
             {projects.map((project) => {
-                // checks if link leads to the current page
                 const isCurrentPage =
                     currentURL === project.url ? styleQuickLinks.currentLink : 'heavy activeLink';
 

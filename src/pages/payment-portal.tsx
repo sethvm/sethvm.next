@@ -1,15 +1,12 @@
 import Head from '../components/SEO';
 import Link from 'next/link';
-// layout
 import Section from '../components/Content/Section';
 import IndentInner from '../components/Content/IndentInner';
 import Results from '../components/Content/Results';
-// typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
 import Strong from '../components/Typography/Strong';
-// images
 import Banner from '../components/Content/Banner';
 
 const Checkout = () => (

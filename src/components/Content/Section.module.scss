@@ -1,7 +1,3 @@
-/*
-/  768px - md
-/  992px - lg
-*/
 @use '../../styles/styles';
 
 .container {
@@ -11,15 +7,15 @@
         width: 75%;
     }
 
-    // Finding #1: fill the centered container but cap text to one measure, left-aligned,
-    // so every Section shares the container's left edge.
+    // Fill the centered container but cap text to one measure, left-aligned, so every
+    // Section shares the container's left edge.
     @media (min-width: styles.$bp-lg) {
         width: 100%;
         max-width: styles.$measure;
     }
 }
 
-// Finding #5: between-section rhythm on the 8-pt scale (scales down per breakpoint).
+// Between-section rhythm on the 8-pt scale (scales down per breakpoint).
 .defaultMargins {
     margin: styles.$gap-section-sm auto styles.$gap-block; // 48 / 32
 

@@ -1,5 +1,4 @@
 import Head from '../components/SEO';
-// layout
 import Section from '../components/Content/Section';
 import SectionInner from '../components/Content/SectionInner';
 import IndentInner from '../components/Content/IndentInner';
@@ -10,7 +9,6 @@ import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
 import Stat from '../components/Content/Stat';
 import Results from '../components/Content/Results';
-// typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';

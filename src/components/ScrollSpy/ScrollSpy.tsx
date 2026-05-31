@@ -1,4 +1,4 @@
-// ScrollSpy — sticky case-study section navigation (Finding #6 wayfinding).
+// ScrollSpy — sticky case-study section navigation.
 // Discovers headings marked via <Heading anchor=...> (data-scrollspy + id),
 // builds a nav from their text, and highlights the section currently in view.
 // Mounted by Wrapper in the rail cell on case-study pages; hidden < 992px.
@@ -11,7 +11,7 @@ interface SpyItem {
     label: string;
 }
 
-const NAV_OFFSET = 248; // px below the fixed 64px navbar where a section becomes "active"
+const NAV_OFFSET = 248; // viewport-top offset where a section becomes "active" (below the 64px navbar)
 
 const ScrollSpy = () => {
     const { pathname } = useRouter();

@@ -1,8 +1,6 @@
 import Head from '../components/SEO';
 import aboutPageStyle from '../styles/About.module.scss';
-// layout
 import Section from '../components/Content/Section';
-// typography
 import Paragraph from '../components/Typography/Paragraph';
 import Strong from '../components/Typography/Strong';
 

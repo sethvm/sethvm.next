@@ -1,4 +1,3 @@
-// card component for project previews on homepage
 import Link from 'next/link';
 import styleCard from './Card.module.scss';
 

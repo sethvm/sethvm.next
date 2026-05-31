@@ -1,6 +1,5 @@
 @use './styles';
 
-// space styling
 *,
 *::before,
 *::after {
@@ -104,12 +103,12 @@ h6 {
     margin-bottom: 0.5em;
 }
 
-// h1 is Home-only ("G'day, I'm Seth."); left unchanged to keep Home stable (out of spec scope).
+// h1 is Home-only ("G'day, I'm Seth."); left unchanged to keep Home stable.
 h1 {
     font-size: 3em;
 }
 
-// Finding #3: fluid modular ramp. Sizes are em (relative to 17px body), fluid via clamp+vw.
+// Fluid modular type ramp. Sizes are em (relative to 17px body), fluid via clamp + vw.
 // Display tier — case-study page titles. ~44px (mobile) -> ~59px (desktop).
 h2 {
     font-size: clamp(2.6em, 1.6em + 3.2vw, 3.5em);
@@ -117,14 +116,14 @@ h2 {
     margin-bottom: 0.2em;
 }
 
-// Section titles. ~29px -> ~39px. Fills the TOP of the old cliff.
+// Section titles. ~29px -> ~39px.
 h3 {
     font-size: clamp(1.7em, 1.2em + 1.8vw, 2.3em);
     margin-bottom: 0.3em;
 }
 
-// Subsection headings. 24.65px — clearly ABOVE body (19.5px). Fills the BOTTOM of the cliff.
-// NOTE: intentionally decoupled from `strong` so inline bold + callouts stay body-sized.
+// Subsection headings. 24.65px — clearly above body (19.5px).
+// Intentionally decoupled from `strong` so inline bold + callouts stay body-sized.
 h4 {
     font-size: 1.45em;
 }
@@ -133,7 +132,7 @@ h5 {
     font-size: 1em;
 }
 
-// Inline emphasis / <Strong> callouts — keep at body size (was grouped with h4).
+// Inline emphasis / <Strong> callouts — keep at body size.
 strong {
     font-size: 1.15em;
 }

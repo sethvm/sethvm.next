@@ -1,8 +1,7 @@
 @use '../../styles/styles';
 
-// Reusable impact-metric callout row for case-study heroes (replaces Hero.module.scss).
-// AC #3: preserves the original styleHero responsive behaviour — stacks on mobile,
-// becomes a row at the md breakpoint.
+// Reusable impact-metric callout row for case-study heroes.
+// Stacks on mobile, becomes a row at the md breakpoint.
 .callouts {
     display: flex;
     flex-direction: column;

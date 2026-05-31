@@ -1,7 +1,6 @@
 @use '../../styles/styles';
 
-// Finding #3: dedicated "stat" style for headline impact metrics.
-// Gilroy numeral + readable label, set off by a gold accent rule.
+// Headline impact-metric style — Gilroy numeral + readable label, set off by a gold accent rule.
 .container {
     padding-left: 16px;
     border-left: 3px solid styles.$secondary-color;
