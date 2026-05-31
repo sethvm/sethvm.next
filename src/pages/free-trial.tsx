@@ -9,7 +9,7 @@ import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
 import Stat from '../components/Content/Stat';
-import styleHero from '../components/Content/Hero.module.scss';
+import Results from '../components/Content/Results';
 // typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
@@ -40,20 +40,13 @@ const FreeTrial = () => (
                 <span className='bold'>Platforms:</span>
                 &nbsp;Mobile (<abbr>iOS</abbr> & Android)
             </Paragraph>
-            <div className={styleHero.callouts}>
-                <div className={styleHero.callout}>
-                    <span className={styleHero.value}>34%</span>
-                    <span className={styleHero.label}>more subscription purchases</span>
-                </div>
-                <div className={styleHero.callout}>
-                    <span className={styleHero.value}>27%</span>
-                    <span className={styleHero.label}>more invoices created</span>
-                </div>
-                <div className={styleHero.callout}>
-                    <span className={styleHero.value}>10%</span>
-                    <span className={styleHero.label}>higher-tier skew</span>
-                </div>
-            </div>
+            <Results
+                results={[
+                    { value: '34%', label: 'more subscription purchases' },
+                    { value: '27%', label: 'more invoices created' },
+                    { value: '10%', label: 'higher-tier skew' },
+                ]}
+            />
         </Section>
 
         <Banner
