@@ -1,6 +1,6 @@
 // ScrollSpy — sticky case-study section navigation.
-// Discovers headings marked via <Heading anchor=...> (data-scrollspy + id),
-// builds a nav from their text, and highlights the section currently in view.
+// Discovers headings marked via <Heading anchor=...> (data-scrollspy + id), labels each item
+// with the heading's navLabel override or its text, and highlights the section in view.
 // Mounted by Wrapper in the rail cell on case-study pages; hidden < 992px.
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
@@ -23,7 +23,13 @@ const ScrollSpy = () => {
             document.querySelectorAll<HTMLElement>('[data-scrollspy]')
         ).filter((el) => el.id);
 
-        setItems(headings.map((el) => ({ id: el.id, label: el.textContent?.trim() ?? '' })));
+        // label = the heading's navLabel override (data-scrollspy value) when set, else its text
+        setItems(
+            headings.map((el) => ({
+                id: el.id,
+                label: el.dataset.scrollspy?.trim() || el.textContent?.trim() || '',
+            }))
+        );
         if (headings.length === 0) return;
 
         // Active = the last anchored heading whose top has crossed the activation line.
