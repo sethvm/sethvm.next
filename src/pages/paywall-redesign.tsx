@@ -8,6 +8,7 @@ import Banner from '../components/Content/Banner';
 import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
+import Results from '../components/Content/Results';
 // typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
@@ -38,10 +39,7 @@ const Paywall = () => (
                 <span className='bold'>Platforms:</span>
                 &nbsp;Mobile (<abbr>iOS</abbr> & Android)
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Result:</span>
-                &nbsp;18% lift in purchase conversion
-            </Paragraph>
+            <Results results={[{ value: '18%', label: 'lift in purchase conversion' }]} />
         </Section>
 
         <Banner

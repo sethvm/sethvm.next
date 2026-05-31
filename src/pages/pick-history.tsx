@@ -8,6 +8,7 @@ import Banner from '../components/Content/Banner';
 import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
+import Results from '../components/Content/Results';
 // typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
@@ -39,11 +40,14 @@ const History = () => (
                 <span className='bold'>Platform:</span>
                 &nbsp;Desktop
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Result:</span>
-                &nbsp;Enabled validation of online orders by fulfilment associates across 13 grocery
-                store chains
-            </Paragraph>
+            <Results
+                results={[
+                    {
+                        value: 'Enabled validation of online orders by fulfilment associates across 13 grocery store chains',
+                        qualitative: true,
+                    },
+                ]}
+            />
         </Section>
 
         <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final Pick History interface' />

@@ -3,6 +3,7 @@ import Link from 'next/link';
 // layout
 import Section from '../components/Content/Section';
 import IndentInner from '../components/Content/IndentInner';
+import Results from '../components/Content/Results';
 // typography
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
@@ -36,11 +37,14 @@ const Checkout = () => (
                 <span className='bold'>Platform:</span>
                 &nbsp;Desktop Web
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Result:</span>
-                &nbsp;Implementation of two new payment channels and streamlined automation setup
-                for payors
-            </Paragraph>
+            <Results
+                results={[
+                    {
+                        value: 'Implementation of two new payment channels and streamlined automation setup for payors',
+                        qualitative: true,
+                    },
+                ]}
+            />
         </Section>
 
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
