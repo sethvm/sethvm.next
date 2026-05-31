@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     gap: 14px;
-    border-left: 3px solid rgba(20, 20, 20, 0.12);
+    border-left: 4px solid rgba(20, 20, 20, 0.12);
 }
 
 .list > li {
@@ -25,9 +25,9 @@
     display: block;
     // pull the link's left border onto the list's track border (= list padding 10 + border 3),
     // so the active item's blue border overlaps the track like a miniature scrollbar thumb.
-    margin-left: -13px;
+    margin-left: -14px;
     padding-left: 14px;
-    border-left: 3px solid transparent;
+    border-left: 4px solid transparent;
     font-family: styles.$font-regular;
     font-size: 1em;
     line-height: 1.25;
