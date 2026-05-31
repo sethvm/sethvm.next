@@ -1,0 +1,54 @@
+@use '../../styles/styles';
+
+.nav {
+    position: sticky;
+    top: 96px; // flush with the bottom of the fixed 64px navbar
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border-left: 3px solid rgba(20, 20, 20, 0.12);
+}
+
+.list > li {
+    // ScrollSpy has no bullets; drop the global `ul > li` padding so the link's border
+    // can line up exactly on the track (otherwise the active indicator sits ~9px off).
+    padding-left: 0;
+}
+
+.link {
+    display: block;
+    // pull the link's left border onto the list's track border (= list padding 10 + border 3),
+    // so the active item's blue border overlaps the track like a miniature scrollbar thumb.
+    margin-left: -13px;
+    padding-left: 14px;
+    border-left: 3px solid transparent;
+    font-family: styles.$font-regular;
+    font-size: 1em;
+    line-height: 1.25;
+    color: styles.$body-font-color;
+    transition:
+        color 0.15s ease,
+        border-color 0.15s ease;
+
+    transition: background 0.225s ease-out;
+    -webkit-transition: background 0.225s ease-out;
+    -moz-transition: background 0.225s ease-out;
+    -o-transition: background 0.225s ease-out;
+
+    &:hover {
+        color: styles.$primary-color;
+        background: styles.$link-hover-color;
+    }
+}
+
+// Active section — navy text + navy indicator on the rail track.
+.active {
+    font-family: styles.$font-medium;
+    border-left-color: styles.$primary-color;
+}
