@@ -50,7 +50,9 @@ const Checkout = () => (
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
 
         <Section ends>
-            <Heading type={3}>The Challenge</Heading>
+            <Heading type={3} anchor='the-challenge'>
+                The Challenge
+            </Heading>
             <Paragraph>
                 Intuit's 2022 business objectives included introducing new payment options and
                 increasing engagement with existing automation features. This entailed revisiting
@@ -66,7 +68,9 @@ const Checkout = () => (
         </Section>
 
         <Section ends gap>
-            <Heading type={3}>Reflection</Heading>
+            <Heading type={3} anchor='reflection'>
+                Reflection
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Introduce without interfering</Heading>
             </IndentInner>

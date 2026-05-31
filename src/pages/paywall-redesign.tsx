@@ -48,7 +48,9 @@ const Paywall = () => (
         />
 
         <Section ends>
-            <Heading type={3}>Context</Heading>
+            <Heading type={3} anchor='context'>
+                Context
+            </Heading>
             <IndentInner>
                 <Strong>
                     80% of new users who landed on the paywall left without onboarding to a
@@ -63,7 +65,9 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Buyer Bottleneck</Heading>
+            <Heading type={3} anchor='buyer-bottleneck'>
+                Buyer Bottleneck
+            </Heading>
             <Paragraph>
                 Prior to the redesign, the paywall emphasized introducing new users to Invoice
                 Simple rather than presenting subscription plan details.
@@ -114,7 +118,9 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>What Makes a Great Paywall?</Heading>
+            <Heading type={3} anchor='great-paywall'>
+                What Makes a Great Paywall?
+            </Heading>
             <Paragraph>
                 To inform the new design, I studied subscription paywalls from leading mobile apps
                 and identified patterns utilized consistently across the strongest examples.
@@ -150,7 +156,9 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Design Solution</Heading>
+            <Heading type={3} anchor='design-solution'>
+                Design Solution
+            </Heading>
             <Paragraph>
                 By reworking visual design and information hierarchy, I sought to deliver an
                 experience that helps users decide which Invoice Simple plan best fulfils their
@@ -238,7 +246,9 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends gap>
-            <Heading type={3}>Validation & Results</Heading>
+            <Heading type={3} anchor='validation-results'>
+                Validation & Results
+            </Heading>
             <Paragraph>
                 An A/B test was run to quantitatively validate the new paywall design. We
                 successfully addressed the user funnel drop-off by growing key business metrics and
@@ -255,7 +265,9 @@ const Paywall = () => (
         </Section>
 
         <Section ends gap>
-            <Heading type={3}>Next Steps</Heading>
+            <Heading type={3} anchor='next-steps'>
+                Next Steps
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Extend redesign to feature list</Heading>
             </IndentInner>

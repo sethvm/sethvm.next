@@ -53,7 +53,9 @@ const History = () => (
         <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final Pick History interface' />
 
         <Section ends>
-            <Heading type={3}>Context</Heading>
+            <Heading type={3} anchor='context'>
+                Context
+            </Heading>
             <Paragraph>
                 With COVID-19 driving demand for online grocery services through the roof, Loblaw
                 looked to enhance the usability of their internal operations platform, better known
@@ -67,7 +69,9 @@ const History = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>The Previous Module</Heading>
+            <Heading type={3} anchor='previous-module'>
+                The Previous Module
+            </Heading>
             <Paragraph>
                 The transaction log—referred to as <abbr>TRX</abbr>—was a key element of the
                 previous operations platform. It recorded every task performed by store colleagues
@@ -132,7 +136,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Problems Uncovered</Heading>
+            <Heading type={3} anchor='problems-uncovered'>
+                Problems Uncovered
+            </Heading>
             <Paragraph>
                 My first few weeks on this project were spent learning about our problem space. I
                 took an in-depth look at the end-to-end journey of an online grocery order and the
@@ -212,7 +218,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Design Approach</Heading>
+            <Heading type={3} anchor='design-approach'>
+                Design Approach
+            </Heading>
             <Paragraph>
                 After uncovering problems with <abbr>TRX</abbr>, we outlined three areas for a new
                 design to innovate in:
@@ -310,7 +318,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Validation</Heading>
+            <Heading type={3} anchor='validation'>
+                Validation
+            </Heading>
             <Paragraph>
                 I ran moderated usability tests and had several <abbr>PCX</abbr> specialists conduct
                 mock order investigations using a prototype of our redesign. My script outlined
@@ -369,7 +379,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Refinements</Heading>
+            <Heading type={3} anchor='refinements'>
+                Refinements
+            </Heading>
             <Paragraph>
                 My approach to polishing our solution encompassed two core foundations:
             </Paragraph>
@@ -427,7 +439,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>New Visual Elements</Heading>
+            <Heading type={3} anchor='new-visual-elements'>
+                New Visual Elements
+            </Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and
                 colour—domains untouched by both <abbr>TRX</abbr> and the Pick History module's
@@ -477,7 +491,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Contextualized Search</Heading>
+            <Heading type={3} anchor='contextualized-search'>
+                Contextualized Search
+            </Heading>
             <Paragraph>
                 It was confirmed later along our project roadmap that the search function within our
                 new module would be contextualized to each individual order.
@@ -529,7 +545,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Preparing for Takeoff</Heading>
+            <Heading type={3} anchor='preparing-for-takeoff'>
+                Preparing for Takeoff
+            </Heading>
             <Paragraph>
                 During the closing phases of the transformation project, I constructed a pattern
                 library to serve as the single source of truth during the development of the Pick
@@ -575,7 +593,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section ends gap>
-            <Heading type={3}>Next Steps</Heading>
+            <Heading type={3} anchor='next-steps'>
+                Next Steps
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Capture post-launch user feedback</Heading>
             </IndentInner>
@@ -598,7 +618,9 @@ const History = () => (
             </Paragraph>
         </Section>
         <Section ends gap>
-            <Heading type={3}>Reflection</Heading>
+            <Heading type={3} anchor='reflection'>
+                Reflection
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Drive form with function</Heading>
             </IndentInner>

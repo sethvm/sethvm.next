@@ -55,7 +55,9 @@ const FreeTrial = () => (
         />
 
         <Section>
-            <Heading type={3}>Freemium, Not Free</Heading>
+            <Heading type={3} anchor='freemium'>
+                Freemium, Not Free
+            </Heading>
             <Paragraph>
                 Invoice Simple previously operated on a freemium model that limited how many
                 documents could be created and which features could be used by unpaid users.
@@ -109,7 +111,9 @@ const FreeTrial = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Why a Free Trial?</Heading>
+            <Heading type={3} anchor='why-free-trial'>
+                Why a Free Trial?
+            </Heading>
             <Paragraph>
                 Adopting a free trial model provides exposure to Invoice Simple's entire end-to-end
                 experience. We aimed to provide new users unrestricted access to our Premium package
@@ -148,7 +152,9 @@ const FreeTrial = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Reimagined User Journey</Heading>
+            <Heading type={3} anchor='reimagined-journey'>
+                Reimagined User Journey
+            </Heading>
             <Paragraph>
                 Eliminating constraints imposed by the freemium model presented endless
                 opportunities to educate new users about our product.
@@ -254,7 +260,9 @@ const FreeTrial = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Measuring Success</Heading>
+            <Heading type={3} anchor='measuring-success'>
+                Measuring Success
+            </Heading>
             <Paragraph>
                 The new user experience fundamentally changed a growth lever vital to revenue and
                 activations, meaning it needed to perform well in several key areas.
@@ -286,7 +294,9 @@ const FreeTrial = () => (
         </Section>
 
         <Section ends>
-            <Heading type={3}>Impact</Heading>
+            <Heading type={3} anchor='impact'>
+                Impact
+            </Heading>
             <Paragraph>
                 Users onboarded to the free trial are able to discover Invoice Simple's value
                 upfront, significantly strengthening our acquisition funnel.
@@ -302,7 +312,9 @@ const FreeTrial = () => (
         </Section>
 
         <Section ends gap>
-            <Heading type={3}>Next Steps</Heading>
+            <Heading type={3} anchor='next-steps'>
+                Next Steps
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Usability testing of feature checklist</Heading>
             </IndentInner>
