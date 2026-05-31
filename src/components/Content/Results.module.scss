@@ -25,6 +25,15 @@
 .label {
     display: block;
     font-family: styles.$font-medium;
-    font-size: 0.95em;
+    font-size: 1.15em;
     margin-top: 4px;
+}
+
+// Qualitative variant: render a full-sentence result as a readable statement
+// (no big-number treatment, no separate label).
+.statement {
+    display: block;
+    font-family: styles.$font-medium;
+    font-size: 1.15em;
+    line-height: 1.3;
 }
