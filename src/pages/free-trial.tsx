@@ -84,7 +84,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_freemium-banner.svg'
+                    src='/is/free-trial/is-free-trial_freemium-banner.png'
                     alt="Image showing Invoice Simple's previous freemium banner"
                 />
             </ImageFluid>
@@ -106,6 +106,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
+                    animation
                     src='/is/free-trial/is-free-trial_feature-gates.png'
                     alt='Image showing feature gates within the document editor'
                 />
@@ -236,7 +237,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_feature-checklist.svg'
+                    src='/is/free-trial/is-free-trial_feature-checklist.png'
                     alt='Image showing feature checklist page and its various elements'
                 />
             </ImageFluid>

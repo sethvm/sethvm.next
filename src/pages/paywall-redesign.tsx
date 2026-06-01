@@ -99,7 +99,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/paywall/is_paywall_prev-design.svg'
+                    src='/is/paywall/is_paywall_prev-design.png'
                     alt='Scroll-through of old Invoice Simple paywall'
                 />
             </ImageFluid>
@@ -114,7 +114,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/paywall/is_paywall_plan-comparison.svg'
+                    src='/is/paywall/is_paywall_plan-comparison.png'
                     alt='Image showing plan card locations on paywall'
                 />
             </ImageFluid>
@@ -196,7 +196,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/paywall/is_paywall_iterations.svg'
+                    src='/is/paywall/is_paywall_iterations.png'
                     alt='Diagram explaining paywall design iterations'
                 />
             </ImageFluid>
