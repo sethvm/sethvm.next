@@ -21,7 +21,9 @@ const History = () => (
             url='https://sethvm.com/pick-history'
         />
         <Section ends>
-            <Heading type={2}>Pick History</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Pick History
+            </Heading>
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
                 Loblaw's Pick History tool is used to validate thousands of customer order statuses
@@ -51,9 +53,7 @@ const History = () => (
         <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final Pick History interface' />
 
         <Section ends>
-            <Heading type={3} anchor='context'>
-                Context
-            </Heading>
+            <Heading type={3}>Context</Heading>
             <Paragraph>
                 With COVID-19 driving demand for online grocery services through the roof, Loblaw
                 looked to enhance the usability of their internal operations platform, better known
@@ -67,7 +67,7 @@ const History = () => (
         </Section>
 
         <Section>
-            <Heading type={3} anchor='previous-module'>
+            <Heading type={3}>
                 The Previous Module
             </Heading>
             <Paragraph>
@@ -134,7 +134,7 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='problems-uncovered'>
+            <Heading type={3} anchor='problems' navLabel='Problems'>
                 Problems Uncovered
             </Heading>
             <Paragraph>
@@ -316,13 +316,12 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='validation'>
-                Validation
+            <Heading type={3} anchor='usability-testing'>
+                Usability Testing
             </Heading>
             <Paragraph>
-                I ran moderated usability tests and had several <abbr>PCX</abbr> specialists conduct
-                mock order investigations using a prototype of our redesign. My script outlined
-                scenarios they would encounter during a typical day at a store.
+                I had five <abbr>PCX</abbr> specialists conduct mock order investigations using a
+                prototype of our redesign.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -335,7 +334,7 @@ const History = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    🦾 Strengths
+                    ✅ Strengths
                 </Heading>
                 <List>
                     <li>
@@ -353,7 +352,7 @@ const History = () => (
             </SectionInner>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    🩹 Weaknesses
+                    ❌ Weaknesses
                 </Heading>
                 <List ends>
                     <li>
@@ -437,8 +436,8 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='new-visual-elements'>
-                New Visual Elements
+            <Heading type={3} anchor='visual-elements'>
+                Visual Elements
             </Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and
@@ -489,8 +488,8 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='contextualized-search'>
-                Contextualized Search
+            <Heading type={3} anchor='search-field'>
+                Search Field
             </Heading>
             <Paragraph>
                 It was confirmed later along our project roadmap that the search function within our
@@ -543,8 +542,8 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='preparing-for-takeoff'>
-                Preparing for Takeoff
+            <Heading type={3} anchor='handoff-and-launch'>
+                Handoff and Launch
             </Heading>
             <Paragraph>
                 During the closing phases of the transformation project, I constructed a pattern
@@ -553,8 +552,8 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History module was shipped and deployed to stores as part of the Ops
-                    Portal rollout.
+                    The Pick History module was deployed to stores as part of the Ops Portal
+                    rollout.
                 </Strong>
             </IndentInner>
         </Section>
@@ -616,7 +615,7 @@ const History = () => (
             </Paragraph>
         </Section>
         <Section ends gap>
-            <Heading type={3} anchor='reflection'>
+            <Heading type={3}>
                 Reflection
             </Heading>
             <IndentInner>

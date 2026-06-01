@@ -22,7 +22,9 @@ const FreeTrial = () => (
             url='https://sethvm.com/free-trial'
         />
         <Section ends>
-            <Heading type={2}>Free Trial</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Free Trial
+            </Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 A limited-time free trial enables small business owners to experience the full
@@ -42,7 +44,6 @@ const FreeTrial = () => (
                 results={[
                     { value: '34%', label: 'more subscription purchases' },
                     { value: '27%', label: 'more invoices created' },
-                    { value: '10%', label: 'higher-tier skew' },
                 ]}
             />
         </Section>
@@ -53,7 +54,7 @@ const FreeTrial = () => (
         />
 
         <Section>
-            <Heading type={3} anchor='freemium'>
+            <Heading type={3} anchor='problem' navLabel='Problem'>
                 Freemium, Not Free
             </Heading>
             <Paragraph>
@@ -109,7 +110,7 @@ const FreeTrial = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3} anchor='why-free-trial'>
+            <Heading type={3} anchor='approach' navLabel='Approach'>
                 Why a Free Trial?
             </Heading>
             <Paragraph>
@@ -150,7 +151,7 @@ const FreeTrial = () => (
         </Section>
 
         <Section>
-            <Heading type={3} anchor='reimagined-journey'>
+            <Heading type={3} anchor='design solution' navLabel='Design Solution'>
                 Reimagined User Journey
             </Heading>
             <Paragraph>
@@ -258,7 +259,7 @@ const FreeTrial = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3} anchor='measuring-success'>
+            <Heading type={3} anchor='validation' navLabel='Validation'>
                 Measuring Success
             </Heading>
             <Paragraph>
@@ -292,8 +293,8 @@ const FreeTrial = () => (
         </Section>
 
         <Section ends>
-            <Heading type={3} anchor='impact'>
-                Impact
+            <Heading type={3} anchor='results'>
+                Results
             </Heading>
             <Paragraph>
                 Users onboarded to the free trial are able to discover Invoice Simple's value

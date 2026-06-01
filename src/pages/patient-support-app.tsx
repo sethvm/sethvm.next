@@ -20,7 +20,9 @@ const Soulfx = () => (
             url='https://sethvm.com/patient-support-app'
         />
         <Section ends>
-            <Heading type={2}>Patient Support App</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Patient Support App
+            </Heading>
             <SubHeading>Soulfx Technologies</SubHeading>
             <Paragraph>
                 Soulfx's Patient Support Application is a web-based platform developed for a

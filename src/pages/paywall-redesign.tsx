@@ -12,6 +12,7 @@ import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
 import Strong from '../components/Typography/Strong';
+import Stat from '../components/Content/Stat';
 
 const Paywall = () => (
     <>
@@ -21,7 +22,9 @@ const Paywall = () => (
             url='https://sethvm.com/paywall-redesign'
         />
         <Section ends>
-            <Heading type={2}>Paywall Redesign</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Paywall Redesign
+            </Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 Subscription paywalls serve a key role in establishing trust with users by outlining
@@ -46,8 +49,8 @@ const Paywall = () => (
         />
 
         <Section ends>
-            <Heading type={3} anchor='context'>
-                Context
+            <Heading type={3} anchor='problem' navLabel='Problem'>
+                Problem
             </Heading>
             <IndentInner>
                 <Strong>
@@ -63,7 +66,7 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3} anchor='buyer-bottleneck'>
+            <Heading type={3}>
                 Buyer Bottleneck
             </Heading>
             <Paragraph>
@@ -116,7 +119,7 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3} anchor='great-paywall'>
+            <Heading type={3} anchor='approach' navLabel='Approach'>
                 What Makes a Great Paywall?
             </Heading>
             <Paragraph>
@@ -244,17 +247,15 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends gap>
-            <Heading type={3} anchor='validation-results'>
-                Validation & Results
+            <Heading type={3} anchor='results'>
+                Results
             </Heading>
             <Paragraph>
                 An A/B test was run to quantitatively validate the new paywall design. We
                 successfully addressed the user funnel drop-off by growing key business metrics and
                 uncovering further opportunities.
             </Paragraph>
-            <IndentInner>
-                <Strong>18% lift in free-to-paid conversion</Strong>
-            </IndentInner>
+            <Stat value='18%'>lift in free-to-paid conversion</Stat>
             <IndentInner>
                 <Strong>
                     Addition of growth-centred <abbr>UX</abbr> optimizations to product roadmap

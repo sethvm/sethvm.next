@@ -17,7 +17,9 @@ const Checkout = () => (
             url='https://sethvm.com/payment-portal'
         />
         <Section ends>
-            <Heading type={2}>Payment Portal</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Payment Portal
+            </Heading>
             <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
                 Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
