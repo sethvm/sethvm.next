@@ -2,7 +2,6 @@ import Head from '../components/SEO';
 import Link from 'next/link';
 import Section from '../components/Content/Section';
 import IndentInner from '../components/Content/IndentInner';
-import Results from '../components/Content/Results';
 import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';

@@ -8,7 +8,6 @@ import ImageFluid from '../components/Content/ImageFluid';
 import ImageCaption from '../components/Content/ImageCaption';
 import Image from '../components/Content/Image';
 import Details from '../components/Content/Details';
-import Results from '../components/Content/Results';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
