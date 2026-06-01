@@ -67,9 +67,7 @@ const History = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>
-                The Previous Module
-            </Heading>
+            <Heading type={3}>The Previous Module</Heading>
             <Paragraph>
                 The transaction log—referred to as <abbr>TRX</abbr>—was a key element of the
                 previous operations platform. It recorded every task performed by store colleagues
@@ -615,9 +613,7 @@ const History = () => (
             </Paragraph>
         </Section>
         <Section ends gap>
-            <Heading type={3}>
-                Reflection
-            </Heading>
+            <Heading type={3}>Reflection</Heading>
             <IndentInner>
                 <Heading type={4}>Drive form with function</Heading>
             </IndentInner>

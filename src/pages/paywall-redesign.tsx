@@ -66,9 +66,7 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>
-                Buyer Bottleneck
-            </Heading>
+            <Heading type={3}>Buyer Bottleneck</Heading>
             <Paragraph>
                 Prior to the redesign, the paywall emphasized introducing new users to Invoice
                 Simple rather than presenting subscription plan details.
