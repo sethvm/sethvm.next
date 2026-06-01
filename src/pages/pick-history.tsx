@@ -432,9 +432,7 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='visual-elements'>
-                Visual Elements
-            </Heading>
+            <Heading type={3}>New Visual Elements</Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and
                 colour—domains untouched by both <abbr>TRX</abbr> and the Pick History module's
@@ -484,9 +482,7 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='search-field'>
-                Search Field
-            </Heading>
+            <Heading type={3}>Contextualized Search</Heading>
             <Paragraph>
                 It was confirmed later along our project roadmap that the search function within our
                 new module would be contextualized to each individual order.
@@ -538,7 +534,7 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3} anchor='handoff-and-launch'>
+            <Heading type={3} anchor='handoff-and-launch' navLabel='Handoff'>
                 Handoff and Launch
             </Heading>
             <Paragraph>

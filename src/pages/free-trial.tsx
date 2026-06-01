@@ -58,7 +58,7 @@ const FreeTrial = () => (
 
         <Section>
             <Heading type={3} anchor='problem' navLabel='Problem'>
-                Freemium, Not Free
+                Problem
             </Heading>
             <Paragraph>
                 Invoice Simple previously operated on a freemium model that limited how many
@@ -75,7 +75,7 @@ const FreeTrial = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Two Documents, One Send
+                    Freemium, Not Free
                 </Heading>
                 <Paragraph>
                     New users were given little beyond a test document to work with and were sent to
@@ -156,7 +156,7 @@ const FreeTrial = () => (
 
         <Section>
             <Heading type={3} anchor='design solution' navLabel='Design Solution'>
-                Reimagined User Journey
+                Design Solution
             </Heading>
             <Paragraph>
                 Eliminating constraints imposed by the freemium model presented endless
@@ -264,14 +264,14 @@ const FreeTrial = () => (
 
         <Section ends>
             <Heading type={3} anchor='validation' navLabel='Validation'>
-                Measuring Success
+                Validation
             </Heading>
             <Paragraph>
                 The new user experience fundamentally changed a growth lever vital to revenue and
                 activations, meaning it needed to perform well in several key areas.
             </Paragraph>
             <Heading type={4} className='heavy'>
-                Core Metrics
+                Measuring Success
             </Heading>
             <List numbered>
                 <li>
