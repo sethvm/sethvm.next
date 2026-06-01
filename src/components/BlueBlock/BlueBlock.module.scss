@@ -21,3 +21,11 @@
         display: none;
     }
 }
+
+// About keeps the deployed right-edge stripe — the wide `.block` pulled in to the
+// right ~20% so it sits beside the offset content column rather than behind it.
+.stripe {
+    @media (min-width: 992px) {
+        left: 80%;
+    }
+}

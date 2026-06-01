@@ -3,10 +3,12 @@ import { useRouter } from 'next/router';
 import styleNavBar from './NavBar.module.scss';
 
 const NavBar = () => {
-    // On Home the wide BlueBlock sits behind the nav, so the route stays light (white).
-    // Elsewhere there is no navy backdrop, so the route must be dark to stay visible.
-    const onHomePage = useRouter().pathname === '/';
-    const routeClass = onHomePage
+    // Home (wide block) and About (right-edge stripe) both have a navy BlueBlock behind the
+    // nav link, so the route stays light (white). Other pages have no navy backdrop, so the
+    // route must be dark to stay visible.
+    const { pathname } = useRouter();
+    const hasBlueBackdrop = pathname === '/' || pathname === '/about';
+    const routeClass = hasBlueBackdrop
         ? styleNavBar.route
         : `${styleNavBar.route} ${styleNavBar.routeDark}`;
 
