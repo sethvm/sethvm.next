@@ -20,7 +20,7 @@ const Soulfx = () => (
             description='Establishing the information architecture of a record management platform used by a multinational healthcare firm.'
             url='https://sethvm.com/patient-support-app'
         />
-        <Section ends>
+        <Section>
             <Heading type={2} anchor='overview' navLabel='Overview'>
                 Patient Support App
             </Heading>

@@ -21,7 +21,7 @@ const FreeTrial = () => (
             description='Reimagined activation journey that grew subscription purchases by 34% and document creations by 27%'
             url='https://sethvm.com/free-trial'
         />
-        <Section ends>
+        <Section>
             <Heading type={2} anchor='overview' navLabel='Overview'>
                 Free Trial
             </Heading>

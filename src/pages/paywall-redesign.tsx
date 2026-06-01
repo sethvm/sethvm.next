@@ -21,7 +21,7 @@ const Paywall = () => (
             description='Generated 18% lift in purchase conversion rate'
             url='https://sethvm.com/paywall-redesign'
         />
-        <Section ends>
+        <Section>
             <Heading type={2} anchor='overview' navLabel='Overview'>
                 Paywall Redesign
             </Heading>

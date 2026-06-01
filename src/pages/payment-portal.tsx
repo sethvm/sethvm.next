@@ -16,7 +16,7 @@ const Checkout = () => (
             description='Enhanced scalability of a customer-facing checkout that processes over $300 million daily'
             url='https://sethvm.com/payment-portal'
         />
-        <Section ends>
+        <Section>
             <Heading type={2} anchor='overview' navLabel='Overview'>
                 Payment Portal
             </Heading>

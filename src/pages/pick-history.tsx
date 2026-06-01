@@ -20,7 +20,7 @@ const History = () => (
             description="Streamlined order validation experience for Canada's largest grocery retailer"
             url='https://sethvm.com/pick-history'
         />
-        <Section ends>
+        <Section>
             <Heading type={2} anchor='overview' navLabel='Overview'>
                 Pick History
             </Heading>
