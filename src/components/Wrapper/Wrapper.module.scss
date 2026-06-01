@@ -51,3 +51,13 @@
         }
     }
 }
+
+// About drops the desktop spine cap + side padding so the page spans the full viewport
+// width. The offset column's percentages (About.module.scss) then resolve against the
+// viewport, reproducing the deployed layout. Must follow `.container` to win the override.
+.aboutPage {
+    @media (min-width: styles.$bp-lg) {
+        max-width: none;
+        padding: 0;
+    }
+}

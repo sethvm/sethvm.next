@@ -17,7 +17,17 @@ const Wrapper = ({ children }: Props) => {
         return <main>{children}</main>;
     }
 
-    // About / 404: centered container, no rail.
+    // About: full-width canvas (no centered spine) so the offset content column and the
+    // right-edge BlueBlock stripe reproduce the deployed layout. See About.module.scss.
+    if (pathname === '/about') {
+        return (
+            <main className={`${styleWrapper.container} ${styleWrapper.aboutPage}`}>
+                {children}
+            </main>
+        );
+    }
+
+    // Other no-rail pages (404): centered container.
     if (NON_CASE_STUDY.includes(pathname)) {
         return <main className={styleWrapper.container}>{children}</main>;
     }

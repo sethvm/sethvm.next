@@ -28,3 +28,13 @@
         padding-left: 0;
     }
 }
+
+// At >=992 the About page reproduces the deployed offset column — a narrow column pushed
+// in from the left. Percentages are viewport-relative because Wrapper gives /about a
+// full-width canvas (.aboutPage). Below 992 it's full-width and Section provides the insets.
+.offsetColumn {
+    @media (min-width: styles.$bp-lg) {
+        width: 40%;
+        margin-left: 22%;
+    }
+}
