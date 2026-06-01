@@ -6,9 +6,6 @@ interface Props {
     children: React.ReactNode;
 }
 
-// Pages that are NOT case studies get no ScrollSpy rail.
-const NON_CASE_STUDY = ['/', '/about', '/404'];
-
 const Wrapper = ({ children }: Props) => {
     const { pathname } = useRouter();
 
@@ -27,8 +24,8 @@ const Wrapper = ({ children }: Props) => {
         );
     }
 
-    // Other no-rail pages (404): centered container.
-    if (NON_CASE_STUDY.includes(pathname)) {
+    // 404: centered container, no rail.
+    if (pathname === '/404') {
         return <main className={styleWrapper.container}>{children}</main>;
     }
 
