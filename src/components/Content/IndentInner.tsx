@@ -8,7 +8,6 @@ interface Props {
 }
 
 const IndentInner = ({ noBar, children }: Props) => {
-    // style border based on 'nobar' prop
     const borderStyle = noBar ? styleIndentInner.borderless : styleIndentInner.bordered;
 
     return <div className={`${styleIndentInner.container} ${borderStyle}`}>{children}</div>;

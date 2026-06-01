@@ -1,0 +1,35 @@
+@use '../../styles/styles';
+
+// Label/value metadata blocks for case-study intros (Role, Platform, Client…).
+// Stacks as full-width blocks on mobile; flips to an inline row at md — mirrors Results.
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: styles.$space-3; // 24px — between stacked blocks
+    margin: styles.$space-3 0 0; // 24px above; resets the default <dl> margin
+
+    @media (min-width: styles.$bp-md) {
+        flex-direction: row;
+        gap: styles.$space-5; // 48px — between inline blocks
+    }
+}
+
+// One label/value pair — groups <dt> + <dd> as a single flex item.
+.item {
+    min-width: 0;
+}
+
+.label {
+    font-family: styles.$font-medium; // medium weight
+    font-size: 1.15em;
+    line-height: 1.2;
+    color: styles.$body-font-color;
+}
+
+.value {
+    margin: 4px 0 0; // resets the default <dd> indent; 4px below the label
+    font-family: styles.$font-regular; // regular weight
+    font-size: 1.15em;
+    line-height: 1.3;
+    color: styles.$body-font-color;
+}

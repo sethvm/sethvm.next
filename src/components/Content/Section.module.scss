@@ -1,41 +1,42 @@
-/*
-/  768px - md
-/  992px - lg
-*/
+@use '../../styles/styles';
 
 .container {
     width: 78%;
 
-    @media (min-width: 768px) {
+    @media (min-width: styles.$bp-md) {
         width: 75%;
     }
 
-    @media (min-width: 992px) {
-        width: 40%;
+    // Fill the centered container but cap text to one measure, left-aligned, so every
+    // Section shares the container's left edge.
+    @media (min-width: styles.$bp-lg) {
+        width: 100%;
+        max-width: styles.$measure;
     }
 }
 
+// Between-section rhythm on the 8-pt scale (scales down per breakpoint).
 .defaultMargins {
-    margin: 96px auto 32px;
+    margin: styles.$gap-section-sm auto styles.$gap-block; // 48 / 32
 
-    @media (min-width: 768px) {
-        margin: 72px auto 36px;
+    @media (min-width: styles.$bp-md) {
+        margin: styles.$gap-section-md auto styles.$gap-block; // 64 / 32
     }
 
-    @media (min-width: 992px) {
-        margin: 72px 0 40px 22%;
+    @media (min-width: styles.$bp-lg) {
+        margin: styles.$gap-section-md auto styles.$gap-block 0; // left-aligned spine
     }
 }
 
 .endMargins {
-    margin: 96px auto 132px;
+    margin: styles.$gap-section-sm auto styles.$gap-section-lg; // 48 / 96
 
-    @media (min-width: 768px) {
-        margin: 72px auto 102px;
+    @media (min-width: styles.$bp-md) {
+        margin: styles.$gap-section-md auto styles.$gap-section-lg;
     }
 
-    @media (min-width: 992px) {
-        margin: 72px 0 100px 22%;
+    @media (min-width: styles.$bp-lg) {
+        margin: styles.$gap-section-md auto styles.$gap-section-lg 0;
     }
 }
 

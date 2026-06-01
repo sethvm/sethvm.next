@@ -1,5 +1,4 @@
-// image description text
-// place directly below Img components
+// place directly below Image components
 import styleImgCaption from './ImageCaption.module.scss';
 
 interface Props {

@@ -1,13 +1,11 @@
-/*
-/  992px - lg
-*/
+@use '../../styles/styles';
 
 .container {
     width: 100%;
-    margin: 0 auto 92px;
+    margin: 0 auto styles.$gap-section-lg;
 
     @media (min-width: 992px) {
-        width: 70%;
+        width: 100%; // fill container; left edge matches Section
     }
 }
 

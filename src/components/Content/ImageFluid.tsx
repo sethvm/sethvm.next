@@ -1,4 +1,3 @@
-// flexbox container for displaying an image(s)
 import styleImgFluid from './ImageFluid.module.scss';
 
 interface Props {

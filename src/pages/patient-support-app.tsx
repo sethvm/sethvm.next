@@ -1,5 +1,4 @@
 import Head from '../components/SEO';
-// layout
 import Section from '../components/Content/Section';
 import SectionInner from '../components/Content/SectionInner';
 import IndentInner from '../components/Content/IndentInner';
@@ -8,7 +7,7 @@ import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import ImageCaption from '../components/Content/ImageCaption';
 import Image from '../components/Content/Image';
-// typography
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -22,7 +21,9 @@ const Soulfx = () => (
             url='https://sethvm.com/patient-support-app'
         />
         <Section ends>
-            <Heading type={2}>Patient Support App</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Patient Support App
+            </Heading>
             <SubHeading>Soulfx Technologies</SubHeading>
             <Paragraph>
                 Soulfx's Patient Support Application is a web-based platform developed for a
@@ -30,23 +31,22 @@ const Soulfx = () => (
                 that provides financial assistance to Canadian patients for medical payments such as
                 prescriptions and therapy.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Client:</span>
-                &nbsp;Multinational healthcare firm
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Software designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platform:</span>
-                &nbsp;Desktop Web
-            </Paragraph>
-            <Paragraph className='spacerAfter'>
-                <span className='bold'>Result:</span>
-                &nbsp;Enabled virtual-first healthcare delivery during COVID-19 by facilitating
-                administration of over 2.5K medical records
-            </Paragraph>
+            <Details
+                details={[
+                    { label: 'Role', value: 'Software designer' },
+                    { label: 'Platform', value: 'Desktop Web' },
+                    { label: 'Client', value: 'Multinational healthcare firm' },
+                ]}
+            />
+            <Details
+                details={[
+                    {
+                        label: 'Result',
+                        value: 'Enabled virtual-first healthcare delivery during COVID-19 by facilitating administration of over 2.5K medical records',
+                    },
+                ]}
+            />
+            <div className='spacerAfter' />
             <IndentInner>
                 <Paragraph>
                     Due to a non-disclosure agreement, mockup components that would contain
@@ -76,7 +76,9 @@ const Soulfx = () => (
         </Section>
 
         <Section ends>
-            <Heading type={3}>Context</Heading>
+            <Heading type={3} anchor='context'>
+                Context
+            </Heading>
             <Paragraph>
                 COVID-19 has brought with it a global-scale challenge that has pushed the capacity
                 of our healthcare industries to their limits. Our client approached us with the
@@ -100,7 +102,9 @@ const Soulfx = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Our Client's Assistance Service</Heading>
+            <Heading type={3} anchor='our-clients-assistance-service'>
+                Our Client's Assistance Service
+            </Heading>
             <Paragraph>
                 Manufacturers registered under our client's service platform offer their own
                 collection of financial assistance and/or therapy program plans, which provide
@@ -116,7 +120,9 @@ const Soulfx = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Jobs-to-Be-Done</Heading>
+            <Heading type={3} anchor='jobs-to-be-done'>
+                Jobs-to-Be-Done
+            </Heading>
             <Paragraph>
                 We designed our client's application from the ground up—however, we worked with a
                 service that was already in operation. Thus, we conducted generative research with
@@ -142,7 +148,9 @@ const Soulfx = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>The Reimbursement Lifecycle</Heading>
+            <Heading type={3} anchor='the-reimbursement-lifecycle'>
+                The Reimbursement Lifecycle
+            </Heading>
             <Paragraph>
                 We sought to get an in-depth look at how the support platform itself works and how
                 our users interact with it. I created a lifecycle diagram to document the steps
@@ -174,7 +182,9 @@ const Soulfx = () => (
         </Section>
 
         <Section gap>
-            <Heading type={3}>Record Information Architecture</Heading>
+            <Heading type={3} anchor='record-information-architecture'>
+                Record Information Architecture
+            </Heading>
             <IndentInner>
                 <Strong>
                     It became clear from modelling the caseworker journey that there was a
@@ -211,7 +221,9 @@ const Soulfx = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Our Designed Solution</Heading>
+            <Heading type={3} anchor='our-designed-solution'>
+                Our Designed Solution
+            </Heading>
             <Paragraph>
                 Our designed solution is an application consisting of two components: a record
                 management dashboard for our caseworkers and a small public-facing portal for our
@@ -275,7 +287,9 @@ const Soulfx = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Key Interactions</Heading>
+            <Heading type={3} anchor='key-interactions'>
+                Key Interactions
+            </Heading>
             <Paragraph>
                 We wanted caseworkers to be able to efficiently add, delete, and edit records
                 pertaining to any manufacturer, program, certificate, and drug. Additionally, they
@@ -343,7 +357,9 @@ const Soulfx = () => (
         </FrostedGlass>
 
         <Section ends gap>
-            <Heading type={3}>Next Steps and Takeaways</Heading>
+            <Heading type={3} anchor='next-steps-and-takeaways'>
+                Next Steps and Takeaways
+            </Heading>
             <IndentInner>
                 <Heading type={4}>
                     There are still opportunities to streamline the navigation experience for our

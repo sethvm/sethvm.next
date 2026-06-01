@@ -1,5 +1,4 @@
 import Head from '../components/SEO';
-// layout
 import Section from '../components/Content/Section';
 import SectionInner from '../components/Content/SectionInner';
 import IndentInner from '../components/Content/IndentInner';
@@ -8,7 +7,8 @@ import Banner from '../components/Content/Banner';
 import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
-// typography
+import Stat from '../components/Content/Stat';
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -22,7 +22,9 @@ const FreeTrial = () => (
             url='https://sethvm.com/free-trial'
         />
         <Section ends>
-            <Heading type={2}>Free Trial</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Free Trial
+            </Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 A limited-time free trial enables small business owners to experience the full
@@ -30,18 +32,23 @@ const FreeTrial = () => (
                 subscription plan. Working with a product manager and five engineers, I led the
                 design of this new acquisition model from conception to validation and execution.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Sole product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platforms:</span>
-                &nbsp;Mobile (<abbr>iOS</abbr> & Android)
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Impact:</span>
-                &nbsp;Grew subscription purchases by 34% and invoice creations by 27%
-            </Paragraph>
+            <Details
+                details={[
+                    { label: 'Role', value: 'Sole product designer' },
+                    {
+                        label: 'Platform',
+                        value: 'Mobile',
+                    },
+                ]}
+            />
+            <Details
+                details={[
+                    {
+                        label: 'Results',
+                        value: 'Grew subscription purchases by 34% and document creations by 27%',
+                    },
+                ]}
+            />
         </Section>
 
         <Banner
@@ -50,7 +57,9 @@ const FreeTrial = () => (
         />
 
         <Section>
-            <Heading type={3}>Freemium, Not Free</Heading>
+            <Heading type={3} anchor='problem' navLabel='Problem'>
+                Freemium, Not Free
+            </Heading>
             <Paragraph>
                 Invoice Simple previously operated on a freemium model that limited how many
                 documents could be created and which features could be used by unpaid users.
@@ -75,7 +84,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_freemium-banner.svg'
+                    src='/is/free-trial/is-free-trial_freemium-banner.png'
                     alt="Image showing Invoice Simple's previous freemium banner"
                 />
             </ImageFluid>
@@ -97,6 +106,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
+                    animation
                     src='/is/free-trial/is-free-trial_feature-gates.png'
                     alt='Image showing feature gates within the document editor'
                 />
@@ -104,7 +114,9 @@ const FreeTrial = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Why a Free Trial?</Heading>
+            <Heading type={3} anchor='approach' navLabel='Approach'>
+                Why a Free Trial?
+            </Heading>
             <Paragraph>
                 Adopting a free trial model provides exposure to Invoice Simple's entire end-to-end
                 experience. We aimed to provide new users unrestricted access to our Premium package
@@ -143,7 +155,9 @@ const FreeTrial = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Reimagined User Journey</Heading>
+            <Heading type={3} anchor='design solution' navLabel='Design Solution'>
+                Reimagined User Journey
+            </Heading>
             <Paragraph>
                 Eliminating constraints imposed by the freemium model presented endless
                 opportunities to educate new users about our product.
@@ -223,7 +237,7 @@ const FreeTrial = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/free-trial/is-free-trial_feature-checklist.svg'
+                    src='/is/free-trial/is-free-trial_feature-checklist.png'
                     alt='Image showing feature checklist page and its various elements'
                 />
             </ImageFluid>
@@ -249,7 +263,9 @@ const FreeTrial = () => (
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>Measuring Success</Heading>
+            <Heading type={3} anchor='validation' navLabel='Validation'>
+                Measuring Success
+            </Heading>
             <Paragraph>
                 The new user experience fundamentally changed a growth lever vital to revenue and
                 activations, meaning it needed to perform well in several key areas.
@@ -281,20 +297,16 @@ const FreeTrial = () => (
         </Section>
 
         <Section ends>
-            <Heading type={3}>Impact</Heading>
+            <Heading type={3} anchor='results'>
+                Results
+            </Heading>
             <Paragraph>
                 Users onboarded to the free trial are able to discover Invoice Simple's value
                 upfront, significantly strengthening our acquisition funnel.
             </Paragraph>
-            <IndentInner>
-                <Heading type={4}>34% more subscription purchases</Heading>
-            </IndentInner>
-            <IndentInner>
-                <Heading type={4}>27% more invoices created</Heading>
-            </IndentInner>
-            <IndentInner>
-                <Heading type={4}>10% skew towards higher-tier subscription packages</Heading>
-            </IndentInner>
+            <Stat value='34%'>more subscription purchases</Stat>
+            <Stat value='27%'>more invoices created</Stat>
+            <Stat value='10%'>skew towards higher-tier subscription packages</Stat>
             <Paragraph>
                 Engagement from trial-turned-subscriber merchants yielded several downstream
                 results: 16% more paywall visits, 10% more invoices sent and 17% higher payment
@@ -303,7 +315,9 @@ const FreeTrial = () => (
         </Section>
 
         <Section ends gap>
-            <Heading type={3}>Next Steps</Heading>
+            <Heading type={3} anchor='next-steps'>
+                Next Steps
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Usability testing of feature checklist</Heading>
             </IndentInner>

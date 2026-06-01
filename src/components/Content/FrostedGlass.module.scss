@@ -1,27 +1,29 @@
-/*
-/  768px - md
-/  992px - lg
-*/
+@use '../../styles/styles';
 
+// Solid tinted card — hairline border + soft shadow. (Name is legacy: no longer a frosted blur.)
 .container {
-    background-color: rgb(210, 210, 210, 0.4);
-    backdrop-filter: blur(84px);
+    background-color: #f0f2f5;
+    border: 1px solid rgba(20, 20, 20, 0.08);
+    box-shadow:
+        0 1px 2px rgba(0, 0, 0, 0.04),
+        0 18px 40px -28px rgba(0, 0, 0, 0.22);
     padding: 24px 0;
 
     @media (min-width: 992px) {
-        width: 75%;
+        width: 100%; // fill the centered container; left edge matches Section
         border-radius: 10px;
+        padding: 24px 48px; // interior padding so inner text/figures inset consistently
     }
 }
 
 .defaultMargins {
-    margin: 100px auto;
+    margin: styles.$gap-section-lg auto;
 
-    @media (min-width: 768px) {
+    @media (min-width: styles.$bp-md) {
         margin: 0 auto;
     }
 }
 
 .endMargins {
-    margin: 40px auto 148px;
+    margin: styles.$gap-block auto styles.$gap-section-lg;
 }

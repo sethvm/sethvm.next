@@ -1,8 +1,6 @@
 import Head from '../components/SEO';
 import Link from 'next/link';
-// layout
 import Section from '../components/Content/Section';
-// typography
 import Heading from '../components/Typography/Heading';
 
 const Error = () => (

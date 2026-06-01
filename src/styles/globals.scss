@@ -1,6 +1,5 @@
 @use './styles';
 
-// space styling
 *,
 *::before,
 *::after {
@@ -104,27 +103,38 @@ h6 {
     margin-bottom: 0.5em;
 }
 
+// h1 is Home-only ("G'day, I'm Seth."); left unchanged to keep Home stable.
 h1 {
     font-size: 3em;
 }
 
+// Fluid modular type ramp. Sizes are em (relative to 17px body), fluid via clamp + vw.
+// Display tier — case-study page titles. ~44px (mobile) -> ~59px (desktop).
 h2 {
-    font-size: 2.75em;
+    font-size: clamp(2.6em, 1.6em + 3.2vw, 3.5em);
+    line-height: 1.08;
     margin-bottom: 0.2em;
 }
 
+// Section titles. ~29px -> ~39px.
 h3 {
-    font-size: 2.4em;
-    margin-bottom: 0.2em;
+    font-size: clamp(1.7em, 1.2em + 1.8vw, 2.3em);
+    margin-bottom: 0.3em;
 }
 
-h4,
-strong {
-    font-size: 1.15em;
+// Subsection headings. 24.65px — clearly above body (19.5px).
+// Intentionally decoupled from `strong` so inline bold + callouts stay body-sized.
+h4 {
+    font-size: 1.45em;
 }
 
 h5 {
     font-size: 1em;
+}
+
+// Inline emphasis / <Strong> callouts — keep at body size.
+strong {
+    font-size: 1.15em;
 }
 
 p {

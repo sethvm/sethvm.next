@@ -1,4 +1,3 @@
-//list component
 import styleList from './List.module.scss';
 
 interface Props {
@@ -9,12 +8,10 @@ interface Props {
 }
 
 const List = ({ numbered, noBullets, ends, children }: Props) => {
-    // prop-based styling
     const isNumbered = numbered;
 
     const noBullet = noBullets ? styleList.noBullets : styleList.defaultListStyle;
 
-    // adjust bottom margin
     const isAtSectionEnd = ends ? styleList.spacedBottomMargin : styleList.defaultMargin;
 
     if (isNumbered) {

@@ -1,5 +1,4 @@
 import Head from '../components/SEO';
-// layout
 import Section from '../components/Content/Section';
 import SectionInner from '../components/Content/SectionInner';
 import IndentInner from '../components/Content/IndentInner';
@@ -8,7 +7,7 @@ import Banner from '../components/Content/Banner';
 import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
-// typography
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -22,7 +21,9 @@ const History = () => (
             url='https://sethvm.com/pick-history'
         />
         <Section ends>
-            <Heading type={2}>Pick History</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Pick History
+            </Heading>
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
                 Loblaw's Pick History tool is used to validate thousands of customer order statuses
@@ -31,19 +32,20 @@ const History = () => (
                 spanning over 700 locations across Canada. With another designer, six developers and
                 a product owner, I led its complete rebuild from discovery to delivery.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Lead product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platform:</span>
-                &nbsp;Desktop
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Result:</span>
-                &nbsp;Enabled validation of online orders by fulfilment associates across 13 grocery
-                store chains
-            </Paragraph>
+            <Details
+                details={[
+                    { label: 'Role', value: 'Lead product designer' },
+                    { label: 'Platform', value: 'Desktop' },
+                ]}
+            />
+            <Details
+                details={[
+                    {
+                        label: 'Result',
+                        value: 'Enabled validation of orders across 13 grocery store chains',
+                    },
+                ]}
+            />
         </Section>
 
         <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final Pick History interface' />
@@ -128,7 +130,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Problems Uncovered</Heading>
+            <Heading type={3} anchor='problems' navLabel='Problems'>
+                Problems Uncovered
+            </Heading>
             <Paragraph>
                 My first few weeks on this project were spent learning about our problem space. I
                 took an in-depth look at the end-to-end journey of an online grocery order and the
@@ -208,7 +212,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Design Approach</Heading>
+            <Heading type={3} anchor='design-approach'>
+                Design Approach
+            </Heading>
             <Paragraph>
                 After uncovering problems with <abbr>TRX</abbr>, we outlined three areas for a new
                 design to innovate in:
@@ -306,11 +312,12 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Validation</Heading>
+            <Heading type={3} anchor='usability-testing'>
+                Usability Testing
+            </Heading>
             <Paragraph>
-                I ran moderated usability tests and had several <abbr>PCX</abbr> specialists conduct
-                mock order investigations using a prototype of our redesign. My script outlined
-                scenarios they would encounter during a typical day at a store.
+                I had five <abbr>PCX</abbr> specialists conduct mock order investigations using a
+                prototype of our redesign.
             </Paragraph>
             <IndentInner>
                 <Strong>
@@ -323,7 +330,7 @@ const History = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    🦾 Strengths
+                    ✅ Strengths
                 </Heading>
                 <List>
                     <li>
@@ -341,7 +348,7 @@ const History = () => (
             </SectionInner>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    🩹 Weaknesses
+                    ❌ Weaknesses
                 </Heading>
                 <List ends>
                     <li>
@@ -365,7 +372,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Refinements</Heading>
+            <Heading type={3} anchor='refinements'>
+                Refinements
+            </Heading>
             <Paragraph>
                 My approach to polishing our solution encompassed two core foundations:
             </Paragraph>
@@ -423,7 +432,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>New Visual Elements</Heading>
+            <Heading type={3} anchor='visual-elements'>
+                Visual Elements
+            </Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and
                 colour—domains untouched by both <abbr>TRX</abbr> and the Pick History module's
@@ -473,7 +484,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Contextualized Search</Heading>
+            <Heading type={3} anchor='search-field'>
+                Search Field
+            </Heading>
             <Paragraph>
                 It was confirmed later along our project roadmap that the search function within our
                 new module would be contextualized to each individual order.
@@ -525,7 +538,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section>
-            <Heading type={3}>Preparing for Takeoff</Heading>
+            <Heading type={3} anchor='handoff-and-launch'>
+                Handoff and Launch
+            </Heading>
             <Paragraph>
                 During the closing phases of the transformation project, I constructed a pattern
                 library to serve as the single source of truth during the development of the Pick
@@ -533,8 +548,8 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History module was shipped and deployed to stores as part of the Ops
-                    Portal rollout.
+                    The Pick History module was deployed to stores as part of the Ops Portal
+                    rollout.
                 </Strong>
             </IndentInner>
         </Section>
@@ -571,7 +586,9 @@ const History = () => (
         </FrostedGlass>
 
         <Section ends gap>
-            <Heading type={3}>Next Steps</Heading>
+            <Heading type={3} anchor='next-steps'>
+                Next Steps
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Capture post-launch user feedback</Heading>
             </IndentInner>

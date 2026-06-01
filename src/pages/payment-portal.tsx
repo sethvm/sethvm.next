@@ -1,14 +1,12 @@
 import Head from '../components/SEO';
 import Link from 'next/link';
-// layout
 import Section from '../components/Content/Section';
 import IndentInner from '../components/Content/IndentInner';
-// typography
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
 import Strong from '../components/Typography/Strong';
-// images
 import Banner from '../components/Content/Banner';
 
 const Checkout = () => (
@@ -19,7 +17,9 @@ const Checkout = () => (
             url='https://sethvm.com/payment-portal'
         />
         <Section ends>
-            <Heading type={2}>Payment Portal</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Payment Portal
+            </Heading>
             <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
                 Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
@@ -28,25 +28,24 @@ const Checkout = () => (
                 checkout experience to improve discoverability of existing features and scalability
                 for novel payment options.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Lead product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platform:</span>
-                &nbsp;Desktop Web
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Result:</span>
-                &nbsp;Implementation of two new payment channels and streamlined automation setup
-                for payors
-            </Paragraph>
+            <Details
+                details={[
+                    { label: 'Role', value: 'Lead product designer' },
+                    { label: 'Platform', value: 'Desktop' },
+                    {
+                        label: 'Result',
+                        value: 'PayPal and Venmo integration',
+                    },
+                ]}
+            />
         </Section>
 
         <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
 
         <Section ends>
-            <Heading type={3}>The Challenge</Heading>
+            <Heading type={3} anchor='the-challenge'>
+                The Challenge
+            </Heading>
             <Paragraph>
                 Intuit's 2022 business objectives included introducing new payment options and
                 increasing engagement with existing automation features. This entailed revisiting
@@ -62,7 +61,9 @@ const Checkout = () => (
         </Section>
 
         <Section ends gap>
-            <Heading type={3}>Reflection</Heading>
+            <Heading type={3} anchor='reflection'>
+                Reflection
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Introduce without interfering</Heading>
             </IndentInner>

@@ -1,0 +1,23 @@
+@use '../../styles/styles';
+
+// Headline impact-metric style — Gilroy numeral + readable label, set off by a gold accent rule.
+.container {
+    padding-left: 16px;
+    border-left: 3px solid styles.$secondary-color;
+    margin-bottom: styles.$space-3; // 24px
+}
+
+.value {
+    display: block;
+    font-family: styles.$font-bold;
+    font-size: 1.75em;
+    line-height: 1;
+    margin: 0;
+}
+
+.label {
+    display: block;
+    font-family: styles.$font-medium;
+    font-size: 1.15em;
+    margin-top: 6px;
+}

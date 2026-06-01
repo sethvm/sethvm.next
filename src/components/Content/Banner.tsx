@@ -1,4 +1,3 @@
-// project banner
 import styleBanner from './Banner.module.scss';
 
 interface Props {

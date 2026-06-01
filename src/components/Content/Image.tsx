@@ -1,4 +1,3 @@
-// image component
 import styleImg from './Image.module.scss';
 
 interface Props {
@@ -11,10 +10,7 @@ interface Props {
 }
 
 const Image = ({ end, item, screen, animation, src, alt }: Props) => {
-    // adjusts margins
     const marginSpacing = end ? styleImg.endMargins : styleImg.defaultMargins;
-
-    // prop-based styling
     const screenStyle = screen ? styleImg.screen : undefined;
     const itemStyle = item ? styleImg.item : undefined;
     const animationStyle = animation ? styleImg.animation : undefined;

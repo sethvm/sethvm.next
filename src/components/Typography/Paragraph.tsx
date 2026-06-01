@@ -1,4 +1,3 @@
-// paragraph - use to section text content together
 interface Props {
     className?: string;
     children: React.ReactNode;

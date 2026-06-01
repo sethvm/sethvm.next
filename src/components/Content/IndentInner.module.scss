@@ -2,12 +2,12 @@
 
 .container {
     padding-left: 16px;
-    border-width: 5px;
+    border-width: 3px;
     margin-bottom: 16px;
 }
 
 .bordered {
-    border-left: styles.$secondary-color solid;
+    border-left: 3px solid styles.$secondary-color;
 }
 
 .borderless {

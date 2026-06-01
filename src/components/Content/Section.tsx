@@ -1,4 +1,3 @@
-// container for header-paragraph segments
 import styleSection from './Section.module.scss';
 
 interface Props {
@@ -8,7 +7,6 @@ interface Props {
 }
 
 const Section = ({ ends, gap, children }: Props) => {
-    // adjusts bottom margin
     const isSectionEnd = ends ? styleSection.endMargins : styleSection.defaultMargins;
 
     const classes = [styleSection.container, isSectionEnd, gap && styleSection.gap]

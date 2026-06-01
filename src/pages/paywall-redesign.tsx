@@ -1,5 +1,4 @@
 import Head from '../components/SEO';
-// layout
 import Section from '../components/Content/Section';
 import SectionInner from '../components/Content/SectionInner';
 import IndentInner from '../components/Content/IndentInner';
@@ -8,11 +7,12 @@ import Banner from '../components/Content/Banner';
 import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
-// typography
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
 import Strong from '../components/Typography/Strong';
+import Stat from '../components/Content/Stat';
 
 const Paywall = () => (
     <>
@@ -22,7 +22,9 @@ const Paywall = () => (
             url='https://sethvm.com/paywall-redesign'
         />
         <Section ends>
-            <Heading type={2}>Paywall Redesign</Heading>
+            <Heading type={2} anchor='overview' navLabel='Overview'>
+                Paywall Redesign
+            </Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 Subscription paywalls serve a key role in establishing trust with users by outlining
@@ -30,18 +32,19 @@ const Paywall = () => (
                 product manager and an engineer, I led a complete redesign of the Invoice Simple
                 paywall to streamline our buyer experience.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Sole product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platforms:</span>
-                &nbsp;Mobile (<abbr>iOS</abbr> & Android)
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Result:</span>
-                &nbsp;18% lift in purchase conversion
-            </Paragraph>
+            <Details
+                details={[
+                    { label: 'Role', value: 'Sole product designer' },
+                    {
+                        label: 'Platform',
+                        value: 'Mobile',
+                    },
+                    {
+                        label: 'Result',
+                        value: '18% lift in purchase conversion',
+                    },
+                ]}
+            />
         </Section>
 
         <Banner
@@ -50,7 +53,9 @@ const Paywall = () => (
         />
 
         <Section ends>
-            <Heading type={3}>Context</Heading>
+            <Heading type={3} anchor='problem' navLabel='Problem'>
+                Problem
+            </Heading>
             <IndentInner>
                 <Strong>
                     80% of new users who landed on the paywall left without onboarding to a
@@ -94,7 +99,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/paywall/is_paywall_prev-design.svg'
+                    src='/is/paywall/is_paywall_prev-design.png'
                     alt='Scroll-through of old Invoice Simple paywall'
                 />
             </ImageFluid>
@@ -109,14 +114,16 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/paywall/is_paywall_plan-comparison.svg'
+                    src='/is/paywall/is_paywall_plan-comparison.png'
                     alt='Image showing plan card locations on paywall'
                 />
             </ImageFluid>
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3}>What Makes a Great Paywall?</Heading>
+            <Heading type={3} anchor='approach' navLabel='Approach'>
+                What Makes a Great Paywall?
+            </Heading>
             <Paragraph>
                 To inform the new design, I studied subscription paywalls from leading mobile apps
                 and identified patterns utilized consistently across the strongest examples.
@@ -152,7 +159,9 @@ const Paywall = () => (
         </Section>
 
         <Section>
-            <Heading type={3}>Design Solution</Heading>
+            <Heading type={3} anchor='design-solution'>
+                Design Solution
+            </Heading>
             <Paragraph>
                 By reworking visual design and information hierarchy, I sought to deliver an
                 experience that helps users decide which Invoice Simple plan best fulfils their
@@ -187,7 +196,7 @@ const Paywall = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    src='/is/paywall/is_paywall_iterations.svg'
+                    src='/is/paywall/is_paywall_iterations.png'
                     alt='Diagram explaining paywall design iterations'
                 />
             </ImageFluid>
@@ -240,15 +249,15 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends gap>
-            <Heading type={3}>Validation & Results</Heading>
+            <Heading type={3} anchor='results'>
+                Results
+            </Heading>
             <Paragraph>
                 An A/B test was run to quantitatively validate the new paywall design. We
                 successfully addressed the user funnel drop-off by growing key business metrics and
                 uncovering further opportunities.
             </Paragraph>
-            <IndentInner>
-                <Strong>18% lift in free-to-paid conversion</Strong>
-            </IndentInner>
+            <Stat value='18%'>lift in free-to-paid conversion</Stat>
             <IndentInner>
                 <Strong>
                     Addition of growth-centred <abbr>UX</abbr> optimizations to product roadmap
@@ -257,7 +266,9 @@ const Paywall = () => (
         </Section>
 
         <Section ends gap>
-            <Heading type={3}>Next Steps</Heading>
+            <Heading type={3} anchor='next-steps'>
+                Next Steps
+            </Heading>
             <IndentInner>
                 <Heading type={4}>Extend redesign to feature list</Heading>
             </IndentInner>

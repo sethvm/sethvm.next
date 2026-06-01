@@ -1,12 +1,63 @@
-/*
-// 992px - lg
-*/
+@use '../../styles/styles';
 
 .container {
     min-height: 65vh;
     margin: 148px auto 80px auto;
 
-    @media (min-width: 992px) {
+    // On desktop, constrain to a centered content container so all blocks share one left edge
+    // and the canvas scales by symmetric margins (not a one-sided gutter). Mobile/tablet unaffected.
+    @media (min-width: styles.$bp-lg) {
+        max-width: styles.$page-max;
         margin: 196px auto 80px auto;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+// Case-study rail + content grid. Overrides .container's max-width at >=992.
+.withRail {
+    @media (min-width: styles.$bp-lg) {
+        max-width: 1520px;
+        display: grid;
+        // 24-column grid: rail = cols 3-5 (1.5 of 12), content = cols 7-20, with one empty
+        // column (6) between them. The leading/trailing columns are margins, so the content
+        // sits slightly right of center. Uses .container's 196px top margin so the rail and
+        // content start at the same top edge.
+        grid-template-columns: repeat(24, 1fr);
+        column-gap: 12px;
+    }
+}
+
+.rail {
+    display: none; // hidden below 992 (mobile/tablet)
+
+    @media (min-width: styles.$bp-lg) {
+        display: block;
+        grid-column: 3 / 6; // columns 3-5 (1.5 of 12), floating in the left margin
+    }
+}
+
+.content {
+    min-width: 0;
+
+    @media (min-width: styles.$bp-lg) {
+        grid-column: 7 / 21; // columns 7-20 (empty col 6 separates it from the rail)
+
+        // grid cells don't margin-collapse: drop the first block's top margin so the content
+        // starts at the same 196px top as the rail. Body text keeps its own 680px measure
+        // (leaving a right margin), while banners/cards fill the content columns.
+        & > div:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+// About drops the desktop spine cap + side padding so the page spans the full viewport
+// width. The offset column's percentages (About.module.scss) then resolve against the
+// viewport, reproducing the deployed layout. Must follow `.container` to win the override.
+.aboutPage {
+    @media (min-width: styles.$bp-lg) {
+        max-width: none;
+        padding: 0;
     }
 }

@@ -1,0 +1,38 @@
+@use '../../styles/styles';
+
+// Reusable impact-metric callout row for case-study heroes.
+// Stacks on mobile, becomes a row at the md breakpoint.
+.callouts {
+    display: flex;
+    flex-direction: column;
+    gap: styles.$space-2; // 16px
+    margin-top: styles.$space-3; // 24px
+
+    @media (min-width: styles.$bp-md) {
+        flex-direction: row;
+        gap: styles.$space-4; // 32px
+    }
+}
+
+.value {
+    display: block;
+    font-family: styles.$font-bold;
+    font-size: 1.75em;
+    line-height: 1;
+}
+
+.label {
+    display: block;
+    font-family: styles.$font-medium;
+    font-size: 1.15em;
+    margin-top: 4px;
+}
+
+// Qualitative variant: render a full-sentence result as a readable statement
+// (no big-number treatment, no separate label).
+.statement {
+    display: block;
+    font-family: styles.$font-medium;
+    font-size: 1.15em;
+    line-height: 1.3;
+}

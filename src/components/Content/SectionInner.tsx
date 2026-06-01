@@ -1,4 +1,4 @@
-// variant of Section.js for nesting inside other containers
+// variant of Section for nesting inside other containers
 import styleSectionInner from './SectionInner.module.scss';
 
 interface Props {

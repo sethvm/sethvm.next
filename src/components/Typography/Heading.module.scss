@@ -1,0 +1,4 @@
+// Offset so smooth-scroll targets land below the fixed 64px navbar (ScrollSpy).
+.anchored {
+    scroll-margin-top: 96px;
+}
