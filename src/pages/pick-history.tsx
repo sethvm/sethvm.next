@@ -8,6 +8,7 @@ import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
 import Results from '../components/Content/Results';
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -32,19 +33,17 @@ const History = () => (
                 spanning over 700 locations across Canada. With another designer, six developers and
                 a product owner, I led its complete rebuild from discovery to delivery.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Lead product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platform:</span>
-                &nbsp;Desktop
-            </Paragraph>
-            <Results
-                results={[
+            <Details
+                details={[
+                    { label: 'Role', value: 'Lead product designer' },
+                    { label: 'Platform', value: 'Desktop' },
+                ]}
+            />
+            <Details
+                details={[
                     {
-                        value: 'Enabled validation of online orders by fulfilment associates across 13 grocery store chains',
-                        qualitative: true,
+                        label: 'Result',
+                        value: 'Enabled validation of orders across 13 grocery store chains',
                     },
                 ]}
             />

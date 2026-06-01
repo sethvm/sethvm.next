@@ -9,6 +9,7 @@ import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
 import Stat from '../components/Content/Stat';
 import Results from '../components/Content/Results';
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -32,18 +33,21 @@ const FreeTrial = () => (
                 subscription plan. Working with a product manager and five engineers, I led the
                 design of this new acquisition model from conception to validation and execution.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Sole product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platforms:</span>
-                &nbsp;Mobile (<abbr>iOS</abbr> & Android)
-            </Paragraph>
-            <Results
-                results={[
-                    { value: '34%', label: 'more subscription purchases' },
-                    { value: '27%', label: 'more invoices created' },
+            <Details
+                details={[
+                    { label: 'Role', value: 'Sole product designer' },
+                    {
+                        label: 'Platform',
+                        value: 'Mobile',
+                    },
+                ]}
+            />
+            <Details
+                details={[
+                    {
+                        label: 'Results',
+                        value: 'Grew subscription purchases by 34% and document creations by 27%',
+                    },
                 ]}
             />
         </Section>

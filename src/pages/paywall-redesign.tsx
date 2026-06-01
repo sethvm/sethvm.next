@@ -8,6 +8,7 @@ import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
 import Results from '../components/Content/Results';
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -32,15 +33,19 @@ const Paywall = () => (
                 product manager and an engineer, I led a complete redesign of the Invoice Simple
                 paywall to streamline our buyer experience.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Sole product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platforms:</span>
-                &nbsp;Mobile (<abbr>iOS</abbr> & Android)
-            </Paragraph>
-            <Results results={[{ value: '18%', label: 'lift in purchase conversion' }]} />
+            <Details
+                details={[
+                    { label: 'Role', value: 'Sole product designer' },
+                    {
+                        label: 'Platform',
+                        value: 'Mobile',
+                    },
+                    {
+                        label: 'Result',
+                        value: '18% lift in purchase conversion',
+                    },
+                ]}
+            />
         </Section>
 
         <Banner

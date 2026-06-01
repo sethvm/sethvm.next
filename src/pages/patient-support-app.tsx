@@ -7,6 +7,8 @@ import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import ImageCaption from '../components/Content/ImageCaption';
 import Image from '../components/Content/Image';
+import Details from '../components/Content/Details';
+import Results from '../components/Content/Results';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -30,23 +32,22 @@ const Soulfx = () => (
                 that provides financial assistance to Canadian patients for medical payments such as
                 prescriptions and therapy.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Client:</span>
-                &nbsp;Multinational healthcare firm
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Software designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platform:</span>
-                &nbsp;Desktop Web
-            </Paragraph>
-            <Paragraph className='spacerAfter'>
-                <span className='bold'>Result:</span>
-                &nbsp;Enabled virtual-first healthcare delivery during COVID-19 by facilitating
-                administration of over 2.5K medical records
-            </Paragraph>
+            <Details
+                details={[
+                    { label: 'Role', value: 'Software designer' },
+                    { label: 'Platform', value: 'Desktop Web' },
+                    { label: 'Client', value: 'Multinational healthcare firm' },
+                ]}
+            />
+            <Details
+                details={[
+                    {
+                        label: 'Result',
+                        value: 'Enabled virtual-first healthcare delivery during COVID-19 by facilitating administration of over 2.5K medical records',
+                    },
+                ]}
+            />
+            <div className='spacerAfter' />
             <IndentInner>
                 <Paragraph>
                     Due to a non-disclosure agreement, mockup components that would contain
@@ -58,9 +59,7 @@ const Soulfx = () => (
         <Banner img='/soulfx/soulfx-banner.svg' alt='Soulfx Patient Support App' />
 
         <Section ends>
-            <Heading type={3} anchor='overview'>
-                Overview
-            </Heading>
+            <Heading type={3}>Overview</Heading>
             <Paragraph>
                 Soulfx Technologies Inc is a Mississauga-based software consulting firm that focuses
                 on creating applications for clients within the healthcare industry.

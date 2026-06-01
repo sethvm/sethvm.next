@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Section from '../components/Content/Section';
 import IndentInner from '../components/Content/IndentInner';
 import Results from '../components/Content/Results';
+import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
@@ -28,19 +29,13 @@ const Checkout = () => (
                 checkout experience to improve discoverability of existing features and scalability
                 for novel payment options.
             </Paragraph>
-            <Paragraph>
-                <span className='bold'>Role:</span>
-                &nbsp;Lead product designer
-            </Paragraph>
-            <Paragraph>
-                <span className='bold'>Platform:</span>
-                &nbsp;Desktop Web
-            </Paragraph>
-            <Results
-                results={[
+            <Details
+                details={[
+                    { label: 'Role', value: 'Lead product designer' },
+                    { label: 'Platform', value: 'Desktop' },
                     {
-                        value: 'Implementation of two new payment channels and streamlined automation setup for payors',
-                        qualitative: true,
+                        label: 'Result',
+                        value: 'PayPal and Venmo integration',
                     },
                 ]}
             />
