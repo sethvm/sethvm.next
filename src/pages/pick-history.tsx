@@ -158,7 +158,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     src='/loblaw/trx_properties.png'
                     alt='Transaction log screenshot describing its property columns'
                 />
@@ -174,7 +173,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     src='/loblaw/trx_code_description_pairs.png'
                     alt='Transaction log screenshot highlighting the transaction code and description properties'
                 />
@@ -187,7 +185,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     end
                     src='/loblaw/trx_line_property.png'
                     alt='Transaction log screenshot highlighting transactions with the same Line property value'
@@ -204,7 +201,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     end
                     src='/loblaw/trx_navigation.png'
                     alt='Snippet of the TRX page jump feature'
@@ -250,7 +246,7 @@ const History = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Reworked Interface Layout
+                    New Interface Layout
                 </Heading>
                 <Paragraph>
                     I elected to split up the Pick History module into two layers of information:
@@ -275,7 +271,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     src='/loblaw/ph_redesign_sub.png'
                     alt='New transaction card highlighting item names, quantities, and actions'
                 />
@@ -292,7 +287,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     src='/loblaw/ph_item_cards.png'
                     alt='New item selection cards showing latest status'
                 />
@@ -308,7 +302,7 @@ const History = () => (
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
-                <Image screen end src='/loblaw/ph_redesign_navbar.png' alt='New search bar' />
+                <Image end src='/loblaw/ph_redesign_navbar.png' alt='New search bar' />
             </ImageFluid>
         </FrostedGlass>
 
@@ -317,14 +311,18 @@ const History = () => (
                 Usability Testing
             </Heading>
             <Paragraph>
-                I had five <abbr>PCX</abbr> specialists conduct mock order investigations using a
-                prototype of our redesign.
+                I had five <abbr>PCX</abbr> specialists validate orders using an interactive
+                prototype.
             </Paragraph>
             <IndentInner>
                 <Strong>
                     The Pick History's design excelled in cutting the overall interaction cost of
-                    item status identification. However, some elements of our new interface were
-                    found to be unintuitive.
+                    status identification.
+                </Strong>
+            </IndentInner>
+            <IndentInner>
+                <Strong>
+                    Order troubleshooting tasks surfaced opportunities to improve readability.
                 </Strong>
             </IndentInner>
         </Section>
@@ -338,7 +336,7 @@ const History = () => (
                         <Paragraph>Action descriptions were easy to understand</Paragraph>
                     </li>
                     <li>
-                        <Paragraph>Current statuses took less time to verify</Paragraph>
+                        <Paragraph>Statuses took less time to verify</Paragraph>
                     </li>
                     <li>
                         <Paragraph>
@@ -349,23 +347,19 @@ const History = () => (
             </SectionInner>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    ❌ Weaknesses
+                    💡 Opportunities
                 </Heading>
                 <List ends>
                     <li>
-                        <Paragraph>
-                            Pick actions and load actions were difficult to distinguish from one
-                            another
-                        </Paragraph>
+                        <Paragraph>Make different action types more distinguishable</Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>Refine the visual presentation of item substitutions</Paragraph>
                     </li>
                     <li>
                         <Paragraph>
-                            Journeys involving substituted items were confusing to follow
-                        </Paragraph>
-                    </li>
-                    <li>
-                        <Paragraph>
-                            Latest-first transaction sequencing felt like a “backwards flow”
+                            Utilize chronological transaction sequencing to better match user mental
+                            model
                         </Paragraph>
                     </li>
                 </List>
@@ -458,7 +452,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     src='/loblaw/ph_transaction_icons.png'
                     alt='Diagram showcasing new transaction icons'
                 />
@@ -474,7 +467,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     end
                     src='/loblaw/ph_colours.png'
                     alt='Infographic explaining traffic light colours and urgency levels'
@@ -511,7 +503,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     src='/loblaw/ph_search_placement.png'
                     alt='Diagram describing placement change of search bar'
                 />
@@ -574,7 +565,6 @@ const History = () => (
             </SectionInner>
             <ImageFluid>
                 <Image
-                    screen
                     end
                     src='/loblaw/ph_final_design.png'
                     alt='Screenshot of the launched design'
@@ -610,25 +600,24 @@ const History = () => (
         <Section ends gap>
             <Heading type={3}>Reflection</Heading>
             <IndentInner>
-                <Heading type={4}>Drive form with function</Heading>
+                <Heading type={4}>Driving form with function</Heading>
             </IndentInner>
             <Paragraph>
-                The “form follows function” principle is easily extended into any form of design.
                 Every creation or change throughout the project—from palette changes to reformed
                 interactions—was driven by an intended function or goal, ensuring that every
                 decision made was informed.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Observe, don't (just) listen</Heading>
+                <Heading type={4}>Observing, not just listening</Heading>
             </IndentInner>
             <Paragraph>
                 Watching users carry out tasks in real time reveals crucial aspects of the
-                decision-making process behind how they work towards objectives. Validation
+                decision-making process behind how they work towards objectives. Usability testing
                 confirmed the importance of readability in how quickly <abbr>PCX</abbr> specialists
                 can validate orders and in turn streamline fulfillment operations.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>Ambiguity is to be embraced</Heading>
+                <Heading type={4}>Embracing ambiguity</Heading>
             </IndentInner>
             <Paragraph>
                 Taking ownership of the Pick History design process instilled me with confidence in

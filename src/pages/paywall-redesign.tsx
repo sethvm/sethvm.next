@@ -251,8 +251,8 @@ const Paywall = () => (
         </FrostedGlass>
 
         <Section ends gap>
-            <Heading type={3} anchor='next-steps'>
-                Next Steps
+            <Heading type={3} anchor='next-step'>
+                Next Step
             </Heading>
             <IndentInner>
                 <Heading type={4}>Extend redesign to feature list</Heading>
