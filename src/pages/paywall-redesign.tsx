@@ -28,20 +28,20 @@ const Paywall = () => (
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
                 Subscription paywalls serve a key role in establishing trust with users by outlining
-                crucial information such as feature packages, pricing and promotions. Working with a
-                product manager and an engineer, I led a complete redesign of the Invoice Simple
-                paywall to streamline our buyer experience.
+                crucial information such as feature packages, pricing and promotions. Working with
+                another designer, a product manager and an engineer, I led a complete redesign of
+                the Invoice Simple paywall to streamline our buyer experience.
             </Paragraph>
             <Details
                 details={[
-                    { label: 'Role', value: 'Sole product designer' },
+                    { label: 'Role', value: 'Lead product designer' },
                     {
                         label: 'Platform',
                         value: 'Mobile',
                     },
                     {
                         label: 'Duration',
-                        value: '3 months',
+                        value: '2 months',
                     },
                 ]}
             />

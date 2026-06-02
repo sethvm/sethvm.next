@@ -199,8 +199,8 @@ const FreeTrial = () => (
                     Generous Guidance
                 </Heading>
                 <Paragraph>
-                    The limit banner has been repurposed to house the trial countdown, educational
-                    content and any active promotions.
+                    A new banner houses the trial countdown, active promotions and access to
+                    educational resources.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
