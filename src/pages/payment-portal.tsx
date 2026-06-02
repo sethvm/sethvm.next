@@ -48,7 +48,7 @@ const Checkout = () => (
             />
         </Section>
 
-        <Banner img='/intuit/intuit_banner.svg' alt='Banner depicting Intuit QuickBooks logo' />
+        <Banner img='/intuit/intuit_banner.png' alt='Banner depicting the QuickBooks checkout' />
 
         <Section ends>
             <Heading type={3} anchor='the-challenge'>
