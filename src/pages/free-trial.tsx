@@ -125,12 +125,11 @@ const FreeTrial = () => (
 
         <Section ends>
             <Heading type={3} anchor='approach' navLabel='Approach'>
-                Why a Free Trial?
+                Approach
             </Heading>
             <Paragraph>
-                Adopting a free trial model provides exposure to Invoice Simple's entire end-to-end
-                experience. We aimed to provide new users unrestricted access to our Premium package
-                to better guide them towards their “aha!” moment.
+                We aimed to provide new users unrestricted access to Invoice Simple's Premium
+                package to better guide them towards their “aha!” moment.
             </Paragraph>
             <List numbered>
                 <li>
