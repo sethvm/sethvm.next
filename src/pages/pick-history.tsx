@@ -27,7 +27,7 @@ const History = () => (
             </Heading>
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
-                The Pick History tool is used to validate the fulfillment statuses of thousands of
+                The pick history is used to validate the fulfillment statuses of thousands of
                 customer orders every week. It is used in the day-to-day operations of PC Express (
                 <abbr>PCX</abbr>), Loblaw's click-and-collect and delivery service. With another
                 designer, six developers and a product owner, I led its complete rebuild from
@@ -42,7 +42,7 @@ const History = () => (
             />
         </Section>
 
-        <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final Pick History interface' />
+        <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final pick history interface' />
 
         <Section ends>
             <Heading type={3} anchor='outcome'>
@@ -61,7 +61,7 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History tool is an evolution of Loblaw's transaction log module.
+                    The pick history is an evolution of Loblaw's transaction log module.
                 </Strong>
             </IndentInner>
         </Section>
@@ -250,14 +250,14 @@ const History = () => (
                     New Interface Layout
                 </Heading>
                 <Paragraph>
-                    I elected to split up the Pick History module into two layers of information:
+                    I elected to split up the pick history layout into two layers of information:
                     the transaction level and the item level.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
                 <Image
                     src='/loblaw/ph_initial_redesign.png'
-                    alt="Medium-fidelity prototype of the Pick History's layout"
+                    alt="Medium-fidelity prototype of the pick history's layout"
                 />
             </ImageFluid>
             <SectionInner>
@@ -317,7 +317,7 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History's design excelled in cutting the overall interaction cost of
+                    The pick history's design excelled in cutting the overall interaction cost of
                     status identification.
                 </Strong>
             </IndentInner>
@@ -431,7 +431,7 @@ const History = () => (
             <Heading type={3}>New Visual Elements</Heading>
             <Paragraph>
                 Upon iterating our transaction designs, I opted to capitalize on iconography and
-                colour—domains untouched by both <abbr>TRX</abbr> and the Pick History module's
+                colour—domains untouched by both <abbr>TRX</abbr> and the pick history's initial
                 design prior to testing.
             </Paragraph>
             <IndentInner>
@@ -537,8 +537,7 @@ const History = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    The Pick History module was deployed to stores as part of the Ops Portal
-                    rollout.
+                    The pick history was deployed to stores as part of the Ops Portal rollout.
                 </Strong>
             </IndentInner>
         </Section>
@@ -593,9 +592,9 @@ const History = () => (
             </IndentInner>
             <Paragraph>
                 Colleagues refer to an Order Details page to check ordered item quantities—a key
-                piece of information missing from the Pick History module. I would study the
-                feasibility of consolidating the data provided across both components to create a
-                unified investigation tool.
+                piece of information missing from the pick history. I would study the feasibility of
+                consolidating the data provided across both components to create a unified
+                investigation tool.
             </Paragraph>
         </Section>
         <Section ends gap>
@@ -621,11 +620,11 @@ const History = () => (
                 <Heading type={4}>Embracing ambiguity</Heading>
             </IndentInner>
             <Paragraph>
-                Taking ownership of the Pick History design process instilled me with confidence in
-                my ability to navigate ambiguity and taught me about the importance of seeking
-                context in solving a problem. <abbr>TRX</abbr> presented a simple-looking interface
-                that belied a complex layer of information—one I came to understand by learning
-                about how <abbr>PCX</abbr> operates.
+                Taking ownership of the pick history design instilled me with confidence in my
+                ability to navigate ambiguity and taught me about the importance of seeking context
+                in solving a problem. <abbr>TRX</abbr> presented a simple-looking interface that
+                belied a complex layer of information—one I came to understand by learning about how{' '}
+                <abbr>PCX</abbr> operates.
             </Paragraph>
         </Section>
     </>

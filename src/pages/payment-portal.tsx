@@ -8,6 +8,7 @@ import SubHeading from '../components/Typography/SubHeading';
 import Paragraph from '../components/Typography/Paragraph';
 import Strong from '../components/Typography/Strong';
 import Banner from '../components/Content/Banner';
+import Stat from '../components/Content/Stat';
 
 const Checkout = () => (
     <>
@@ -22,11 +23,10 @@ const Checkout = () => (
             </Heading>
             <SubHeading>Intuit QuickBooks</SubHeading>
             <Paragraph>
-                Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
+                Moving over $300 million <abbr>USD</abbr> every day, the QuickBooks online payment
                 portal is a crucial component of Intuit's technology platform. With two designers,
-                three engineers, a product manager, a business analyst and another designer, I led
-                an iteration of the checkout experience to improve scalability for novel payment
-                options.
+                three engineers, a product manager and a business analyst, I led an iteration of the
+                checkout experience to improve scalability for novel payment options.
             </Paragraph>
             <Details
                 details={[
@@ -38,17 +38,21 @@ const Checkout = () => (
                     },
                 ]}
             />
-            <Details
-                details={[
-                    {
-                        label: 'Result',
-                        value: 'PayPal and Venmo integration',
-                    },
-                ]}
-            />
         </Section>
 
         <Banner img='/intuit/intuit_banner.png' alt='Banner depicting the QuickBooks checkout' />
+
+        <Section ends>
+            <Heading type={3} anchor='outcomes'>
+                Outcomes
+            </Heading>
+            <IndentInner>
+                <Strong>PayPal and Venmo integration</Strong>
+            </IndentInner>
+            <IndentInner>
+                <Strong>Higher adoption of payment automation features</Strong>
+            </IndentInner>
+        </Section>
 
         <Section ends>
             <Heading type={3} anchor='the-challenge'>
