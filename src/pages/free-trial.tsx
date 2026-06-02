@@ -296,8 +296,8 @@ const FreeTrial = () => (
             </List>
             <IndentInner>
                 <Strong>
-                    We ran a 90-day A/B test to quantitatively evaluate the free trial against the
-                    existing freemium model.
+                    We ran a 90-day A/B test to quantitatively evaluate the free trial designs
+                    against the previous freemium model.
                 </Strong>
             </IndentInner>
         </Section>
