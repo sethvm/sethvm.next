@@ -29,7 +29,7 @@ const Paywall = () => (
             <Paragraph>
                 Subscription paywalls serve a key role in establishing trust with users by outlining
                 crucial information such as feature packages, pricing and promotions. Working with
-                another designer, a product manager and an engineer, I led a complete redesign of
+                another designer, a product manager and an engineer, I led an end-to-end redesign of
                 the Invoice Simple paywall to streamline our buyer experience.
             </Paragraph>
             <Details

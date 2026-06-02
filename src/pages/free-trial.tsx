@@ -29,8 +29,9 @@ const FreeTrial = () => (
             <Paragraph>
                 A free trial enables small and medium business owners to experience the full
                 capabilities of Invoice Simple without the upfront pressure of committing to a
-                subscription plan. Working with a product manager and five engineers, I drove the
-                design of this new acquisition model from conception to validation and execution.
+                subscription plan. Working closely with a product manager and five engineers, I
+                drove the design of this new acquisition model from conception to validation,
+                execution and launch.
             </Paragraph>
             <Details
                 details={[
