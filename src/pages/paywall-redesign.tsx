@@ -18,7 +18,7 @@ const Paywall = () => (
     <>
         <Head
             title='Paywall Redesign'
-            description='Generated 18% lift in purchase conversion rate'
+            description='Generated an 18% lift in purchase conversion rate by restructuring visual layout and improving messaging clarity'
             url='https://sethvm.com/paywall-redesign'
         />
         <Section>
@@ -40,8 +40,8 @@ const Paywall = () => (
                         value: 'Mobile',
                     },
                     {
-                        label: 'Result',
-                        value: '18% lift in purchase conversion',
+                        label: 'Duration',
+                        value: '3 months',
                     },
                 ]}
             />
@@ -53,24 +53,20 @@ const Paywall = () => (
         />
 
         <Section ends>
-            <Heading type={3} anchor='problem' navLabel='Problem'>
-                Problem
+            <Heading type={3} anchor='result'>
+                Result
             </Heading>
-            <IndentInner>
-                <Strong>
-                    80% of new users who landed on the paywall left without onboarding to a
-                    subscription plan.
-                </Strong>
-            </IndentInner>
             <Paragraph>
-                Invoice Simple's 2024-2025 business objectives included enhancements to the new user
-                journey. A funnel study identified a paywall-to-purchase drop-off as a pivotal
-                opportunity.
+                The redesigned paywall addressed a major acquisition funnel drop-off by making it
+                easier for buyers to learn about our subscription offerings.
             </Paragraph>
+            <Stat value='18%'>lift in free-to-paid conversion</Stat>
         </Section>
 
         <Section>
-            <Heading type={3}>Buyer Bottleneck</Heading>
+            <Heading type={3} anchor='problem' navLabel='Problems'>
+                Problems
+            </Heading>
             <Paragraph>
                 Prior to the redesign, the paywall emphasized introducing new users to Invoice
                 Simple rather than presenting subscription plan details.
@@ -79,6 +75,12 @@ const Paywall = () => (
                 <Strong>
                     The previous paywall was designed to sell rather than inform, despite 85% of
                     visits coming from a feature gate.
+                </Strong>
+            </IndentInner>
+            <IndentInner>
+                <Strong>
+                    80% of users who landed on the paywall left without onboarding to a subscription
+                    plan.
                 </Strong>
             </IndentInner>
             <Paragraph>
@@ -90,11 +92,11 @@ const Paywall = () => (
         <FrostedGlass ends>
             <SectionInner>
                 <Heading type={4} className='heavy'>
-                    Scrolling, not Seeing
+                    Scrolling before Seeing
                 </Heading>
                 <Paragraph>
-                    Users needed to scroll past a value proposition section followed by testimonials
-                    before seeing any information about paid plans.
+                    Users had to scroll through value propositions and testimonials before seeing
+                    any information about paid plans.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -115,18 +117,18 @@ const Paywall = () => (
             <ImageFluid>
                 <Image
                     src='/is/paywall/is_paywall_plan-comparison.png'
-                    alt='Image showing plan card locations on paywall'
+                    alt='Image showing plan card locations on the paywall'
                 />
             </ImageFluid>
         </FrostedGlass>
 
         <Section ends>
-            <Heading type={3} anchor='approach' navLabel='Approach'>
-                What Makes a Great Paywall?
+            <Heading type={3} anchor='research' navLabel='Research'>
+                Research
             </Heading>
             <Paragraph>
-                To inform the new design, I studied subscription paywalls from leading mobile apps
-                and identified patterns utilized consistently across the strongest examples.
+                I studied subscription paywalls from leading mobile apps and identified patterns
+                utilized consistently across the strongest examples.
             </Paragraph>
             <List numbered>
                 <li>
@@ -152,7 +154,7 @@ const Paywall = () => (
             </List>
             <IndentInner>
                 <Strong>
-                    Through competitor research, I outlined elements essential to mobile paywall
+                    Through competitive analysis, I outlined elements essential to mobile paywall
                     designs and adapted them to our user goals and strategic needs.
                 </Strong>
             </IndentInner>
@@ -164,22 +166,22 @@ const Paywall = () => (
             </Heading>
             <Paragraph>
                 By reworking visual design and information hierarchy, I sought to deliver an
-                experience that helps users decide which Invoice Simple plan best fulfils their
+                experience that helps users decide which Invoice Simple plan best fulfills their
                 business needs.
             </Paragraph>
             <Paragraph>The new paywall design is grounded upon three principles:</Paragraph>
             <List numbered>
                 <li>
                     <Strong className='block'>Simplicity</Strong>
-                    <Paragraph>Avoid using large bodies of text</Paragraph>
+                    <Paragraph>Avoid using large bodies of text.</Paragraph>
                 </li>
                 <li>
                     <Strong className='block'>Scannability</Strong>
-                    <Paragraph>Arrange information for easy consumption</Paragraph>
+                    <Paragraph>Arrange information for easy consumption.</Paragraph>
                 </li>
                 <li>
                     <Strong className='block'>Progressive disclosure</Strong>
-                    <Paragraph>Introduce details incrementally</Paragraph>
+                    <Paragraph>Introduce details incrementally.</Paragraph>
                 </li>
             </List>
         </Section>
@@ -247,23 +249,6 @@ const Paywall = () => (
                 />
             </ImageFluid>
         </FrostedGlass>
-
-        <Section ends gap>
-            <Heading type={3} anchor='results'>
-                Results
-            </Heading>
-            <Paragraph>
-                An A/B test was run to quantitatively validate the new paywall design. We
-                successfully addressed the user funnel drop-off by growing key business metrics and
-                uncovering further opportunities.
-            </Paragraph>
-            <Stat value='18%'>lift in free-to-paid conversion</Stat>
-            <IndentInner>
-                <Strong>
-                    Addition of growth-centred <abbr>UX</abbr> optimizations to product roadmap
-                </Strong>
-            </IndentInner>
-        </Section>
 
         <Section ends gap>
             <Heading type={3} anchor='next-steps'>

@@ -39,14 +39,7 @@ const FreeTrial = () => (
                         label: 'Platform',
                         value: 'Mobile',
                     },
-                ]}
-            />
-            <Details
-                details={[
-                    {
-                        label: 'Results',
-                        value: 'Grew subscription purchases by 34% and document creations by 27%',
-                    },
+                    { label: 'Duration', value: '6 months' },
                 ]}
             />
         </Section>
@@ -55,6 +48,23 @@ const FreeTrial = () => (
             img='/is/free-trial/is-free-trial_banner.png'
             alt='Screenshots of key free trial interface elements'
         />
+
+        <Section ends>
+            <Heading type={3} anchor='results'>
+                Results
+            </Heading>
+            <Paragraph>
+                The free trial significantly strengthened Invoice Simple's acquisition funnel.
+            </Paragraph>
+            <Stat value='34%'>more subscription purchases</Stat>
+            <Stat value='27%'>more invoices created</Stat>
+            <Stat value='10%'>skew towards higher-tier subscription packages</Stat>
+            <Paragraph>
+                Engagement from trial-turned-subscriber merchants yielded several downstream
+                results: 16% more paywall visits, 10% more invoices sent and 17% higher payment
+                volume processed through Invoice Simple Payments.
+            </Paragraph>
+        </Section>
 
         <Section>
             <Heading type={3} anchor='problem' navLabel='Problem'>
@@ -155,7 +165,7 @@ const FreeTrial = () => (
         </Section>
 
         <Section>
-            <Heading type={3} anchor='design solution' navLabel='Design Solution'>
+            <Heading type={3} anchor='design-solution' navLabel='Design Solution'>
                 Design Solution
             </Heading>
             <Paragraph>
@@ -222,7 +232,7 @@ const FreeTrial = () => (
             <ImageFluid>
                 <Image
                     src='/is/free-trial/is-free-trial_tier-icons.png'
-                    alt='Image showing package icons within invoice editor'
+                    alt='Image showing package icons within the invoice editor'
                 />
             </ImageFluid>
             <SectionInner>
@@ -270,9 +280,6 @@ const FreeTrial = () => (
                 The new user experience fundamentally changed a growth lever vital to revenue and
                 activations, meaning it needed to perform well in several key areas.
             </Paragraph>
-            <Heading type={4} className='heavy'>
-                Measuring Success
-            </Heading>
             <List numbered>
                 <li>
                     <Paragraph>
@@ -294,24 +301,6 @@ const FreeTrial = () => (
                     existing freemium model.
                 </Strong>
             </IndentInner>
-        </Section>
-
-        <Section ends>
-            <Heading type={3} anchor='results'>
-                Results
-            </Heading>
-            <Paragraph>
-                Users onboarded to the free trial are able to discover Invoice Simple's value
-                upfront, significantly strengthening our acquisition funnel.
-            </Paragraph>
-            <Stat value='34%'>more subscription purchases</Stat>
-            <Stat value='27%'>more invoices created</Stat>
-            <Stat value='10%'>skew towards higher-tier subscription packages</Stat>
-            <Paragraph>
-                Engagement from trial-turned-subscriber merchants yielded several downstream
-                results: 16% more paywall visits, 10% more invoices sent and 17% higher payment
-                volume processed through Invoice Simple Payments.
-            </Paragraph>
         </Section>
 
         <Section ends gap>

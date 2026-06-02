@@ -27,7 +27,7 @@ const History = () => (
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
                 Loblaw's Pick History tool is used to validate thousands of customer order statuses
-                and fulfilment completion times weekly. It is used in the day-to-day operations of
+                and fulfillment completion times weekly. It is used in the day-to-day operations of
                 PC Express (<abbr>PCX</abbr>), a grocery click-and-collect and delivery service
                 spanning over 700 locations across Canada. With another designer, six developers and
                 a product owner, I led its complete rebuild from discovery to delivery.
@@ -36,6 +36,7 @@ const History = () => (
                 details={[
                     { label: 'Role', value: 'Lead product designer' },
                     { label: 'Platform', value: 'Desktop' },
+                    { label: 'Duration', value: '3 months' },
                 ]}
             />
             <Details
@@ -75,7 +76,7 @@ const History = () => (
             <IndentInner>
                 <Strong>
                     <abbr>TRX</abbr> was a tool used by <abbr>PCX</abbr> specialists to ensure
-                    consistent and timely fulfilment of customer orders.
+                    consistent and timely fulfillment of customer orders.
                 </Strong>
             </IndentInner>
             <Paragraph>
@@ -468,7 +469,7 @@ const History = () => (
                 </Heading>
                 <Paragraph>
                     A traffic light colour system classifies transactions based on the levels of
-                    fulfilment they contribute to the customer order.
+                    fulfillment they contribute to the customer order.
                 </Paragraph>
             </SectionInner>
             <ImageFluid>
@@ -624,7 +625,7 @@ const History = () => (
                 Watching users carry out tasks in real time reveals crucial aspects of the
                 decision-making process behind how they work towards objectives. Validation
                 confirmed the importance of readability in how quickly <abbr>PCX</abbr> specialists
-                can validate orders and in turn streamline fulfilment operations.
+                can validate orders and in turn streamline fulfillment operations.
             </Paragraph>
             <IndentInner>
                 <Heading type={4}>Ambiguity is to be embraced</Heading>
