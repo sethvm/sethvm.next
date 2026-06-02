@@ -33,6 +33,14 @@ const Checkout = () => (
                     { label: 'Role', value: 'Lead product designer' },
                     { label: 'Platform', value: 'Desktop' },
                     {
+                        label: 'Duration',
+                        value: '3 months',
+                    },
+                ]}
+            />
+            <Details
+                details={[
+                    {
                         label: 'Result',
                         value: 'PayPal and Venmo integration',
                     },
