@@ -7,6 +7,7 @@ import Banner from '../components/Content/Banner';
 import FrostedGlass from '../components/Content/FrostedGlass';
 import ImageFluid from '../components/Content/ImageFluid';
 import Image from '../components/Content/Image';
+import Stat from '../components/Content/Stat';
 import Details from '../components/Content/Details';
 import Heading from '../components/Typography/Heading';
 import SubHeading from '../components/Typography/SubHeading';
@@ -26,11 +27,11 @@ const History = () => (
             </Heading>
             <SubHeading>Loblaw Digital</SubHeading>
             <Paragraph>
-                Loblaw's Pick History tool is used to validate thousands of customer order statuses
-                and fulfillment completion times weekly. It is used in the day-to-day operations of
-                PC Express (<abbr>PCX</abbr>), a grocery click-and-collect and delivery service
-                spanning over 700 locations across Canada. With another designer, six developers and
-                a product owner, I led its complete rebuild from discovery to delivery.
+                The Pick History tool is used to validate the fulfillment statuses of thousands of
+                customer orders every week. It is used in the day-to-day operations of PC Express (
+                <abbr>PCX</abbr>), Loblaw's click-and-collect and delivery service. With another
+                designer, six developers and a product owner, I led its complete rebuild from
+                discovery to delivery.
             </Paragraph>
             <Details
                 details={[
@@ -39,17 +40,17 @@ const History = () => (
                     { label: 'Duration', value: '3 months' },
                 ]}
             />
-            <Details
-                details={[
-                    {
-                        label: 'Result',
-                        value: 'Enabled validation of orders across 13 grocery store chains',
-                    },
-                ]}
-            />
         </Section>
 
         <Banner img='/loblaw/ph_banner.png' alt='Screenshot of the final Pick History interface' />
+
+        <Section ends>
+            <Heading type={3} anchor='outcome'>
+                Outcome
+            </Heading>
+            <Stat value='13'>grocery chains enabled</Stat>
+            <Stat value='700+'>locations served across Canada</Stat>
+        </Section>
 
         <Section ends>
             <Heading type={3}>Context</Heading>
