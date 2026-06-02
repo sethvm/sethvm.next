@@ -27,7 +27,7 @@ const FreeTrial = () => (
             </Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
-                A limited-time free trial enables small business owners to experience the full
+                A free trial enables small and medium business owners to experience the full
                 capabilities of Invoice Simple without the upfront pressure of committing to a
                 subscription plan. Working with a product manager and five engineers, I led the
                 design of this new acquisition model from conception to validation and execution.
@@ -60,9 +60,9 @@ const FreeTrial = () => (
             <Stat value='27%'>more invoices created</Stat>
             <Stat value='10%'>skew towards higher-tier subscription packages</Stat>
             <Paragraph>
-                Engagement from trial-turned-subscriber merchants yielded several downstream
-                results: 16% more paywall visits, 10% more invoices sent and 17% higher payment
-                volume processed through Invoice Simple Payments.
+                Engagement from trial-turned-subscriber users yielded several downstream results:
+                16% more paywall visits, 10% more invoices sent and 17% higher payment volume
+                processed through Invoice Simple Payments.
             </Paragraph>
         </Section>
 
@@ -76,8 +76,8 @@ const FreeTrial = () => (
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    New users were not able to experience the full extent of Invoice Simple's
-                    functionality and determine whether or not it served their needs.
+                    New users were not able to determine whether or not Invoice Simple served their
+                    business' needs.
                 </Strong>
             </IndentInner>
         </Section>

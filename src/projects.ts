@@ -27,7 +27,7 @@ const projects: Project[] = [
         title: 'Paywall Redesign',
         company: 'Invoice Simple',
         description:
-            'Generated 18% lift in purchase conversion by restructuring visual layout and improving messaging clarity',
+            'New visual layout and improved messaging clarity that drove 18% lift in purchase conversion',
         img: '/is/paywall/is_paywall_card.png',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'Read more →',
@@ -38,7 +38,7 @@ const projects: Project[] = [
         title: 'Pick History',
         company: 'Loblaw Digital',
         description:
-            "Streamlined order validation experience for Canada's largest grocery retailer",
+            "Streamlining the order validation experience for Canada's largest grocery retailer",
         img: '/loblaw/loblaw-card.png',
         alt: 'Loblaw Pick History',
         cardLink: 'Read more →',
@@ -49,7 +49,7 @@ const projects: Project[] = [
         title: 'Payment Portal',
         company: 'Intuit QuickBooks',
         description:
-            'Enhanced scalability of a customer-facing checkout that processes over $300 million daily',
+            'Introducing new payment channels to a checkout that processes over $300 million daily',
         img: '/intuit/intuit-card.svg',
         alt: 'Intuit QuickBooks Payment Portal',
         cardLink: 'Read more →',

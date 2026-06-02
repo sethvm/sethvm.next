@@ -24,9 +24,9 @@ const Checkout = () => (
             <Paragraph>
                 Moving over $300 million <abbr>USD</abbr> every day, QuickBooks' online payment
                 portal is a crucial component of Intuit's technology platform. With two designers,
-                three engineers, a product manager and a business analyst, I led an iteration of the
-                checkout experience to improve discoverability of existing features and scalability
-                for novel payment options.
+                three engineers, a product manager, a business analyst and another designer, I led
+                an iteration of the checkout experience to improve scalability for novel payment
+                options.
             </Paragraph>
             <Details
                 details={[
@@ -55,25 +55,24 @@ const Checkout = () => (
                 The Challenge
             </Heading>
             <Paragraph>
-                Intuit's 2022 business objectives included introducing new payment options and
-                increasing engagement with existing automation features. This entailed revisiting
-                how interface components within the checkout portal were organized as well as
-                leveraging analytics to uncover challenges with discoverability.
+                Intuit's 2022 business objectives included the integration of new transaction
+                channels. This entailed revisiting how interface elements within the checkout portal
+                were organized as well as leveraging analytics to uncover challenges with
+                discoverability.
             </Paragraph>
             <IndentInner>
                 <Strong>
-                    How can we enable the QuickBooks checkout portal to elegantly facilitate new
-                    elements and surface automation features?
+                    How can we provide small and medium business owners more ways to get paid?
                 </Strong>
             </IndentInner>
         </Section>
 
-        <Section ends gap>
+        <Section>
             <Heading type={3} anchor='reflection'>
                 Reflection
             </Heading>
             <IndentInner>
-                <Heading type={4}>Introduce without interfering</Heading>
+                <Strong>Introducing without interfering</Strong>
             </IndentInner>
             <Paragraph>
                 Customer-facing platforms such as QuickBooks are in a constant state of evolution,
@@ -82,9 +81,7 @@ const Checkout = () => (
                 most critical tasks.
             </Paragraph>
             <IndentInner>
-                <Heading type={4}>
-                    Balance maximizing education and minimizing interaction cost
-                </Heading>
+                <Strong>Balancing education and interaction cost</Strong>
             </IndentInner>
             <Paragraph>
                 Another implication of continuous refinement is the unfamiliarity of new features to
@@ -92,12 +89,21 @@ const Checkout = () => (
                 there was a compromise to be made between preserving workflow simplicity and
                 surfacing important information about what payment automation entails.
             </Paragraph>
-            <Strong>
+            {/*<Strong>
                 Want to learn more? Don't hesitate to{' '}
                 <Link href='mailto:sethvm64@gmail.com' className='activeLink inBodyLink bold'>
                     get in touch↗&#xFE0E;
                 </Link>
-            </Strong>
+            </Strong>*/}
+        </Section>
+
+        <Section ends gap>
+            <Heading type={4}>
+                Want to learn more about my work with this team? Don't hesitate to{' '}
+                <Link href='mailto:sethvm64@gmail.com' className='activeLink inBodyLink bold'>
+                    get in touch↗&#xFE0E;
+                </Link>
+            </Heading>
         </Section>
     </>
 );
