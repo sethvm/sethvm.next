@@ -27,11 +27,10 @@ const FreeTrial = () => (
             </Heading>
             <SubHeading>Invoice Simple</SubHeading>
             <Paragraph>
-                A free trial enables small and medium business owners to experience the full
-                capabilities of Invoice Simple without the upfront pressure of committing to a
-                subscription plan. Working closely with a product manager and five engineers, I
-                drove the design of this new acquisition model from conception to validation,
-                execution and launch.
+                A free trial enables small business owners to experience the full capabilities of
+                Invoice Simple without the upfront pressure of committing to a subscription plan.
+                Working closely with a product manager and five engineers, I drove the design of
+                this new acquisition model from conception to validation, execution and launch.
             </Paragraph>
             <Details
                 details={[
@@ -158,8 +157,8 @@ const FreeTrial = () => (
             </List>
             <IndentInner>
                 <Strong>
-                    A free trial allows small business owners to see for themselves how Invoice
-                    Simple can integrate into their day-to-day work.
+                    A free trial allows business owners to see for themselves how Invoice Simple can
+                    integrate into their day-to-day work.
                 </Strong>
             </IndentInner>
         </Section>
