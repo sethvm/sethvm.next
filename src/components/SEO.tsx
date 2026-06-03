@@ -23,7 +23,7 @@ const SEO = ({
         {url && <link rel='canonical' href={url} />}
         <link rel='icon' href='/favicon.png' />
         <meta name='author' content='Seth Morenos' />
-        <meta name='theme-color' content='#FAFAFA' />
+        <meta name='theme-color' content='#F7F5EC' />
         <meta property='og:title' content={title} />
         {description && <meta property='og:description' content={description} />}
         {url && <meta property='og:url' content={url} />}
