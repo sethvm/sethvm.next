@@ -49,7 +49,7 @@
     @media (min-width: 992px) {
         position: relative;
         @include no-margin;
-        color: styles.$light-font-color;
+        color: styles.$background-color;
     }
 }
 
