@@ -1,8 +1,8 @@
 @use '../../styles/styles';
 
-// Solid tinted card — hairline border + soft shadow. (Name is legacy: no longer a frosted blur.)
+// Solid tinted card (Name is legacy: no longer a frosted blur.)
 .container {
-    background-color: styles.$container-color; // warm greige — tinted card on the cream background
+    background-color: styles.$container-color; // warm greige — tinted card
     padding: 24px 16px;
 
     @media (min-width: 992px) {
