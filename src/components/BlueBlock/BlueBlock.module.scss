@@ -22,10 +22,14 @@
     }
 }
 
-// About keeps the deployed right-edge stripe — the wide `.block` pulled in to the
-// right ~20% so it sits beside the offset content column rather than behind it.
+// About keeps the right-edge stripe (the wide `.block` pulled in to the right ~20%).
+// Its left edge anchors to the frame band — the same band the About content column is now
+// capped to — so the capped navbar's ABOUT link always sits over navy and the stripe never
+// collides with the content (the column ends at 62% of the band, the stripe starts at 80%).
+// Below 1920 the gutter is 0 and the band is the viewport, so this resolves to 80%. The
+// right edge still bleeds to the viewport edge.
 .stripe {
     @media (min-width: 992px) {
-        left: 80%;
+        left: calc(var(--frame-gutter) + var(--frame-band) * 0.8);
     }
 }
