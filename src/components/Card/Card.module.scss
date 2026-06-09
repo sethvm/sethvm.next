@@ -13,12 +13,14 @@
         flex-direction: row;
         width: 100%;
         margin-bottom: 250px;
-        padding-left: 14vw;
+        // Shared left inset (see --home-content-inset) — aligns the cards with the greeting.
+        padding-left: var(--home-content-inset);
         overflow: visible;
     }
 
-    @media (min-width: 1200px) {
-        padding-left: 20vw;
+    @media (min-width: 1520px) {
+        // Wider inset on ultrawide (see --ultrawide-content-inset); stays aligned with the greeting.
+        padding-left: var(--ultrawide-content-inset);
     }
 }
 

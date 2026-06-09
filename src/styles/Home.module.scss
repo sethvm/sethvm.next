@@ -22,11 +22,13 @@
     @media (min-width: 992px) {
         width: 300px;
         height: auto;
-        margin: 0 0 0 14vw;
+        // Shared left inset (see --home-content-inset) — aligns with the project cards.
+        margin: 0 0 0 var(--home-content-inset);
     }
 
-    @media (min-width: 1200px) {
-        margin: 0 0 0 20vw;
+    @media (min-width: 1520px) {
+        // Wider inset on ultrawide (see --ultrawide-content-inset); stays aligned with the cards.
+        margin-left: var(--ultrawide-content-inset);
     }
 }
 

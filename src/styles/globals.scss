@@ -12,6 +12,13 @@
     // symmetric empty space on each side — 0 below the cap, growing past it.
     --frame-band: min(100vw, #{styles.$frame-max});
     --frame-gutter: calc((100vw - var(--frame-band)) / 2);
+    // Left insets shared by the Home greeting and project cards (single source each, so the
+    // two can't drift apart). --home-content-inset (20% of the frame) applies 992–1519 and
+    // scales like 20vw — the deployed distance (288px at the 1440 reference). At >=1520 both
+    // switch to --ultrawide-content-inset (24%); the band is capped at 1520 there, so it's a
+    // fixed ~365px that tunes placement on ultrawide screens.
+    --home-content-inset: calc(var(--frame-band) * 0.2);
+    --ultrawide-content-inset: calc(var(--frame-band) * 0.24);
 }
 
 body {
