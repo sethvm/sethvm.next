@@ -7,6 +7,10 @@
 
     @media (min-width: 992px) {
         width: 80%;
+        // Freeze at 80% of the band and shift into the centred band on wide screens. Below
+        // the cap the band is the viewport, so max-width == width (80vw) and the gutter is 0.
+        max-width: calc(var(--frame-band) * 0.8);
+        margin-left: var(--frame-gutter);
         padding: 32px 11%;
     }
 }
@@ -21,6 +25,9 @@
 
     @media (min-width: 992px) {
         width: 80%;
+        // Match .outerContainer so the prompt copy stays aligned with the pills.
+        max-width: calc(var(--frame-band) * 0.8);
+        margin-left: var(--frame-gutter);
         padding: 32px 11% 16px 11%;
     }
 }

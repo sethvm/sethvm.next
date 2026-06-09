@@ -10,7 +10,12 @@
     justify-content: space-between;
     position: fixed;
     top: 0;
-    width: 100vw;
+    // Pin both edges to the frame gutter so the bar spans the centred band and caps at the
+    // frame max. Driven by the same 100vw-based --frame-gutter as the rest of the chrome, so
+    // the bar can't shift between pages when a scrollbar appears/disappears. Below the cap
+    // the gutter is 0, so the bar is full-width exactly as `width: 100vw` was.
+    left: var(--frame-gutter);
+    right: var(--frame-gutter);
     height: 64px;
     @include no-margin;
     padding: 22px 9% 0 9%;
@@ -19,7 +24,9 @@
     z-index: 10;
 
     @media (min-width: 992px) {
-        padding: 38px 3.2% 0 3.2%;
+        // Inset resolves against the band (not the viewport), so brand + ABOUT freeze at
+        // the band edge above the cap and line up with the footer and contact links.
+        padding: 38px calc(var(--frame-band) * 0.032) 0;
         background-color: transparent;
     }
 }

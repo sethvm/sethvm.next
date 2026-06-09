@@ -1,7 +1,10 @@
 @use '../../styles/styles';
 
 .container {
-    max-width: 1920px;
+    max-width: styles.$frame-max;
+    // Offset by the same 100vw-based gutter as the navbar so the two share a left edge and
+    // neither shifts between pages when a scrollbar comes and goes. 0 below the cap.
+    margin-left: var(--frame-gutter);
     height: 200px;
     text-align: center;
     padding-top: 32px;
@@ -16,7 +19,11 @@
         position: relative;
         text-align: left;
         padding-top: 0;
-        padding-left: 3%;
+        // 3.2% inset, matching the navbar brand and contact icons so all three chrome
+        // elements share one left edge. Band-relative, so it freezes above the cap instead of
+        // growing with the viewport. (Below the cap this is 3.2% of the viewport — ~3px inside
+        // the original `padding-left: 3%`, the deliberate trade for that alignment.)
+        padding-left: calc(var(--frame-band) * 0.032);
     }
 }
 

@@ -12,7 +12,11 @@
         height: 40vh;
         bottom: 0;
         padding-bottom: 50px;
-        margin-left: 3%;
+        // Sit 3.2% in from the frame band's left edge — the same inset as the navbar brand,
+        // so the icons share the brand's left edge. Band-relative, so it freezes above the cap
+        // instead of growing with the viewport. (Below the cap this is 3.2% of the viewport —
+        // ~3px inside the original `margin-left: 3%`, a deliberate trade for that alignment.)
+        left: calc(var(--frame-gutter) + var(--frame-band) * 0.032);
         z-index: 9;
     }
 }

@@ -52,12 +52,14 @@
     }
 }
 
-// About drops the desktop spine cap + side padding so the page spans the full viewport
-// width. The offset column's percentages (About.module.scss) then resolve against the
-// viewport, reproducing the deployed layout. Must follow `.container` to win the override.
+// About uses the frame cap (not the 1080 spine) and drops the side padding, so the offset
+// column's percentages (About.module.scss) resolve against the centred frame band. The
+// content stays contained on ultrawide instead of drifting with the viewport, while below
+// the cap the band is the viewport — the deployed layout, unchanged. Must follow `.container`
+// to win the override.
 .aboutPage {
     @media (min-width: styles.$bp-lg) {
-        max-width: none;
+        max-width: styles.$frame-max;
         padding: 0;
     }
 }
