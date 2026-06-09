@@ -9,7 +9,7 @@
 :root {
     // Frame cap: page chrome + content never exceed this width and centre on ultrawide.
     // --frame-band is the live content width (viewport, capped); --frame-gutter is the
-    // symmetric empty space on each side — 0 below the cap, growing only past 1920px.
+    // symmetric empty space on each side — 0 below the cap, growing past it.
     --frame-band: min(100vw, #{styles.$frame-max});
     --frame-gutter: calc((100vw - var(--frame-band)) / 2);
 }
