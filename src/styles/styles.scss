@@ -42,6 +42,7 @@ $gap-section-lg: $space-7; // 96px — between sections, desktop
 $page-max: 1080px; // centered content container; banners/cards/figures fill this
 $measure: 680px; // ~66ch cap for body text at 17px base
 $card-pad-lg: 48px; // FrostedGlass interior padding at desktop
+$frame-max: 1920px; // outer cap for page chrome + content; centres on ultrawide
 
 @mixin font-display {
     font-display: swap;
