@@ -18,12 +18,12 @@ const About = () => (
                 </Paragraph>
                 <Paragraph>
                     I currently lead design for Invoice Simple Payments at EverCommerce, helping
-                    small business owners get paid faster. Previously, I delivered growth-focused
-                    experiences that enable users to discover how Invoice Simple can empower them in
-                    their day-to-day operations. Before that, I shaped the QuickBooks checkout
-                    journey at Intuit, drove the adoption of data-driven design at Interac's
-                    innovation lab and rebuilt fulfillment tools at Loblaw, Canada's largest grocery
-                    retailer.
+                    over half a million business owners get paid. Previously, I delivered
+                    discovery-focused experiences that enable users to see how Invoice Simple can
+                    empower them in their day-to-day operations. Before that, I shaped the
+                    QuickBooks checkout journey at Intuit, drove the adoption of data-driven design
+                    at Interac's innovation lab and rebuilt fulfillment tools at Loblaw, Canada's
+                    largest grocery retailer.
                 </Paragraph>
                 <Paragraph>
                     Outside design, I enjoy powerlifting, all things motorsports and{' '}
@@ -32,11 +32,11 @@ const About = () => (
                     </OutboundLink>
                     .
                 </Paragraph>
-                <h3 className={aboutPageStyle.subHeading}>Keen to chat? Let's connect!</h3>
+                <h3 className={aboutPageStyle.subHeading}>Keen to chat?</h3>
                 <ul className={aboutPageStyle.contactList}>
                     <li>
                         <Strong>
-                            Say hi on{' '}
+                            Connect with me on{' '}
                             <OutboundLink
                                 href='https://www.linkedin.com/in/sethvm'
                                 className='activeLink inBodyLink bold'
