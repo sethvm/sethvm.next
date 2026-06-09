@@ -12,7 +12,12 @@
         height: 40vh;
         bottom: 0;
         padding-bottom: 50px;
-        margin-left: 3%;
+        // Sit 3% in from the frame band's left edge — the original inset, kept band-relative
+        // so it freezes above 1920 instead of growing with the viewport. Below 1920 the
+        // gutter is 0 and the band is the viewport, so this is identical to the old
+        // `margin-left: 3%`. (The navbar brand uses 3.2%, so it sits a hair further in — the
+        // site's original proportion, now frozen rather than drifting at ultrawide.)
+        left: calc(var(--frame-gutter) + var(--frame-band) * 0.03);
         z-index: 9;
     }
 }
