@@ -8,17 +8,28 @@
 
 :root {
     // Frame cap: page chrome + content never exceed this width and centre on ultrawide.
-    // --frame-band is the live content width (viewport, capped); --frame-gutter is the
-    // symmetric empty space on each side — 0 below the cap, growing past it.
     --frame-band: min(100vw, #{styles.$frame-max});
+    // --frame-gutter: symmetric empty space outside the band — 0 below the 1520 cap, grows on ultrawide.
     --frame-gutter: calc((100vw - var(--frame-band)) / 2);
-    // Left insets shared by the Home greeting and project cards (single source each, so the
-    // two can't drift apart). --home-content-inset (20% of the frame) applies 992–1519 and
-    // scales like 20vw — the deployed distance (288px at the 1440 reference). At >=1520 both
-    // switch to --ultrawide-content-inset (24%); the band is capped at 1520 there, so it's a
-    // fixed ~365px that tunes placement on ultrawide screens.
-    --home-content-inset: calc(var(--frame-band) * 0.2);
-    --ultrawide-content-inset: calc(var(--frame-band) * 0.24);
+
+    // Home content edge (Direction A). Band-relative so it freezes above the 1520 cap and
+    // stays aligned with the band-relative chrome. Mobile baseline is viewport-relative (the
+    // band == viewport below the cap, so 12% resolves the same). Tablet/desktop widen it so
+    // the desktop column clears the navbar brand (~47px gap) and matches the deployed
+    // project-content width (~904px @1440). Overrides live in the breakpoints below.
+    --home-content-inset: calc(var(--frame-band) * 0.12);
+}
+
+@media (min-width: 768px) {
+    :root {
+        --home-content-inset: calc(var(--frame-band) * 0.14);
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        --home-content-inset: calc(var(--frame-band) * 0.186);
+    }
 }
 
 body {
@@ -120,7 +131,7 @@ h6 {
 
 // h1 is Home-only ("G'day, I'm Seth."); left unchanged to keep Home stable.
 h1 {
-    font-size: 3em;
+    font-size: 5em;
 }
 
 // Fluid modular type ramp. Sizes are em (relative to 17px body), fluid via clamp + vw.
@@ -204,4 +215,31 @@ ol {
 
 ::-webkit-scrollbar-thumb:hover {
     background: styles.$scrollbar-hover-color;
+}
+
+// Accessibility: visible keyboard focus for all interactive elements (WCAG 2.4.7).
+// :focus-visible shows the ring for keyboard users without flashing it on mouse click.
+// Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible
+a:focus-visible,
+button:focus-visible,
+[tabindex]:not([tabindex='-1']):focus-visible {
+    outline: 2px solid styles.$primary-color;
+    outline-offset: 3px;
+}
+
+// Accessibility: honour reduced-motion — neutralise the hover nudges + any smooth scroll
+// (WCAG 2.3.3). Ref: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        // 0.01ms (not 0s) keeps transition/animation-end events firing for any JS that waits on them.
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }

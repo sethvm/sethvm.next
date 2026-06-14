@@ -11,12 +11,12 @@ import projects from '../projects';
 const Home = () => (
     <>
         <Head url='https://sethvm.com' />
-        <div id='intro' className={homePageStyle.intro}>
-            <div className={homePageStyle.introText}>
+        <section id='intro' className={homePageStyle.intro} aria-label='Introduction'>
+            <div>
                 <Heading type={1} className={`heavy ${homePageStyle.greeting}`}>
                     G'day,
                     <br />
-                    I'm Seth.
+                    I'm <span className={homePageStyle.greetingAccent}>Seth.</span>
                 </Heading>
                 <Paragraph>
                     I design products that <span className='bold'>empower everyone to do more</span>
@@ -24,38 +24,49 @@ const Home = () => (
                 </Paragraph>
                 <Paragraph>
                     Currently at EverCommerce,
-                    <br />
                     previously Intuit, Interac and Loblaw Digital.
                 </Paragraph>
-                <div className={homePageStyle.jumpContainer}>
-                    <Link href='/#projects' className={homePageStyle.jump} aria-current='page'>
-                        <img
-                            className={homePageStyle.jumpBtn}
-                            src='/down-arrow.svg'
-                            alt='Scroll down to check out my work!'
-                        />
-                    </Link>
-                </div>
             </div>
-        </div>
-        <div id='projects' className={homePageStyle.projects}>
+            {/* Mobile (<768): the production jump arrow, centred under the greeting. */}
+            <Link
+                href='/#projects'
+                className={homePageStyle.jumpMobile}
+                aria-label='Skip to my work'
+            >
+                <img src='/down-arrow.svg' alt='' />
+            </Link>
+            {/* Tablet/desktop (>=768): lower-left text CTA at the content edge. */}
+            <Link href='/#projects' className={homePageStyle.jumpCta}>
+                Check out some of my work
+                <span className={homePageStyle.jumpChevron} aria-hidden='true'>
+                    &#8964;
+                </span>
+            </Link>
+        </section>
+        <section id='projects' className={homePageStyle.projects} aria-labelledby='work-heading'>
+            <div className={homePageStyle.divider}>
+                <h2 id='work-heading' className={homePageStyle.dividerLabel}>
+                    Selected work
+                </h2>
+                <span className={homePageStyle.dividerRule} aria-hidden='true' />
+            </div>
             <MemoizedCards />
-        </div>
+        </section>
     </>
 );
 
 const MemoizedCards = memo(() => {
     return (
         <>
-            {projects.map((project) => (
+            {projects.map((project, i) => (
                 <Card
                     key={project.url}
                     heading={project.title}
                     description={project.description}
                     img={project.img}
-                    alt={project.alt}
                     link={project.cardLink}
                     url={project.url}
+                    eager={i === 0}
                 >
                     <SubHeading>{project.company}</SubHeading>
                 </Card>
