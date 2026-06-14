@@ -1,76 +1,71 @@
+@use '../../styles/styles';
+
 .container {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100vw;
-    margin: 0 0 120px;
-    overflow: hidden;
+    // Stacked cards separated by space, not rules. $space-7 rhythm on desktop.
+    margin-bottom: styles.$gap-section-sm;
 
     @media (min-width: 768px) {
-        margin: 0 0 120px;
+        margin-bottom: styles.$gap-section-md;
     }
 
     @media (min-width: 992px) {
-        flex-direction: row;
-        width: 100%;
-        margin-bottom: 250px;
-        // Shared left inset (see --home-content-inset) — aligns the cards with the greeting.
-        padding-left: var(--home-content-inset);
-        overflow: visible;
+        margin-bottom: styles.$gap-section-lg;
     }
 
-    @media (min-width: 1520px) {
-        // Wider inset on ultrawide (see --ultrawide-content-inset); stays aligned with the greeting.
-        padding-left: var(--ultrawide-content-inset);
-    }
-}
+    // Production exhale before the footer is preserved on the last card.
+    &:last-child {
+        margin-bottom: 120px;
 
-.image {
-    width: 100%;
-
-    @media (min-width: 768px) {
-        height: auto;
-    }
-
-    @media (min-width: 992px) {
-        width: 424px;
-        height: auto;
-        margin: 0;
-        border-radius: 4px;
-        transition: margin 0.15s ease-out;
-        -webkit-transition: margin 0.15s ease-out;
-        -moz-transition: margin 0.15s ease-out;
-        -o-transition: margin 0.15s ease-out;
-
-        &:hover {
-            margin-left: 16px;
+        @media (min-width: 992px) {
+            margin-bottom: 250px;
         }
     }
 }
 
-.text {
-    padding: 40px 12% 0 12%;
-
-    @media (min-width: 768px) {
-        padding: 40px 20% 0 20%;
-    }
-
-    @media (min-width: 992px) {
-        width: 42%;
-        padding: 16px 8% 0 0;
-        margin: 0;
-    }
+.plateLink {
+    display: block;
 }
 
-/* font styling overrides */
+.plate {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2; // single-aspect banners; object-fit covers until 3:2 re-exports land
+    object-fit: cover;
+    border-radius: 4px;
+    background: styles.$container-color; // shows while the banner loads (no flash of nothing)
+}
+
+.text {
+    // Text inset one $space-3 inside the plate edges, so plate + copy read as two registers.
+    padding: 0 styles.$space-3;
+}
+
 .title {
     font-size: 2em;
-    margin-bottom: 0.2em;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* Company eyebrow — the <SubHeading> span sits inside this scoped .company wrapper so the
+   gold/uppercase treatment can't bleed onto other spans. Body-font demibold; SubHeading
+   stays neutral on the case-study pages that also use it. */
+.company > span {
+    display: block;
+    margin-top: 6px;
+    font-family: styles.$font-medium;
+    font-size: 0.82em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: styles.$secondary-color;
 }
 
 .description {
-    margin: 1em 0;
+    // One line on the wide desktop column; wraps to 2 lines below ~1250px; never truncated.
+    margin: 14px 0 0;
 }
 
 .link {
+    display: inline-block;
     font-size: 1.0625em;
+    margin-top: 16px;
 }

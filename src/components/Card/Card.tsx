@@ -7,24 +7,34 @@ interface Props {
     url: string;
     link: string;
     img: string;
-    alt: string;
+    eager?: boolean; // first card loads eagerly (above the fold); the rest lazy-load
     children: React.ReactNode;
 }
 
-const Card = ({ heading, description, url, link, img, alt, children }: Props) => (
-    <div className={styleCard.container}>
+const Card = ({ heading, description, url, link, img, eager, children }: Props) => (
+    <article className={styleCard.container}>
+        <Link href={url} className={styleCard.plateLink} tabIndex={-1} aria-hidden='true'>
+            <img
+                className={styleCard.plate}
+                src={img}
+                alt=''
+                loading={eager ? 'eager' : 'lazy'}
+                decoding='async'
+            />
+        </Link>
         <div className={styleCard.text}>
-            <h2 className={styleCard.title}>{heading}</h2>
-            {children}
+            <h3 className={styleCard.title}>{heading}</h3>
+            <div className={styleCard.company}>{children}</div>
             <p className={styleCard.description}>{description}</p>
-            <Link href={url} className={`${styleCard.link} activeLink`}>
+            <Link
+                href={url}
+                className={`${styleCard.link} activeLink`}
+                aria-label={`${heading}: ${link}`}
+            >
                 <span className='heavy'>{link}</span>
             </Link>
         </div>
-        <Link href={url}>
-            <img className={styleCard.image} src={img} alt={alt} />
-        </Link>
-    </div>
+    </article>
 );
 
 export default Card;
