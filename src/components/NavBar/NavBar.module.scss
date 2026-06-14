@@ -60,7 +60,7 @@
     }
 }
 
-// Dark route for pages without the navy BlueBlock backdrop (all but Home).
+// Dark route for all pages except About (which sits over the right-edge navy stripe).
 .routeDark {
     @media (min-width: 992px) {
         color: styles.$primary-color;

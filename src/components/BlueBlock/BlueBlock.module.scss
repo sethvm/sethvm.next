@@ -15,7 +15,7 @@
 }
 
 // The thin case-study stripe collided with the centered content container, so it's
-// hidden on case studies. (Home keeps the wide `.block`.)
+// hidden on case studies. (Home renders nothing — see BlueBlock.tsx.)
 .thin {
     @media (min-width: 992px) {
         display: none;
