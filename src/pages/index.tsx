@@ -18,13 +18,12 @@ const Home = () => (
                     <br />
                     I'm <span className={homePageStyle.greetingAccent}>Seth.</span>
                 </Heading>
-                <Paragraph>
+                <Paragraph className={homePageStyle.introBody}>
                     I design products that <span className='bold'>empower everyone to do more</span>
                     .
                 </Paragraph>
-                <Paragraph>
-                    Currently at EverCommerce,
-                    previously Intuit, Interac and Loblaw Digital.
+                <Paragraph className={homePageStyle.introBody}>
+                    Currently at EverCommerce, previously Intuit, Interac and Loblaw Digital.
                 </Paragraph>
             </div>
             {/* Mobile (<768): the production jump arrow, centred under the greeting. */}

@@ -23,10 +23,17 @@
    with the name as the single navy accent. */
 .greeting {
     color: styles.$default-font-color;
+    font-size: clamp(3em, 1.2em + 6vw, 5em); // tune the middle term for better scaling on mobile
 }
 
 .greetingAccent {
     color: styles.$primary-color;
+}
+
+.introBody {
+    // Lede ramp: paragraph default (1.15em) on mobile → h4 step (1.45em) on desktop.
+    // Both bounds are existing scale steps; matches the h2/h3 clamp pattern.
+    font-size: clamp(1.15em, 1em + 0.6vw, 1.45em); // tune the vw term
 }
 
 /* Mobile (<768) jump arrow — production component, centred under the greeting. */
