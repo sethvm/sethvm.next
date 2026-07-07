@@ -26,28 +26,23 @@ const Home = () => (
                     Currently at EverCommerce, previously Intuit, Interac and Loblaw Digital.
                 </Paragraph>
             </div>
-            {/* Mobile (<768): the production jump arrow, centred under the greeting. */}
+            {/* Mobile-only jump arrow — on >=768 the hero yields height instead, so the
+                "Selected work" divider peeks above the fold as the cue that work follows. */}
             <Link
                 href='/#projects'
                 className={homePageStyle.jumpMobile}
-                aria-label='Skip to my work'
+                aria-label='Scroll to my work'
             >
-                <img src='/down-arrow.svg' alt='' />
-            </Link>
-            {/* Tablet/desktop (>=768): lower-left text CTA at the content edge. */}
-            <Link href='/#projects' className={homePageStyle.jumpCta}>
-                Check out some of my work
-                <span className={homePageStyle.jumpChevron} aria-hidden='true'>
-                    &#8964;
-                </span>
+                <img src='/down-arrow.svg' />
             </Link>
         </section>
         <section id='projects' className={homePageStyle.projects} aria-labelledby='work-heading'>
-            <div className={homePageStyle.divider}>
+            <div className={homePageStyle.divider} aria-label='See my selected work'>
                 <h2 id='work-heading' className={homePageStyle.dividerLabel}>
                     Selected work
                 </h2>
-                <span className={homePageStyle.dividerRule} aria-hidden='true' />
+                <span className={homePageStyle.dividerRule} />
+                <img src='/chevron.svg' alt='See my selected work' />
             </div>
             <MemoizedCards />
         </section>

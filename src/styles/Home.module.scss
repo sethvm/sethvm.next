@@ -12,10 +12,20 @@
 
     @media (min-width: 768px) {
         padding: 0 var(--home-content-inset);
+        // The hero yields the divider band's height (64px navbar margin + 80px divider
+        // padding + label line + clearance) so "Selected work" peeks above the fold —
+        // it replaces the text CTA as the cue that work follows. The 800px max-height
+        // still caps tall viewports (the divider simply sits higher up there), and the
+        // min-height keeps the centred intro from crushing on short/landscape screens
+        // (the divider drops below the fold there instead).
+        height: calc(100vh - 188px);
+        min-height: 480px;
     }
 
     @media (min-width: 992px) {
         margin-top: 0; // navbar is transparent on desktop; hero owns the full viewport
+        // No navbar margin, but the divider padding grows to 128px (see .divider).
+        height: calc(100vh - 172px);
     }
 }
 
@@ -33,10 +43,11 @@
 .introBody {
     // Lede ramp: paragraph default (1.15em) on mobile → h4 step (1.45em) on desktop.
     // Both bounds are existing scale steps; matches the h2/h3 clamp pattern.
-    font-size: clamp(1.15em, 1em + 0.6vw, 1.45em); // tune the vw term
+    font-size: clamp(1.15em, 1em + 0.6vw, 1.4em); // tune the vw term
 }
 
-/* Mobile (<768) jump arrow — production component, centred under the greeting. */
+/* Mobile-only (<768) jump arrow, centred under the greeting. On >=768 the shortened
+   hero lets the "Selected work" divider peek above the fold instead (see .intro). */
 .jumpMobile {
     display: flex;
     justify-content: center;
@@ -55,33 +66,6 @@
     @media (min-width: 768px) {
         display: none;
     }
-}
-
-/* Tablet/desktop (>=768) corner CTA — lower-left at the content edge. */
-.jumpCta {
-    display: none;
-
-    @media (min-width: 768px) {
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        position: absolute;
-        bottom: 24px;
-        left: var(--home-content-inset);
-        font-family: styles.$font-bold;
-        font-size: 1.0625em;
-        color: styles.$primary-color;
-
-        &:hover .jumpChevron {
-            transform: translateY(4px);
-        }
-    }
-}
-
-.jumpChevron {
-    display: inline-block;
-    font-size: 0.85em;
-    transition: transform 0.15s ease-out;
 }
 
 /* Work section */
@@ -107,11 +91,11 @@
 
 .dividerLabel {
     font-family: styles.$font-medium;
-    font-size: 0.94em;
+    font-size: 1em;
     font-weight: 500;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: styles.$default-font-color;
+    color: styles.$secondary-color;
     white-space: nowrap;
     margin: 0;
 }
