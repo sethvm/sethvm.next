@@ -1,12 +1,12 @@
 import Head from '../components/SEO';
 import Link from 'next/link';
-import Section from '../components/Content/Section';
+import errorPageStyle from '../styles/Error.module.scss';
 import Heading from '../components/Typography/Heading';
 
 const Error = () => (
     <>
         <Head title='Page Not Found' noCrawl />
-        <Section gap>
+        <div className={errorPageStyle.offset}>
             <Heading type={2}>
                 <span className='heavy' style={{ color: '#A80000' }}>
                     The page you're looking for doesn't exist!
@@ -18,7 +18,7 @@ const Error = () => (
                     home page →&#xFE0E;
                 </Link>
             </Heading>
-        </Section>
+        </div>
     </>
 );
 
