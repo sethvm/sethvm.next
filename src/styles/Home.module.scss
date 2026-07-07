@@ -23,7 +23,6 @@
     }
 
     @media (min-width: 992px) {
-        margin-top: 0; // navbar is transparent on desktop; hero owns the full viewport
         // No navbar margin, but the divider padding grows to 128px (see .divider).
         height: calc(100vh - 172px);
     }
@@ -43,7 +42,7 @@
 .introBody {
     // Lede ramp: paragraph default (1.15em) on mobile → h4 step (1.45em) on desktop.
     // Both bounds are existing scale steps; matches the h2/h3 clamp pattern.
-    font-size: clamp(1.15em, 1em + 0.6vw, 1.4em); // tune the vw term
+    font-size: clamp(1.15em, 1em + 0.6vw, 1.3em); // tune the vw term
 }
 
 /* Mobile-only (<768) jump arrow, centred under the greeting. On >=768 the shortened
