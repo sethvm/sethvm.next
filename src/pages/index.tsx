@@ -19,11 +19,14 @@ const Home = () => (
                     I'm <span className={homePageStyle.greetingAccent}>Seth.</span>
                 </Heading>
                 <Paragraph className={homePageStyle.introBody}>
-                    I design products that <span className='bold'>empower everyone to do more</span>
-                    .
+                    Product designer passionate about{' '}
+                    <span className='bold'>empowering everyone to do more</span>.
                 </Paragraph>
                 <Paragraph className={homePageStyle.introBody}>
-                    Currently at EverCommerce, previously Intuit, Interac and Loblaw Digital.
+                    Currently helping business owners get paid at EverCommerce.
+                </Paragraph>
+                <Paragraph className={homePageStyle.introBody}>
+                    Previously at Intuit, Interac and Loblaw Digital.
                 </Paragraph>
             </div>
             {/* Mobile-only jump arrow — on >=768 the hero yields height instead, so the
