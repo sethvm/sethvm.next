@@ -2,7 +2,7 @@
 
 .intro {
     height: 100vh;
-    max-height: 800px;
+    max-height: 800px; // caps tall viewports so the divider + first work content stay in view
     margin-top: 64px; // clears the fixed navbar on mobile/tablet
     display: flex;
     flex-direction: column;
@@ -10,21 +10,28 @@
     position: relative;
     padding: 0 12%;
 
+    // Fold anchor: margin-top + height + divider padding + divider row + clearance = 100svh.
+    // --fold-reserve is the sum of those terms per breakpoint — if any of them change
+    // (hero margin-top, .divider padding-top, chevron size, clearance), rebalance the
+    // reserve or the divider drifts off the fold. svh measures the initially visible
+    // viewport on tablets with dynamic browser chrome; the vh line is the fallback for
+    // pre-2022 engines. On viewports taller than the 800px cap the hero stops growing
+    // (intentional): the divider rises above the fold so the selected work shares the
+    // first viewport. The min-height keeps the centred intro from crushing on short or
+    // landscape screens (the divider drops below the fold there instead).
     @media (min-width: 768px) {
+        // 64px margin + 80px divider padding-top + 24px row (chevron) + 24px clearance
+        --fold-reserve: 192px;
         padding: 0 var(--home-content-inset);
-        // The hero yields the divider band's height (64px navbar margin + 80px divider
-        // padding + label line + clearance) so "Selected work" peeks above the fold —
-        // it replaces the text CTA as the cue that work follows. The 800px max-height
-        // still caps tall viewports (the divider simply sits higher up there), and the
-        // min-height keeps the centred intro from crushing on short/landscape screens
-        // (the divider drops below the fold there instead).
-        height: calc(100vh - 188px);
+        height: calc(100vh - var(--fold-reserve));
+        height: calc(100svh - var(--fold-reserve));
         min-height: 480px;
     }
 
     @media (min-width: 992px) {
-        // No navbar margin, but the divider padding grows to 128px (see .divider).
-        height: calc(100vh - 172px);
+        margin-top: 72px; // chosen offset under the transparent navbar
+        // 72px margin + 96px divider padding-top + 24px row (chevron) + 32px clearance
+        --fold-reserve: 224px;
     }
 }
 
@@ -32,7 +39,7 @@
    with the name as the single navy accent. */
 .greeting {
     color: styles.$default-font-color;
-    font-size: clamp(3em, 1.2em + 6vw, 5em); // tune the middle term for better scaling on mobile
+    font-size: clamp(3em, 1.2em + 6vw, 5em);
 }
 
 .greetingAccent {
@@ -40,9 +47,9 @@
 }
 
 .introBody {
-    // Lede ramp: paragraph default (1.15em) on mobile → h4 step (1.45em) on desktop.
-    // Both bounds are existing scale steps; matches the h2/h3 clamp pattern.
-    font-size: clamp(1.15em, 1em + 0.6vw, 1.3em); // tune the vw term
+    // Lede ramp: paragraph default (1.15em) on mobile → 1.3em on desktop; matches the
+    // h2/h3 clamp pattern.
+    font-size: clamp(1.15em, 1em + 0.6vw, 1.3em);
 }
 
 /* Mobile-only (<768) jump arrow, centred under the greeting. On >=768 the shortened
@@ -67,7 +74,6 @@
     }
 }
 
-/* Work section */
 .projects {
     padding: 0 12%;
 
@@ -84,7 +90,7 @@
     margin-bottom: 56px;
 
     @media (min-width: 992px) {
-        padding-top: 128px;
+        padding-top: 96px;
     }
 }
 
