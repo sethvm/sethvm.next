@@ -23,8 +23,8 @@ const Card = ({ heading, description, url, link, img, eager, children }: Props) 
             />
         </Link>
         <div className={styleCard.text}>
-            <h3 className={styleCard.title}>{heading}</h3>
             <div className={styleCard.company}>{children}</div>
+            <h3 className={styleCard.title}>{heading}</h3>
             <p className={styleCard.description}>{description}</p>
             <Link
                 href={url}

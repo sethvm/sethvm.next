@@ -36,27 +36,29 @@
 }
 
 .text {
-    // Text inset one $space-3 inside the plate edges, so plate + copy read as two registers.
-    padding: 0 styles.$space-3;
+    // Copy sits flush with the plate edges — one shared left edge, matching the
+    // QuickLinks end-cap anatomy (stacked variant) so both surfaces read as one system.
+    padding: 0;
+}
+
+/* Company eyebrow — leads the copy block. The <SubHeading> span sits inside this scoped
+   .company wrapper so the gold treatment can't bleed onto other spans. Body-font demibold;
+   SubHeading stays neutral on the case-study pages that also use it. */
+.company > span {
+    display: block;
+    font-size: 1.15em;
+    margin-top: styles.$space-4; // plate→copy gap shared with the QuickLinks spec
+    // Neutralize SubHeading's own 1.5em bottom margin — it collapses through this wrapper
+    // and would override the title's margin-top (adjacent margins resolve to the larger).
+    margin-bottom: 0;
+    font-family: styles.$font-medium;
+    color: styles.$secondary-color;
 }
 
 .title {
     font-size: 2em;
-    margin-top: 20px;
+    margin-top: 6px; // tight under the leading eyebrow
     margin-bottom: 0;
-}
-
-/* Company eyebrow — the <SubHeading> span sits inside this scoped .company wrapper so the
-   gold/uppercase treatment can't bleed onto other spans. Body-font demibold; SubHeading
-   stays neutral on the case-study pages that also use it. */
-.company > span {
-    display: block;
-    margin-top: 6px;
-    font-family: styles.$font-medium;
-    font-size: 0.82em;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: styles.$secondary-color;
 }
 
 .description {
