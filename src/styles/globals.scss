@@ -161,7 +161,7 @@ strong {
 }
 
 p {
-    font-size: 1.15em;
+    font-size: clamp(1.15em, 1em + 0.6vw, 1.2em);
     margin-top: 0;
     margin-bottom: 1em;
     color: styles.$body-font-color;
