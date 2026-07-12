@@ -19,11 +19,11 @@ const Home = () => (
                     I'm <span className={homePageStyle.greetingAccent}>Seth.</span>
                 </Heading>
                 <Paragraph className={homePageStyle.introBody}>
-                    Product designer passionate about{' '}
+                    <span className='bold'>Product designer</span> passionate about{' '}
                     <span className='bold'>empowering everyone to do more</span>.
                 </Paragraph>
                 <Paragraph className={homePageStyle.introBody}>
-                    Currently working on invoicing solutions at EverCommerce.
+                    Currently working on invoicing and payments solutions at EverCommerce.
                 </Paragraph>
                 <Paragraph className={homePageStyle.introBody}>
                     Previously at Intuit, Interac and Loblaw Digital.
