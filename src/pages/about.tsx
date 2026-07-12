@@ -2,7 +2,6 @@ import Head from '../components/SEO';
 import aboutPageStyle from '../styles/About.module.scss';
 import Section from '../components/Content/Section';
 import Paragraph from '../components/Typography/Paragraph';
-import Strong from '../components/Typography/Strong';
 
 const About = () => (
     <>
@@ -24,51 +23,44 @@ const About = () => (
                     defining scope and delivering solutions while owning the outcomes.
                 </Paragraph>
                 <Paragraph>
-                    Previously, I shaped the QuickBooks checkout journey at Intuit, drove the
-                    adoption of data-driven design at Interac's innovation lab and rebuilt
-                    fulfillment tools at Loblaw, Canada's largest grocery retailer.
-                </Paragraph>
-                <Paragraph>
-                    Outside design, I enjoy all things motorsports, open world games and{' '}
+                    Outside design, I enjoy poke bowls, open world games and{' '}
                     <OutboundLink href='https://sethvm.studio/' className='activeLink inBodyLink'>
                         exploring with my cameras↗&#xFE0E;
                     </OutboundLink>
-                    .
                 </Paragraph>
-                <h3 className={aboutPageStyle.subHeading}>Keen to chat?</h3>
+                <h3 className={aboutPageStyle.subHeading}>Get in touch</h3>
                 <ul className={aboutPageStyle.contactList}>
                     <li>
-                        <Strong>
-                            Connect with me on{' '}
-                            <OutboundLink
-                                href='https://www.linkedin.com/in/sethvm'
-                                className='activeLink inBodyLink bold'
-                            >
-                                LinkedIn↗&#xFE0E;
-                            </OutboundLink>
-                        </Strong>
-                    </li>
-                    <li>
-                        <Strong>
-                            Send over an{' '}
+                        <Paragraph>
+                            Email •{' '}
                             <OutboundLink
                                 href='mailto:sethvm64@gmail.com?'
-                                className='activeLink inBodyLink bold'
+                                className='activeLink inBodyLink'
                             >
-                                email↗&#xFE0E;
+                                sethvm64@gmail.com↗&#xFE0E;
                             </OutboundLink>
-                        </Strong>
+                        </Paragraph>
                     </li>
                     <li>
-                        <Strong>
-                            Skim through my{' '}
+                        <Paragraph>
+                            LinkedIn •{' '}
+                            <OutboundLink
+                                href='https://www.linkedin.com/in/sethvm'
+                                className='activeLink inBodyLink'
+                            >
+                                sethvm↗&#xFE0E;
+                            </OutboundLink>
+                        </Paragraph>
+                    </li>
+                    <li>
+                        <Paragraph>
                             <OutboundLink
                                 href='/sethvm_resume.pdf'
-                                className='activeLink inBodyLink bold'
+                                className='activeLink inBodyLink'
                             >
-                                résumé↗&#xFE0E;
+                                Résumé↗&#xFE0E;
                             </OutboundLink>
-                        </Strong>
+                        </Paragraph>
                     </li>
                 </ul>
             </Section>
