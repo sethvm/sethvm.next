@@ -34,9 +34,9 @@ const Home = () => (
             <Link
                 href='/#projects'
                 className={homePageStyle.jumpMobile}
-                aria-label='Scroll to my work'
+                aria-label='Scroll to see my work'
             >
-                <img src='/down-arrow.svg' />
+                <img src='/down-arrow.svg' alt='Scroll to see my work' />
             </Link>
         </section>
         <section id='projects' className={homePageStyle.projects} aria-labelledby='work-heading'>
