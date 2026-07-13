@@ -1,80 +1,112 @@
 @use './styles';
 
 .intro {
-    width: 100vw;
     height: 100vh;
-    max-height: 800px;
-    margin-top: 64px;
-    padding-top: 12%;
+    max-height: 800px; // caps tall viewports so the divider + first work content stay in view
+    margin-top: 64px; // clears the fixed navbar on mobile/tablet
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 0 12%;
 
-    @media (min-width: 992px) {
-        padding-top: 128px;
-    }
-}
-
-.introText {
-    margin: 15px 12% 0 12%;
-
+    // Fold anchor: margin-top + height + divider padding + divider row + clearance = 100svh.
+    // --fold-reserve is the sum of those terms per breakpoint — if any of them change
+    // (hero margin-top, .divider padding-top, chevron size, clearance), rebalance the
+    // reserve or the divider drifts off the fold. svh measures the initially visible
+    // viewport on tablets with dynamic browser chrome; the vh line is the fallback for
+    // pre-2022 engines. On viewports taller than the 800px cap the hero stops growing
+    // (intentional): the divider rises above the fold so the selected work shares the
+    // first viewport. The min-height keeps the centred intro from crushing on short or
+    // landscape screens (the divider drops below the fold there instead).
     @media (min-width: 768px) {
-        margin: 40px 24% 0 24%;
+        // 64px margin + 80px divider padding-top + 24px row (chevron) + 24px clearance
+        --fold-reserve: 192px;
+        padding: 0 var(--home-content-inset);
+        height: calc(100vh - var(--fold-reserve));
+        height: calc(100svh - var(--fold-reserve));
+        min-height: 480px;
     }
 
     @media (min-width: 992px) {
-        width: 300px;
-        height: auto;
-        // Shared left inset (see --home-content-inset) — aligns with the project cards.
-        margin: 0 0 0 var(--home-content-inset);
-    }
-
-    @media (min-width: 1520px) {
-        // Wider inset on ultrawide (see --ultrawide-content-inset); stays aligned with the cards.
-        margin-left: var(--ultrawide-content-inset);
+        margin-top: 72px; // chosen offset under the transparent navbar
+        // 72px margin + 96px divider padding-top + 24px row (chevron) + 32px clearance
+        --fold-reserve: 224px;
     }
 }
 
-.jumpContainer {
+/* "Ink, not fields": the greeting sits in ink on the cream field across ALL breakpoints,
+   with the name as the single navy accent. */
+.greeting {
+    color: styles.$default-font-color;
+    font-size: clamp(3em, 1.2em + 6vw, 5em);
+}
+
+.greetingAccent {
+    color: styles.$primary-color;
+}
+
+.introBody {
+    // Lede ramp: paragraph default (1.15em) on mobile → 1.3em on desktop; matches the
+    // h2/h3 clamp pattern.
+    font-size: clamp(1.15em, 1em + 0.6vw, 1.3em);
+}
+
+/* Mobile-only (<768) jump arrow, centred under the greeting. On >=768 the shortened
+   hero lets the "Selected work" divider peek above the fold instead (see .intro). */
+.jumpMobile {
     display: flex;
     justify-content: center;
-    width: 100%;
     margin-top: 1.5em;
 
-    @media (min-width: 992px) {
-        width: 300px;
-        height: auto;
+    img {
+        width: 45px;
+        height: 45px;
+        transition: transform 0.15s ease-out;
     }
-}
 
-.jump {
-    margin: 0 auto;
-    transition: margin 0.15s ease-out;
-    -webkit-transition: margin 0.15s ease-out;
-    -moz-transition: margin 0.15s ease-out;
-    -o-transition: margin 0.15s ease-out;
-
-    &:hover {
-        margin-top: 7px;
+    &:hover img {
+        transform: translateY(7px);
     }
-}
 
-.jumpBtn {
-    width: 45px;
-    height: 45px;
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
 
 .projects {
-    width: 100%;
-    padding-top: 80px;
+    padding: 0 12%;
 
-    @media (min-width: 992px) {
-        padding-top: 140px;
+    @media (min-width: 768px) {
+        padding: 0 var(--home-content-inset);
     }
 }
 
-/* font styling overrides */
-.greeting {
-    color: styles.$primary-color;
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 80px;
+    margin-bottom: 56px;
 
     @media (min-width: 992px) {
-        color: styles.$default-font-color;
+        padding-top: 96px;
     }
+}
+
+.dividerLabel {
+    font-family: styles.$font-medium;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: styles.$secondary-color;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.dividerRule {
+    flex: 1;
+    height: 1px;
+    background: styles.$secondary-color;
 }

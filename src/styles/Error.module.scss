@@ -1,0 +1,19 @@
+@use './styles';
+
+// 404 content shares the homepage greeting's left edge at every width via the shared
+// band-relative inset token (12% / 14% / 18.6%). Margin (not padding) carries the inset so
+// the measure cap applies to the text itself. Vertical rhythm comes from Wrapper's
+// .container margins.
+.offset {
+    margin: 0 var(--home-content-inset);
+
+    @media (min-width: styles.$bp-lg) {
+        max-width: styles.$measure; // hold the site's 680px reading measure, left-aligned
+    }
+}
+
+// Between-heading gap, mirroring Section's `.gap` rule (Section.module.scss) that the old
+// <Section gap> wrapper provided.
+.offset > :first-child + * {
+    margin-top: 1em;
+}

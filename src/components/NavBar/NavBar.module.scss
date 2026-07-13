@@ -48,6 +48,7 @@
     }
 }
 
+// Route links are navy at every width — no page has a navy backdrop.
 .route {
     font-family: styles.$font-regular;
     font-size: 1.2em;
@@ -56,13 +57,5 @@
     @media (min-width: 992px) {
         position: relative;
         @include no-margin;
-        color: styles.$background-color;
-    }
-}
-
-// Dark route for pages without the navy BlueBlock backdrop (all but Home).
-.routeDark {
-    @media (min-width: 992px) {
-        color: styles.$primary-color;
     }
 }

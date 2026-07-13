@@ -11,51 +11,59 @@ import projects from '../projects';
 const Home = () => (
     <>
         <Head url='https://sethvm.com' />
-        <div id='intro' className={homePageStyle.intro}>
-            <div className={homePageStyle.introText}>
+        <section id='intro' className={homePageStyle.intro} aria-label='Introduction'>
+            <div>
                 <Heading type={1} className={`heavy ${homePageStyle.greeting}`}>
                     G'day,
                     <br />
-                    I'm Seth.
+                    I'm <span className={homePageStyle.greetingAccent}>Seth.</span>
                 </Heading>
-                <Paragraph>
-                    I design products that <span className='bold'>empower everyone to do more</span>
-                    .
+                <Paragraph className={homePageStyle.introBody}>
+                    <span className='bold'>Product designer</span> passionate about{' '}
+                    <span className='bold'>empowering everyone to do more</span>.
                 </Paragraph>
-                <Paragraph>
-                    Currently at EverCommerce,
-                    <br />
-                    previously Intuit, Interac and Loblaw Digital.
+                <Paragraph className={homePageStyle.introBody}>
+                    Currently working on invoicing and payments solutions at EverCommerce.
                 </Paragraph>
-                <div className={homePageStyle.jumpContainer}>
-                    <Link href='/#projects' className={homePageStyle.jump} aria-current='page'>
-                        <img
-                            className={homePageStyle.jumpBtn}
-                            src='/down-arrow.svg'
-                            alt='Scroll down to check out my work!'
-                        />
-                    </Link>
-                </div>
+                <Paragraph className={homePageStyle.introBody}>
+                    Previously at Intuit, Interac and Loblaw Digital.
+                </Paragraph>
             </div>
-        </div>
-        <div id='projects' className={homePageStyle.projects}>
+            {/* Mobile-only jump arrow — on >=768 the hero yields height instead, so the
+                "Selected work" divider peeks above the fold as the cue that work follows. */}
+            <Link
+                href='/#projects'
+                className={homePageStyle.jumpMobile}
+                aria-label='Scroll to my work'
+            >
+                <img src='/down-arrow.svg' />
+            </Link>
+        </section>
+        <section id='projects' className={homePageStyle.projects} aria-labelledby='work-heading'>
+            <div className={homePageStyle.divider} aria-label='See my selected work'>
+                <h2 id='work-heading' className={homePageStyle.dividerLabel}>
+                    Selected work
+                </h2>
+                <span className={homePageStyle.dividerRule} />
+                <img src='/chevron.svg' alt='See my selected work' />
+            </div>
             <MemoizedCards />
-        </div>
+        </section>
     </>
 );
 
 const MemoizedCards = memo(() => {
     return (
         <>
-            {projects.map((project) => (
+            {projects.map((project, i) => (
                 <Card
                     key={project.url}
                     heading={project.title}
                     description={project.description}
                     img={project.img}
-                    alt={project.alt}
                     link={project.cardLink}
                     url={project.url}
+                    eager={i === 0}
                 >
                     <SubHeading>{project.company}</SubHeading>
                 </Card>

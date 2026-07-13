@@ -24,20 +24,21 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 0.8em;
 
     & > li {
         padding-left: 0;
     }
 }
 
-// At >=992 the About page reproduces the deployed offset column — a narrow column pushed
-// in from the left. Percentages resolve against Wrapper's frame-capped canvas (.aboutPage
-// caps at $frame-max), so the column stays contained on ultrawide instead of drifting with
-// the viewport. Below 992 it's full-width and Section provides the insets.
+// At >=992 the About column shares the case-study content edge (Wrapper's .withRail grid,
+// col 7 of 24): edge = 24px canvas padding + 6 column gaps (72px) + 6 columns of
+// (100% − 324px)/24 — which simplifies to 25% + 15px of the frame canvas. Width stays the
+// deployed 40% column. If the .withRail grid constants change, revisit this derivation.
+// Below 992 it's full-width and Section provides the insets.
 .offsetColumn {
     @media (min-width: styles.$bp-lg) {
-        width: 40%;
-        margin-left: 22%;
+        width: 45%;
+        margin-left: calc(25% + 15px);
     }
 }

@@ -17,12 +17,15 @@
 // Case-study rail + content grid. Overrides .container's max-width at >=992.
 .withRail {
     @media (min-width: styles.$bp-lg) {
-        max-width: 1520px;
+        // Token (not a literal) so this cap can never drift from .frameCanvas — the About
+        // column's edge alignment depends on the two canvases matching.
+        max-width: styles.$frame-max;
         display: grid;
         // 24-column grid: rail = cols 3-5 (1.5 of 12), content = cols 7-20, with one empty
         // column (6) between them. The leading/trailing columns are margins, so the content
         // sits slightly right of center. Uses .container's 196px top margin so the rail and
         // content start at the same top edge.
+        // NOTE: About.module.scss's .offsetColumn derives the col-7 edge from these constants.
         grid-template-columns: repeat(24, 1fr);
         column-gap: 12px;
     }
@@ -52,12 +55,11 @@
     }
 }
 
-// About uses the frame cap (not the 1080 spine) and drops the side padding, so the offset
-// column's percentages (About.module.scss) resolve against the centred frame band. The
-// content stays contained on ultrawide instead of drifting with the viewport, while below
-// the cap the band is the viewport — the deployed layout, unchanged. Must follow `.container`
+// Full-width frame-capped canvas (no centred spine, no side padding) so band-relative
+// offsets resolve against the centred frame band. Used by About (offset column) and 404
+// (greeting-inset content). Below the cap the band is the viewport. Must follow `.container`
 // to win the override.
-.aboutPage {
+.frameCanvas {
     @media (min-width: styles.$bp-lg) {
         max-width: styles.$frame-max;
         padding: 0;

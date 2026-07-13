@@ -14,19 +14,23 @@ const Wrapper = ({ children }: Props) => {
         return <main>{children}</main>;
     }
 
-    // About: full-width canvas (no centered spine) so the offset content column and the
-    // right-edge BlueBlock stripe reproduce the deployed layout. See About.module.scss.
+    // About: frame canvas so the offset content column resolves against the centred band.
+    // See About.module.scss.
     if (pathname === '/about') {
         return (
-            <main className={`${styleWrapper.container} ${styleWrapper.aboutPage}`}>
+            <main className={`${styleWrapper.container} ${styleWrapper.frameCanvas}`}>
                 {children}
             </main>
         );
     }
 
-    // 404: centered container, no rail.
+    // 404: frame-band canvas so its content can share the homepage greeting inset.
     if (pathname === '/404') {
-        return <main className={styleWrapper.container}>{children}</main>;
+        return (
+            <main className={`${styleWrapper.container} ${styleWrapper.frameCanvas}`}>
+                {children}
+            </main>
+        );
     }
 
     // Case study: rail (ScrollSpy) + content. Grid kicks in at >=992 via CSS.

@@ -38,3 +38,19 @@
         }
     }
 }
+
+// Accessibility: >=44px touch target on mobile/tablet without enlarging the 36px glyph
+// (WCAG 2.5.5 / Material 48dp). Desktop is a fixed rail with hover, left at natural size.
+.container a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+
+    @media (min-width: 992px) {
+        display: revert;
+        min-width: 0;
+        min-height: 0;
+    }
+}

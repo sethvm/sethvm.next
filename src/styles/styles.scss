@@ -16,9 +16,9 @@ $light-font-color: #f4f3ed;
 
 // ---- interactive components ----
 $link-hover-color: #cfe7ff;
-$scrollbar-hover-color: #c4c4c4;
+$scrollbar-hover-color: #002c59;
 
-// ---- breakpoints (md/lg already used across modules; xl used by Home) ----
+// ---- breakpoints (md/lg used across modules; xl defined but currently unused) ----
 $bp-md: 768px;
 $bp-lg: 992px;
 $bp-xl: 1200px;
