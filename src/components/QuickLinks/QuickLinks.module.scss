@@ -1,63 +1,147 @@
 @use '../../styles/styles';
 
-.outerContainer {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+// End-cap canvas. QuickLinks renders outside <main>, so it mirrors Wrapper's
+// case-study geometry to share the content spine: below 992 the centered
+// Section column (78% / 75% at md), at >=992 the frame-band 24-column grid
+// with the end-cap occupying the content columns (7-20).
+.outer {
+    margin-bottom: styles.$space-6;
 
-    @media (min-width: 992px) {
-        width: 80%;
-        // Freeze at 80% of the band and shift into the centred band on wide screens. Below
-        // the cap the band is the viewport, so max-width == width (80vw) and the gutter is 0.
-        max-width: calc(var(--frame-band) * 0.8);
-        margin-left: var(--frame-gutter);
-        padding: 32px 11%;
+    @media (min-width: styles.$bp-lg) {
+        max-width: styles.$frame-max;
+        margin-left: auto;
+        margin-right: auto;
+        // Wrapper's .container carries 24px side padding inside the band;
+        // mirror it or the 24 columns resolve 11px left of the content spine.
+        padding-left: 24px;
+        padding-right: 24px;
+        display: grid;
+        grid-template-columns: repeat(24, 1fr);
+        column-gap: 12px;
     }
 }
 
-.prompt {
-    display: grid;
-    width: 100%;
-    justify-content: center;
-    justify-items: start;
+.inner {
+    width: 78%;
+    margin: 0 auto;
 
-    padding: 16px 11%;
+    @media (min-width: styles.$bp-md) {
+        width: 75%;
+    }
 
-    @media (min-width: 992px) {
-        width: 80%;
-        // Match .outerContainer so the prompt copy stays aligned with the pills.
-        max-width: calc(var(--frame-band) * 0.8);
-        margin-left: var(--frame-gutter);
-        padding: 32px 11% 16px 11%;
+    @media (min-width: styles.$bp-lg) {
+        width: auto;
+        margin: 0;
+        grid-column: 7 / 21;
+        // <main> exits with an 80px bottom margin; +16px lands the sign-off
+        // $gap-section-lg (96px) below the case content.
+        padding-top: styles.$space-2;
     }
 }
 
-.promptText {
-    font-size: 1.5em;
-    // required for the <p> sibling (paragraphs inherit $body-font-color from globals)
+// -- sign-off line: the case-study ending; plain ink, no container --
+.signOff {
+    margin: 0;
+    font-size: 1.25em; // ~20px
     color: styles.$default-font-color;
 }
 
-.promptTextSpaced {
-    margin-top: 1em;
+.signOffLink {
+    // Inline link inside the Gilroy line. Navy + tint-on-hover come from the
+    // global .activeLink (no underlines in the link grammar); block padding
+    // lifts the tap target to ~44px without shifting the line's visual rhythm.
+    display: inline-block;
+    padding: 9px 0;
+    margin: -9px 0;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    min-width: 312px;
-    margin: 0 auto 4em auto;
-    padding-top: 0;
-    color: styles.$primary-color;
+// -- "Read more" label: Card's company eyebrow treatment --
+.label {
+    margin: styles.$space-5 0 styles.$space-3;
+    font-family: styles.$font-medium;
+    font-size: 1.25em;
+}
+
+// -- cards: homepage Card anatomy; horizontal at >=992, stacked below --
+.cards {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    row-gap: styles.$space-5;
+}
+
+.card {
+    padding-left: 0; // neutralize the global `ul > li` inset
+
+    @media (min-width: styles.$bp-lg) {
+        display: grid;
+        // 460px at the 1440 redline width; yields to 55% on narrower
+        // desktops so the text column never collapses.
+        grid-template-columns: min(55%, 460px) 1fr;
+        column-gap: styles.$space-4;
+        align-items: start;
+    }
+}
+
+.plateLink {
+    display: block;
+}
+
+.plate {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 4px;
+    background: styles.$container-color; // shows while the banner loads
+}
+
+.text {
+    // Stacked variant: the eyebrow's $space-4 top margin carries the
+    // plate→copy gap, exactly like Card.
+    @media (min-width: styles.$bp-lg) {
+        padding-top: 8px; // optical top-align with the plate edge
+    }
+}
+
+/* Company eyebrow — leads the copy block, Card.module.scss verbatim
+   (sentence-case gold, body-size demibold; scoped so SubHeading stays
+   neutral elsewhere). Card's $space-4 plate→copy gap applies in the
+   stacked variant; the horizontal variant zeroes it (plate is beside,
+   not above). margin-bottom: 0 neutralizes SubHeading's own 1.5em. */
+.company > span {
+    display: block;
+    font-size: 1.15em;
+    margin: styles.$space-4 0 0;
+    font-family: styles.$font-medium;
+    color: styles.$secondary-color;
+
+    @media (min-width: styles.$bp-lg) {
+        margin-top: 0;
+    }
+}
+
+// Card .title values, carried by a <p> so the end-cap adds no headings
+// to the document outline.
+.title {
+    margin: 6px 0 0; // tight under the leading eyebrow (Card verbatim)
+    font-family: styles.$font-bold;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 1.2;
+    color: styles.$default-font-color;
+}
+
+.description {
+    margin: 14px 0 0; // p keeps its global fluid size + body color (Card verbatim)
 }
 
 .link {
-    padding: 6px 12px;
-    border-radius: 20px;
-}
-
-.currentLink {
-    background: styles.$primary-color !important;
-    font-family: styles.$font-bold;
-    color: styles.$light-font-color;
+    // Card .link sizing (16px above); block padding lifts the tap target
+    // to ~44px while keeping Card's visual rhythm.
+    display: inline-block;
+    font-size: 1.0625em;
+    padding: 12px 0;
+    margin: 4px 0 -12px;
 }
