@@ -51,7 +51,7 @@ const Checkout = () => (
                 <Strong>PayPal and Venmo integration</Strong>
             </IndentInner>
             <IndentInner>
-                <Strong>Higher adoption of payment automation features</Strong>
+                <Strong>Improved visibility of payment automation features</Strong>
             </IndentInner>
         </Section>
 
@@ -102,14 +102,6 @@ const Checkout = () => (
             </Strong>*/}
         </Section>
 
-        <Section ends gap>
-            <Heading type={4}>
-                Want to learn more about my work with this team? Don't hesitate to{' '}
-                <Link href='mailto:sethvm64@gmail.com' className='activeLink inBodyLink bold'>
-                    get in touch↗&#xFE0E;
-                </Link>
-            </Heading>
-        </Section>
     </>
 );
 
