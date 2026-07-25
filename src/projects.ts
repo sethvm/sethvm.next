@@ -1,4 +1,4 @@
-// projects and quicklink labels
+// project details (Home cards + QuickLinks end-cap read from this list)
 
 interface Project {
     title: string;
@@ -7,7 +7,6 @@ interface Project {
     img: string;
     alt: string;
     cardLink: string;
-    quickLinkLabel?: string;
     url: string;
 }
 
@@ -20,7 +19,6 @@ const projects: Project[] = [
         img: '/is/free-trial/is-free-trial_banner.png',
         alt: 'Invoice Simple Free Trial',
         cardLink: 'Read more →',
-        quickLinkLabel: 'Trial',
         url: '/free-trial',
     },
     {
@@ -31,7 +29,6 @@ const projects: Project[] = [
         img: '/is/paywall/is_paywall_banner.svg',
         alt: 'Invoice Simple Paywall Redesign',
         cardLink: 'Read more →',
-        quickLinkLabel: 'Paywall',
         url: '/paywall-redesign',
     },
     {
@@ -42,7 +39,6 @@ const projects: Project[] = [
         img: '/loblaw/ph_banner.png',
         alt: 'Loblaw Pick History',
         cardLink: 'Read more →',
-        quickLinkLabel: 'History',
         url: '/pick-history',
     },
     {
