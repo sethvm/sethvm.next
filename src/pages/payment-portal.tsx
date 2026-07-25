@@ -101,7 +101,6 @@ const Checkout = () => (
                 </Link>
             </Strong>*/}
         </Section>
-
     </>
 );
 
